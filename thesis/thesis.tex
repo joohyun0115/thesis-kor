@@ -1,5 +1,31 @@
 \documentclass[doctor,korean,final]{kmu}
 
+\usepackage{times}
+\usepackage{CJKutf8}
+\usepackage{mathrsfs}
+\usepackage{textcomp}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{xspace}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{balance}
+\usepackage{subfig}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{fancyvrb}
+\usepackage{lastpage}
+\usepackage{alltt}
+\usepackage{etoolbox}
+\usepackage{cleveref} % After hyperref, listings
+\usepackage{fancyhdr}
+
+\usepackage{macro}
+\newenvironment{CompactItemize}{\begin{itemize}}{\end{itemize}}
+\def\code#1{{\texttt{#1}}}
+
 % 본문 시작
 \begin{document}
 
@@ -26,8 +52,18 @@
 인용은 뒤에 인용을 쓰는 칸이 있습니다. 참고하여서 인용하시길 바랍니다 \cite{SOCA2,EF2}.
 한글 논문에는 영어를 쓰지 마시기 바랍니다. 
 
+\chapter{본문}
 
-\chapter{본문 작성}
+\input{intro}
+\input{bg}
+\input{ldu}
+\input{linux}
+\input{impl}
+\input{eval}
+\input{discus}
+\input{related}
+\input{concl}
+
 
 \section{작성}
 
