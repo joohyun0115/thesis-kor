@@ -11,7 +11,6 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{balance}
-\usepackage{subfig}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{rotating}
@@ -21,10 +20,68 @@
 \usepackage{etoolbox}
 \usepackage{cleveref} % After hyperref, listings
 \usepackage{fancyhdr}
+\usepackage{listings}
 
 \usepackage{macro}
 \newenvironment{CompactItemize}{\begin{itemize}}{\end{itemize}}
 \def\code#1{{\texttt{#1}}}
+
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+
+%The given symbol or text (\text{mytext}) in a circle
+%To be used always in math mode
+\newcommand{\circlesign}[1]{ 
+    \mathbin{
+        \mathchoice
+        {\buildcirclesign{\displaystyle}{#1}}
+        {\buildcirclesign{\textstyle}{#1}}
+        {\buildcirclesign{\scriptstyle}{#1}}
+        {\buildcirclesign{\scriptscriptstyle}{#1}}
+    } 
+}
+
+
+\newcommand\buildcirclesign[2]{%
+    \begin{tikzpicture}[baseline=(X.base), inner sep=0, outer sep=0]
+    \node[draw,circle] (X)  {\ensuremath{#1 #2}};
+    \end{tikzpicture}%
+}
+
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+    tabsize=2,    
+    language=C,
+    basicstyle=\footnotesize\ttfamily,
+    upquote=true,
+    aboveskip={1.5\baselineskip},
+    columns=fixed,
+    extendedchars=false,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    identifierstyle=\ttfamily,
+    keywordstyle=\color[rgb]{0,0,1},
+    commentstyle=\color[rgb]{0.026,0.112,0.095},
+    stringstyle=\color[rgb]{0.627,0.126,0.941},
+    numberstyle=\color[rgb]{0.205, 0.142, 0.73},
+}
+
+
+
+\usepackage{colorhist}
+ 
+\usepackage{minted}
+
 
 % 본문 시작
 \begin{document}
@@ -52,6 +109,9 @@
 인용은 뒤에 인용을 쓰는 칸이 있습니다. 참고하여서 인용하시길 바랍니다 \cite{SOCA2,EF2}.
 한글 논문에는 영어를 쓰지 마시기 바랍니다. 
 
+\newif\ifkor
+\kortrue 
+
 \chapter{본문}
 
 \input{intro}
@@ -63,65 +123,6 @@
 \input{discus}
 \input{related}
 \input{concl}
-
-
-\section{작성}
-
-장과 절 그리고 부절로 본문을 작성하실 수 있습니다.
-
-\subsection{자동}
-
-이것들은 자동으로 차례에 들어가게 됩니다.
-
-\section{한글 논문}
-
-한글 논문에는 영어를 쓰지 마시기 바랍니다.
-
-\chapter{그림, 표}
-
-\section{그림과 표를 본문에서 이야기하기}
-
-본문에서 그림과 표에 관해 이야기를 할 때도 인용에서처럼 하시면 됩니다.
-
-%%
-%% 표 삽입 예시
-%% Example. how to insert table
-%%
-\begin{table}[t]
-\caption{표 제목을 넣으십시오.
-}
-\label{mag-tab1}
-\begin{center}
-\begin{tabular} {ccccccccccc}
-\hline\hline
-& & BF &\multicolumn{2}{c}{SW-I}&&\multicolumn{2}{c}{SW-II}&SW-III&CAP&\\
-\cline{4-5} \cline{7-8}
-&               &   &  Para & Ferro &&   Para &  Ferro &      &      &\\
-\hline
-& $E$ (eV)      & 0 & 7.796 & 7.832 && 10.418 & 10.408 & 11.5 & 13.2 &\\
-& $M$ ($\mu_B$) & 0 &     0 &  1.94 &&      0 &   2.06 &    0 &    0 &\\
-\hline\hline
-\end{tabular}
-\end{center}
-\end{table}
-
-%%
-%% 그림 삽입 예시
-%% Example. how to insert graph
-%%
-%% Note. 가급적 \includegraphics 명령을 사용하십시오.
-%% Recommen : Use \includegraphics to insert graph.
-%%
-%\begin{figure}[t]
-%    \centerline{\includegraphics[width=12.5cm]{sample-fig1}}
-%    \caption{그림 제목을 넣으십시오.
-%    } \label{mag-fig1}
-%\end{figure}
-
-
-\chapter{맺음말}
-
-마지막은 맺음말로 하는 것을 권합니다.
 
 %%
 %% 참고문헌 시작
@@ -176,9 +177,7 @@ Lett.,} vol. 100, pp. 27-34, May 2015.
 % - 1 : 본문과 감사의 글이 둘 다 한글일 때  | 2 : 본문은 한글인데 감사의 글이 영어일 때 | 3 :  본문과 감사의 글이 둘 다 영어일 때  | 4 : 본문은 영어인데 감사의 글이 % 한글일 때 
 
 \acknowledgment[1]
-언제나 저를 바른 길로 이끌어 주시는 송익호 교수님께 큰 고마움을 느낍니다.
-끝으로 오늘의 제가 있을 수 있도록 사랑으로 키워 주신 가족들에게 감사드립니다.
-저의 이 작은 결실이 그분들께 조금이나마 보답이 되기를 바랍니다.
+언제나 저를 바른 길로 이끌어 주시는 임성수 교수님께 큰 고마움을 느낍니다.
 
 
 %% 본문 끝

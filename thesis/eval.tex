@@ -9,8 +9,9 @@ This section answers the following questions experimentally:
 \item Does \ldu's design matter for applications?
 
 \item Why does \ldu's scheme scale well?
-\end{CompactItemize}
 
+\item What about \ldu's read-write ratio?
+\end{CompactItemize}
 
 \subsection{Experimental setup}
 
@@ -164,28 +165,28 @@ scalability because their \code{CAS} fails frequently.
   \begin{tabular}{l r r r } \toprule
     AIM7 & user & sys & idle \\
     \midrule
-    Stock(anon, file) & 2487 s & 1993 s & 4647 s(51\%)\\ 
-    H(anon, file) & 1123 s & 3631 s & 2186 s(31\%)\\
-    H-unorder(anon, flie) & 3630 s & 2511 s & 1466 s(19\%)\\
-    H-unorder(anon), L(file) & 3630 s & 1903 s & 1662 s(23\%)\\
+    Stock & 2487 s & 1993 s & 4647 s(51\%)\\ 
+    Harris & 1123 s & 3631 s & 2186 s(31\%)\\
+    LDU - global queue & 3630 s & 2511 s & 1466 s(19\%)\\
+    LDU - percore queue & 3630 s & 1903 s & 1662 s(23\%)\\
     \bottomrule
   \end{tabular}
   \begin{tabular}{l r r r } \toprule
     EXIM & user & sys & idle \\
     \midrule
-    Stock(anon, file) & 41 s & 499 s & 1260 s(70\%)\\ 
-    H(anon, file) & 47 s & 628 s & 1124 s(62\%)\\
-    H-unorder(anon, file) & 112 s & 1128 s & 559 s(31\%)\\
-    H-unorder(anon), L(file) & 87 s & 1055 s & 657 s(37\%)\\
+    Stock & 41 s & 499 s & 1260 s(70\%)\\ 
+    Harris & 47 s & 628 s & 1124 s(62\%)\\
+    LDU - global queue  & 112 s & 1128 s & 559 s(31\%)\\
+    LDU - percore queue & 87 s & 1055 s & 657 s(37\%)\\
     \bottomrule
   \end{tabular}
   \begin{tabular}{l r r r } \toprule
     lmbench & user & sys & idle \\
     \midrule
-    Stock(anon, file) & 11 s & 208 s & 2158 s(91\%)\\ 
-    H(anon, file) & 11 s & 312 s & 367 s(53\%)\\
-    H-unorder(anon, file) & 11 s & 292 s & 315 s(51\%)\\
-    H-unorder(anon), L(file) & 12 s & 347 s & 349 s(49\%)\\
+    Stock & 11 s & 208 s & 2158 s(91\%)\\ 
+    Harris & 11 s & 312 s & 367 s(53\%)\\
+    LDU - global queue & 11 s & 292 s & 315 s(51\%)\\
+    LDU - percore queue & 12 s & 347 s & 349 s(49\%)\\
     \bottomrule
   \end{tabular}
 
@@ -230,7 +231,7 @@ time due to the their efficient concurrent updates.
 
 
 
-\subsection{lmbench}
+\subsection{Lmbench}
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 1: %워크로드에 대한 설명
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -273,6 +274,48 @@ While stock Linux has 90\% idle time, other methods have approximately 50\%
 idle time since stock Linux waits to acquire reverse mapping locks such as
 \code{anon\_vma's rwsem} and \code{mapping's i\_mmap\_rwsem}.
 
+
+\subsection{Read-write ratio}
+
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_aim7.eps}
+        \caption{AIM7 - 120core}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_exim.eps}
+        \caption{Exim - 120core}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_lmbench.eps}
+        \caption{Lmbench - 120core}
+    \end{subfigure}
+        \centering
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_aim7_core.eps}
+        \caption{AIM7 - scalability}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_exim_core.eps}
+        \caption{Exim - scalability}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \includegraphics[height=1.3in]{graph/ratio_lmbench_core.eps}
+        \caption{Lmbench - scalability}
+    \end{subfigure}
+    \caption{Read-write ratio from 50:50 to 1:99 percent}
+    
+\end{figure*}
+
+\ifkor
+LDU는 update-heavy한 데이터 구조를 위한 방법이다. 즉 간혈적으로 read가 발생할 때 
+굉장히 높은 scalabilty를 보여준다.
+하지만 To understand read의 비율을 보기 위해 우리는 아래와 같은 실험을 하였다.
+
+\else
+
+\fi
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
