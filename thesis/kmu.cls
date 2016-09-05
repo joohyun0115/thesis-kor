@@ -58,7 +58,7 @@
 \ProcessOptions
 
 %% 10pt,a4paper,onecolumn,oneside 옵션으로 report 클래스 불러오기
-\LoadClass[10pt,a4paper,onecolumn,oneside]{report}
+\LoadClass[11pt,b5paper,onecolumn,oneside]{report}
 
 
 
@@ -112,7 +112,7 @@
 \AtEndDocument{}                             % \end{document}와 함께 실행
 
 %% 편집용지 설정
-\usepackage[left=25.4mm,right=25.4mm,top=30mm,bottom=25.4mm,a4paper]{geometry}
+\usepackage[b5paper]{geometry}
 
 
 %% 줄간격 설정
@@ -128,9 +128,6 @@
 \else                                        % english 옵션이 지정되어 있으면
     \let\@textlang\@english                 % 텍스트 기본언어는 영문
 \fi
-
-%% KAIST 공식 영문명칭
-\newcommand{\@kaist}{Korea Advanced Institute of Science and Technology}
 
 %% pagestyle
 \def\ps@kaist{\let\@mkboth\@gobbletwo
