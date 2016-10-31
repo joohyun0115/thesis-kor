@@ -1,0 +1,249 @@
+\begin{thebibliography}{10}
+
+\bibitem{AIM7Benchmark}
+{AIM Benchmarks}.
+\newblock \url{http://sourceforge.net/projects/aimbench}.
+
+\bibitem{LTP}
+{Linux test project}.
+\newblock \url{https://github.com/linux-test-project/ltp}.
+
+\bibitem{LOCKSTAT}
+{LOCK STATISTICS}.
+\newblock \url{https://www.kernel.org/doc/Documentation/locking/lockstat.txt}.
+
+\bibitem{MOSBENCH}
+{MOSBENCH}.
+\newblock 2010.
+\newblock https://pdos.csail.mit.edu/mosbench/mosbench.git.
+
+\bibitem{Exim}
+{Exim Internet Mailer}.
+\newblock 2015.
+\newblock http://www.exim.org/.
+
+\bibitem{Andi2011adding}
+Tim~Chen Andi~Kleen.
+\newblock {Scaling problems in Fork}.
+\newblock In {\em Linux Plumbers Conference, September}, 2011.
+
+\bibitem{Arbel2014ConcurrentRCU}
+Maya Arbel and Hagit Attiya.
+\newblock {Concurrent Updates with RCU: Search Tree As an Example}.
+\newblock In {\em Proceedings of the 2014 ACM Symposium on Principles of
+  Distributed Computing}, PODC '14, pages 196--205, 2014.
+
+\bibitem{Boyd-WickizerCorey}
+Silas Boyd-Wickizer, Haibo Chen, Rong Chen, Yandong Mao, Frans Kaashoek, Robert
+  Morris, Aleksey Pesterev, Lex Stein, Ming Wu, Yuehua Dai, Yang Zhang, and
+  Zheng Zhang.
+\newblock {Corey: An Operating System for Many Cores}.
+\newblock In {\em Proceedings of the 8th USENIX Conference on Operating Systems
+  Design and Implementation}, OSDI'08, pages 43--57, 2008.
+
+\bibitem{SilasBoydWickizer2010LinuxScales48}
+Silas Boyd-Wickizer, Austin~T. Clements, Yandong Mao, Aleksey Pesterev,
+  M.~Frans Kaashoek, Robert Morris, and Nickolai Zeldovich.
+\newblock {An Analysis of Linux Scalability to Many Cores}.
+\newblock In {\em Proceedings of the 9th USENIX Conference on Operating Systems
+  Design and Implementation}, OSDI'10, pages 1--16, 2010.
+
+\bibitem{SilasBoydWickizerPth}
+Silas Boyd-Wickizer, M.~Frans Kaashoek, Robert Morris, and Nickolai Zeldovich.
+\newblock {OpLog: a library for scaling update-heavy data structures}.
+\newblock In {\em Technical Report MIT-CSAIL-TR2014-019}, 2014.
+
+\bibitem{Bueso2014MCS}
+D.~Bueso and S.~Norto.
+\newblock {An Overview of Kernel Lock Improvements}.
+\newblock 2014.
+\newblock
+  http://events.linuxfoundation.org/sites/events/files/slides/linuxcon-2014-locking-final.pdf.
+
+\bibitem{Bueso2015STP}
+Davidlohr Bueso.
+\newblock {Scalability Techniques for Practical Synchronization Primitives}.
+\newblock volume~58, pages 66--74, December 2014.
+
+\bibitem{Chabbi2016CLL}
+Milind Chabbi and John Mellor-Crummey.
+\newblock {Contention-conscious, Locality-preserving Locks}.
+\newblock In {\em Proceedings of the 21st ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}, PPoPP '16, pages 22:1--22:14, 2016.
+
+\bibitem{AustinTClements2012RCUBalancedTrees}
+Austin~T. Clements, M.~Frans Kaashoek, and Nickolai Zeldovich.
+\newblock {Scalable Address Spaces Using RCU Balanced Trees}.
+\newblock In {\em Proceedings of the Seventeenth International Conference on
+  Architectural Support for Programming Languages and Operating Systems},
+  ASPLOS XVII, pages 199--210, 2012.
+
+\bibitem{Clements15SCR}
+Austin~T. Clements, M.~Frans Kaashoek, Nickolai Zeldovich, Robert~T. Morris,
+  and Eddie Kohler.
+\newblock {The Scalable Commutativity Rule: Designing Scalable Software for
+  Multicore Processors}.
+\newblock In {\em Proceedings of the Twenty-Fourth ACM Symposium on Operating
+  Systems Principles}, SOSP '13, pages 1--17, 2013.
+
+\bibitem{Clements2013RadixVM}
+Austin~T. Clements, M.~Frans Kaashoek, and Nickolai~and Zeldovich.
+\newblock {RadixVM: Scalable Address Spaces for Multithreaded Applications}.
+\newblock In {\em Proceedings of the 8th ACM European Conference on Computer
+  Systems}, EuroSys '13, pages 211--224, 2013.
+
+\bibitem{CorbetLWNANON}
+Jonathan Corbet.
+\newblock {The case of the overly anonymous anon\_vma}.
+\newblock 2010.
+\newblock https://lwn.net/Articles/383162/.
+
+\bibitem{Corbett2013SGG}
+James~C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher
+  Frost, J.~J. Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser,
+  Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li,
+  Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan,
+  Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher
+  Taylor, Ruth Wang, and Dale Woodford.
+\newblock Spanner: Google's globally distributed database.
+\newblock {\em ACM Trans. Comput. Syst.}, 31(3):8:1--8:22, August 2013.
+
+\bibitem{David2015ASYNCHRONIZED}
+Tudor David, Rachid Guerraoui, and Vasileios Trigonakis.
+\newblock {Asynchronized Concurrency: The Secret to Scaling Concurrent Search
+  Data Structures}.
+\newblock In {\em Proceedings of the Twentieth International Conference on
+  Architectural Support for Programming Languages and Operating Systems},
+  ASPLOS '15, pages 631--644, 2015.
+
+\bibitem{Dodds2015SCT}
+Mike Dodds, Andreas Haas, and Christoph~M. Kirsch.
+\newblock {A Scalable, Correct Time-Stamped Stack}.
+\newblock In {\em Proceedings of the 42Nd Annual ACM SIGPLAN-SIGACT Symposium
+  on Principles of Programming Languages}, POPL '15, pages 233--246, 2015.
+
+\bibitem{Fatourou2012RCS}
+Panagiota Fatourou and Nikolaos~D. Kallimanis.
+\newblock {Revisiting the Combining Synchronization Technique}.
+\newblock {\em SIGPLAN Not.}, 47(8):257--266, February 2012.
+
+\bibitem{Fomitchev2004Lockfree}
+Mikhail Fomitchev and Eric Ruppert.
+\newblock {Lock-free Linked Lists and Skip Lists}.
+\newblock In {\em Proceedings of the Twenty-third Annual ACM Symposium on
+  Principles of Distributed Computing}, PODC '04, pages 50--59, 2004.
+
+\bibitem{Gramoli2015Synchrobench}
+Vincent Gramoli.
+\newblock {More Than You Ever Wanted to Know About Synchronization:
+  Synchrobench, Measuring the Impact of the Synchronization on Concurrent
+  Algorithms}.
+\newblock In {\em Proceedings of the 20th ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}, PPoPP 2015, pages 1--10, 2015.
+
+\bibitem{Harris2001Lockfree}
+Timothy~L. Harris.
+\newblock {A Pragmatic Implementation of Non-blocking Linked-Lists}.
+\newblock In {\em Proceedings of the 15th International Conference on
+  Distributed Computing}, DISC '01, pages 300--314, 2001.
+
+\bibitem{Hendler2010FC}
+Danny Hendler, Itai Incze, Nir Shavit, and Moran Tzafrir.
+\newblock {Flat Combining and the Synchronization-parallelism Tradeoff}.
+\newblock SPAA '10, pages 355--364, 2010.
+
+\bibitem{Delegation2014}
+David Klaftenegger, Konstantinos Sagonas, and Kjell Winblad.
+\newblock {Delegation Locking Libraries for Improved Performance of
+  Multithreaded Program}.
+\newblock In {\em Euro-Par 2014 Parallel Processing}, pages 572--583, 2014.
+
+\bibitem{Kyong2016LDU}
+Joohyun Kyong and Sung-Soo Lim.
+\newblock {LDU: A Lightweight Concurrent Update Method with Deferred Processing
+  for Linux Kernel Scalability}.
+\newblock In {\em Proceedings of the IASTED International Conference, Parallel
+  and Distributed Computing and Networks (PDCN 2016)}, 2016.
+
+\bibitem{Magnusson1994QLC}
+Peter~S. Magnusson, Anders Landin, and Erik Hagersten.
+\newblock {Queue Locks on Cache Coherent Multiprocessors}.
+\newblock In {\em Proceedings of the 8th International Symposium on Parallel
+  Processing}, pages 165--171. IEEE Computer Society, 1994.
+
+\bibitem{Matveev2015RLU}
+Alexander Matveev, Nir Shavit, Pascal Felber, and Patrick Marlier.
+\newblock {Read-log-update: A Lightweight Synchronization Mechanism for
+  Concurrent Programming}.
+\newblock In {\em Proceedings of the 25th Symposium on Operating Systems
+  Principles}, SOSP '15, pages 168--183, 2015.
+
+\bibitem{Dave2004OLSRMAP}
+Dave McCracken.
+\newblock {Object-based reverse mapping}.
+\newblock In {\em In Proceedings of the 2004 Ottawa Linux Symposium}, 2004.
+
+\bibitem{PaulDetailLWN}
+Paul McKenney.
+\newblock {Some more details on Read-Log-Update}.
+\newblock 2016.
+\newblock https://lwn.net/Articles/667720/.
+
+\bibitem{mckenney2011parallel}
+Paul~E McKenney.
+\newblock {Is parallel programming hard, and, if so, what can you do about it?}
+\newblock 2011.
+
+\bibitem{McKenney98}
+Paul~E. McKenney and John~D. Slingwine.
+\newblock {Read-Copy Update: Using Execution History to Solve Concurrency
+  Problems}.
+\newblock In {\em {Parallel and Distributed Computing and Systems}}, pages
+  509--518, October 1998.
+
+\bibitem{mcvoy1996lmbench}
+Larry~W McVoy, Carl Staelin, et~al.
+\newblock {lmbench: Portable Tools for Performance Analysis.}
+\newblock In {\em USENIX annual technical conference}, pages 279--294. San
+  Diego, CA, USA, 1996.
+
+\bibitem{MellorCrummey1991MCS}
+John~M. Mellor-Crummey and Michael~L. Scott.
+\newblock {Algorithms for Scalable Synchronization on Shared-memory
+  Multiprocessors}.
+\newblock {\em ACM Trans. Comput. Syst.}, 9(1):21--65, February 1991.
+
+\bibitem{Changwoo2016UMSF}
+Changwoo Min, Sanidhya Kashyap, Steffen Maass, and Taesoo Kim.
+\newblock {Understanding Manycore Scalability of File Systems}.
+\newblock In {\em 2016 USENIX Annual Technical Conference (USENIX ATC 16)},
+  pages 71--85, June 2016.
+
+\bibitem{Morrison2016SSM}
+Adam Morrison.
+\newblock Scaling synchronization in multicore programs.
+\newblock {\em Queue}, 14(4):20:56--20:79, August 2016.
+
+\bibitem{Radovic2003HBL}
+Zoran Radovic and Erik Hagersten.
+\newblock {Hierarchical Backoff Locks for Nonuniform Communication
+  Architectures}.
+\newblock In {\em Proceedings of the 9th International Symposium on
+  High-Performance Computer Architecture}, HPCA '03, pages 241--. IEEE Computer
+  Society, 2003.
+
+\bibitem{Timnat2012}
+Shahar Timnat, Anastasia Braginsky, Alex Kogan, and Erez Petrank.
+\newblock {Wait-free Linked-lists}.
+\newblock In {\em Proceedings of the 17th ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}, PPoPP '12, pages 309--310, 2012.
+
+\bibitem{Wentzlaff2010fOS}
+David Wentzlaff, Charles Gruenwald, III, Nathan Beckmann, Kevin Modzelewski,
+  Adam Belay, Lamia Youseff, Jason Miller, and Anant Agarwal.
+\newblock {An Operating System for Multicore and Clouds: Mechanisms and
+  Implementation}.
+\newblock In {\em Proceedings of the 1st ACM Symposium on Cloud Computing},
+  SoCC '10, pages 3--14, 2010.
+
+\end{thebibliography}

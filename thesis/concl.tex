@@ -1,36 +1,24 @@
-\section{Conclusion}
-We propose a concurrent update algorithm, \deferu, for update-heavy data
-structures scalable for many-core systems.
-To achieve the scalability during process spawning, 
-we applied deferred log processing with global log queue and 
-update-side absorbing to Linux reverse mapping.
-Evaluation results using the AIM7, Exim and lmbench reveal that \deferu shows
-better performance up to 2.2 times compared to existing solutions.
-\deferu is implemented on to Linux kernel 3.19 and available as open-source
- from \url{https://github.com/KMU-embedded/scalablelinux}.
+\section{Conclusion and Discussion}
+\label{sec:concl}
+We proposed and evaluated a novel concurrent update method, \LDU, 
+to maximally improve the performance scalability of Linux kernel 
+in many core systems. 
+Such improvement was possible through eliminating the 
+synchronized time-stamp counters management overhead 
+found in a previous well-known scheme, OpLog.
+Our experiments using a Linux kernel with our \LDU implementation
+revealed that the proposed \LDU shows better performance up to 2.7 times
+stock Linux kernel on the 120 core machine.
 
+While the proposed technique achieves significant improvement
+in performance scalability through eliminating time-sensitive
+logs, there still remain the data structures to consider to further
+improve the scalability (i.e., stack and queue data structures).
+Future direction of research is to create a new synchronization scheme by combining 
+two techniques(the \LDU and the OpLog) to support the stack and queue.
 
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Reference Sentence 1
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Reference Sentence 2:LDU paper
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-%We propose a concurrent update algorithm, \deferu, for update-heavy data
-%structures scalable for many-core systems.
-%To achieve the scalability during process spawning, 
-%we applied deferred log processing with global log queue and 
-%update-side absorbing to Linux reverse mapping.
-%Evaluation results using the AIM7, Exim and lmbench reveal that \deferu shows
-%better performance up to 2.2 times compared to existing solutions.
-%\deferu is implemented on to Linux kernel 3.19 and available as open-source
-% from \url{https://github.com/KMU-embedded/scalablelinux}.
-
+The \LDU is implemented on to Linux kernel 4.5-rc6 and available as open-source
+from \url{https://github.com/manycore-ldu/ldu}.
 %\section{Acknowledgments}
 %This work was supported by Institute for Information \& communications
 % Technology Promotion (IITP) grant funded by the Korea government (MSIP) (14-824-09-

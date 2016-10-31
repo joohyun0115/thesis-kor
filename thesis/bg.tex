@@ -1,121 +1,138 @@
-\section{Background and Problem}
+\section{Background and Problem}\label{sec:bg}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Paragraph 1: Linux Scalability : Fork intensive workload 문제점 설명 
+% Paragraph : Linux Scalability : Fork intensive workload 문제점 설명 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-\begin{figure}
-  \begin{subfigure}[b]{0.25\textwidth}
+\begin{figure}[h]
+  \begin{subfigure}{0.45\textwidth}
     \includegraphics[width=\textwidth]{graph/aim7_default}
-    \caption{aa}
+    \caption{AIM7-multiuser scalability}
   \end{subfigure}%
-  \begin{subfigure}[b]{0.22\textwidth}
-    \includegraphics[width=\textwidth]{graph/lock_stat_anon}
-    \caption{aa}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{graph/lockstat}
+    \caption{Lock wait time on 120 core}
   \end{subfigure}
   \centering
-  \caption{Scalability of AIM7 multiuser. This workload simultaneously create
-  many processes.
-  Up to 60 core, the stock Linux scale linearly, then they flattens out.}
+  \caption{Scalability of AIM7 multiuser and wait time to acquire locks on 120 core.
+  This workload simultaneously create many processes. The (a) shows up to 75
+  core, the stock Linux scales linearly, then it flattens out. The (b) left bar 
+  represents anonymous reader-writer semaphore causes a scalability bottleneck, 
+  and The (b) right bar shows file mapping reader-writer semaphore causes a
+  scalability bottleneck.}
   \label{fig:aim7_default}
 \end{figure}
- 
-\ifkor
 
-운영체제 커널의 paralleism은 시스템 전체의 parallesim에서 가장 중요하다. 
-만약에 커널이 scale하지 않으면, 그 위에 동작하는 응용프로그램들도 역시 scale하지 않는다~\cite{Clements15SCR}.
-우리는 이처럼 중요한 부분인 운영체제 커널중 multi-core에 최적화된 리눅스의 scalabiliy를 분석하기 위해, AIM7
-multiuser[]를 가지고 scalability를 실험해보았다.
-AIM7은 최근에도 scalability를 위해 reserach 진영과 리눅스 커널 진영에서도 활발히 사용되고 있는 벤치마크 중
-하나이다~\cite{Bueso2015STP}~\cite{Bueso2014MCS}.
-File system scalability를 최소화 하기 위해 temp filesystem~\cite{Rohland2001Tempfs}을
-사용하였다.
-This workload simultaneously create many processes.
-Up to 60 core, the stock Linux scale linearly, then they flattens out.
-\else
-
-
-\fi
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Paragraph 2: Lockstat로 분석 결과 설명 
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-\ifkor
-우리는 Scalability에 문제가 있는 120코어에서 리눅스의 Lockstat[]를 이용하여 락 경합을 분석하였다. 
-먼저 멀티 프로세스 기반의 벤치마크인 AIM7을 동작시키고 동시에 120코어 대해서 락 경합을 분석하면 
-그림 3과 같은 결과를 가진다. 
-AIM7 벤치마크의 경우 상당히 많은 부분이 anonvma에서 쓰기 락 경합이 발생한다. 
-이는 리눅스 역 매핑(reverse mapping)을 효율적으로 수행하기 위한 자료구인 anonvma를 
-수많은 fork에 의해 프로세스를 생성하면서 발생하는 락 경합 문제이다. 
-다음으로 우리는 anonvma의 lock 경합을 줄이기 위해, 임시로 fork에서 anonvma를 호출하는 부분과 read와
-관련있는 pageswap이 안되도록 하고, 120코어를 대상으로 다시 Lock 경합을 분석하여 보았다.
-이 때 부터 그동안 상대적으로 가려졌던 file reverse mapping에서 많은 락 경합이 발생되었다. 
-이러한 anonvma reverse page mapping은 리눅스 커뮤니티에서 잘 알려진 락 경합
-문제~\cite{Andi2011adding}~\cite{Tim2013adding}이고, file mapping에 대한 락 경합 문제는
-Silas wikizer가 OpLog 논문을 통해 fork의 scalability 문제의 원인으로 제시한 부분이다.
-본 연구의 분석 결과 둘 중 하나가 아니라 두 가지 락 모두 fork의 scalabililty 문제를 야기 시킨다.
-즉 두가지 모두 개선해야지 fork의 scalalbility가 향상 된다. 
-\else
-
-\fi
+Applications' performance would be limited by the operating system kernel when 
+the operating system kernel does not scale well~\cite{Clements15SCR}~\cite{Boyd-WickizerCorey}.
+%Linux has heavily optimized for multi-core operating systems.
+To analyze the current status of the operating system scalability,
+we measured the performance trends of the AIM7-multiuser benchmark on Linux
+with various CPU cores.
+The AIM benchmark has, until recently, been widely used in research area
+and the Linux community~\cite{Bueso2015STP}~\cite{Bueso2014MCS}.
+The AIM7-multiuser workload simultaneously creates many processes with
+disk-file operations, virtual memory operations, pipe I/O, and arithmetic
+operations.
+%We used the temp filesystem to minimize the filesystem bottlenecks.
+The result of figure~\ref{fig:aim7_default}(a) shows that
+Linux shows significantly limited performance scalability when CPU core 
+exceeds 75.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Paragraph 3: 리눅스 reverse page map의 write serialization 문제점
+% Paragraph: Lockstat로 분석 결과 설명 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-\ifkor
-두가지 revserse page mapping의 근본적인 문제는 hight update operation에 대한 serialization 때문에
-발생하는 문제이다.
-이러한 revser page mapping은 page frame reclaiming을 위해 존재하며, 리눅스가 fork(), exit(),
-and mmap() 시스템콜을 사용할 때 rmap을 update한다.
-리눅스 커널은 reader들은 parallal 하게 동작할 수 있는 RW-lock 또는 RCU 같은 락 메카니즘이 있으나, 이러한 락은 결국
-high update rate 앞에서는 serialization된다.
-Update는 execulucive lock을 통해 보호해야하기 때문에, update rate 높은 상황이 발생하면 리눅스
-커널은 결국 lock에 의해 serialized되어 scalability가 떨어진다.
-\else
-
-\fi
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Paragraph 4: update heavy한 상황에 대한 설명과 해결 방법에 대한 설명
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-\ifkor
-이러한 high update rate이 발생하는 상황의 update serialization 문제에 대한 해결 방법들은 존재한다. 
-근본적인 해결 방법은 update heavy한 상황이 발생하지 않도록 reverse page mapping 알고리즘을 새롭게 디자인하는 방법이
-있다.
-하지만 이미 오랜 시간 성능과 안정성이 검증된 알고리즘~cite{CorbetLWNRMAP}~\cite{CorbetLWNANON}을 새롭게
-디자인 하는 일은 쉽지 않다.
-보다 현실적인 방법은 concurrent updates를 위한, non-blocking data structure와
-log-based 알고리즘을 사용하는 방법이 있다.
-Non-blocking algorithms들은 hardware synchronized atomic 연산들을 활용하여 current 하게
-update와 read를 수행하게 만든 data structure이다.
-하지만 shared memory global value를 multipul CAS로 접근하여 bottlenecks이 생긴다.
-due to inter-core communication overheads~\cite{SilasBoydWickizerPth}.
-최근에는 Deu to the multipul CAS, inter-core communication overheads를 줄인 log-based
-방법들이 연구되고 있다.
-우리의 LDU도 이러한 log-based 기반 방법 활용하였으며, log-based 방법에 대한 설명은 다음 장에서 자세히 다룬다.
-\else
-
-
-\fi
-
+To understand the sources of scalability bottleneck on 120 core systems, we profiled a 
+lock contention using the \code{lock\_stat}~\cite{LOCKSTAT}, a Linux kernel lock profiler that reports how
+long each lock is held and the wait time to acquire the lock.
+The figure~\ref{fig:aim7_default}(b) shows the cost of acquiring the lock for the AIM7-multiuser
+running on a 120 core system.
+Results of the \code{lock\_stat} that the main source of lock contention was the 
+anonymous reverse mapping semaphore(\code{anon\_vma->rwsem}), 
+which was caused by simultaneously creating a number of processes.
+%The reverse page mapping records page information when using fork(), exit() and
+%mmap() system call to find all page table entries.
+To understand further bottlenecks, we intentionally removed the kernel codes causing 
+anonymous reverse mapping which has been revealed as the most significant source of the problem.
+%conducted a workaround by removing
+%anonymous reverse mapping relative code in the part of the Linux fork with page-swap off
+%because of avoiding the Linux page reclaiming.
+When the anonymous reverse mapping code was removed, 
+the second major source of the bottleneck was file 
+reverse mapping reader-writer semaphore(\code{mapping->i\_mmap\_rwsem}).
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Reference Sentence 1
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-
-
-
-
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Reference Sentence 2:LDU paper
+% Paragraph : 리눅스 reverse page map의 write serialization 문제점
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+Our background study showed that both the anonymous reverse mapping
+reported from the Linux community~\cite{Andi2011adding} and the file reverse mapping reported from S.
+Boyd-Wickizer~\cite{SilasBoydWickizerPth} are significant factors in fork scalability problem.
+Thus, in order to perfect scalability of the fork, both the
+file reverse mapping and the anonymous reverse mapping should be executed
+concurrently without any lock.
+%In fact, the fundamental scalability problem of reverse mapping is their
+%serialized update operations because operating systems are serialized at
+%the update operations.
 
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+% Paragraph : update heavy한 상황에 대한 설명과 해결 방법에 대한 설명
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+Existing research accomplishments to achieve scalable concurrent update in many
+core systems are categorized into two methods:
+non-blocking
+algorithms~\cite{Harris2001Lockfree}~\cite{Fomitchev2004Lockfree}~\cite{Timnat2012}
+in early stages and log-based algorithms.
+In non-blocking algorithms, update operation observes against the current
+value in global data structure, and they execute an atomic compare and swap(CAS) to 
+compare the against value.
+When the value has been overridden, the updater must be retried.
+Consequently, both the repeated global CAS operation and the iteration loop caused
+by CAS fails will result in bottlenecks due to inter-core communication
+overheads~\cite{SilasBoydWickizerPth}.
+To overcome the problem of cache coherence systems, log-based methods are
+proposed.
+%Our research also uses a log-based deferred design that alows concurrent
+%updates to scale, so that multiprocessed applications can scale to large
+% numbers of cores.
 
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%Paragraph : Log 기반의 알고리즘 대략적인 설명 
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+%Log-based algorithm is that when update operations occur, it logs the update
+%operation and applies the all operation logs to the data structure
+%before read operation, so reader can read up to date data structure.
+
+The log-based algorithms are
+a suitable solution for the update-heavy data structure because they allow
+update operations to proceed with a coarse-grained update lock or without
+update locks.
+The benefit of avoiding a fine-grained update lock can eliminate the overhead of
+acquiring a lock that requires fetching the lock's cache line.
+Thus, it reduces the cache communication traffic;a contended cache line on
+many-core processors can take hundreds of cycles to fetch from a remote
+core~\cite{AustinTClements2012RCUBalancedTrees}, and these techniques can be easily applied to other data structures.
+%In addition to avoiding fine-grained lock and easily applying the
+%other data structures, a log-based method can remove an existing
+%operation log rather than actually executing a operation log.
+
+One notable recent research accomplishment regarding log-based approach is
+the OpLog proposed by S. Boyd-Wickizer \textit{et al.}.
+The OpLog utilizes representative distributed systems management concepts(e.g., Google spanner's 
+synchronized clocks scheme~\cite{Corbett2013SGG}) and proposes the log-based algorithm to shared-memory systems.
+The OpLog shows significant improvement in performance scalability for update-heavy operating system
+data structures.
+Though the OpLog forms an important basis for another step of improvement in performance
+scalability problem in many core systems, it still has limitation that it's 
+synchronized time-stamp counters might cause additional overhead during log management
+process.
+%The OpLog using the synchronized time-stamp counters method may incur
+%time-stamp merging and ordering process.
+%Consequently, when core counts increases, the time-stamp merging and ordering
+%process may require sequential processing, which can limit scalability and
+%performance.
+%For example, if cores counts are 1000 and per-core logs counts are 10, 
+%because each log searches all core's log, 

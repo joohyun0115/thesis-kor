@@ -1,23 +1,16 @@
 
-void synchronize_ldu(struct obj_root *root)
+void synchronize_ldu(void *head)
 {
-	...
-
-	//atomic remove first, lock-less list
-	entry = xchg(&head->first, NULL);
-
-	//iterate all logs
-	llist_for_each_entry(dnode, entry, ll_node) {
-		//get log's arguments
-		...
+	entry = SWAP(&head->first, NULL);
+	//iteration all logs
+	for_each_all_logs(log, entry, next) {
+		//... : get log's arguments
 		//atomic swap due to update-side removing
-		if (xchg(&dnode->mark, 0))
-			ldu_physical_update(dnode->op_num, arg,
-					ACCESS_ONCE(dnode->root));
-		clear_bit(dnode->op_num, &vma->dnode.used);
-		// one more check due to reuse garbage log
-		if (xchg(&dnode->mark, 0))
-			ldu_physical_update(dnode->op_num, arg,
-					ACCESS_ONCE(dnode->root));
+		if (SWAP(&log->mark, false) == true)
+			ldu_apply_log(log->op_num, log->args);
+		CLEAR_BIT(log->op_num, &obj->ldu.used);
+		// once again check due to reusing garbage logs
+		if (SWAP(&log->mark, false) == true)
+			ldu_apply_log(log->op_num, log->args);
 	}
 }

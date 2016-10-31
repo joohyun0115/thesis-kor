@@ -1,375 +1,109 @@
-\section{Introduction} \label{sec:introduction}
+\section{Introduction} \label{sec:intro}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Background
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 \ifkor
-최근 코어수가 증가하고 있다. 따라서 멀티코어에서 매니코어 시스템으로 바뀌고 있다. 
-매니코어 시스템에 대한 운영체제 커널의 parallelism은 시스템 전체의 parallelism에서 가장 중요하다. 
-만약 커널이 scale하지 않으면, 그 위에 동작하는 응용프로그램들도 역시 scale하지 않는다[].
-이처럼 중요한 운영체제 커널 중 멀티코어 또는 매니코어 환경에서 많이 사용되는 운영체제가 리눅스 커널이다[].
-하지만 리눅스 커널은 아직 확장성 문제가
-있다~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF}.
-확장성 문제 중 하나는 락 경합 때문에 발생하는 업데이트 직렬화
-문제이다~\cite{Matveev2015RLU}~\cite{Dodds2015SCT}.
-그 이유는 업데이트 오퍼레이션은 여러 쓰레드가 동시에 수행되지 못하기
-때문이다~\cite{mckenney2011parallel}.
 \else
 \fi
-
+Achieving performance scalability has been a most important factor in 
+highly parallel systems with many cores (e.g., over 100 cores).
+The performance scalability of a whole system is naturally limited by 
+scalability of underlying operating system kernel; Linux kernel has been 
+widely considered in ordinary systems.
+Previous research revealed that Linux kernel has significant problems limiting
+performance scalability in many core systems~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF}
+and the major sources of the problems are update lock contention in a few
+kernel data structures~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Problem gernal
+%Problem general
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\ifkor
-이처럼 업데이트 직렬화 문제를 해결하기 위해 여러 동시적 업데이트 방법 들이 연구되고
-있다~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}.
-이러한 동시적 업데이트 방법들은 워크로드 특성인 업데이트 비율에 따라 많은 성능 차이를
-보인다~\cite{Matveev2015RLU}.
-이 중 높은 업데이트 비율을 가진 자료 구조 때문에 발생하는 학장성 문제를 해결하기 위한 여러 방법이 연구 되고
-있다.
-그 중 하나는 cache communication bottleneck을 줄인 log-based
-알고리즘~\cite{Shalev2006PLS}~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}을
-사용하는 것이다.
-Log-based 알고리즘은 업데이트가 발생하면, data structure의 업데이트 operation을
-per-core 또는 atomic하게 log로 저장하고 read operation을 수행하기 전에 저장된 로그를 수행하는것이다 .
-이것은 마치 CoW(Copy On Write)와 유사하다~\cite{PaulDetailLWN}.
-\else
-%이처럼 update serialization 문제를 해결하기 위해 여러 concurrent updates
-%방법 들이 연구되고 있다~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}.
-%이러한 concurrent updates 방법들은 워크로드 특성인 update ratio에 따라 많은 성능 차이를
-%보인다~\cite{Matveev2015RLU}.
-%이 중 리눅스 커널의 reverse page mapping과 같이 high update ratio를 가진 update-heavy한 data
-%structure일 경우에는, update lock 경합 때문에 발생하는 scalability 문제를 해결하기 위한 여러 방법이 연구 되고
-%있다.
-%그 중 하나는 cache coherence traffic을 줄인 log-based
-%알고리즘~\cite{Shalev2006PLS}~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}을
-%사용하는 것이다.
-%Log-based 알고리즘은 lock을 피하기 위해 update가 발생하면, data structure의 update
-%operation(insert or remove)을 argument와 함께 저장하고, 주기적 또는 read operation을 수행하기 전에
-%applies the updates in all the logs to the data structure, so reader can read
-%up to date data structure. 이것은 마치 CoW(Copy On Write)와 유사한 결과를
-%얻는다~\cite{PaulDetailLWN}.
-\fi
-
+Early research accomplishments regarding the update serialization problems
+include a number of concurrent
+update methods~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}~\cite{Dodds2015SCT}.
+Such research provides bases to solve the update serialization problems, but
+does not effectively handle serious scalability bottleneck for update-heavy data structures.
+Log-based algorithms~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}
+have been proposed to solve this update serialization problem by reducing cache coherence-related
+overheads for update-heavy data structures.
+When update operations occur, log-based algorithm logs the update
+operation and applies all operation logs to the data structure
+before read operation, so readers can read up to date data structure in a way
+similar to CoW(Copy On Write)~\cite{PaulDetailLWN}~\cite{Morrison2016SSM}.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Problem 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\ifkor
-S. Boyd-Wickizer et al.는 동기화된 타임스탬프 카운터(synchronized timestamp counters) 기반의
-per-core log를 활용하여 update-heavy한 자료구조를 대상으로 동시적 업데이트 문제를
-해결함과 동시에 cache communication bottleneck을 줄였다~\cite{SilasBoydWickizerPth}.
-동기화된 타임스탬프 카운터 기반의 per-core log를 활용한 동시적 업데이트방법은
-업데이트 부분만 고려했을 때, per-core에 데이터를 저장함으로 굉장히 높은 scalability를 가진다[].
-하지만 per-core 기반의 동기화된 타임스탬프 카운터를 사용한 방법은 결국 timestamp merging and ordering 작업을
-야기한다.
-만약 코어 수가 늘어 날 경우, 로그를 자료 구조에 적용하는 과정에서 timestamp 때문에 발생하는 추가적인 sequntial 프로세싱이
-요구된다.
-이것은 결국 확장성과 성능을 저해한다. 
-\else
-%S. Boyd-Wickizer et al. 는 synchronized timestamp counters 기반의 per-core log를
-% 활용하여 update heavy한 자료구조에서의 concurrent updates 문제를 해결하였다~\cite{SilasBoydWickizerPth}.
-%Synchronized timestamp counters 기반의 per-core log를 활용한 concurrent updates 방법은
-%update 부분만 고려했을 때, per-core에 데이터를 저장함으로 굉장히 높은 scalability를 가질
-%수 있다.
-%하지만 per-core 기반의 synchronized timestamp counters를 사용한 방법은 결국 timestamp ordering
-%and merging 작업을 야기한다.
-%만약 코어 수가 늘어 날 경우, resolving logs(merging, absorbing) may require
-%additional sequential processing, which can limit scalalbility and
-%performance.
-%Furthermore, per-core approach does not work well for a all data structure
-%because of limited per-core memory size;some objects need huge per-core hash
-%table size(section X).
-\fi
-
-
+Among the log-based methods,
+S. Boyd-Wickizer \textit{et al.} proposed OpLog~\cite{SilasBoydWickizerPth}, where 
+each update operation generates a log with synchronized time-stamp counters
+and serialization of the logs based on the time-stamps solves the scalability
+bottleneck for update-heavy data structures: 
+the loggings are performed on to per-core memory instead of shared memory and
+thus eliminates cache communication overhead.
+However, the OpLog still has problems in scalability since the synchronized time-stamp
+counters necessitates time-stamp merging and ordering processes leading to 
+performance scalability problems in high CPU core counts.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Method
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %
-\ifkor
-본 논문은 동기화된 타임스탬프 카운터를 이용함에 따라 생기는 추가적인 sequencial processing 문제를
-해결하기 위해 LDU(Lightweitgh log-based Deferred Update)를 개발하였다. 
-LDU는 타임스탬프 카운터가 필요한 operation log를 업데이트 순간마다 지우고, 매번 로그를 생성하지 않고 재활용하는 방법이다.
-이로인해 synchronized timestamp counter 문제와 cache communication bottleneck 문제를 동시에
-해결하였다.
-해결 방법은 분산 시스템에서 사용하는 log기반의 concurrent updates 방식과 shared-memory system의 
-hardware-based synchronization 기법(compare and swap, test and
-set, atomic swap)을 조합하여 동시적 업데이트 문제를 해결하였다.
-\else
-%본 논문은 high update rate를 가진 data structure를 위한 새로운 방법인 LDU를 제안한다.
-%LDU는 synchronized timestamp counters를 이용함에 따라 생기는 ordering or merging
-%overhead에 대한 문제를 줄이기 위해, 조금 더 simple하고 lightweight한 방법을 사용하였다.
-%LDU의 철학은 FC 또는 OpLog와 같이 분산 시스템에서 사용하는 log기반의 concurrent updates 방식과 
-%shared-memory system의 최소한의 hardware-based synchronization 기법(예를 들어, compare and
-%swap, test and set) 이용하여 이 문제를 해결 하였다.
-%LDU는 per-core 방식이기 때문에 발생하는 data structure dependency가 있는 문제를 해결하기 위해, log 저장을
-%global queue를 사용하는 GLDU와 global header의 cache
-%coherece traffic을 줄이기 위해, per-core에 log를 저장하는 PLDU로 개발하였다.
-%이것은 서로간 상호보완적이다.
-%또한 새로운 update-side absorbing과 reuse garbage log등 2가지 optimization 기술을 사용하여 삭제
-%가능한 operation log를 지우고 재활용하는 방법으로 성능 최적화를 수행하였다.
-\fi
-
-\ifkor
-이처럼 동기화된 타임스탬프 카운터를 제거함과 동시에, cache communication bottleneck 줄인
-LDU는 log-based 알고리즘들의 장점들을 모두 포함할 뿐만아니라 추가적인 장점을 가진다.
-첫째로, update가 수행하는 시점 즉 로그를 저장하는 순간에는 lock이 필요가 없다. 
-따라서 lock에 대한 오버헤드 없이 concurrent updates를 수행할 수 있다
-둘째로, 저장된 update operation log를 coarse-grained lock과 함께 하나의 코어에서 수행하기 때문에,
-cache 효율성이 높아진다~\cite{Hendler2010FC}.
-셋째로, 기존 여러 자료구조에 쉽게 적용할 수 있는 장점이 있다.
-게다가 마지막으로, log를 저장하기 전에 로그를 삭제하므로 보다 빠르게 log의 수를 줄일 수 있다. 
-\else
-%이처럼 synchronized timestamp counters를 제거함과 동시에, cache communication bottleneck
-% 줄인 LDU는 전형적인 log-based 알고리즘의 장점을 모두 가진다.
-%첫째로, update가 수행하는 시점 즉 로그를 저장하는 순간에는 lock이 필요가 없다. 
-%따라서 lock에 대한 오버헤드 없이 concurrent updates를 수행할 수 있다
-%둘째로, 저장된 update operation log를 corse-grain lock과 함께 하나의 코어에서 수행하기 때문에,
-%cache 효율성이 높아진다~\cite{Hendler2010FC}.
-%셋째로, 기존 여러 데이터 structure에 쉽게 적용할 수 있는 장점이 있다.
-%마지막으로 저장된 log를 수행하지 전에 여러 optimization 방법을 사용하여 log의 수를 줄일 수 있다. 
-\fi
+We propose a novel lightweight log-based differed update method(\LDU) to achieve 
+the maximum performance scalability for update-heavy data structures solving the 
+problems of sequential processing raised from the previous research:
+cache communication overhead in logging and time-stamp management cost during log
+ordering. 
+Such improved scalability could be achieved through combination of widely known 
+log-based concurrent update concept and our own way of efficient implementation
+methods of the log management scheme: log record slot reuse in the log queue and 
+using minimal hardware-based synchronization
+method(compare and swap, test and set, atomic swap).
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Result
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-\ifkor
-우리는 위와 같은 장점을 가지는 LDU를 리눅스 커널에서 high update rate 때문에 scalability 문제를 야기시키는
-anonymous reverse mapping과 file reverse mapping에 적용하였다.
-또한 우리는 LDU를 Linux 4.5.rc4에 구현하였고, fork-intensive 워크로드인
-AIM7~\cite{AIM7Benchmark}, Exim~\cite{Exim} from MOSBENCH~\cite{MOSBENCH},
-lmbench~\cite{mcvoy1996lmbench}를 대상으로 성능 개선을 보였다. 개선은 stock 리눅스 커널에 비해 120코어에서
-각각 x,x,x 배이다.
-\else
-%우리는 위와 같은 장점을 가지는 LDU를 리눅스 커널의 fork scalability 문제를 야기시키는 2가지 reverse page
-%mapping(anonymous pape mapping, file page mapping)에 적용하였다.
-%또한 We implemented the LDU in a Linux 4.5.rc4 with elemination of lock. 
-%We evaluated the performance and scalability using a fork-intensive workload-
-%AIM7~\cite{AIM7Benchmark}, Exim~\cite{Exim} from MOSBENCH~\cite{MOSBENCH},
-%lmbench~\cite{mcvoy1996lmbench}-our design improves throughput and execution
-%time on 120 core by x, x, x respectively, relative to stock Linux.
-\fi
-
+To evaluate our approach, we applied the \LDU to Linux kernel reverse
+page mappings(anonymous page mapping, file page mapping) that are considered as
+the major sources of limiting performance scalability due to their 
+update-heavy characteristics.
+We implemented the \LDU in a Linux 4.5-rc6.
+We evaluated the performance and scalability using a fork-intensive workload-
+AIM7~\cite{AIM7Benchmark}, Exim~\cite{Exim} from MOSBENCH~\cite{MOSBENCH}
+and Lmbench~\cite{mcvoy1996lmbench}-our design improves throughput and execution
+time on 120 core by 1.5x, 2.6x, 2.7x respectively, relative to stock Linux.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Contribution 정리
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\ifkor
-\noindent
-\textbf{Contributions.} This paper makes the following contributions:
+
+\textbf{Contributions.} Our research makes the following contributions:
 \begin{itemize}
-\item 우리는 리눅스 커널을 위한 새로운 log-based concurrnet updates 방법인 LDU를 개발하였다. 
-LDU는 동기화된 타임스탬프 카운터를 이용함에 따라 생기는 시간 정렬과 머징에 의한 추가적인 sequencial processing 문제를
-해결하였다.
-이를 위해 LDU는 로그를 업데이트 순간 지우고 로그를 재활용하는 방법을 개발하였다. 
-\item 우리는 LDU을 practical한 manycore system인 intel xeon 120코어 위에 동작하는 리눅스 커널의
-2가지 reverse mapping(anonymous, file)에 적용하여, fork scalability 문제를 해결하였다.
-Fork 관련 벤치마크 성능은 워크로드 특성에 따라 1.6x부터 2.2x까지 개선되었다.
+\item We have developed a novel lightweight log-based deferred update method
+eliminating the sources of limiting performance scalability in update-heavy data
+structures with efficient log management implementation.
+\item 
+We applied the \LDU in Linux kernel to two reverse mapping(anonymous, file) on
+an 120 core system to reduce fork scalability bottleneck.
+Our design improved throughput and execution time from 1.5x through 2.7x on 120 core.
 \end{itemize}
-\else
-%\noindent
-%\textbf{Contributions.} This paper makes the following contributions:
-%\begin{itemize}
-%\item 우리는 리눅스 커널을 위한 새로운 log-based concurrnet updates 방법인 LDU를 개발하였다. 
-%LDU는 synchronized timestamp counters를 이용함에 따라 생기는 ordering or merging overhead와
-%workload에 따른 interfaces dependency가 있는 문제를 줄이기 위해, 조금 더 simple하고
-%lightweight한 방법과 새로운 update-side absorbing과 reuse garbage의 optimization을
-%사용하여 log-based concurrent updates를 구현하였다.
-%\item 우리는 LDU을 practical한 manycore system인 intel xeon 120코어 위에 동작하는 리눅스 커널에
-%적용하여, fork scalability 문제를 해결하였다. 
-%Fork 관련 벤치마크 성능은 워크로드 특성에 따라 1.6x부터 2.2x까지 개선되었다.
-%\end{itemize}
-\fi
-
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Mapping
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\ifkor
 The rest of this paper is organized as follows.
-Section 2 describes the background and Linux scalability problem.
-Section 3 describes the design of the LDU algorithm and 
-Section 4 explains how to apply to Linux kernel.
-section 5 explains our implementations in Linux and
-Section 6 shows the results of the experimental evaluation. 
-Finally, section 8 concludes the paper.
-\else
-%The rest of this paper is organized as follows.
-%Section 2 summarizes related works and compare our contributions to previous
-%works. 
-%Section 3 describes the design of the LDU algorithm and 
-%Section 4 explains how to apply to Linux kernel.
-%section 5 explains our implementations in Linux and
-%Section 6 shows the results of the experimental evaluation. 
-%Finally, section 7 concludes the paper.
-\fi
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Reference Sentence 1
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%
-%
-
-
-
-
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Reference Sentence 2:LDU paper
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-% Ondemand로 로그를 지워 준다.
-%Background
-%With the drastic increase of CPU core counts in various high-end
-%server systems, achieving performance scalability of operating systems
-%running on such many-core systems has been an important issue in research
-%communities.
-%Linux has been naturally considered as a major target for the scalability
-%improvement and a number of accomplishments are published.
-%Early results include RCU~\cite{McKenney98} and hazard
-%pointer~\cite{MagedMichael04a} to improve scalability for read-most data 
-%structures in the Linux kernel. %for relatively low CPU core counts.
-%Though the early results show certain level of improvement in scalability,
-%it turned out that more significant portion of scalability limitation of
-%Linux kernel is due to lock contention in update-heavy global data structures 
-%including file reverse mappings and anonymous reverse mappings during
-%spawning child processes~\cite{Andi2011adding}~\cite{Tim2013adding}. 
-%Such update-heavy data structures cause serialization of the update operations
-%leading to severe performance degradation. 
-
-%Scaling operating systems to many-core architectures is one of the most
-%important challenges in computing today. 
-%One of the scalable operations system is Linux because the Linux kernel
-%community has made it scalable.
-%For example, read-mostly data structures in the Linux have been achieved
-%considerable multi-core scaling by using RCU~\cite{McKenney98} and hazard
-%pointer~\cite{MagedMichael04a}.
-%However, the Linux kernel suffers from such scalability bottlenecks at high
-%core counts.
-%The Linux kernel on many-core processors can be
-%bottlenecked by contended updates locks where processes share a global data
-%structure.
-%When a process spawns child process, reverse mapping using shared global
-%data structure suffers from updates lock contention.
-%Recent research shows how to run a fork in parallel with creating new reverse
-%mapping data structure~\cite{SilasBoydWickizerPth}.
-%More specifically, in order to perfect scalability of the fork, both the
-%file reverse mapping and the anonymous reverse mapping can execute
-%update concurrently without lock
-%contention~\cite{Andi2011adding}~\cite{Tim2013adding}.
-
-%The fundamental scalability problem of reverse mapping is their serialized
-%update because operating systems are serialized at the update operation.
-
-%To solve this problem, an existing approach is to make the update-heavy data
-%structures as non-blocking~\cite{Harris2001Lockfree} based on
-% \emph{compare-and-swap}(CAS).
-%Introducing non-blocking data structures eliminates the update serialization
-% problem during process spawning, but incurs additional issues due to
-% inter-core communication
-%bottlenecks and cache coherence system's write
-% serialization~\cite{SilasBoydWickizerPth}.
-%To overcome the issues caused by cache coherence system, S. Boyd-Wickizer et
-% al. proposed Oplog~\cite{SilasBoydWickizerPth} where logs update operations
-% with time stamps and actual updates are performed later when the updated data
-% need to be read.
-%While Oplog nicely solves the update serialization problem without any cache
-% coherence-related overheads, the merging of the update logs recorded in
-% multiple per-core data structures considering time stamps further causes
-% performance overheads resulting in limited scalability
-% improvement~\cite{McKenney2008ParallelProgramming}.
-
-%Therefore, many researches have proposed non-blocking
-%algorithms~\cite{Harris2001Lockfree} for concurrent data structure based on
-%\emph{compare-and-swap}(CAS);nonetheless, this method may suffer from inter-core
-%communication bottleneck, the cache coherence system serializes the
-% writes~\cite{SilasBoydWickizerPth}.
-
-%Another a existing solution is using the per-core processing like
-%Oplog~\cite{SilasBoydWickizerPth}, which achieves scalability by logging in
-%per-core memory.
-%In fact, per-core approach may have best performance for the update-heavy data
-%structure because of their partitioned data structures, whose updates can
-%operate locally.
-%The more-expensive reads, however, must merge across the entire per-core
-%data;read operations are expensive~\cite{McKenney2008ParallelProgramming}.
-%Therefore, their approach may be complex with regard to the read operation.
-%This paper attacks this complexity as a result of the per-core processing.
-%Even though they have generalized a per-core processing to the Oplog's library, 
-%they use intricate optimizations, so their optimizations may be expensive with
-%regard to the read operation.
-%For example, they use the absorbing updates that removes the cancelable
-%operation before the read.
-%This operation may need to iterate previous operation log due to searching the
-%cancelable operation log.
-%Furthermore, reducing the memory use, they maintain per-core memory space.
-
-%Method
-%This paper proposes a novel concurrent update method, \deferu, applicable to
-% Linux reverse mapping solving the problems 
-%mentioned above: the overheads caused by inter-core communication bottlenecks
-% and per-core log management with time stamps. 
-%Our goal is to make the Linux fork scale to large numbers of cores using
-%lightweight deferred processing algorithm.
-%The fork scalability requires two challenges in designing a reverse mapping.
-%First, this lightweight method should permit the concurrent updates not only to
-%reduce the inter-core communication bottleneck but also to eliminate their 
-%complexity.
-%Second, this lightweight method should apply to Linux reverse mapping, and
-%improve the Linux fork scalability.
-
-%The \deferu is similar to Oplog in that it defers the actual update operations
-% as late as possible to reduce serialization problems, but it uses a light
-% weight global queue with non-blocking synchronization for update logs and
-% eliminates time stamps required for per-core log management. 
-%In addition, to optimize the log management and minimize the traversal
-% overheads during reading, \deferu applies update-side absorbing algorithm based on atomic
-%marking and thus efficiently find the operations to be canceled. 
-%The evaluation of the proposed \deferu on Linux kernel 3.19.rc4 running on a
-% 120 core system reveals that 
-%the execution times could be improved by 1.7x, 1.6x, and 2.2x for 
-%a fork-intensive workload-
-%AIM7~\cite{AIM7Benchmark}, Exim from
-%MOSBENCH~\cite{SilasBoydWickizer2010LinuxScales48}, and 
-%lmbench~\cite{mcvoy1996lmbench}, respectively.
-
-%Second, it uses a novel update-side absorbing that uses the atomic marking
-%method, which allows \deferu to eliminate read-side traversal for finding the
-%cancelable operation log;readers can improve performance.
-
-%The proposed approach has the following advantages. 
-%First, it can permits the reverse mapping to remove lock contention, so Linux's
-%fork scalability has been improved.
-%Second, using the lightweight update-side absorbing, \deferu can reduce
-%complexity and improve readers performance.
-%Finally, while per-core processing uses the time-stamp counter(e.g., RDTSCP,
-%RDTSC) that depend on hardware, our method may not depend on hardware.
-
-%We implemented the \deferu in a Linux 3.19.rc4 with modification of lock. 
-%We evaluated the performance and scalability using a fork-intensive workload-
-%AIM7~\cite{AIM7Benchmark}, Exim from
-%MOSBENCH~\cite{SilasBoydWickizer2010LinuxScales48},
-%lmbench~\cite{mcvoy1996lmbench}-our design improves throughput and execution
-%time on 120 core by 1.7x, 1.6x, 2.2x respectively, relative to stock Linux.
-
-%Mapping
-%Paragraph 
-%This paper is organized as follows. 
-%Section 2 summarizes related works and compare our contributions to previous
-%works. 
-%Section 3 describes the design of the \deferu algorithm and 
-%Section 4 explains how to apply to Linux kernel.
-%section 5 explains our implementations in Linux and
-%Section 6 shows the results of the experimental evaluation. 
-%Finally, section 7 concludes the paper.
+Section~\ref{sec:bg} describes the background and the Linux scalability problem.
+Section~\ref{sec:ldu} describes the design of the \LDU algorithm and 
+Section~\ref{sec:linux} explains how to apply the \LDU to Linux kernel, and
+Section~\ref{sec:evaluation} shows the results of the experimental evaluation. 
+Section~\ref{sec:related} describes related work with our research.
+Finally, section~\ref{sec:concl} concludes the paper.
