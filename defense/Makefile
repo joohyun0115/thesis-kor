@@ -29,18 +29,20 @@ spell:
 	@ mv aspell.words~ aspell.words
 .PHONY: spell
 
+
 view: $(TARGET).pdf
 	evince $(TARGET).pdf &
 .PHONY: view
 
-$(TARGET).pdf: $(LATEXSOURCES) $(EPSSOURCES) eps2pdf slide2pdf
+et:
+	perl utilities/export_overlays.pl slides.svg
+.PHONY: et
+
+$(TARGET).pdf: $(LATEXSOURCES) $(EPSSOURCES) eps2pdf
 	sh utilities/runlatex.sh $(TARGET) bib
 
 eps2pdf:
 	sh utilities/eps2pdf.sh
-
-slide2pdf:
-	perl utilities/export_overlays.pl slides.svg
 
 clean:
 	find . -name '*.aux' -o -name '*.blg' \
