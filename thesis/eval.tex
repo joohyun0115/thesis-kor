@@ -4,9 +4,7 @@
   \begin{center}
     \includegraphics[scale=0.8]{graph/aim7.eps}
   \end{center}
-  \caption{Scalability of AIM7-multiuser.
-  The \LDU and the Harris list scale well;in contrast, up to 75 core, the
-  stock Linux scale linearly, then it flattens out.}
+  \caption{Scalability of AIM7-multiuser.}
   \label{fig:aim7}
 \end{figure}
 
@@ -54,9 +52,7 @@
   \end{center}
     \end{subfigure}
         \centering
-    \caption{Lmbench CPU utilization on 120 core. The stock Linux has the
-    highest idle time since it waits to acquire semaphore(\code{anon\_vma->rwsem}, \code{mapping->i\_mmap\_rwsem}).
-    The \LDU has higher idle time than the Harris linked list because of LDU's efficient algorithm.}
+    \caption{Lmbench CPU utilization on 120 core.}
     \label{fig:utilization_lmbench}
     
 \end{figure*}
@@ -166,8 +162,7 @@ Surprisingly, although two \LDU have higher idle time than the Harris version, t
   \begin{center}
     \includegraphics[scale=0.8]{graph/exim.eps}
   \end{center}
-  \caption{Scalability of Exim. The stock Linux collapses after 60 core;in
-  contrast, both the Harris list and our the \LDU go up to grow up to 105 core.}
+  \caption{Scalability of Exim.}
   \label{fig:exim}
 \end{figure}
 
@@ -180,9 +175,7 @@ Surprisingly, although two \LDU have higher idle time than the Harris version, t
   \begin{center}
     \includegraphics[scale=0.8]{graph/lmbench.eps}
   \end{center}
-  \caption{Execution time of the process management workload in the Lmbench. 
-  The benchmark drops down for all methods up to 60 core but either goes up or 
-  goes down slightly.}
+  \caption{Execution time of the process management workload in the Lmbench.}
   \label{fig:MicroBench}
 \end{figure}
 
@@ -227,10 +220,7 @@ figure~\ref{fig:utilization_exim}).
         \caption{AIM7 - 120core}
   \end{center}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_aim7}
 \end{figure*}
 
@@ -240,10 +230,7 @@ figure~\ref{fig:utilization_exim}).
         \includegraphics[height=2.5in]{graph/ratio_aim7_core.eps}
         \caption{AIM7 - scalability}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_aim7_2}
 \end{figure*}
 
@@ -255,10 +242,7 @@ figure~\ref{fig:utilization_exim}).
         \caption{AIM7 - 120core}
   \end{center}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_exim}
 \end{figure*}
 
@@ -268,10 +252,7 @@ figure~\ref{fig:utilization_exim}).
         \includegraphics[height=2.5in]{graph/ratio_exim_core.eps}
         \caption{AIM7 - scalability}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_exim_2}
 \end{figure*}
 
@@ -283,10 +264,7 @@ figure~\ref{fig:utilization_exim}).
         \caption{AIM7 - 120core}
   \end{center}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_lmbench}
 \end{figure*}
 
@@ -296,10 +274,7 @@ figure~\ref{fig:utilization_exim}).
         \includegraphics[height=2.5in]{graph/ratio_lmbench_core.eps}
         \caption{AIM7 - scalability}
     \end{subfigure}%
-    \caption{Performance depending on update ratios and scalability.
-    The scalability of AIM7 shows that the \LDU has substantially high
-    scalability at the 90\% and the 99\% update rates as well as
-    the 80\% update rates. The Exim and the Lmbench show that the \LDU outperforms the stock kernel after 85\%.}
+    \caption{Performance depending on update ratios and scalability.}
     \label{fig:UpdateRate_lmbench_2}
 \end{figure*}
 

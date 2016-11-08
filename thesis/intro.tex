@@ -1,109 +1,175 @@
-\section{Introduction} \label{sec:intro}
+\section{개요} \label{sec:intro}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Background
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\ifkor
-\else
-\fi
-Achieving performance scalability has been a most important factor in 
-highly parallel systems with many cores (e.g., over 100 cores).
-The performance scalability of a whole system is naturally limited by 
-scalability of underlying operating system kernel; Linux kernel has been 
-widely considered in ordinary systems.
-Previous research revealed that Linux kernel has significant problems limiting
-performance scalability in many core systems~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF}
-and the major sources of the problems are update lock contention in a few
-kernel data structures~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
+%Achieving performance scalability has been a most important factor in 
+%highly parallel systems with many cores (e.g., over 100 cores).
+성능에 대한 확장성(Scalability)는 100코어 또는 1000 이상으로 구성된 
+매니코어(Many-core) 시스템에서 가장 중요한 요소이다. 
+%The performance scalability of a whole system is naturally limited by 
+%scalability of underlying operating system kernel; Linux kernel has been 
+%widely considered in ordinary systems.
+전체 시스템의 성능 확장성은 일반적으로 운영체제의 커널(Kernel) 때문에 제한을 받는다.
+이러한 운영체제 커널 중 가장 많이 사용되는 것은 리눅스(Linux) 커널이다. 
+그 이유는 리눅스 커널은 멀티코어에 최적화가 되어 있기 때문이다.
+%Previous research revealed that Linux kernel has significant problems limiting
+%performance scalability in many core
+% systems~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF} and the major sources of the problems are update lock contention in a few
+%kernel data structures~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
+하지만 이렇게 멀티코어에 최적화된 리눅스 커널도 매니코어 시스템에서는 여전히 
+성능에 대한 확장성에 문제가
+있다~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF}.
+확장성 문제중 가장 큰 문제는 커널의 자료구조 중 업데이트 락(Lock) 경쟁에 대한
+문제 때문이다~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
+
+
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Problem general
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Early research accomplishments regarding the update serialization problems
-include a number of concurrent
-update methods~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}~\cite{Dodds2015SCT}.
-Such research provides bases to solve the update serialization problems, but
-does not effectively handle serious scalability bottleneck for update-heavy data structures.
-Log-based algorithms~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}
-have been proposed to solve this update serialization problem by reducing cache coherence-related
-overheads for update-heavy data structures.
-When update operations occur, log-based algorithm logs the update
-operation and applies all operation logs to the data structure
-before read operation, so readers can read up to date data structure in a way
-similar to CoW(Copy On Write)~\cite{PaulDetailLWN}~\cite{Morrison2016SSM}.
+%Early research accomplishments regarding the update serialization problems
+%include a number of concurrent
+%update
+% methods~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}~\cite{Dodds2015SCT}.
+이처럼 업데이트 직렬화(Serialization) 문제를 해결하기 위해 여러 동시적 업데이트(Concurrent Update)
+ 방법 들이 연구되고
+ 있다~\cite{Arbel2014ConcurrentRCU}~\cite{Matveev2015RLU}~\cite{Dodds2015SCT}.
+%Such research provides bases to solve the update serialization problems, but
+%does not effectively handle serious scalability bottleneck for update-heavy
+% data structures.
+동시적 업데이트 방법을 사용하여 업데이트 직렬화 문제를 해결하는 연구들은 
+업데이트 비율에 따라 많은 성능 차이를 보인다.
+이러하는 방법들은 높은 업데이트 비율을 가진 자료 구조 때문에 발생하는 확장성 문제에 
+대해서는 여전히 효율적이지 않다.  
+%Log-based algorithms~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}
+%have been proposed to solve this update serialization problem by reducing cache
+% coherence-related overheads for update-heavy data structures.
+높은 업데이트 비율을 가진 자료에 대한 해결책 중 하나는 캐쉬 통신 병목(cache communication bottleneck)
+현상을 줄인 로그 기반(log-based) 알고리즘~\cite{Hendler2010FC}~\cite{SilasBoydWickizerPth}을
+사용하는 것이다.
+%When update operations occur, log-based algorithm logs the update
+%operation and applies all operation logs to the data structure
+%before read operation, so readers can read up to date data structure in a way
+%similar to CoW(Copy On Write)~\cite{PaulDetailLWN}~\cite{Morrison2016SSM}.
+로그 기반 알고리즘은 업데이트가 발생하면, 자료구조의 업데이트 명령(update operatin)을
+퍼코어(per-core) 또는 원자적(atomic)하게 로그로 저장하고 읽기 명령(read operation)을 수행하기
+ 전에 저장된 로그를 수행하는것이다.
+따라서, 리더(reader)는 최신 데이터를 읽게 되며, 이것은 마치 CoW(Copy On Write)와
+유사하다~\cite{PaulDetailLWN}~\cite{Morrison2016SSM}.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Problem 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Among the log-based methods,
-S. Boyd-Wickizer \textit{et al.} proposed OpLog~\cite{SilasBoydWickizerPth}, where 
-each update operation generates a log with synchronized time-stamp counters
-and serialization of the logs based on the time-stamps solves the scalability
-bottleneck for update-heavy data structures: 
-the loggings are performed on to per-core memory instead of shared memory and
-thus eliminates cache communication overhead.
-However, the OpLog still has problems in scalability since the synchronized time-stamp
-counters necessitates time-stamp merging and ordering processes leading to 
-performance scalability problems in high CPU core counts.
+%Among the log-based methods,
+%S. Boyd-Wickizer \textit{et al.} proposed OpLog~\cite{SilasBoydWickizerPth},
+% where each update operation generates a log with synchronized time-stamp counters
+%and serialization of the logs based on the time-stamps solves the scalability
+%bottleneck for update-heavy data structures: 
+%the loggings are performed on to per-core memory instead of shared memory and
+%thus eliminates cache communication overhead.
+S. Boyd-Wickizer et al.는 동기화된 타임스탬프 카운터(synchronized timestamp counters) 기반의
+퍼코어 로그를 활용하여 높은 업데이트 비율을 가진 자료구조를 대상으로 동시적 업데이트 문제를
+해결함과 동시에 캐쉬 커뮤니케이션 병목현상(cache communication bottleneck)을
+줄였다~\cite{SilasBoydWickizerPth}.
+동기화된 타임스탬프 카운터 기반의 퍼코어 로그를 활용한 동시적 업데이트방법은
+업데이트 부분만 고려했을 때, 퍼코어에 데이터를 저장함으로 굉장히 높은 성능 확장성을
+ 가진다[].
+%However, the OpLog still has problems in scalability since the synchronized
+% time-stamp counters necessitates time-stamp merging and ordering processes leading to 
+%performance scalability problems in high CPU core counts.
+하지만 퍼코어 기반의 동기화된 타임스탬프 카운터를 사용한 방법은 결국 타임스탬프 병합(timestamp merging)
+과 정렬(ordering) 작업을 야기한다.
+만약 코어 수가 늘어 날 경우, 로그를 자료 구조에 적용하는 과정에서 타임스탬프(timestamp)
+ 때문에 발생하는 추가적인 순차적 프로세싱sequential processing)이 요구된다.
+이것은 결국 확장성과 성능을 저해한다. 
+
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Method
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %
-We propose a novel lightweight log-based differed update method(\LDU) to achieve 
-the maximum performance scalability for update-heavy data structures solving the 
-problems of sequential processing raised from the previous research:
-cache communication overhead in logging and time-stamp management cost during log
-ordering. 
-Such improved scalability could be achieved through combination of widely known 
-log-based concurrent update concept and our own way of efficient implementation
-methods of the log management scheme: log record slot reuse in the log queue and 
-using minimal hardware-based synchronization
-method(compare and swap, test and set, atomic swap).
+%We propose a novel lightweight log-based differed update method(\LDU) to
+% achieve the maximum performance scalability for update-heavy data structures solving the 
+%problems of sequential processing raised from the previous research:
+%cache communication overhead in logging and time-stamp management cost during
+% log ordering. 
+%Such improved scalability could be achieved through combination of widely known 
+%log-based concurrent update concept and our own way of efficient implementation
+%methods of the log management scheme: log record slot reuse in the log queue
+% and using minimal hardware-based synchronization
+%method(compare and swap, test and set, atomic swap).
+본 논문은 동기화된 타임스탬프 카운터를 이용함에 따라 생기는 추가적인 순차적 프로세싱(sequential processing) 문제를
+해결하기 위해 공유 메모리 시스템을(shared memory system) 위한 새로운 LDU(Lightweitgh log-based
+Deferred Update)를 개발하였다.
+LDU는 타임스탬프 카운터가 필요한 명령어 로그(operation log)를 업데이트 순간 지우고,
+ 매번 로그를 생성하지 않고 재활용하는 방법이다.
+이로인해 동기화된 타임스탬프 카운터 문제와 캐쉬 커뮤니케이션 병목현상에 대한 문제를 동시에 해결하였다.
+해결 방법은 분산 시스템(distributed system)에서 사용하는 동기화된 타임스템프 로그 기반의 
+동시적 업데이트 방식과 최소한의 공유 메모리 시스템의 하드웨어 기반 동기화(hardware-based
+synchronization) 기법(compare and swap, test and set, atomic swap)을 조합하여 동시적 업데이트
+문제를 해결하였다.
+
+이처럼 동기화된 타임스탬프 카운터를 제거함과 동시에, 캐쉬 커뮤니케이션 병목 현상을 줄인
+LDU는 기존 로그 기반 알고리즘들의 장점들을 모두 포함할 뿐만아니라 추가적인 장점을 가진다.
+첫째로, 업데이트가 수행하는 시점 즉 로그를 저장하는 순간에는 fine-grain synchronization이 필요가 없다. 
+따라서 동기화(synchronization) 오버헤드 없이 동시적 업데이트를 수행할 수 있다
+둘째로, 저장된 업데이트 명령어 로그를 coarse-grained lock과 함께 하나의 코어에서 수행하기
+때문에, 캐쉬 효율성이 높아진다~\cite{Hendler2010FC}.
+다음으로, 기존 여러 자료구조에 쉽게 적용할 수 있는 장점이 있다.
+게다가 마지막으로, 로그를 저장하기 전에 로그를 삭제하므로 보다 빠르게 로그의 수를 줄일 수 있다. 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Result
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-To evaluate our approach, we applied the \LDU to Linux kernel reverse
-page mappings(anonymous page mapping, file page mapping) that are considered as
-the major sources of limiting performance scalability due to their 
-update-heavy characteristics.
-We implemented the \LDU in a Linux 4.5-rc6.
-We evaluated the performance and scalability using a fork-intensive workload-
-AIM7~\cite{AIM7Benchmark}, Exim~\cite{Exim} from MOSBENCH~\cite{MOSBENCH}
-and Lmbench~\cite{mcvoy1996lmbench}-our design improves throughput and execution
-time on 120 core by 1.5x, 2.6x, 2.7x respectively, relative to stock Linux.
+%To evaluate our approach, we applied the \LDU to Linux kernel reverse
+%page mappings(anonymous page mapping, file page mapping) that are considered as
+%the major sources of limiting performance scalability due to their 
+%update-heavy characteristics.
+%We implemented the \LDU in a Linux 4.5-rc6.
+%We evaluated the performance and scalability using a fork-intensive workload-
+%AIM7~\cite{AIM7Benchmark}, Exim~\cite{Exim} from MOSBENCH~\cite{MOSBENCH}
+%and Lmbench~\cite{mcvoy1996lmbench}-our design improves throughput and
+% execution time on 120 core by 1.5x, 2.6x, 2.7x respectively, relative to stock Linux.
+우리는 위와 같은 장점을 가지는 LDU를 리눅스 커널에서 높은 업데이트 비율 때문에 성능 확장성 
+문제를 야기시키는 익명 역 매핑(anonymous reverse mapping)과 파일 역 매핑(file reverse mapping)에
+적용하였다.
+또한 우리는 LDU를 리눅스 커널 버전 4.5.rc4에 구현하였고, Fork가 많이 발생하는(fork-intensive) 워크로드인
+AIM7~\cite{AIM7Benchmark}, MOSBENCH~\cite{MOSBENCH}의 Exim~\cite{Exim},
+Lmbench~\cite{mcvoy1996lmbench}를 대상으로 성능 개선을 보였다.
+개선은 기존 리눅스 커널에 비해 120코어에서 각각 1.5x, 2.6x, 2.7x 배 성능 향상을 가진다.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Contribution 정리
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-\textbf{Contributions.} Our research makes the following contributions:
+\section{논문의 기여}\label{sec:introcontri}
+%\textbf{Contributions.} Our research makes the following contributions:
+본 논문은 다음과 같은 기여를 하였다.
 \begin{itemize}
-\item We have developed a novel lightweight log-based deferred update method
-eliminating the sources of limiting performance scalability in update-heavy data
-structures with efficient log management implementation.
+%\item We have developed a novel lightweight log-based deferred update method
+%eliminating the sources of limiting performance scalability in update-heavy
+%% data structures with efficient log management implementation.
+\item 우리는 높은 업데이트 비율를 가지는 자료구조를 위한 새로운 로그 기반 동시적 업데이트
+ 방법인 LDU를 개발하였다.
+LDU는 동기화된 타임스탬프 카운터를 이용함에 따라 생기는 시간 정렬과 머징에 의한 추가적인
+순차적 프로세싱 문제를 최소한의 하드웨어 동기화 기법을 사용하여 해결한 방법이다.
+LDU는 하드웨어 동기화 기법을 이용하여 LDU는 로그를 업데이트 순간 지우고 로그를
+재활용한다.
 \item 
-We applied the \LDU in Linux kernel to two reverse mapping(anonymous, file) on
-an 120 core system to reduce fork scalability bottleneck.
-Our design improved throughput and execution time from 1.5x through 2.7x on 120 core.
+%We applied the \LDU in Linux kernel to two reverse mapping(anonymous, file) on
+%an 120 core system to reduce fork scalability bottleneck.
+%Our design improved throughput and execution time from 1.5x through 2.7x on 120
+% core.
+우리는 LDU을 현실적인(practical)한 매니코어 시스템인 인텔(Intel) 제온(XEON)
+ 120코어 위에 동작하는 리눅스 커널의 2가지 역 매핑 (익명, 파일)에 적용하여, 리눅스 fork
+ 성능 확장성 문제를 해결하였다.
+Fork 관련 벤치마크 성능은 워크로드 특성에 따라 1.6x부터 2.2x까지 개선되었다.
 \end{itemize}
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Mapping
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-The rest of this paper is organized as follows.
-Section~\ref{sec:bg} describes the background and the Linux scalability problem.
-Section~\ref{sec:ldu} describes the design of the \LDU algorithm and 
-Section~\ref{sec:linux} explains how to apply the \LDU to Linux kernel, and
-Section~\ref{sec:evaluation} shows the results of the experimental evaluation. 
-Section~\ref{sec:related} describes related work with our research.
-Finally, section~\ref{sec:concl} concludes the paper.

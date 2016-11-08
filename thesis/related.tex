@@ -1,10 +1,21 @@
-\section{Related work}
-\label{sec:related}
+
+\section{Hardware}
+\label{sec:hwrelated}
+
+\subsection{Cache}
+
+
+\subsection{Atomic Operations System Archtecture}
+
+
+\subsection{Memory Barriers}
+
+
+\section{Operating systems scalability}
+\label{sec:osrelated}
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 1:Linux Scalability의 연구에 대한 설명
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\noindent
-\textbf{Operating systems scalability.}
 To improve the scalability, researchers have attempted to create new
 operating systems~\cite{Boyd-WickizerCorey}~\cite{Wentzlaff2010fOS}
 %~\cite{Baumann2009Barrelfish}~\cite{Zellweger2014Multikernel}
@@ -17,6 +28,16 @@ solve the Linux fork scalability problem.
 However, previous research did not deal with the anonymous reverse mapping,
 which is one of the fork scalability bottleneck.
 
+\subsection{Corey}
+\subsection{fOS}
+\subsection{Barrelfish}
+\subsection{Tessellation}
+\subsection{HeliOS}
+
+
+\subsection{Bonsai}
+\subsection{RadixVM}
+\subsection{OpLog}
 %BonsaiVM~\cite{AustinTClements2012RCUBalancedTrees} solved this address space
 %problem by using the RCU;
 %RadixVM~\cite{Clements2013RadixVM} created a new VM using refcache and radix
@@ -29,16 +50,16 @@ which is one of the fork scalability bottleneck.
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 3: Scalable Data Structure and Lock에 대한 연구
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\noindent
-\textbf{Scalable lock.}
+\section{Scalable lock}
+\label{sec:lockrelated}
 Scalable locks have been designed by the
 queue-based locks~\cite{MellorCrummey1991MCS}~\cite{Magnusson1994QLC},
-%~\cite{Wang2016BeMyGuest},
-%~\cite{Scott2013SS}
-%~\cite{Bueso2014MCS}~\cite{Bueso2015STP}
+~\cite{Wang2016BeMyGuest},
+~\cite{Scott2013SS}
+~\cite{Bueso2014MCS}~\cite{Bueso2015STP}
 hierarchical locks~\cite{Radovic2003HBL}~\cite{Chabbi2016CLL} and
-%~\cite{Luchangco2006HCQ}
-%~\cite{Chabbi2015HPL}
+~\cite{Luchangco2006HCQ}
+~\cite{Chabbi2015HPL}
 delegation techniques~\cite{Hendler2010FC}~\cite{Fatourou2012RCS}~\cite{Delegation2014}.
 %Some approaches have been gradually adapted in real production software.
 %For example, Linux kernel has replaced non-scalable locks with
@@ -54,17 +75,25 @@ can eliminate synchronization methods during updates due to using a lock-free ma
 %In read-mostly data structures, RCU~\cite{McKenney98} can be quite useful.
 %However, 
 
+\subsection{Locking}
+
+\subsection{Ticket Lock}
+
+\subsection{Queued Lock}
+
+\subsection{Flat Combining}
+
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2:Concurrent updates에 대한 연구
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-\noindent
-\textbf{Scalable data structures.}
+\section{Scalable data structures}
+\label{sec:datarelated}
 Many scalable data structures with scalable schemes show
 different performances depending on their update ratios.
 In low and middle update rate, researchers have attempted to create new scalable
 schemes~\cite{McKenney98}~\cite{Matveev2015RLU}~\cite{Harris2001Lockfree}
-%~\cite{Fomitchev2004Lockfree}
-%~\cite{Timnat2012}
+~\cite{Fomitchev2004Lockfree}
+~\cite{Timnat2012}
 or have attempted to adapt these scheme to data structures~\cite{Arbel2014ConcurrentRCU}~\cite{Dodds2015SCT}~\cite{AustinTClements2012RCUBalancedTrees}.
 In high update rate, the OpLog shows significant improvement in
 performance scalability for update-heavy data structures in
@@ -73,3 +102,13 @@ to time-stamp counter management.
 We substantially extend our preliminary work~\cite{Kyong2016LDU} not only to support 
 per-core algorithm but also to apply the \LDU to anonymous rmap due to improving the
 Linux kernel scalability.
+
+\subsection{RCU}
+
+\subsection{Harris}
+
+
+\subsection{RLU}
+
+
+

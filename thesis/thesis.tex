@@ -100,29 +100,6 @@
 %% 최상위 분류 단위가 됩니다.
 %% You cannot use 'part'
 
-\chapter{요약}
-In highly parallel computing systems with many-cores, a few critical 
-factors cause performance bottlenecks severely limiting scalability.
-The kernel data structures with high update rate naturally cause 
-performance bottlenecks due to very frequent locking of the data structures. 
-There have been research on log-based synchronizations with time-stamps
-that have achieved significant level of performance and scalability 
-improvements. However, sequential merging operations of the logs with 
-time-stamps pose another sources of scalability degradation.
-
-To overcome the scalability degradation problem, we introduce a lightweight log-based deferred update
-method, combining the log-based concepts in the distributed systems and the
-minimal hardware-based synchronization in the shared memory systems.
-The main contributions of the proposed method are:(1) we propose a lightweight
-log-based deferred update method, which can eliminate synchronized time-stamp counters that limits the performance scalability;and 
-(2) we implemented the proposed method in the Linux 4.5-rc6 kernel
-for two representative data structures (anonymous reverse mapping and 
-file mapping) and evaluated the performance improvement due to our
-proposed novel light weight update method. 
-Our evaluation study showed that application of our method could
-achieve from 1.5x through 2.7x performance improvements in 120 core
-systems.
-
 %본문을 한글로 작성할 때 머릿말로 시작을 하시는 게 좋습니다. \cite{FD1}
 %인용은 다음과 같이 합니다 \cite{RVP1}-\cite{ML2}.
 %인용은 뒤에 인용을 쓰는 칸이 있습니다. 참고하여서 인용하시길 바랍니다 \cite{SOCA2,EF2}.
@@ -133,15 +110,21 @@ systems.
 
 % 목차 (Table of Contents) 생성
 \tableofcontents
+% 그림목차 (List of Figures) 생성
+\listoffigures
+% 표목차 (List of Tables) 생성
+\listoftables
 
 \chapter{서론}
-
 \input{intro}
 \input{bg}
-\input{related}
+\chapter{로그기반 동시적 업데이트 방법}
 \input{ldu}
 \input{linux}
 \input{eval}
+\chapter{배경 이론 및 관련 연구}
+\input{related}
+\chapter{결론 및 향후 연구}
 \input{concl}
 
 %\begin{thebibliography}{1}
@@ -152,7 +135,6 @@ systems.
 %\end{thebibliography}
 
 %\acknowledgment[1]
-
 
 %% 본문 끝
 \end{document}

@@ -29,10 +29,7 @@ out to disk, migrates other cpu, or truncates a file.
   \begin{center}
      \includegraphics[width=1\textwidth,height=1\textheight,keepaspectratio]{fig/anon_vma}
   \end{center}
-  \caption{An example of applying the \LDU to anonymous reverse mapping.
-  When a process simultaneously spawns, the root lock leads to a scalability bottleneck. 
-  The log's queue is added into the per-core memory or the
-  global head object(\code{struct anon\_vma})}
+  \caption{An example of applying the \LDU to anonymous reverse mapping.}
   \label{fig:anonvmaramp}
 \end{figure}
 
@@ -67,10 +64,7 @@ structure, which shows why the \LDU is a lightweight method.
   \begin{center}
      \includegraphics[width=1\textwidth,height=1\textheight,keepaspectratio]{fig/file_rmap}
   \end{center}
-  \caption{An example of applying the \LDU to file reverse mapping. 
-  The file rmap can be serialized at updating VMAs into the interval tree.
-  The log's queue is added into the per-core memory or the
-  global head object(\code{struct address\_space})}
+  \caption{An example of applying the \LDU to file reverse mapping.}
   \label{fig:fileramp}
 \end{figure}
 
