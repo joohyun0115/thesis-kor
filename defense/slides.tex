@@ -6,7 +6,7 @@
 \makeatletter
 
 \usepackage{listings}
-
+\setbeamertemplate{footline}[frame number]
 \setbeamercovered{transparent}
 
 \usecolortheme{kesl}
@@ -22,15 +22,16 @@
 \begin{document}
 
 \title[Memory Scalability]{
-A Lightweight Log-based Deferred Update for Linux Kernel
-Scalability}
+경량 로그 기반 지연 업데이트 기법을 활용한 리눅스 커널 확장성 향상 \\
+\small{A Lightweight Log-based Deferred Update
+for \\Linux Kernel Scalability}}
 
 \author{Joohyun Kyong}
 \institute[Kookmin University]
 {
   School of Computer Science\\
   Kookmin University\\
-  Thesis advisor: Sung-Soo Lim
+  Thesis advisor: Sung-soo Lim
 }
 
 \setbeamercovered{dynamic} 
@@ -40,55 +41,79 @@ Scalability}
   \titlepage
 \end{frame}
 
-\begin{frame}{CPU trends}
-	\begin{itemize}
-	\item 1
-	\end{itemize}
+\begin{frame}{40 Years of Microprocessor Trend Data}
+\pgfdeclareimage[width=\paperwidth]{cpu_1}{.//slides/cpu_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{cpu_1}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{CPU trends}
-	\begin{itemize}
-	\item 2005
-	\end{itemize}
+\begin{frame}{40 Years of Microprocessor Trend Data}
+\pgfdeclareimage[width=\paperwidth]{cpu_2}{.//slides/cpu_2}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{cpu_2}
+\end{textblock}
 \end{frame}
 
-\begin{frame}{CPU trends}
-	\begin{itemize}
-	\item power
-	\end{itemize}
+\begin{frame}{40 Years of Microprocessor Trend Data}
+\pgfdeclareimage[width=\paperwidth]{cpu_3}{.//slides/cpu_3}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{cpu_3}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{CPU trends}
+\begin{frame}{40 Years of Microprocessor Trend Data}
+\pgfdeclareimage[width=\paperwidth]{cpu_4}{.//slides/cpu_4}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{cpu_4}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{CPU trends}
+\begin{frame}{40 Years of Microprocessor Trend Data}
+\pgfdeclareimage[width=\paperwidth]{cpu_5}{.//slides/cpu_5}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{cpu_5}
+\end{textblock}
 \end{frame}
 
 
 \begin{frame}{Performance Scalability}
+\includegraphics[scale=0.8]{aim7_default}
 \end{frame}
-
 
 \begin{frame}{Performance Scalability}
+\includegraphics[scale=0.8]{aim7_default_2}
+\end{frame}
+
+\begin{frame}{Performance Scalability}
+\includegraphics[scale=0.8]{aim7_default_3}
 \end{frame}
 
 
 \begin{frame}{OS Kernel Scalability}
+    \begin{itemize}[<+-| alert@+>]
+    \item OS kernel scalability is an important part for the whole the system
+    parallelism.
+    \item If the kernel does not scale, applications will not scale.
+    \end{itemize}
 \end{frame}
 
 
-\begin{frame}{OS Kernel Scalability}
+\begin{frame}{AIM7 Scalability}
+%\includegraphics[scale=0.8]{aim7_default_3}
 \end{frame}
 
 
-\begin{frame}{OS Kernel Scalability}
+\begin{frame}{Lock Contention Problem}
+
 \end{frame}
 
 
-\begin{frame}{OS Kernel Scalability}
+\begin{frame}{Update Serialization}
+
 \end{frame}
 
 
@@ -110,6 +135,10 @@ Scalability}
 
 
 \begin{frame}{OS Kernel Scalability Histroy}
+\end{frame}
+
+
+\begin{frame}{High update rate Data Structuer}
 \end{frame}
 
 

@@ -65,6 +65,8 @@ my @layers = $root->getElementsByTagName('g');
 
 # Generate and touch the overlay path
 my $overlay_path = join('/',$outputpath,$inkname);
+`mkdir -p $overlay_path`;
+`touch $overlay_path`;
 
 # Open the tex file
 my $tex_path = join('/',$overlay_path,'overlay.tex');
