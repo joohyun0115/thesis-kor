@@ -60,6 +60,9 @@
 %% 10pt,a4paper,onecolumn,oneside 옵션으로 report 클래스 불러오기
 \LoadClass[11pt,a4paper,onecolumn,oneside]{report}
 
+\usepackage{parskip}
+\setlength{\parskip}{1.0em}
+
 
 
 %%들여쓰기

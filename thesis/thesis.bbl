@@ -8,10 +8,6 @@
 {Linux test project}.
 \newblock \url{https://github.com/linux-test-project/ltp}.
 
-\bibitem{LOCKSTAT}
-{LOCK STATISTICS}.
-\newblock \url{https://www.kernel.org/doc/Documentation/locking/lockstat.txt}.
-
 \bibitem{MOSBENCH}
 {MOSBENCH}.
 \newblock 2010.
@@ -21,6 +17,19 @@
 {Exim Internet Mailer}.
 \newblock 2015.
 \newblock http://www.exim.org/.
+
+\bibitem{Accetta86mach}
+Mike Accetta, Robert Baron, William Bolosky, David Golub, Richard Rashid,
+  Avadis Tevanian, and Michael Young.
+\newblock Mach: A new kernel foundation for unix development.
+\newblock pages 93--112, 1986.
+
+\bibitem{Amdahl1967VSP}
+Gene~M. Amdahl.
+\newblock Validity of the single processor approach to achieving large scale
+  computing capabilities.
+\newblock In {\em Proceedings of the April 18-20, 1967, Spring Joint Computer
+  Conference}, AFIPS '67 (Spring), pages 483--485, 1967.
 
 \bibitem{Andi2011adding}
 Tim~Chen Andi~Kleen.
@@ -32,6 +41,30 @@ Maya Arbel and Hagit Attiya.
 \newblock {Concurrent Updates with RCU: Search Tree As an Example}.
 \newblock In {\em Proceedings of the 2014 ACM Symposium on Principles of
   Distributed Computing}, PODC '14, pages 196--205, 2014.
+
+\bibitem{Baumann2009Barrelfish}
+Andrew Baumann, Paul Barham, Pierre-Evariste Dagand, Tim Harris, Rebecca
+  Isaacs, Simon Peter, Timothy Roscoe, Adrian Sch\"{u}pbach, and Akhilesh
+  Singhania.
+\newblock {The Multikernel: A New OS Architecture for Scalable Multicore
+  Systems}.
+\newblock In {\em Proceedings of the ACM SIGOPS 22Nd Symposium on Operating
+  Systems Principles}, SOSP '09, pages 29--44, 2009.
+
+\bibitem{Bloch1959EDS}
+Erich Bloch.
+\newblock The engineering design of the stretch computer.
+\newblock In {\em Papers Presented at the December 1-3, 1959, Eastern Joint
+  IRE-AIEE-ACM Computer Conference}, IRE-AIEE-ACM '59 (Eastern), pages 48--58,
+  1959.
+
+\bibitem{Bolosky1991NPR}
+William~J. Bolosky, Michael~L. Scott, Robert~P. Fitzgerald, Robert~J. Fowler,
+  and Alan~L. Cox.
+\newblock Numa policies and their relation to memory architecture.
+\newblock In {\em Proceedings of the Fourth International Conference on
+  Architectural Support for Programming Languages and Operating Systems},
+  ASPLOS IV, pages 212--221, 1991.
 
 \bibitem{Boyd-WickizerCorey}
 Silas Boyd-Wickizer, Haibo Chen, Rong Chen, Yandong Mao, Frans Kaashoek, Robert
@@ -65,11 +98,31 @@ Davidlohr Bueso.
 \newblock {Scalability Techniques for Practical Synchronization Primitives}.
 \newblock volume~58, pages 66--74, December 2014.
 
+\bibitem{Bugnion1997DRC}
+Edouard Bugnion, Scott Devine, and Mendel Rosenblum.
+\newblock Disco: Running commodity operating systems on scalable
+  multiprocessors.
+\newblock In {\em Proceedings of the Sixteenth ACM Symposium on Operating
+  Systems Principles}, SOSP '97, pages 143--156, 1997.
+
+\bibitem{Chabbi2015HPL}
+Milind Chabbi, Michael Fagan, and John Mellor-Crummey.
+\newblock {High Performance Locks for Multi-level NUMA Systems}.
+\newblock In {\em Proceedings of the 20th ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}, PPoPP 2015, pages 215--226, 2015.
+
 \bibitem{Chabbi2016CLL}
 Milind Chabbi and John Mellor-Crummey.
 \newblock {Contention-conscious, Locality-preserving Locks}.
 \newblock In {\em Proceedings of the 21st ACM SIGPLAN Symposium on Principles
   and Practice of Parallel Programming}, PPoPP '16, pages 22:1--22:14, 2016.
+
+\bibitem{Cheriton1983DVK}
+David~R. Cheriton and Willy Zwaenepoel.
+\newblock The distributed v kernel and its performance for diskless
+  workstations.
+\newblock In {\em Proceedings of the Ninth ACM Symposium on Operating Systems
+  Principles}, SOSP '83, pages 129--140, 1983.
 
 \bibitem{AustinTClements2012RCUBalancedTrees}
 Austin~T. Clements, M.~Frans Kaashoek, and Nickolai Zeldovich.
@@ -98,16 +151,6 @@ Jonathan Corbet.
 \newblock 2010.
 \newblock https://lwn.net/Articles/383162/.
 
-\bibitem{Corbett2013SGG}
-James~C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher
-  Frost, J.~J. Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser,
-  Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li,
-  Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan,
-  Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher
-  Taylor, Ruth Wang, and Dale Woodford.
-\newblock Spanner: Google's globally distributed database.
-\newblock {\em ACM Trans. Comput. Syst.}, 31(3):8:1--8:22, August 2013.
-
 \bibitem{David2015ASYNCHRONIZED}
 Tudor David, Rachid Guerraoui, and Vasileios Trigonakis.
 \newblock {Asynchronized Concurrency: The Secret to Scaling Concurrent Search
@@ -121,6 +164,14 @@ Mike Dodds, Andreas Haas, and Christoph~M. Kirsch.
 \newblock {A Scalable, Correct Time-Stamped Stack}.
 \newblock In {\em Proceedings of the 42Nd Annual ACM SIGPLAN-SIGACT Symposium
   on Principles of Programming Languages}, POPL '15, pages 233--246, 2015.
+
+\bibitem{Farrington2010Helios}
+Nathan Farrington, George Porter, Sivasankar Radhakrishnan, Hamid~Hajabdolali
+  Bazzaz, Vikram Subramanya, Yeshaiahu Fainman, George Papen, and Amin Vahdat.
+\newblock {Helios: A Hybrid Electrical/Optical Switch Architecture for Modular
+  Data Centers}.
+\newblock In {\em Proceedings of the ACM SIGCOMM 2010 Conference}, SIGCOMM '10,
+  pages 339--350, 2010.
 
 \bibitem{Fatourou2012RCS}
 Panagiota Fatourou and Nikolaos~D. Kallimanis.
@@ -152,24 +203,47 @@ Danny Hendler, Itai Incze, Nir Shavit, and Moran Tzafrir.
 \newblock {Flat Combining and the Synchronization-parallelism Tradeoff}.
 \newblock SPAA '10, pages 355--364, 2010.
 
+\bibitem{Kaashoek2015PCO}
+M.~Frans Kaashoek.
+\newblock Parallel computing and the os.
+\newblock In {\em SOSP History Day 2015}, SOSP '15, pages 10:1--10:35, 2015.
+
 \bibitem{Delegation2014}
 David Klaftenegger, Konstantinos Sagonas, and Kjell Winblad.
 \newblock {Delegation Locking Libraries for Improved Performance of
   Multithreaded Program}.
 \newblock In {\em Euro-Par 2014 Parallel Processing}, pages 572--583, 2014.
 
-\bibitem{Kyong2016LDU}
-Joohyun Kyong and Sung-Soo Lim.
-\newblock {LDU: A Lightweight Concurrent Update Method with Deferred Processing
-  for Linux Kernel Scalability}.
-\newblock In {\em Proceedings of the IASTED International Conference, Parallel
-  and Distributed Computing and Networks (PDCN 2016)}, 2016.
+\bibitem{Lampson1979EPM}
+Butler~W. Lampson and David~D. Redell.
+\newblock Experience with processes and monitors in mesa (summary).
+\newblock In {\em Proceedings of the Seventh ACM Symposium on Operating Systems
+  Principles}, SOSP '79, pages 43--44, 1979.
+
+\bibitem{Liu2009Tessellation}
+Rose Liu, Kevin Klues, Sarah Bird, Steven Hofmeyr, Krste Asanovi\'{c}, and John
+  Kubiatowicz.
+\newblock {Tessellation: Space-time Partitioning in a Manycore Client OS}.
+\newblock In {\em Proceedings of the First USENIX Conference on Hot Topics in
+  Parallelism}, HotPar'09, pages 10--10, 2009.
+
+\bibitem{Luchangco2006HCQ}
+Victor Luchangco, Dan Nussbaum, and Nir Shavit.
+\newblock {A Hierarchical CLH Queue Lock}.
+\newblock In {\em Proceedings of the 12th International Conference on Parallel
+  Processing}, Euro-Par'06, pages 801--810, 2006.
 
 \bibitem{Magnusson1994QLC}
 Peter~S. Magnusson, Anders Landin, and Erik Hagersten.
 \newblock {Queue Locks on Cache Coherent Multiprocessors}.
 \newblock In {\em Proceedings of the 8th International Symposium on Parallel
   Processing}, pages 165--171. IEEE Computer Society, 1994.
+
+\bibitem{Marsh1991FUT}
+Brian~D. Marsh, Michael~L. Scott, Thomas~J. LeBlanc, and Evangelos~P. Markatos.
+\newblock First-class user-level threads.
+\newblock In {\em Proceedings of the Thirteenth ACM Symposium on Operating
+  Systems Principles}, SOSP '91, pages 110--121, 1991.
 
 \bibitem{Matveev2015RLU}
 Alexander Matveev, Nir Shavit, Pascal Felber, and Patrick Marlier.
@@ -178,10 +252,11 @@ Alexander Matveev, Nir Shavit, Pascal Felber, and Patrick Marlier.
 \newblock In {\em Proceedings of the 25th Symposium on Operating Systems
   Principles}, SOSP '15, pages 168--183, 2015.
 
-\bibitem{Dave2004OLSRMAP}
-Dave McCracken.
-\newblock {Object-based reverse mapping}.
-\newblock In {\em In Proceedings of the 2004 Ottawa Linux Symposium}, 2004.
+\bibitem{Mayer1982ABB}
+Alastair J.~W. Mayer.
+\newblock The architecture of the burroughs b5000: 20 years later and still
+  ahead of the times?
+\newblock {\em SIGARCH Comput. Archit. News}, pages 3--10, 1982.
 
 \bibitem{PaulDetailLWN}
 Paul McKenney.
@@ -224,6 +299,12 @@ Adam Morrison.
 \newblock Scaling synchronization in multicore programs.
 \newblock {\em Queue}, 14(4):20:56--20:79, August 2016.
 
+\bibitem{Ous96}
+John Ousterhout.
+\newblock Why threads are a bad idea (for most purposes).
+\newblock In {\em In USENIX Technical Conference (Invited Talk), Austin, TX,
+  January 1996.}, 1996.
+
 \bibitem{Radovic2003HBL}
 Zoran Radovic and Erik Hagersten.
 \newblock {Hierarchical Backoff Locks for Nonuniform Communication
@@ -232,11 +313,45 @@ Zoran Radovic and Erik Hagersten.
   High-Performance Computer Architecture}, HPCA '03, pages 241--. IEEE Computer
   Society, 2003.
 
+\bibitem{Rashid1981ACO}
+Richard~F. Rashid and George~G. Robertson.
+\newblock Accent: A communication oriented network operating system kernel.
+\newblock In {\em Proceedings of the Eighth ACM Symposium on Operating Systems
+  Principles}, SOSP '81, pages 64--75, 1981.
+
+\bibitem{Ritchie1973UTS}
+Dennis~M. Ritchie and Ken Thompson.
+\newblock The unix time-sharing system.
+\newblock In {\em Proceedings of the Fourth ACM Symposium on Operating System
+  Principles}, SOSP '73, 1973.
+
+\bibitem{Saltzer1966TCM}
+J.~H. Saltzer.
+\newblock Traffic control in a multiplexed computer.
+\newblock Cambridge, MA, USA, 1966. Massachusetts Institute of Technology.
+
+\bibitem{Scott2013SS}
+Michael~L. Scott.
+\newblock {\em {Shared-Memory Synchronization}}.
+\newblock Morgan \& Claypool Publishers, 2013.
+
 \bibitem{Timnat2012}
 Shahar Timnat, Anastasia Braginsky, Alex Kogan, and Erez Petrank.
 \newblock {Wait-free Linked-lists}.
 \newblock In {\em Proceedings of the 17th ACM SIGPLAN Symposium on Principles
   and Practice of Parallel Programming}, PPoPP '12, pages 309--310, 2012.
+
+\bibitem{vonBehren2003WEB}
+Rob von Behren, Jeremy Condit, and Eric Brewer.
+\newblock Why events are a bad idea (for high-concurrency servers).
+\newblock In {\em Proceedings of the 9th Conference on Hot Topics in Operating
+  Systems - Volume 9}, HOTOS'03, pages 4--4, 2003.
+
+\bibitem{Wang2016BeMyGuest}
+Tianzheng Wang, Milind Chabbi, and Hideaki Kimura.
+\newblock {Be My Guest: MCS Lock Now Welcomes Guests}.
+\newblock In {\em Proceedings of the 21st ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}, PPoPP '16, pages 21:1--21:12, 2016.
 
 \bibitem{Wentzlaff2010fOS}
 David Wentzlaff, Charles Gruenwald, III, Nathan Beckmann, Kevin Modzelewski,
@@ -245,5 +360,11 @@ David Wentzlaff, Charles Gruenwald, III, Nathan Beckmann, Kevin Modzelewski,
   Implementation}.
 \newblock In {\em Proceedings of the 1st ACM Symposium on Cloud Computing},
   SoCC '10, pages 3--14, 2010.
+
+\bibitem{Zellweger2014Multikernel}
+Gerd Zellweger, Simon Gerber, Kornilios Kourtis, and Timothy Roscoe.
+\newblock {Decoupling Cores, Kernels, and Operating Systems}.
+\newblock In {\em Proceedings of the 11th USENIX Conference on Operating
+  Systems Design and Implementation}, OSDI'14, pages 17--31, 2014.
 
 \end{thebibliography}

@@ -1,25 +1,42 @@
+
 \section{결론}
 \label{sec:concl}
-We proposed and evaluated a novel concurrent update method, \LDU, 
-to maximally improve the performance scalability of Linux kernel 
-in many core systems. 
-Such improvement was possible through eliminating the 
-synchronized time-stamp counters management overhead 
-found in a previous well-known scheme, OpLog.
-Our experiments using a Linux kernel with our \LDU implementation
-revealed that the proposed \LDU shows better performance up to 2.7 times
-stock Linux kernel on the 120 core machine.
+%We proposed and evaluated a novel concurrent update method, \LDU, to maximally
+%improve the performance scalability of Linux kernel in many core systems. 
+우리는 새로운 동시적 업데이트 방법인 LDU를 제안하였고, 평가하였고, 
+이것은 매니코어 시스템에서 리눅스 커널의 성능 확장성을 향상시킨다.
+%Such improvement was possible through eliminating the  synchronized time-stamp
+%counters management overhead found in a previous well-known scheme, OpLog.
+우리의 방법은 사전에 연구되어 잘 알려진 로그 기반 알고리즘인 OpLog의 동기화된 타임
+ 스템프 카운터의 관리에 따른 오버헤드를 제거 할 수 있다. 
+%Our experiments using a Linux kernel with our \LDU implementation
+%revealed that the proposed \LDU shows better performance up to 2.7 times
+%stock Linux kernel on the 120 core machine.
+우리의 LDU를 리눅스 커널에 구현하여 수행한 우리의 실험은 기존 리눅스 커널에 비해 120코어 
+공유 메모리 기반 컴퓨팅 환경에서 2.7배까지 성능 향상을 이루었다. 
+%The \LDU is implemented on to Linux kernel 4.5-rc6 and available as open-source
+%from \url{https://github.com/manycore-ldu/ldu}.
+우리는 이러한 LDU를 리눅스 커널 4.5-rc6에 구현하였으며, 본 결과물은
+아래 사이트에서 오픈소스로 이용할 수 있다.
+\begin{center}
+\url{https://github.com/manycore-ldu/ldu}
+\end{center}
 
+\newpage
 \section{향후 연구}
-While the proposed technique achieves significant improvement
-in performance scalability through eliminating time-sensitive
-logs, there still remain the data structures to consider to further
-improve the scalability (i.e., stack and queue data structures).
-Future direction of research is to create a new synchronization scheme by combining 
-two techniques(the \LDU and the OpLog) to support the stack and queue.
+%While the proposed technique achieves significant improvement in performance
+%scalability through eliminating time-sensitive logs, there still remain the
+%data structures to consider to further improve the scalability (i.e., stack and
+%queue data structures).
+우리가 제안한 기술은 시간에 예민한 로그를 업데이트 순간 마다 지움으로
+ 상당한 성능에 대한 향상성을 얻었으나, 이것은 여전히 특정한 자료구조(예를 들어 스택, 큐)
+  같은 경우에는 남은 명령어들 마다 시간 순서가 필요하므로 적용하지 못한다.
+%Future direction of research is to create a new synchronization scheme by
+%combining two techniques(the \LDU and the OpLog) to support the stack and
+%queue.
+향후 연구로는 LDU의 기술과 OpLog의 기술을 통합하여 스택과 큐를 지원학 위해
+ 새로운 동기화 기술을 개발하는 것이다. 
 
-The \LDU is implemented on to Linux kernel 4.5-rc6 and available as open-source
-from \url{https://github.com/manycore-ldu/ldu}.
 %\section{Acknowledgments}
 %This work was supported by Institute for Information \& communications
 % Technology Promotion (IITP) grant funded by the Korea government (MSIP) (14-824-09-
