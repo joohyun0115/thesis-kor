@@ -117,45 +117,6 @@
 
 \newpage
 
-\hfill \break
-
-\noindent
-\Large{\textbf{국문 요약}}
-
-\noindent
-\Large{\textbf{경량 로그 기반 지연 업데이트 기법을 활용한 리눅스 커널 확장성 향상}}
-
-\normalsize{}
-\hfill \break
-\begin{center}
-\raggedleft{국민대학교 일반대학원 컴퓨터공학과}\\
-\raggedleft{경 주 현}\\
-\end{center}
-\hfill \break
-
-In highly parallel computing systems with many-cores, a few critical factors
-cause performance bottlenecks severely limiting scalability.
-The kernel data structures with high update rate naturally cause performance
-bottlenecks due to very frequent locking of the data structures.
-There have been research on log-based synchronizations with time-stamps that
-have achieved significant level of performance and scalability improvements.
-However, sequential merging operations of the logs with time-stamps pose another
-sources of scalability degradation.
-
-To overcome the scalability degradation problem, we introduce a lightweight
-log-based deferred update method, combining the log-based concepts in the
-distributed systems and the minimal hardware-based synchronization in the
-shared memory systems.
-The main contributions of the proposed method are:(1) we propose a lightweight
-log-based deferred update method, which can eliminate synchronized time-stamp
-counters that limits the performance scalability;and (2) we implemented the
- proposed method in the Linux 4.5-rc6 kernel for two representative data
- structures (anonymous reverse mapping and file mapping) and evaluated the
-performance improvement due to our proposed novel light weight update method.
-Our evaluation study showed that application of our method could
-achieve from 1.5x through 2.7x performance improvements in 120 core
-systems.
-
 \chapter{서론}
 \input{intro}
 \input{bg}
@@ -163,9 +124,9 @@ systems.
 \input{ldu}
 \input{linux}
 \input{eval}
-\chapter{배경 이론 및 관련 연구}
+\chapter{배경 이론 및 관련 연구}\label{sec:related}
 \input{related}
-\chapter{결론 및 향후 연구}
+\chapter{결론 및 향후 연구}\label{sec:concl}
 \input{concl}
 
 %\begin{thebibliography}{1}

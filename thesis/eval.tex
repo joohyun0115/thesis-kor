@@ -1,12 +1,12 @@
 \newpage
 
-\section{Evaluation}
+\section{평가}
 \label{sec:evaluation}
 \begin{figure}[h!]
   \begin{center}
     \includegraphics[scale=1.2]{fig/xeon}
   \end{center}
-  \caption{Test-bed.}
+  \caption{실험 환경.}
   \label{fig:xeon}
 \end{figure}
 
@@ -15,7 +15,7 @@
   \begin{center}
     \includegraphics[scale=0.8]{graph/aim7.eps}
   \end{center}
-  \caption{Scalability of AIM7-multiuser.}
+  \caption{AIM7-multiuser 확장성.}
   \label{fig:aim7}
 \end{figure}
 
@@ -28,7 +28,7 @@
   \end{center}
     \end{subfigure}%
     \centering
-    \caption{AIM7 CPU utilization on 120 core.}
+    \caption{120코어에서 AIM7 CPU 사용량.}
     \label{fig:utilization_aim7}
     
 \end{figure*}
@@ -42,7 +42,7 @@
   \end{center}
     \end{subfigure}
     \centering
-    \caption{EXIM CPU utilization on 120 core. }
+    \caption{120코어에서 EXIM CPU 사용량. }
     \label{fig:utilization_exim}
     
 \end{figure*}
@@ -57,14 +57,14 @@
   \end{center}
     \end{subfigure}
         \centering
-    \caption{Lmbench CPU utilization on 120 core.}
+    \caption{120코어에서 Lmbench CPU 사용량.}
     \label{fig:utilization_lmbench}
     
 \end{figure*}
 
 
 
-\subsection{Experimental setup}
+\subsection{실험 환경}
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -149,17 +149,17 @@ Exim은 실제 사용되고 있는 응용프로그램이다. 하지만 이것 �
 %Paragraph 2: 비교 대상에 대한 설명
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %We used four different experiment settings. 
-우리는 비교를 위해 4가지 다른 설정으로 실험을 하였다. 
+우리는 비교를 위해 4가지 다른 설정으로 실험하였다. 
 %First, we used the stock Linux as the baseline reference. 
 첫째로, 우리는 기본 점수를 보기 위해, 수정없는 리눅스 커널(stock linux)을 사용하였다.
 %Second, we used the \LDU version of Linux kernel that used global queue.
-둘째로, 우리는 전역 큐 버전의 LDU를 사용해서 실험을 하였다.  
+둘째로, 우리는 전역 큐 버전의 LDU를 사용해서 실험하였다.  
 %Next, we used the per-core queue version of the \LDU.
-다음으로, 우리는 퍼코어 버전의 LDU를 사용하여 실험을 하였다. 
+다음으로, 우리는 퍼코어 버전의 LDU를 사용하여 실험하였다. 
 %Finally, we used Harris lock-free list version of Linux kernel as we
 %mentioned earlier.
 마지막으로 우리는 앞에서 설명한 Harris의 lock-free 링크드 리스트 버전의 리눅스 커널을 대상으로 
-실험을 하였다.  
+실험하였다.  
 %Unfortunately, direct comparison experiments between the \LDU and the OpLog was
 % not possible for a few implementation-related issues (e.g., we could not
  % obtain the detailed implementation of the OpLog).
@@ -177,7 +177,7 @@ Exim은 실제 사용되고 있는 응용프로그램이다. 하지만 이것 �
 %Paragraph 1: 워크로드에 대한 설명
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %We used AIM7-multiuser, which is one of fork-intensive workload in AIM7.
-우리는 AIm7-multiuser를 사용하였다. 이것은 AIM7의 워크로드 중 리눅스 fork에 집중된 벤치 마크이다. 
+우리는 AIm7-multiuser를 사용하였다. 이것은 AIM7의 워크로드 중 리눅스 fork에 집중된 벤치마크이다. 
 %The multiuser workload simultaneously creates many processes with various
 %operations(see section~\ref{sec:bg}), and we used the temp filesystem to
 % minimize the file system bottleneck.
@@ -207,21 +207,21 @@ AIM7-multiuser에 대한 실험 결과는 그림 ~\ref{fig:aim7}과 같다.
 %scalability outperforming stock Linux by 1.5x and Harris by
 %1.1x.
 LDU의 퍼코어 큐버전은 가장 좋은 성능을 보여주고, 확장성도 뛰어나며, 
-수정 안한 리눅스에 비해 1.5배 빠르고 Harris보다 1.1x 빠르다.
+수정 안 한 리눅스에 비해 1.5배 빠르고 Harris보다 1.1x 빠르다.
 
 %In addition, although the global queue version of the \LDU has the global CAS
 % operation, it also has high performance and scalability because the global CAS operations are
 %mitigated by two \LDU techniques;it had 2\% performance degradation compared
 % with per-core queue version of the \LDU.
 게다가, 비록 LDU의 전역 큐버전은 전역 CAS 명령어를 실행하지만, 이 방법 역시 높은 성능과 확장성을 가진다.
-그 이유는 LDU의 2가지 기술에 의해 전역 CAS에 대한 접근이 완화되었기 때문이다.
+그 이유는 LDU의 2가지 기법 때문에 전역 CAS에 대한 접근이 완화되었기 때문이다.
 이것은 퍼코어 큐 버전에 비해 2\% 성능 저하가 생긴다. 
 %Furthermore, the stock Linux shows the highest idle time(58\%)(see
 % figure~\ref{fig:utilization_aim7}) since it waits to acquire semaphore(i.e.,
 %\code{anon\_vma->rwsem}, \code{mapping->i\_mmap\_rwsem}).
 % Surprisingly, although two \LDU have higher idle time than the Harris version,
 %the throughput shows higher than the Harris because of our efficient algorithm.
-더욱이, 수정안한 리눅스는 가장 높은 유휴(IDLE) 시간(56\%)을 가진다(그림 ~\ref{fig:utilization_aim7}). 
+더욱이, 수정 안 한 리눅스는 가장 높은 유휴(IDLE) 시간(56\%)을 가진다(그림 ~\ref{fig:utilization_aim7}). 
 그 이유는 2가지 세마포어(i.e.,
 \code{anon\_vma->rwsem}, \code{mapping->i\_mmap\_rwsem}))를 얻기 위해 기다리기 때문이다.
 놀랍게도 비록 2가지 LDU가 Harris 커널 버전보다 높은 유휴시간을 가지지만, 처리량은 Harris 방법보다 더 높다.
@@ -231,7 +231,7 @@ LDU의 퍼코어 큐버전은 가장 좋은 성능을 보여주고, 확장성도
   \begin{center}
     \includegraphics[scale=0.8]{graph/exim.eps}
   \end{center}
-  \caption{Scalability of Exim.}
+  \caption{Exim 확장성.}
   \label{fig:exim}
 \end{figure}
 
@@ -244,7 +244,7 @@ LDU의 퍼코어 큐버전은 가장 좋은 성능을 보여주고, 확장성도
   \begin{center}
     \includegraphics[scale=0.8]{graph/lmbench.eps}
   \end{center}
-  \caption{Execution time of the process management workload in the Lmbench.}
+  \caption{Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.}
   \label{fig:MicroBench}
 \end{figure}
 
@@ -271,7 +271,7 @@ Exim의 성능에 대한 확장성을 측정하기 위하여, 우리는 매니�
 % filesystem bottlenecks.
 Exim은 파일 시스템에서 병목이 발생한다~\cite{SilasBoydWickizer2010LinuxScales48}.
 그 이유는 메시지의 바디(body)는 각각의 유저 메일 파일에 추가되기 때문이다.
-따라서 우리는 파일 시스템의 병목지점을 제거하기 위해 분활된 tmpfs를 사용하였다. 
+따라서 우리는 파일 시스템의 병목 지점을 제거하기 위해 분활된 tmpfs를 사용하였다. 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2:실험 결과에 대한 설명
@@ -283,23 +283,22 @@ Exim은 파일 시스템에서 병목이 발생한다~\cite{SilasBoydWickizer201
 %Both the Harris and the \LDU increase up to 105 core because they can execute
 %concurrent updates without the semaphores.
 Harris와 우리의 LDU는 105코어까지 성능향상이 보인다. 그 이유는 이 두 방법은 세마포어 때문에 
-기다리는 현상이 없이 동시에 업데이트가 명령이 수행 가능하기 때문이다. 
+기다리는 현상이 없이 동시에 업데이트가 명령이 수행할 수 있기 때문이다. 
 %The per-core queue version of the \LDU performs better due to the fact that it
 % can reduce cache coherence-related overheads outperforming stock Linux by 2.6x and Harris
 %by 1.2x.
 LDU의 퍼코어 큐 버전은 보다 더 좋은 성능을 가진다.
 그 이유는 이것은 캐시 일관성과 관련한 오버헤드를 줄였기 때문이며, 이것은 수정 안한 리눅스보다 2.6배 성능향상을
- 가지며 Harris 보다 1.2배의 성능 향상을 가진다. 
+ 가지며 Harris 보다 1.2배의 성능 향상을 한다. 
 %Even though we applied the scalable solutions, the Exim shows the limitation
 %near 105 core since the Exim process has a relatively large size of virtual
 %address mapping that leads to the clearing virtual address mappings overheads
 %and many soft page fault during the process destruction which executes more
 %slowly with more remote socket memory access.
-비록 우리의 확장성이 있는 기술을 적용하였지만, Exim은 105코어 부터 성능 확장성에 대해서 문제가 생긴다.
+비록 우리의 확장성이 있는 기술을 적용하였지만, Exim은 105코어부터 성능 확장성에 대해서 문제가 생긴다.
 그 이유는 Exim의 프로세스들은 상대적으로 큰 크기의 가상메모리를 사용하기 때문이다.
- 이 것은 결국 프로세스가 종료될 때 가상메모리에 대한 초기화 오버헤드를 낳으며,
-  많은 소프트 페이지 폴트(soft page fault)를 야기 시킨다. 이것은 NUMA 구조와 같은 원격 메모리 접근일 때 
-  보다 많은 오버헤드가 발생한다. 
+ 이것은 결국 프로세스가 종료될 때 가상메모리에 대한 초기화 오버헤드를 낳으며,
+  많은 소프트 페이지 폴트(soft page fault)를 야기 시킨다. 이것은 NUMA 구조와 같은 원격 메모리 접근일 때보다 많은 오버헤드가 발생한다. 
 %The Harris has 15\% idle time, whereas per-core queue version of the \LDU
 %has 22\% idle time because the \LDU has the efficient algorithm(see
 %figure~\ref{fig:utilization_exim}).
@@ -313,7 +312,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
         \includegraphics[height=2.5in]{graph/ratio_aim7.eps}
   \end{center}
     \end{subfigure}%
-    \caption{AIM7 performance depending on update ratios.}
+    \caption{업데이트 비율에 따른 AIM7 성능.}
     \label{fig:UpdateRate_aim7}
 \end{figure*}
 
@@ -322,7 +321,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
     \begin{subfigure}[b]{1\textwidth}
         \includegraphics[height=2.5in]{graph/ratio_aim7_core.eps}
     \end{subfigure}%
-    \caption{AIM7 scalability depending on update ratios.}
+    \caption{업데이트 비율에 따른 AIM7 확장성.}
     \label{fig:UpdateRate_aim7_2}
 \end{figure*}
 
@@ -333,7 +332,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
         \includegraphics[height=2.5in]{graph/ratio_exim.eps}
   \end{center}
     \end{subfigure}%
-    \caption{Exim performance depending on update ratios.}
+    \caption{업데이트 비율에 따른 Exim 성능.}
     \label{fig:UpdateRate_exim}
 \end{figure*}
 
@@ -342,7 +341,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
     \begin{subfigure}[b]{1\textwidth}
         \includegraphics[height=2.5in]{graph/ratio_exim_core.eps}
     \end{subfigure}%
-    \caption{Exim scalability depending on update ratios.}
+    \caption{업데이트 비율에 따른 Exim 확장성.}
     \label{fig:UpdateRate_exim_2}
 \end{figure*}
 
@@ -354,7 +353,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
   \end{center}
     \end{subfigure}%
     \caption{Lmbench performance depending on update ratios.}
-    \caption{Performance depending on update ratios and scalability.}
+    \caption{업데이트 비율에 따른 Lmbench 성능.}
     \label{fig:UpdateRate_lmbench}
 \end{figure*}
 
@@ -363,7 +362,7 @@ Harris 링크드 리스트는 15\%의 유휴 시간을 가진 반면, 퍼코어 
     \begin{subfigure}[b]{1\textwidth}
         \includegraphics[height=2.5in]{graph/ratio_lmbench_core.eps}
     \end{subfigure}%
-    \caption{Lmbench scalability depending on update ratios.}
+    \caption{업데이트 비율에 따른 Lmbench 확장성.}
     \label{fig:UpdateRate_lmbench_2}
 \end{figure*}
 
@@ -391,19 +390,19 @@ Lmbench는 내부에 프로세스 관리에 대한 워크로드를 포함하여
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %The results for the Lmbench are shown in Figure~\ref{fig:MicroBench}, 
 %and the results show the execution times.
-Lmbench의 결과는 그림~\ref{fig:MicroBench}에서 보여주며, 세로 축에 대한 결과는 실행 시간이다.
+Lmbench의 결과는 그림~\ref{fig:MicroBench}에서 보여주며, 세로축에 대한 결과는 실행 시간이다.
 %Up to 45 core, the stock Linux scales linearly and then the execution time goes
 %up to grow.
-45코어 까지, 수정 안한 리눅스 커널은 일정한 확장성을 보이며, 그 후 실행시간을 늘어 난다.
+45코어까지, 수정 안 한 리눅스 커널은 일정한 확장성을 보이며, 그 후 실행시간을 늘어난다.
 %The per-core version of the \LDU outperforms the stock Linux by 2.7x and the
 % Harris by 1.1x at 120 core.
-퍼코어 버전의 LDU는 120코어에서 수정 안한 리눅스 커널에 2.7배 성능향상으로
+퍼코어 버전의 LDU는 120코어에서 수정 안 한 리눅스 커널에 2.7배 성능향상으로
  보이며, Harris 리스트에 비해 1.1배의 성능향상을 보인다.
 %While the stock Linux has 69\% idle time, other methods have approximately 35\%
 %idle time since the stock Linux waits to acquire two rmap
 %semaphores(\code{anon\_vma->rwsem}, \code{mapping->i\_mmap\_rwsem})(see
 %figure~\ref{fig:utilization_lmbench}).
-수정 안한 리눅스는 69\%의 유휴 시간을 가진반면 다른 방법들은 약 35\% 정도의 유휴시간을 가진다.
+수정 안 한 리눅스는 69\%의 유휴 시간을 가진반면 다른 방법들은 약 35\% 정도의 유휴시간을 가진다.
 그 이유는 수정 안한 리눅스 커널은 2가지 ramp 세마포어(\code{anon\_vma->rwsem},
 \code{mapping->i\_mmap\_rwsem})(figure~\ref{fig:utilization_lmbench})를 기다리기 때문이다. 
 %Indeed, our main motivation in the \LDU is to improve the performance and
@@ -415,7 +414,7 @@ Lmbench의 결과는 그림~\ref{fig:MicroBench}에서 보여주며, 세로 축�
 하지만 30코어까지 우리의 LDU는 수정 안한 리눅스 커널과 비슷한 성능을 보인다. 
 반면, Harris 링크드 리스트는 60 코어 까지 안 좋은 성능을 보여준다. 
 
-\subsection{Updates ratio}
+\subsection{업데이트 비율}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2:  실험을 수행한 이유
@@ -426,10 +425,10 @@ Lmbench의 결과는 그림~\ref{fig:MicroBench}에서 보여주며, 세로 축�
 %with very low read ratios.
 우리가 제안하는 LDU에서의 하나의 의문사항은 바로 읽기 명령이 자주 발생할 경우는 성능에 대한 확장성이 
 어떻게 되는가? 이다.
-그 이유는 제안하는 기술이 오직 업데이트 비율이 많고 읽기에 대한 비율이 낮은 자료구조에 적합한 방법이기 때문이다. 
+그 이유는 제안하는 기술이 오직 업데이트 비율이 높고 읽기에 대한 비율이 낮은 자료구조에 적합한 방법이기 때문이다. 
 %Even read operations could be slower since read operation should perform
 %\code{synchronize} function to apply logs.
-LDU의 읽기 명령은 로그를 적용하는 \code{synchronize} 함수를 호출 하므로 읽기 명령에 의해 
+LDU의 읽기 명령은 로그를 적용하는 \code{synchronize} 함수를 호출하므로 읽기 명령에 때문에 
 더 느려지게 된다. 
 
  %To understand the effect of read operations, we performed another experiment
@@ -463,7 +462,7 @@ AIM7는 다른 벤치마크 보다는 덜 fork에 의존적인 벤치마크이�
 %As a result, although the data structure uses 75\% update rates(3 update, 1
 % read), the \LDU version of Linux has outstanding performance than stock Linux.
 그 결과, 비록 자료구조가 75\%의 업데이트 비율(3개의 업데이트와 1개의 읽기)을 가지지만, 
-LDU의 버전의 리눅스는 수정안한 리눅스에 비해 높은 성능을 가진다. 
+LDU의 버전의 리눅스는 수정 안 한 리눅스에 비해 높은 성능을 가진다. 
 %The scalability of AIM7 shows that the \LDU has substantially high scalability
 % at the the 90\% and the 99\% update rates as well as the 80\% update rates. 
 AIM7의 성능에 대한 확장성은 90\% 이상의 뿐만 아니라 80\%의 업데이트 비율을 가질때에도 수정안한 
@@ -479,7 +478,7 @@ Exim과 Lmbench는 매우 fork 집중적인 워크로드이다.
 %This explains the \LDU has outstanding performance even when the read
 % operations frequently occur.
 그 결과, 수정안한 리눅스가 80\%의 업데이트 비율을 가질 때 더 좋은 성능을 가진다.
-하지만, LDU는 85\% 이상의 업데이트 가질 때 부터 더 높은 성능을 가진다.
+하지만, LDU는 85\% 이상의 업데이트 가질 때부터 더 높은 성능을 가진다.
 이것은 심지어 LUD는 읽기가 꽤 자주 호출되는 워크로드라도 좋은 성능을 보여준다는것을 설명한다. 
  
 
