@@ -1,0 +1,3461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1417.3228"
+   height="1062.9921"
+   id="svg5731"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="history.svg">
+  <defs
+     id="defs5733">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7233">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7235" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop7237" />
+    </linearGradient>
+    <filter
+       id="filter4999"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5001"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix5003"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter5005"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5007"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix5009"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter5011"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5013"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix5015"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter5017"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5019"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix5021"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter5071"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       style="color-interpolation-filters:sRGB">
+      <feMorphology
+         id="feMorphology5073"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur5075"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite5077"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter5079"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5081"
+         stdDeviation="3" />
+      <feColorMatrix
+         id="feColorMatrix5083"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+    <filter
+       id="filter7199"
+       inkscape:label="Apparition"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Edges are partly feathered out"
+       style="color-interpolation-filters:sRGB">
+      <feMorphology
+         id="feMorphology7201"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur7203"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite7205"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient7241"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient7241-4"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7233-6">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7235-6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop7237-8" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient8730"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient8738"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient8746"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient8754"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964"
+       gradientTransform="matrix(1,0,0,0.95913967,0,12.208432)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       r="41.078964"
+       fy="298.78448"
+       fx="787.17902"
+       cy="298.78448"
+       cx="787.17902"
+       gradientTransform="matrix(1,0,0,0.95913967,93.654566,50.756908)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8771"
+       xlink:href="#linearGradient7233-6"
+       inkscape:collect="always" />
+    <radialGradient
+       r="41.078964"
+       fy="298.78448"
+       fx="787.17902"
+       cy="298.78448"
+       cx="787.17902"
+       gradientTransform="matrix(1,0,0,0.95913967,93.654566,50.756908)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8773"
+       xlink:href="#linearGradient7233-6"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9182"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4387071,0,0,1.2838395,-839.32467,-225.88645)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9280"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,96.447147,-170.10455)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9282"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,96.447147,-170.10455)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9318"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-8.2746228,-262.69939)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9320"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-8.2746228,-262.69939)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9385"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,94.641892,-295.00177)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9387"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,94.641892,-295.00177)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9389"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,94.641892,-295.00177)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9391"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,94.641892,-295.00177)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9421"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-0.63509731,-291.14388)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9423"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-0.63509731,-291.14388)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9425"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-0.63509731,-291.14388)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9427"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-0.63509731,-291.14388)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9443"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-99.861392,-285.35704)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9445"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-99.861392,-285.35704)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9447"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-99.861392,-285.35704)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9449"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.447385,-99.861392,-285.35704)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <filter
+       id="filter9570"
+       inkscape:label="Crumpled plastic"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Crumpled matte plastic, with melted edge"
+       style="color-interpolation-filters:sRGB">
+      <feTurbulence
+         id="feTurbulence9572"
+         numOctaves="2"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.08"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap9574"
+         in2="result91"
+         result="fbSourceGraphic"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic" />
+      <feGaussianBlur
+         id="feGaussianBlur9576"
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="0.5" />
+      <feTurbulence
+         id="feTurbulence9578"
+         baseFrequency="0.01"
+         seed="488"
+         numOctaves="8"
+         result="result1" />
+      <feComposite
+         id="feComposite9580"
+         in2="result1"
+         result="result2"
+         operator="in"
+         in="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting9582"
+         surfaceScale="1.5"
+         result="result4"
+         specularConstant="1"
+         specularExponent="30"
+         in="result2">
+        <feDistantLight
+           id="feDistantLight9584"
+           elevation="70"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite9586"
+         in2="result2"
+         in="result4"
+         operator="atop"
+         result="result5" />
+      <feBlend
+         id="feBlend9588"
+         in2="result5"
+         mode="multiply"
+         result="result6" />
+      <feBlend
+         id="feBlend9590"
+         in2="result6"
+         mode="screen"
+         in="result6" />
+    </filter>
+    <filter
+       id="filter9656"
+       inkscape:label="Crumpled plastic"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Crumpled matte plastic, with melted edge"
+       style="color-interpolation-filters:sRGB">
+      <feTurbulence
+         id="feTurbulence9658"
+         numOctaves="2"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.08"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap9660"
+         in2="result91"
+         result="fbSourceGraphic"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic" />
+      <feGaussianBlur
+         id="feGaussianBlur9662"
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="0.5" />
+      <feTurbulence
+         id="feTurbulence9664"
+         baseFrequency="0.01"
+         seed="488"
+         numOctaves="8"
+         result="result1" />
+      <feComposite
+         id="feComposite9666"
+         in2="result1"
+         result="result2"
+         operator="in"
+         in="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting9668"
+         surfaceScale="1.5"
+         result="result4"
+         specularConstant="1"
+         specularExponent="30"
+         in="result2">
+        <feDistantLight
+           id="feDistantLight9670"
+           elevation="70"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite9672"
+         in2="result2"
+         in="result4"
+         operator="atop"
+         result="result5" />
+      <feBlend
+         id="feBlend9674"
+         in2="result5"
+         mode="multiply"
+         result="result6" />
+      <feBlend
+         id="feBlend9676"
+         in2="result6"
+         mode="screen"
+         in="result6" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9807"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.7903702,87.510889,-1200.5342)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9809"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.7903702,87.510889,-1200.5342)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9857"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,86.128632,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9859"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,86.128632,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9928"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-18.268047,-508.57074)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9930"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-18.268047,-508.57074)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9932"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-18.268047,-508.57074)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9934"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-18.268047,-508.57074)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9966"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-112.01899,-519.65907)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9968"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-112.01899,-519.65907)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9970"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-112.01899,-519.65907)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient9972"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,-112.01899,-519.65907)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10111"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10113"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10115"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10117"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10131"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,92.300376,-170.10455)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10133"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95913967,92.300376,-170.10455)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10166"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10168"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10170"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10172"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4423109,92.300408,-775.13432)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233-6"
+       id="radialGradient10176"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.13165,0,0,1.6321911,-694.60425,-166.99063)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient4450"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.89235645,105.00661,56.101647)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient6353"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4387071,0,0,1.2838395,-686.24839,235.85519)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8499"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,12.071144,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8535"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,107.34813,-276.94884)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8571"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,-87.155151,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8607"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,12.071144,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8643"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,107.34813,-276.94884)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8679"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,-87.155151,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8715"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.89235645,105.00662,-137.71139)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8751"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,12.071144,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8787"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,107.34813,-276.94884)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7233"
+       id="radialGradient8823"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.2073496,-87.155151,-276.94883)"
+       cx="787.17902"
+       cy="298.78448"
+       fx="787.17902"
+       fy="298.78448"
+       r="41.078964" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.62811075"
+     inkscape:cx="43.042027"
+     inkscape:cy="384.10603"
+     inkscape:document-units="px"
+     inkscape:current-layer="g14839"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5736">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,10.629875)">
+    <text
+       id="text5469"
+       y="263.01007"
+       x="582.96869"
+       style="font-style:normal;font-weight:normal;font-size:17.76276588px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+       font-size="12.8"
+       transform="scale(1.042655,0.95909004)">
+      <tspan
+         id="tspan5471"
+         y="263.01007"
+         x="582.96869" />
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="209.10158"
+       y="130.09291"
+       id="text8877"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8879"
+         x="209.10158"
+         y="130.09291" /></text>
+    <text
+       id="text9154"
+       y="242.51869"
+       x="422.84747"
+       style="font-style:normal;font-weight:normal;font-size:18.41545105px;font-family:sans-serif;text-anchor:middle;fill:#9acc9a;fill-opacity:1;stroke:url(#radialGradient9182);stroke-width:1.38771617"
+       font-size="12.8"
+       transform="scale(1.005701,0.99433133)">
+      <tspan
+         style="fill:#9acc9a;fill-opacity:1;stroke:url(#radialGradient9182);stroke-width:1.38771617"
+         id="tspan9156"
+         y="242.51869"
+         x="422.84747" />
+    </text>
+    <text
+       id="text6325"
+       y="590.75885"
+       x="295.19788"
+       style="font-style:normal;font-weight:normal;font-size:18.41545105px;font-family:sans-serif;text-anchor:middle;fill:#9acc9a;fill-opacity:1;stroke:url(#radialGradient6353);stroke-width:1.38771617"
+       font-size="12.8"
+       transform="scale(1.005701,0.99433133)">
+      <tspan
+         style="fill:#9acc9a;fill-opacity:1;stroke:url(#radialGradient6353);stroke-width:1.38771617"
+         id="tspan6327"
+         y="590.75885"
+         x="295.19788" />
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="-81"
+       y="772.36218"
+       id="text9725"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan9727"
+         x="-81"
+         y="772.36218" /></text>
+    <text
+       id="text9849"
+       y="1052.8356"
+       x="91.755112"
+       style="font-style:normal;font-weight:normal;font-size:14.48511982px;font-family:sans-serif;text-anchor:middle;fill:#c8c4b7;fill-opacity:1;stroke:url(#radialGradient10176);stroke-width:1.38771605"
+       font-size="12.8"
+       transform="scale(1.2785836,0.78211546)">
+      <tspan
+         style="fill:#c8c4b7;fill-opacity:1;stroke:url(#radialGradient10176);stroke-width:1.38771605"
+         id="tspan9851"
+         y="1052.8356"
+         x="91.755112" />
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="114"
+       y="944.36218"
+       id="text9886"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan9888"
+         x="114"
+         y="944.36218" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10505"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion10507"><rect
+           id="rect10509"
+           width="1001.2632"
+           height="1685.7426"
+           x="-70.710678"
+           y="333.94168" /></flowRegion><flowPara
+         id="flowPara10511" /></flowRoot>    <g
+       id="g7685"
+       transform="matrix(1.4469091,0,0,1.4305515,-563.7306,77.184772)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot14165"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion14167"><rect
+           id="rect14169"
+           width="130.58905"
+           height="63.042992"
+           x="55.162617"
+           y="148.37073" /></flowRegion><flowPara
+         id="flowPara14171" /></flowRoot>    <g
+       id="g13576"
+       transform="matrix(3.2163736,0,0,3.672121,-85.802318,-98.147554)">
+      <text
+         id="text13000"
+         y="97.752403"
+         x="227.39"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan13002"
+           y="97.752403"
+           x="227.39" />
+      </text>
+      <text
+         id="text13100"
+         y="176.175"
+         x="228.924"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan13102"
+           y="176.175"
+           x="228.924" />
+      </text>
+      <g
+         id="g14839"
+         transform="matrix(0.99770246,0,0,0.96545233,7.1231464,4.2207432)">
+        <text
+           id="text14245"
+           y="97.752403"
+           x="227.39"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan14247"
+             y="97.752403"
+             x="227.39" />
+        </text>
+        <text
+           id="text14333"
+           y="181.76401"
+           x="228.924"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan14335"
+             y="181.76401"
+             x="228.924" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="196.13544"
+           y="102.6892"
+           id="text15564"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="196.13544"
+             y="102.6892"
+             id="tspan15566" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="197.58881"
+           y="182.28574"
+           id="text15652"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="197.58881"
+             y="182.28574"
+             id="tspan15654" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="40.231167"
+           y="70.604294"
+           id="text16222"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="40.231167"
+             y="70.604294"
+             id="tspan16224" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="265.28958"
+           y="62.189449"
+           id="text16374"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="265.28958"
+             y="62.189449"
+             id="tspan16376" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="263.54816"
+           y="65.615036"
+           id="text16378"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="263.54816"
+             y="65.615036"
+             id="tspan16380" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="265.42221"
+           y="127.96008"
+           id="text16492"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="265.42221"
+             y="127.96008"
+             id="tspan16494" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="263.68082"
+           y="131.38603"
+           id="text16496"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="263.68082"
+             y="131.38603"
+             id="tspan16498" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="264.55814"
+           y="253.20592"
+           id="text16652"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="264.55814"
+             y="253.20592"
+             id="tspan16654" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="262.81674"
+           y="256.6319"
+           id="text16656"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="262.81674"
+             y="256.6319"
+             id="tspan16658" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.12731934px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="262.61777"
+           y="193.15388"
+           id="text16726"
+           transform="scale(1.0070793,0.99297042)">
+          <tspan
+             x="262.61777"
+             y="193.15388"
+             id="tspan16728" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="193.83417"
+           y="104.28838"
+           id="text18691"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="193.83417"
+             y="104.28838"
+             id="tspan18693" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="195.2534"
+           y="182.01543"
+           id="text18779"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="195.2534"
+             y="182.01543"
+             id="tspan18781" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="41.591625"
+           y="72.957047"
+           id="text19337"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="41.591625"
+             y="72.957047"
+             id="tspan19339" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="261.36407"
+           y="64.739845"
+           id="text19393"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="261.36407"
+             y="64.739845"
+             id="tspan19395" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="259.66357"
+           y="68.084976"
+           id="text19397"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="259.66357"
+             y="68.084976"
+             id="tspan19399" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="261.49359"
+           y="128.96571"
+           id="text19511"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="261.49359"
+             y="128.96571"
+             id="tspan19513" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="259.79312"
+           y="132.31122"
+           id="text19515"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="259.79312"
+             y="132.31122"
+             id="tspan19517" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="260.64984"
+           y="251.2699"
+           id="text19671"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="260.64984"
+             y="251.2699"
+             id="tspan19673" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="258.94931"
+           y="254.6154"
+           id="text19675"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="258.94931"
+             y="254.6154"
+             id="tspan19677" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="258.75504"
+           y="192.62831"
+           id="text19745"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="258.75504"
+             y="192.62831"
+             id="tspan19747" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.84248447px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="439.29187"
+           y="193.74965"
+           id="text19785"
+           transform="scale(1.0281997,0.97257375)">
+          <tspan
+             x="439.29187"
+             y="193.74965"
+             id="tspan19787" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="203.397"
+           y="92.805283"
+           id="text23811"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="203.397"
+             y="92.805283"
+             id="tspan23813" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="204.87357"
+           y="173.67154"
+           id="text23899"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="204.87357"
+             y="173.67154"
+             id="tspan23901" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="45.005741"
+           y="60.208553"
+           id="text24405"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="45.005741"
+             y="60.208553"
+             id="tspan24407" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="273.6543"
+           y="51.659477"
+           id="text24461"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="273.6543"
+             y="51.659477"
+             id="tspan24463" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.8851"
+           y="55.139709"
+           id="text24465"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="271.8851"
+             y="55.139709"
+             id="tspan24467" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="273.78903"
+           y="118.47928"
+           id="text24579"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="273.78903"
+             y="118.47928"
+             id="tspan24581" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="272.01987"
+           y="121.95989"
+           id="text24583"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="272.01987"
+             y="121.95989"
+             id="tspan24585" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="272.91119"
+           y="245.72305"
+           id="text24739"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="272.91119"
+             y="245.72305"
+             id="tspan24741" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.142"
+           y="249.20367"
+           id="text24743"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="271.142"
+             y="249.20367"
+             id="tspan24745" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.93988"
+           y="184.71306"
+           id="text24813"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="270.93988"
+             y="184.71306"
+             id="tspan24815" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.32077503px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="458.76816"
+           y="185.8797"
+           id="text24853"
+           transform="scale(0.98003903,1.0203675)">
+          <tspan
+             x="458.76816"
+             y="185.8797"
+             id="tspan24855" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="188.84386"
+           y="104.6822"
+           id="text28931"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="188.84386"
+             y="104.6822"
+             id="tspan28933" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="190.28046"
+           y="183.35909"
+           id="text29019"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="190.28046"
+             y="183.35909"
+             id="tspan29021" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="34.740875"
+           y="72.967987"
+           id="text29507"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="34.740875"
+             y="72.967987"
+             id="tspan29509" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="257.19904"
+           y="64.650368"
+           id="text29563"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="257.19904"
+             y="64.650368"
+             id="tspan29565" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="255.47772"
+           y="68.036377"
+           id="text29567"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="255.47772"
+             y="68.036377"
+             id="tspan29569" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="257.33011"
+           y="129.66109"
+           id="text29681"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="257.33011"
+             y="129.66109"
+             id="tspan29683" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="255.60884"
+           y="133.04747"
+           id="text29685"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="255.60884"
+             y="133.04747"
+             id="tspan29687" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="256.47604"
+           y="253.45988"
+           id="text29841"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="256.47604"
+             y="253.45988"
+             id="tspan29843" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="254.75475"
+           y="256.84625"
+           id="text29845"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="254.75475"
+             y="256.84625"
+             id="tspan29847" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="254.55809"
+           y="194.10167"
+           id="text29915"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="254.55809"
+             y="194.10167"
+             id="tspan29917" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="437.30112"
+           y="195.23672"
+           id="text29955"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="437.30112"
+             y="195.23672"
+             id="tspan29957" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.9872036px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="191.21883"
+           y="241.61314"
+           id="text30917"
+           transform="scale(1.0346107,0.96654714)">
+          <tspan
+             x="191.21883"
+             y="241.61314"
+             id="tspan30919" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="195.44865"
+           y="99.821808"
+           id="text38351"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="195.44865"
+             y="99.821808"
+             id="tspan38353" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="196.91859"
+           y="180.32516"
+           id="text38439"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="196.91859"
+             y="180.32516"
+             id="tspan38441" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="37.768196"
+           y="67.371353"
+           id="text38927"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="37.768196"
+             y="67.371353"
+             id="tspan38929" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="265.39066"
+           y="58.860641"
+           id="text38983"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="265.39066"
+             y="58.860641"
+             id="tspan38985" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="263.62939"
+           y="62.32526"
+           id="text38987"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="263.62939"
+             y="62.32526"
+             id="tspan38989" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="265.52481"
+           y="125.38058"
+           id="text39101"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="265.52481"
+             y="125.38058"
+             id="tspan39103" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="263.76358"
+           y="128.84558"
+           id="text39105"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="263.76358"
+             y="128.84558"
+             id="tspan39107" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="264.65091"
+           y="252.05333"
+           id="text39261"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="264.65091"
+             y="252.05333"
+             id="tspan39263" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="262.88965"
+           y="255.51833"
+           id="text39265"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="262.88965"
+             y="255.51833"
+             id="tspan39267" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="262.68842"
+           y="191.31714"
+           id="text39335"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="262.68842"
+             y="191.31714"
+             id="tspan39337" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="449.6738"
+           y="192.47853"
+           id="text39375"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="449.6738"
+             y="192.47853"
+             id="tspan39377" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.26548386px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="197.87874"
+           y="239.93158"
+           id="text40337"
+           transform="scale(1.0063287,0.99371108)">
+          <tspan
+             x="197.87874"
+             y="239.93158"
+             id="tspan40339" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="186.78737"
+           y="106.82418"
+           id="text43569"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="186.78737"
+             y="106.82418"
+             id="tspan43571" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="188.22128"
+           y="185.35457"
+           id="text43657"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="188.22128"
+             y="185.35457"
+             id="tspan43659" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="32.971313"
+           y="75.169022"
+           id="text44145"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="32.971313"
+             y="75.169022"
+             id="tspan44147" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="255.01524"
+           y="66.86689"
+           id="text44201"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="255.01524"
+             y="66.86689"
+             id="tspan44203" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="253.29715"
+           y="70.246597"
+           id="text44205"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="253.29715"
+             y="70.246597"
+             id="tspan44207" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="255.14609"
+           y="131.75656"
+           id="text44319"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="255.14609"
+             y="131.75656"
+             id="tspan44321" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="253.42802"
+           y="135.13664"
+           id="text44323"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="253.42802"
+             y="135.13664"
+             id="tspan44325" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="254.29361"
+           y="255.32484"
+           id="text44479"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="254.29361"
+             y="255.32484"
+             id="tspan44481" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="252.57552"
+           y="258.70493"
+           id="text44483"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="252.57552"
+             y="258.70493"
+             id="tspan44485" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="252.37923"
+           y="196.07716"
+           id="text44553"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="252.37923"
+             y="196.07716"
+             id="tspan44555" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="434.78201"
+           y="197.21008"
+           id="text44593"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="434.78201"
+             y="197.21008"
+             id="tspan44595" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.96488285px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="189.1579"
+           y="243.50017"
+           id="text45555"
+           transform="scale(1.0425377,0.9591979)">
+          <tspan
+             x="189.1579"
+             y="243.50017"
+             id="tspan45557" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="200.41968"
+           y="96.774361"
+           id="text48918"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="200.41968"
+             y="96.774361"
+             id="tspan48920" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="201.90102"
+           y="177.9026"
+           id="text49006"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="201.90102"
+             y="177.9026"
+             id="tspan49008" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="41.515263"
+           y="64.072021"
+           id="text49494"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="41.515263"
+             y="64.072021"
+             id="tspan49496" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.90457"
+           y="55.495247"
+           id="text49550"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="270.90457"
+             y="55.495247"
+             id="tspan49552" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="269.12967"
+           y="58.986759"
+           id="text49554"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="269.12967"
+             y="58.986759"
+             id="tspan49556" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.03976"
+           y="122.53153"
+           id="text49648"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="271.03976"
+             y="122.53153"
+             id="tspan49650" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="269.26486"
+           y="126.02342"
+           id="text49652"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="269.26486"
+             y="126.02342"
+             id="tspan49654" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.15909"
+           y="250.18755"
+           id="text49808"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="270.15909"
+             y="250.18755"
+             id="tspan49810" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="268.38416"
+           y="253.67943"
+           id="text49812"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="268.38416"
+             y="253.67943"
+             id="tspan49814" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="268.18137"
+           y="188.9799"
+           id="text49882"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="268.18137"
+             y="188.9799"
+             id="tspan49884" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="456.61816"
+           y="190.1503"
+           id="text49922"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="456.61816"
+             y="190.1503"
+             id="tspan49924" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="202.86862"
+           y="237.97169"
+           id="text50700"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="202.86862"
+             y="237.97169"
+             id="tspan50702" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="334.1546"
+           y="268.83093"
+           id="text50882"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="334.1546"
+             y="268.83093"
+             id="tspan50884" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.36069107px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="32.450626"
+           y="109.71889"
+           id="text50886"
+           transform="scale(0.99596182,1.0040546)">
+          <tspan
+             x="32.450626"
+             y="109.71889"
+             id="tspan50888" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="202.09352"
+           y="97.269394"
+           id="text54491"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="202.09352"
+             y="97.269394"
+             id="tspan54493" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="203.55902"
+           y="177.53009"
+           id="text54579"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="203.55902"
+             y="177.53009"
+             id="tspan54581" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="44.888348"
+           y="64.916763"
+           id="text55061"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="44.888348"
+             y="64.916763"
+             id="tspan55063" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.82471"
+           y="56.431702"
+           id="text55117"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="271.82471"
+             y="56.431702"
+             id="tspan55119" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.06876"
+           y="59.885876"
+           id="text55121"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="270.06876"
+             y="59.885876"
+             id="tspan55123" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.95844"
+           y="122.75113"
+           id="text55215"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="271.95844"
+             y="122.75113"
+             id="tspan55217" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.20251"
+           y="126.20569"
+           id="text55219"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="270.20251"
+             y="126.20569"
+             id="tspan55221" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="271.08716"
+           y="249.04205"
+           id="text55375"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="271.08716"
+             y="249.04205"
+             id="tspan55377" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="269.33121"
+           y="252.49661"
+           id="text55379"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="269.33121"
+             y="252.49661"
+             id="tspan55381" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="269.13058"
+           y="188.48894"
+           id="text55449"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="269.13058"
+             y="188.48894"
+             id="tspan55451" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="455.55237"
+           y="189.64684"
+           id="text55489"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="455.55237"
+             y="189.64684"
+             id="tspan55491" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="204.51628"
+           y="236.95683"
+           id="text56267"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="204.51628"
+             y="236.95683"
+             id="tspan56269" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="334.39838"
+           y="267.48608"
+           id="text56449"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="334.39838"
+             y="267.48608"
+             id="tspan56451" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.22851276px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="35.920639"
+           y="110.07551"
+           id="text56453"
+           transform="scale(0.99286989,1.0071813)">
+          <tspan
+             x="35.920639"
+             y="110.07551"
+             id="tspan56455" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="236.58289"
+           y="88.712868"
+           id="text6734"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="236.58289"
+             y="88.712868"
+             id="tspan6736" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="238.114"
+           y="172.56633"
+           id="text6822"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="238.114"
+             y="172.56633"
+             id="tspan6824" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="69.667671"
+           y="54.912006"
+           id="text7280"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="69.667671"
+             y="54.912006"
+             id="tspan7282" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="312.11047"
+           y="51.23035"
+           id="text7336"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="312.11047"
+             y="51.23035"
+             id="tspan7338" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="299.37845"
+           y="62.194473"
+           id="text7340"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="299.37845"
+             y="62.194473"
+             id="tspan7342" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="241.49162"
+           y="234.65324"
+           id="text7470"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="241.49162"
+             y="234.65324"
+             id="tspan7472" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="60.298534"
+           y="102.09223"
+           id="text7504"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="60.298534"
+             y="102.09223"
+             id="tspan7506" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="459.56836"
+           y="50.152985"
+           id="text7808"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="459.56836"
+             y="50.152985"
+             id="tspan7810" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="446.83636"
+           y="61.116905"
+           id="text7812"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="446.83636"
+             y="61.116905"
+             id="tspan7814" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="299.84558"
+           y="119.56528"
+           id="text7970"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="299.84558"
+             y="119.56528"
+             id="tspan7972" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="460.03546"
+           y="107.52399"
+           id="text8212"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="460.03546"
+             y="107.52399"
+             id="tspan8214" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="447.3035"
+           y="118.48831"
+           id="text8216"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="447.3035"
+             y="118.48831"
+             id="tspan8218" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="300.19693"
+           y="176.25836"
+           id="text8374"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="300.19693"
+             y="176.25836"
+             id="tspan8376" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="460.38684"
+           y="164.21606"
+           id="text8616"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="460.38684"
+             y="164.21606"
+             id="tspan8618" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="447.65482"
+           y="175.18039"
+           id="text8620"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="447.65482"
+             y="175.18039"
+             id="tspan8622" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="300.27277"
+           y="233.07222"
+           id="text8778"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="300.27277"
+             y="233.07222"
+             id="tspan8780" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="460.46268"
+           y="221.03093"
+           id="text9020"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="460.46268"
+             y="221.03093"
+             id="tspan9022" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:12.77590656px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="447.7327"
+           y="231.99426"
+           id="text9024"
+           transform="scale(0.99863752,1.0013643)">
+          <tspan
+             x="447.7327"
+             y="231.99426"
+             id="tspan9026" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="213.07288"
+           y="132.6284"
+           id="text12943"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="213.07288"
+             y="132.6284"
+             id="tspan12945" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="214.46141"
+           y="208.6729"
+           id="text13031"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="214.46141"
+             y="208.6729"
+             id="tspan13033" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="61.701885"
+           y="101.9753"
+           id="text13489"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="61.701885"
+             y="101.9753"
+             id="tspan13491" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="281.56683"
+           y="98.636505"
+           id="text13545"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="281.56683"
+             y="98.636505"
+             id="tspan13547" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.02051"
+           y="108.57958"
+           id="text13549"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="270.02051"
+             y="108.57958"
+             id="tspan13551" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="217.52448"
+           y="264.97787"
+           id="text13679"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="217.52448"
+             y="264.97787"
+             id="tspan13681" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="53.205269"
+           y="144.7618"
+           id="text13713"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="53.205269"
+             y="144.7618"
+             id="tspan13715" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="415.29251"
+           y="97.65947"
+           id="text14017"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="415.29251"
+             y="97.65947"
+             id="tspan14019" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="403.74619"
+           y="107.60236"
+           id="text14021"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="403.74619"
+             y="107.60236"
+             id="tspan14023" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.44415"
+           y="160.60764"
+           id="text14179"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="270.44415"
+             y="160.60764"
+             id="tspan14181" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="415.71609"
+           y="149.68771"
+           id="text14411"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="415.71609"
+             y="149.68771"
+             id="tspan14413" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="404.16983"
+           y="159.63097"
+           id="text14415"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="404.16983"
+             y="159.63097"
+             id="tspan14417" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.76276"
+           y="212.0211"
+           id="text14517"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="270.76276"
+             y="212.0211"
+             id="tspan14519" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="416.03473"
+           y="201.10027"
+           id="text14709"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="416.03473"
+             y="201.10027"
+             id="tspan14711" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="404.48843"
+           y="211.04352"
+           id="text14713"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="404.48843"
+             y="211.04352"
+             id="tspan14715" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="270.83154"
+           y="263.5441"
+           id="text14835"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="270.83154"
+             y="263.5441"
+             id="tspan14837" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="274.01953"
+           y="297.36655"
+           id="text14877"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="274.01953"
+             y="297.36655"
+             id="tspan14879" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="416.10352"
+           y="252.62416"
+           id="text15005"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="416.10352"
+             y="252.62416"
+             id="tspan15007" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="404.55902"
+           y="262.5665"
+           id="text15009"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="404.55902"
+             y="262.5665"
+             id="tspan15011" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="269.48648"
+           y="311.19385"
+           id="text15093"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="269.48648"
+             y="311.19385"
+             id="tspan15095" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="410.30322"
+           y="297.7666"
+           id="text15175"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="410.30322"
+             y="297.7666"
+             id="tspan15177" />
+        </text>
+        <text
+           font-size="12.8"
+           style="font-style:normal;font-weight:normal;font-size:11.5861311px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           x="405.77014"
+           y="311.59393"
+           id="text15199"
+           transform="scale(1.0981373,0.91063294)">
+          <tspan
+             x="405.77014"
+             y="311.59393"
+             id="tspan15201" />
+        </text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:11.85911655px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="224.20865"
+           y="364.82651"
+           id="text18062"
+           sodipodi:linespacing="125%"
+           transform="scale(1.0510906,0.95139279)"><tspan
+             sodipodi:role="line"
+             id="tspan18064"
+             x="224.20865"
+             y="364.82651" /></text>
+        <g
+           id="g8063"
+           transform="matrix(0.25637977,0,0,0.25855043,-36.014156,84.964951)">
+          <g
+             id="g7793">
+            <ellipse
+               id="ellipse7795"
+               ry="63.864498"
+               rx="65.527702"
+               cy="644.39801"
+               cx="678.45801"
+               style="fill:#e6e6fa" />
+            <ellipse
+               id="ellipse7797"
+               ry="63.864498"
+               rx="65.527702"
+               cy="644.39801"
+               cx="678.45801"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7799">
+            <ellipse
+               id="ellipse7801"
+               ry="63.864498"
+               rx="65.527702"
+               cy="532.448"
+               cx="331.328"
+               style="fill:#207373" />
+            <ellipse
+               id="ellipse7803"
+               ry="63.864498"
+               rx="65.527702"
+               cy="532.448"
+               cx="331.328"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7805"
+             y="518.06799"
+             x="280.31201"
+             style="font-style:normal;font-weight:700;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+             font-size="17.8252">
+            <tspan
+               id="tspan7807"
+               y="518.06799"
+               x="280.31201">Operating</tspan>
+            <tspan
+               id="tspan7809"
+               y="540.349"
+               x="280.31201">System</tspan>
+            <tspan
+               id="tspan7811"
+               y="562.63098"
+               x="280.31201">Scalability</tspan>
+          </text>
+          <text
+             id="text7813"
+             y="629.15399"
+             x="631.164"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7815"
+               y="629.15399"
+               x="631.164">Linux</tspan>
+            <tspan
+               id="tspan7817"
+               y="651.435"
+               x="631.164">Scalability</tspan>
+            <tspan
+               id="tspan7819"
+               y="673.71698"
+               x="631.164">(manycore)</tspan>
+          </text>
+          <g
+             id="g7821">
+            <line
+               id="line7823"
+               y2="519.65399"
+               x2="1417.5601"
+               y1="519.87402"
+               x1="401.49799"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+            <polygon
+               id="polygon7825"
+               points="1417.56,519.654 1415.05,514.655 1425.06,519.652 1415.06,524.655 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7827"
+               points="1417.56,519.654 1415.05,514.655 1425.06,519.652 1415.06,524.655 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7829">
+            <ellipse
+               id="ellipse7831"
+               ry="63.864498"
+               rx="65.527702"
+               cy="401.172"
+               cx="471.98199"
+               style="fill:#e6e6fa" />
+            <ellipse
+               id="ellipse7833"
+               ry="63.864498"
+               rx="65.527702"
+               cy="401.172"
+               cx="471.98199"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7835"
+             y="391.84201"
+             x="431.06201"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7837"
+               y="391.84201"
+               x="431.06201">Corey</tspan>
+            <tspan
+               id="tspan7839"
+               y="414.12299"
+               x="431.06201">OSDI '08</tspan>
+          </text>
+          <g
+             id="g7841">
+            <ellipse
+               id="ellipse7843"
+               ry="63.864498"
+               rx="65.527702"
+               cy="166.694"
+               cx="1056.66"
+               style="fill:#1e90ff" />
+            <ellipse
+               id="ellipse7845"
+               ry="63.864498"
+               rx="65.527702"
+               cy="166.694"
+               cx="1056.66"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7847"
+             y="151.86301"
+             x="1011.38"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7849"
+               y="151.86301"
+               x="1011.38">Memory</tspan>
+            <tspan
+               id="tspan7851"
+               y="174.145"
+               x="1011.38">Partitioning</tspan>
+            <tspan
+               id="tspan7853"
+               y="196.42599"
+               x="1011.38">Scheme</tspan>
+          </text>
+          <g
+             id="g7855">
+            <ellipse
+               id="ellipse7857"
+               ry="63.864498"
+               rx="65.527702"
+               cy="337.29401"
+               cx="713.75403"
+               style="fill:#e5e5e5" />
+            <ellipse
+               id="ellipse7859"
+               ry="63.864498"
+               rx="65.527702"
+               cy="337.29401"
+               cx="713.75403"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7861"
+             y="323.06"
+             x="679.78003"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7863"
+               y="323.06"
+               x="679.78003">Spark</tspan>
+            <tspan
+               id="tspan7865"
+               y="345.341"
+               x="679.78003">Design</tspan>
+            <tspan
+               id="tspan7867"
+               y="367.62299"
+               x="679.78003">Problem?</tspan>
+          </text>
+          <g
+             id="g7869">
+            <ellipse
+               id="ellipse7871"
+               ry="63.864498"
+               rx="65.527702"
+               cy="-15.2641"
+               cx="1091.42"
+               style="fill:#11d2ea" />
+            <ellipse
+               id="ellipse7873"
+               ry="63.864498"
+               rx="65.527702"
+               cy="-15.2641"
+               cx="1091.42"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7875"
+             y="-23.552601"
+             x="1055.0601"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7877"
+               y="-23.552601"
+               x="1055.0601">Docker</tspan>
+            <tspan
+               id="tspan7879"
+               y="-1.27116"
+               x="1055.0601">Container</tspan>
+          </text>
+          <g
+             id="g7881">
+            <ellipse
+               id="ellipse7883"
+               ry="63.864498"
+               rx="65.527702"
+               cy="98.763901"
+               cx="870.328"
+               style="fill:#e5e5e5" />
+            <ellipse
+               id="ellipse7885"
+               ry="63.864498"
+               rx="65.527702"
+               cy="98.763901"
+               cx="870.328"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7887"
+             y="81.557404"
+             x="832.19202"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7889"
+               y="81.557404"
+               x="832.19202">JVM, GC</tspan>
+            <tspan
+               id="tspan7891"
+               y="103.839"
+               x="832.19202">Scalability</tspan>
+            <tspan
+               id="tspan7893"
+               y="126.12"
+               x="832.19202">Problem?</tspan>
+          </text>
+          <g
+             id="g7895">
+            <path
+               id="path7897"
+               d="m 377.662,487.29 c 57.238,0 -29.429,-86.118 18.073,-86.118"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7899"
+               points="395.735,401.172 393.235,396.172 403.235,401.172 393.235,406.172 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7901"
+               points="395.735,401.172 393.235,396.172 403.235,401.172 393.235,406.172 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7903">
+            <path
+               id="path7905"
+               d="M 377.662,577.608 C 438.704,640.304 537.834,644.4 602.204,644.4"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7907"
+               points="602.204,644.4 599.704,639.4 609.704,644.4 599.704,649.4 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7909"
+               points="602.204,644.4 599.704,639.4 609.704,644.4 599.704,649.4 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7911">
+            <path
+               id="path7913"
+               d="m 1122.18,166.694 c 60.34,0 -157.618,-181.958 -107.02,-181.958"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7915"
+               points="1015.16,-15.264 1012.66,-20.264 1022.66,-15.264 1012.66,-10.264 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7917"
+               points="1015.16,-15.264 1012.66,-20.264 1022.66,-15.264 1012.66,-10.264 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7919">
+            <ellipse
+               id="ellipse7921"
+               ry="63.864498"
+               rx="65.527702"
+               cy="243.222"
+               cx="880.08002"
+               style="fill:#e5e5e5" />
+            <ellipse
+               id="ellipse7923"
+               ry="63.864498"
+               rx="65.527702"
+               cy="243.222"
+               cx="880.08002"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7925"
+             y="231.96201"
+             x="849.67401"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7927"
+               y="231.96201"
+               x="849.67401">Lock?</tspan>
+            <tspan
+               id="tspan7929"
+               y="254.243"
+               x="849.67401">NUMA?</tspan>
+            <tspan
+               id="tspan7931"
+               y="276.52499"
+               x="849.67401">??????</tspan>
+          </text>
+          <g
+             id="g7933">
+            <path
+               id="path7935"
+               d="m 946.421,243.222 c 58.629,0 -14.73,-76.528 34.158,-76.528"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7937"
+               points="980.579,166.694 978.079,161.694 988.079,166.694 978.079,171.694 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7939"
+               points="980.579,166.694 978.079,161.694 988.079,166.694 978.079,171.694 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7941">
+            <ellipse
+               id="ellipse7943"
+               ry="63.864498"
+               rx="65.527702"
+               cy="-24.7661"
+               cx="1280.66"
+               style="fill:#ffa500" />
+            <ellipse
+               id="ellipse7945"
+               ry="63.864498"
+               rx="65.527702"
+               cy="-24.7661"
+               cx="1280.66"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7947"
+             y="-29.1346"
+             x="1235.24"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7949"
+               y="-29.1346"
+               x="1235.24">Per Socket</tspan>
+            <tspan
+               id="tspan7951"
+               y="-6.8531599"
+               x="1235.24">Partition?</tspan>
+          </text>
+          <g
+             id="g7953">
+            <ellipse
+               id="ellipse7955"
+               ry="63.864498"
+               rx="65.527702"
+               cy="163.69"
+               cx="1265.54"
+               style="fill:#ffa500" />
+            <ellipse
+               id="ellipse7957"
+               ry="63.864498"
+               rx="65.527702"
+               cy="163.69"
+               cx="1265.54"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7959"
+             y="144.60699"
+             x="1226.1"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan7961"
+               y="144.60699"
+               x="1226.1">Lock</tspan>
+            <tspan
+               id="tspan7963"
+               y="166.88901"
+               x="1226.1">Contention</tspan>
+            <tspan
+               id="tspan7965"
+               y="189.17"
+               x="1226.1">Partition?</tspan>
+          </text>
+          <g
+             id="g7967">
+            <path
+               id="path7969"
+               d="m 1157.95,-15.264 c 56.96,0 -0.78,-9.502 46.44,-9.502"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7971"
+               points="1204.39,-24.766 1201.89,-29.766 1211.89,-24.766 1201.89,-19.766 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7973"
+               points="1204.39,-24.766 1201.89,-29.766 1211.89,-24.766 1201.89,-19.766 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g7975">
+            <path
+               id="path7977"
+               d="m 1157.93,-15.264 c 42.43,0 18.85,133.795 51.54,133.795"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+               inkscape:connector-curvature="0" />
+            <polygon
+               id="polygon7979"
+               points="1209.47,118.531 1206.97,113.531 1216.97,118.531 1206.97,123.531 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon7981"
+               points="1209.47,118.531 1206.97,113.531 1216.97,118.531 1206.97,123.531 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text7983"
+             y="427.28601"
+             x="1480.83"
+             style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="24.8356">
+            <tspan
+               id="tspan7985"
+               y="427.28601"
+               x="1480.83">create new operating system</tspan>
+          </text>
+          <text
+             id="text7987"
+             y="622.97198"
+             x="1482.55"
+             style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="24.8356">
+            <tspan
+               id="tspan7989"
+               y="622.97198"
+               x="1482.55">optimize existing operating system</tspan>
+          </text>
+          <text
+             id="text7991"
+             y="503.944"
+             x="1744.39"
+             style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="12.8">
+            <tspan
+               id="tspan7993"
+               y="503.944"
+               x="1744.39" />
+          </text>
+          <text
+             id="text7995"
+             y="535.82202"
+             x="1767.6"
+             style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="24.8356">
+            <tspan
+               id="tspan7997"
+               y="535.82202"
+               x="1767.6">Time</tspan>
+          </text>
+          <text
+             id="text7999"
+             y="514.64001"
+             x="482.17999"
+             style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="22.5778">
+            <tspan
+               id="tspan8001"
+               y="514.64001"
+               x="482.17999">2009</tspan>
+          </text>
+          <g
+             id="g8003">
+            <line
+               id="line8005"
+               y2="409.16"
+               x2="1461.67"
+               y1="480.62601"
+               x1="1462.01"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+            <polygon
+               id="polygon8007"
+               points="1461.67,409.16 1456.68,411.684 1461.63,401.66 1466.68,411.636 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon8009"
+               points="1461.67,409.16 1456.68,411.684 1461.63,401.66 1466.68,411.636 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g8011">
+            <line
+               id="line8013"
+               y2="633.43402"
+               x2="1463.62"
+               y1="566.672"
+               x1="1463.62"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+            <polygon
+               id="polygon8015"
+               points="1463.62,633.434 1468.62,630.934 1463.62,640.934 1458.62,630.934 "
+               style="fill:#000000" />
+            <polygon
+               id="polygon8017"
+               points="1463.62,633.434 1468.62,630.934 1463.62,640.934 1458.62,630.934 "
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text8019"
+             y="514.01599"
+             x="637.60797"
+             style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="22.5778">
+            <tspan
+               id="tspan8021"
+               y="514.01599"
+               x="637.60797">2010</tspan>
+          </text>
+          <g
+             id="g8023">
+            <ellipse
+               id="ellipse8025"
+               ry="63.864498"
+               rx="65.527702"
+               cy="692.72998"
+               cx="863.65399"
+               style="fill:#e5e5e5" />
+            <ellipse
+               id="ellipse8027"
+               ry="63.864498"
+               rx="65.527702"
+               cy="692.72998"
+               cx="863.65399"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text8029"
+             y="686.97803"
+             x="815.03003"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan8031"
+               y="686.97803"
+               x="815.03003">Bonsai VM</tspan>
+          </text>
+          <g
+             id="g8033">
+            <ellipse
+               id="ellipse8035"
+               ry="63.864498"
+               rx="65.527702"
+               cy="406.23999"
+               cx="948.38202"
+               style="fill:#1e90ff" />
+            <ellipse
+               id="ellipse8037"
+               ry="63.864498"
+               rx="65.527702"
+               cy="406.23999"
+               cx="948.38202"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text8039"
+             y="400.664"
+             x="906.96399"
+             style="font-style:normal;font-weight:700;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+             font-size="17.8252">
+            <tspan
+               id="tspan8041"
+               y="400.664"
+               x="906.96399">RadixVM</tspan>
+          </text>
+          <g
+             id="g8043">
+            <ellipse
+               id="ellipse8045"
+               ry="63.864498"
+               rx="65.527702"
+               cy="753.25403"
+               cx="1198.28"
+               style="fill:#11d2ea" />
+            <ellipse
+               id="ellipse8047"
+               ry="63.864498"
+               rx="65.527702"
+               cy="753.25403"
+               cx="1198.28"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text8049"
+             y="738.026"
+             x="1151.9"
+             style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="17.8252">
+            <tspan
+               id="tspan8051"
+               y="738.026"
+               x="1151.9">FS</tspan>
+            <tspan
+               id="tspan8053"
+               y="760.30701"
+               x="1151.9">Scalability</tspan>
+            <tspan
+               id="tspan8055"
+               y="782.58899"
+               x="1151.9">Usenix ATC</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

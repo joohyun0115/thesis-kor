@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="140mm"
+   viewBox="0 0 744.09449 496.06299"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cv1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="36.541537"
+     inkscape:cy="268.72732"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9901"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-556.29922)">
+    <g
+       id="g9901"
+       transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         id="text9489"
+         y="482.82999"
+         x="685.43799"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9491"
+           y="482.82999"
+           x="685.43799" />
+      </text>
+      <text
+         id="text9891"
+         y="605.57397"
+         x="760.104"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9893"
+           y="605.57397"
+           x="760.104" />
+      </text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:23.90449142px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="677.38092"
+         y="355.05637"
+         id="text4148"
+         sodipodi:linespacing="125%"
+         transform="scale(0.93435721,1.0702545)"><tspan
+           sodipodi:role="line"
+           id="tspan4150"
+           x="677.38092"
+           y="355.05637"
+           style="font-size:4.4820919px">매니코어 환경에서 자동 NUMA 밸런싱 효과 분석 = An Analysis of Automatic NUMA Balancing Effect on Many-core CPUs</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="360.73526"
+           id="tspan4152"
+           style="font-size:4.4820919px">경주현(Joohyun Kyong) 임성수(Sung-Soo Lim) (한국정보과학회 학술발표논문집, Vol.2015 No.6, [2015])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="366.41415"
+           id="tspan4154"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="372.09305"
+           id="tspan4156"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="377.77194"
+           id="tspan4158"
+           style="font-size:4.4820919px">매니코어 환경에서 자동 NUMA 밸런싱 효과 분석 = An Analysis of Automatic NUMA Balancing Effect on Many-core CPUs</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="383.45087"
+           id="tspan4160"
+           style="font-size:4.4820919px">경주현(Joohyun Kyong) 임성수(Sung-Soo Lim) (한국정보과학회 학술발표논문집, Vol.2015 No.6, [2015])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="389.12976"
+           id="tspan4162"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="394.80865"
+           id="tspan4164"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="400.48755"
+           id="tspan4166"
+           style="font-size:4.4820919px">매니코어 환경에서 자동 NUMA 밸런싱 효과 분석 = An Analysis of Automatic NUMA Balancing Effect on Many-core CPUs</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="406.16644"
+           id="tspan4168"
+           style="font-size:4.4820919px">경주현(Joohyun Kyong) 임성수(Sung-Soo Lim) (한국정보과학회 학술발표논문집, Vol.2015 No.6, [2015])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="411.84534"
+           id="tspan4170"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="417.52423"
+           id="tspan4172"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="423.20312"
+           id="tspan4174"
+           style="font-size:4.4820919px">매니코어 시스템을 위한 리눅스 가상 메모리 관리의 락 경합 분석 = An Analysis of Lock Contention in Linux Memory Management for Many-core System</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="428.88202"
+           id="tspan4176"
+           style="font-size:4.4820919px">경주현(Joohyun Kyong) 임성수(Sung-Soo Lim) (한국정보과학회 학술발표논문집, Vol.2015 No.6, [2015])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="434.56094"
+           id="tspan4178"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="440.23984"
+           id="tspan4180"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="445.84244"
+           id="tspan4182"
+           style="font-size:4.4820919px">실시간 가상화 시스템을 위한 이종 운영체제 통합 성능 분석 방법에 관한 연구 ( 우수 논문)</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="451.52133"
+           id="tspan4184"
+           style="font-size:4.4820919px">경 주 현, 한 인 규, 임 성 수  / 대한임베디드공학회논문지, v.10, no.4, 233-239, 2015년 8월</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="457.20023"
+           id="tspan4186"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="462.80286"
+           id="tspan4188"
+           style="font-size:4.4820919px">이종 멀티코어 시스템의 전력 및 성능 분석을 위한 프레임워크 설계 및 구현 ( 우수 논문)</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="468.48175"
+           id="tspan4190"
+           style="font-size:4.4820919px">김형준; 경주현; 임성수 / 대한임베디드공학회논문지, v.9, no.6, 315-321, 2014년 12월</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="474.16064"
+           id="tspan4192"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="479.83954"
+           id="tspan4194"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="485.51843"
+           id="tspan4196"
+           style="font-size:4.4820919px">실시간 가상화 환경을 위한 공개소스로 구현된 하이퍼바이저 멀티코어 기능 구현 = An Implementation of Multicore Feature for Open Source Real-time Hypervisor</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="491.19733"
+           id="tspan4198"
+           style="font-size:4.4820919px">고상철(Sang-Chul Go) 경주현(Joo-Hyun Kyong) 임성수(Sung-Soo Lim) (한국정보과학회 학술발표논문집, Vol.2014 No.12, [2014])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="496.87625"
+           id="tspan4200"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="502.55515"
+           id="tspan4202"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="508.23404"
+           id="tspan4204"
+           style="font-size:4.4820919px">멀 티코어 기반 안드로이드 스마트폰의 CPU Hotplug 기법의 전력소모 절감 효과 분석 = Analysis onpower consumption reduc CPU Hotplug techniques for Multi-core based Android Smartphones</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="513.91296"
+           id="tspan4206"
+           style="font-size:4.4820919px">서상원(Sangwon Seo) 김형준(Hyoengjun Kim) 경주현(Joohyun Kyong) 임성수(Sungsoo Lim) (한국정보과학회 학술발표논문집, Vol.2013 No.6, [2013])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="519.59186"
+           id="tspan4208"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="525.27075"
+           id="tspan4210"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="530.94965"
+           id="tspan4212"
+           style="font-size:4.4820919px">안드로이드 스마트폰을 위한 자동화된 전력 소모 측정 환경 구축 = An automated power consumption measurement environment for Android smartphones</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="536.62854"
+           id="tspan4214"
+           style="font-size:4.4820919px">박성준(Sungjun Park) 경주현(Juhyun Kyung) 임성수(Sungsoo Lim) (한국정보과학회 학술발표논문집, Vol.2013 No.6, [2013])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="542.30743"
+           id="tspan4216"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="547.98633"
+           id="tspan4218"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="553.66522"
+           id="tspan4222"
+           style="font-size:4.4820919px">안드로이드 스마트폰을 위한 USB 기반 통합 디버깅 방법 - 경주현(Joohyun Kyong) 임성수(Sung-Soo Lim) 이민석(Minsuk Lee) 허성민(Sungmin Her) (한국정보과학회 학술발표논문집, Vol.38 No.2A, [2011])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="559.26788"
+           id="tspan4224"
+           style="font-size:4.4820919px">(우수논문)</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="564.87048"
+           id="tspan4226"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="570.47308"
+           id="tspan4228"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="576.15198"
+           id="tspan4230"
+           style="font-size:4.4820919px">임베디드 시스템을 위한 동적 업그레이드 프레임워크에 관한 연구 = Dynamic Software Upgrade Framework for Embedded Systems</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="581.83087"
+           id="tspan4232"
+           style="font-size:4.4820919px">경주현(JuHyun Kyung) 이민석(Minsuk Lee) (한국정보과학회 학술발표논문집, Vol.35 No.1, [2008])</tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="587.50977"
+           id="tspan4234"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="593.18866"
+           id="tspan4236"
+           style="font-size:4.4820919px" /><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="598.79132"
+           id="tspan4240"
+           style="font-size:4.4820919px">리눅스 파일시스템 템플릿 구성에 관한 연구 - 경주현   장명우   이민석  </tspan><tspan
+           sodipodi:role="line"
+           x="677.38092"
+           y="604.47021"
+           id="tspan4242"
+           style="font-size:4.4820919px">한국정보처리학회 2007년 추계학술대회, VOL 14 NO. 02 PP. 0568 ~ 0571 2007. 11</tspan></text>
+    </g>
+  </g>
+</svg>
