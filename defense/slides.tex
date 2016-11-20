@@ -71,46 +71,82 @@ for \\Linux Kernel Scalability}}
 \end{textblock}
 \end{frame}
 
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\begin{center}
+\includegraphics[scale=0.3]{fig/history_old_60s}
+\end{center}
+\end{frame}
+
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\begin{center}
+\includegraphics[scale=0.3]{fig/history_old_80s}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\begin{center}
+\includegraphics[scale=0.3]{fig/history_old}
+\end{center}
+\end{frame}
+
+
 \begin{frame}{40 Years of Microprocessor Trend Data}
-\pgfdeclareimage[width=\paperwidth]{cpu_5}{.//slides/cpu_5}
+\pgfdeclareimage[width=\paperwidth]{cpu_4_1}{.//slides/cpu_4_1}
 \begin{textblock}{1}(0,0)
-\pgfuseimage<+->{cpu_5}
+\pgfuseimage<+->{cpu_4_1}
 \end{textblock}
 \end{frame}
 
 
+\begin{frame}{Cache-Coherence System}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_1}
+\end{center}
+\end{frame}
 
-\begin{frame}{OS Kernel Scalability Histroy}
+
+\begin{frame}{Cache-Coherence System}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_1_1}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Cache-Coherence System}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_1_2}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Cache-Coherence System}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_2}
+\end{center}
+\end{frame}
+
+\begin{frame}{Cache-line fetches}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_3}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{OS Kernel Scalability History}
 \pgfdeclareimage[width=\paperwidth]{history}{.//slides/history}
 \begin{textblock}{1}(0,0)
 \pgfuseimage<+->{history}
 \end{textblock}
 \end{frame}
 
-
-
-\begin{frame}{OS Kernel Scalability Histroy}
-\pgfdeclareimage[width=\paperwidth]{history}{.//slides/history}
-\begin{textblock}{1}(0,0)
-\pgfuseimage<+->{history}
-\end{textblock}
-\end{frame}
-
-
-\begin{frame}{OS Kernel Scalability Histroy}
-\end{frame}
-
-
-\begin{frame}{OS Kernel Scalability Histroy}
-\end{frame}
-
-
-\begin{frame}{OS Kernel Scalability Histroy}
-\end{frame}
-
-
-\begin{frame}{OS Kernel Scalability Histroy}
-\end{frame}
 
 \begin{frame}{Performance Scalability}
 \includegraphics[scale=0.8]{graph/aim7_default}
@@ -154,75 +190,130 @@ for \\Linux Kernel Scalability}}
 \end{textblock}
 \end{frame}
 
-\begin{frame}{High update rate Data Structuer}
-\end{frame}
-
-\begin{frame}{Update-heavy Data structure}
-\end{frame}
-
-
-\begin{frame}{Update-heavy Data structure}
-\end{frame}
-
-\begin{frame}{Non-blocking Data Structure}
+\begin{frame}{Solution for High Update Rate Data Structure}
+    \begin{itemize}[<+-| alert@+>]
+    \item Non-blocking Data Structure.
+    \begin{itemize}
+        \item Harris, Faser Skip List.
+    \end{itemize}
+    \item Log-based Algorithms. 
+    \end{itemize}
 \end{frame}
 
 
 \begin{frame}{Non-blocking Data Structure}
+\begin{center}
+\includegraphics[scale=1.0]{fig/nonblock}
+\end{center}
 \end{frame}
-
 
 \begin{frame}{Non-blocking Data Structure}
+\begin{center}
+\includegraphics[scale=1.1]{fig/nonblock_fail}
+\end{center}
+\end{frame}
+
+\begin{frame}{Cache communication bottlenecks}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_cas}
+\end{center}
+\end{frame}
+
+\begin{frame}{Cache communication bottlenecks}
+\begin{center}
+\includegraphics[scale=0.8]{fig/archcache_cas_1}
+\end{center}
 \end{frame}
 
 
-\begin{frame}{Non-blocking Data Structure}
+\begin{frame}{Log-based Algorithms}
+    \begin{itemize}[<+-| alert@+>]
+    \item Flat combining(SPAA '10).
+    \item OpLog(MIT Ph.D., thesis 2013). 
+    \end{itemize}
 \end{frame}
 
 
-\begin{frame}{Cache communication bottlenect}
+
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_0}{.//slides/oplog_0}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_0}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{Cache communication bottlenect}
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_0_1}{.//slides/oplog_0_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_0_1}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{Cache communication bottlenect}
+
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_1}{.//slides/oplog_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_1}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{Cache communication bottlenect}
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_1_1}{.//slides/oplog_1_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_1_1}
+\end{textblock}
 \end{frame}
 
-\begin{frame}{Cache communication bottlenect}
+
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_2}{.//slides/oplog_2}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_2}
+\end{textblock}
+\end{frame}
+
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog_2_1}{.//slides/oplog_2_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_2_1}
+\end{textblock}
 \end{frame}
 
 
 
 \begin{frame}{Approach: Log-based Concurrent Update}
+\pgfdeclareimage[width=\paperwidth]{oplog}{.//slides/oplog_3}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{Approach: Log-based Concurrent Update}
+\begin{frame}{Time-stamp counters}
+\pgfdeclareimage[width=\paperwidth]{oplog_max}{.//slides/oplog_max}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{oplog_max}
+\end{textblock}
 \end{frame}
 
-
-\begin{frame}{Approach: Log-based Concurrent Update}
+\begin{frame}{Simple Solution?}
 \end{frame}
 
-
-\begin{frame}{Advantages of eliminating time-stamp counters}
+\begin{frame}{Simple Solution}
+    \begin{itemize}[<+-| alert@+>]
+    \item A Lightweight Log-based Deferred Update(LDU).
+    \end{itemize}
 \end{frame}
 
 
 \begin{frame}{Contributions}
     \begin{itemize}[<+-| alert@+>]
-	\item Removing time-stamp counters and eliminating the sources of limiting
-	performance scalability in update-heavy data structures.
-	\item  Applying the LDU in Linux kernel to two reverse mapping(anonymous, file)
-	on an 120 core system to reduce fork scalability bottleneck.
-	\item Our design improved throughput and execution time from 1.5x through 2.7x
+	\item Removing time-stamp counters.
+	\item Applying the LDU to two reverse mapping(anonymous, file).
+	\item improved throughput and execution time from 1.5x through 2.7x
 	on 120 core.
 	\end{itemize}
 \end{frame}
@@ -242,15 +333,11 @@ for \\Linux Kernel Scalability}}
 \end{frame}
 
 
-\begin{frame}{Design}
-\end{frame}
-
-
 
 \begin{frame}{Why the OpLog needs the time-stamp counter?}
-A process logs an insert operation to the per-core memory, then
+\textit{``A process logs an insert operation to the per-core memory, then
 it migrates to another core, and it logs a remove operation, which must
-eventually execute after the insert operation[OpLog].
+eventually execute after the insert operation''}, OpLog.
 \end{frame}
 
 
@@ -261,26 +348,49 @@ eventually execute after the insert operation[OpLog].
 
 
 \begin{frame}{Cancelable - Log}
-\includegraphics[scale=0.5]{fig/example_us}
+\includegraphics[scale=0.5]{fig/example_2}
+\end{frame}
+
+
+\begin{frame}{Remain Log}
+\includegraphics[scale=0.5]{fig/example_3}
 \end{frame}
 
 
 \begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/example_us}
+\includegraphics[scale=0.5]{fig/update_remove_0}
 \end{frame}
 
-\begin{frame}{remain - Log}
-\includegraphics[scale=0.5]{fig/remain}
+\begin{frame}{Update-side removing}
+\includegraphics[scale=0.5]{fig/update_remove_1}
 \end{frame}
 
-\begin{frame}{Garbage logs}
-\includegraphics[scale=0.5]{fig/example_gl}
+\begin{frame}{Update-side removing}
+\includegraphics[scale=0.5]{fig/update_remove_2}
 \end{frame}
 
-\begin{frame}{Reusing garbage}
 
+\begin{frame}{Update-side removing}
+\includegraphics[scale=0.5]{fig/update_remove_2-1}
 \end{frame}
 
+
+\begin{frame}{Update-side removing}
+\includegraphics[scale=0.5]{fig/update_remove_3}
+\end{frame}
+
+\begin{frame}{Update-side removing}
+\includegraphics[scale=0.5]{fig/update_remove_4}
+\end{frame}
+
+
+\begin{frame}{Reusing garbage }
+\includegraphics[scale=0.5]{fig/reusing_garbage_1}
+\end{frame}
+
+\begin{frame}{Reusing garbage }
+\includegraphics[scale=0.5]{fig/reusing_garbage_2}
+\end{frame}
 
 \begin{frame}{Additional approach}
 	\begin{itemize}
@@ -394,7 +504,17 @@ eventually execute after the insert operation[OpLog].
 \end{frame}
 
 \begin{frame}{anonymous reverse mapping}
+\includegraphics[scale=0.5]{fig/anon_vma_default_0}
+\end{frame}
+
+
+\begin{frame}{anonymous reverse mapping}
 \includegraphics[scale=0.5]{fig/anon_vma_default}
+\end{frame}
+
+
+\begin{frame}{anonymous reverse mapping}
+\includegraphics[scale=0.5]{fig/anon_vma_default_1}
 \end{frame}
 
 
@@ -424,13 +544,19 @@ eventually execute after the insert operation[OpLog].
     \end{itemize}
 \end{frame}
 
-
 \begin{frame}{Non-blocking algorithm - Harris linked list}
 \includegraphics[scale=0.5]{fig/lockfree}
 \end{frame}
 
-\begin{frame}{Hardware specification}
-\includegraphics[scale=0.5]{fig/hardware}
+
+\begin{frame}{Non-blocking algorithm - Harris linked list}
+\includegraphics[scale=0.5]{fig/lockfree_2}
+\end{frame}
+
+\begin{frame}{Evaluation : Hardware}
+\begin{center}
+\includegraphics[scale=0.8]{fig/xeon}
+\end{center}
 \end{frame}
 
 
@@ -471,10 +597,21 @@ eventually execute after the insert operation[OpLog].
 \end{frame}
 
 
-\begin{frame}{Update ratios}
+\begin{frame}{Update ratios - AIM7}
 \includegraphics[scale=0.4]{graph/ratio_aim7_core}
 \includegraphics[scale=0.4]{graph/ratio_aim7}
 \end{frame}
+
+\begin{frame}{Update ratios - Exim}
+\includegraphics[scale=0.4]{graph/ratio_exim_core}
+\includegraphics[scale=0.4]{graph/ratio_exim}
+\end{frame}
+
+\begin{frame}{Update ratios - Lmbench}
+\includegraphics[scale=0.4]{graph/ratio_lmbench_core}
+\includegraphics[scale=0.4]{graph/ratio_lmbench}
+\end{frame}
+
 
 \begin{frame}{Related work}
 \begin{itemize}
@@ -497,33 +634,33 @@ eventually execute after the insert operation[OpLog].
 \end{frame}
 
 
-\begin{frame}{Curriculum Vitae}
-\includegraphics[scale=0.5]{cv/cv0}
-\end{frame}
+%\begin{frame}{Curriculum Vitae}
+%\includegraphics[scale=0.5]{cv/cv0}
+%\end{frame}
 
-\begin{frame}{Curriculum Vitae}
-\includegraphics[scale=0.5]{cv/cv1}
-\end{frame}
+%\begin{frame}{Curriculum Vitae}
+%\includegraphics[scale=0.5]{cv/cv1}
+%\end{frame}
 
-\begin{frame}{Curriculum Vitae}
-\includegraphics[scale=0.5]{cv/cv2}
+%\begin{frame}{Curriculum Vitae}
+%\includegraphics[scale=0.5]{cv/cv2}
+%\end{frame}
 
-\end{frame}
-\begin{frame}{Conclusion}
-	\begin{itemize}
-	\item Background of research 
-	\item LDU method and Evaluation
-	\item Future plans and Summary
+\begin{frame}{Futuer Directions}
+	\begin{itemize} 
+	\item Combine LDU with time-stamp based approach for stack, queue.
+	\item Combine RCU readers with log-based updates.
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Combine RCU readers with log-based updates}
+\includegraphics[scale=0.5]{fig/log-based}
 \end{frame}
 
 
 \begin{frame}{Conclusion}
     \begin{itemize}
-    \item Background of research 
-    \item LDU method and Evaluation
-    \item Future plans and Summary
-    \item \text{https://github.com/KMU-embedded/scalablelinux}
+    \item \text{https://github.com/manycore-ldu/ldu}
     \end{itemize}
 \end{frame}
 
