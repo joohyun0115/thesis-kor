@@ -27,10 +27,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.75282781"
-     inkscape:cx="28.749437"
-     inkscape:cy="597.19204"
+     inkscape:cx="54.033167"
+     inkscape:cy="480.85664"
      inkscape:document-units="mm"
-     inkscape:current-layer="g20294"
+     inkscape:current-layer="layer4"
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="false"
@@ -6775,11 +6775,11 @@
          id="line13389" />
       <polygon
          style="fill:#000000"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          id="polygon13391" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          id="polygon13393" />
     </g>
     <text
@@ -7343,539 +7343,3039 @@
          id="tspan10353" />
     </text>
     <g
-       id="g11064"
-       transform="matrix(1.0437361,0,0,1.4039869,-206.02679,-121.62611)">
-      <g
-         id="g10848">
-        <ellipse
-           id="ellipse10850"
-           ry="76.202499"
-           rx="87.366203"
-           cy="636.146"
-           cx="611.51801"
-           style="fill:#e6e6fa" />
-        <ellipse
-           id="ellipse10852"
-           ry="76.202499"
-           rx="87.366203"
-           cy="636.146"
-           cx="611.51801"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g10854">
-        <ellipse
-           id="ellipse10856"
-           ry="72.488998"
-           rx="89.076401"
-           cy="525.50897"
-           cx="308.966"
-           style="fill:#207373" />
-        <ellipse
-           id="ellipse10858"
-           ry="72.488998"
-           rx="89.076401"
-           cy="525.50897"
-           cx="308.966"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10860"
-         y="506.50201"
-         x="242.528"
-         style="font-style:normal;font-weight:700;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
-         font-size="22.5778">
-        <tspan
-           id="tspan10862"
-           y="506.50201"
-           x="242.528">Operating</tspan>
-        <tspan
-           id="tspan10864"
-           y="534.724"
-           x="242.528">System</tspan>
-        <tspan
-           id="tspan10866"
-           y="562.94598"
-           x="242.528">Scalability</tspan>
-      </text>
-      <text
-         id="text10868"
-         y="615.50201"
-         x="552.65802"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan10870"
-           y="615.50201"
-           x="552.65802">Linux</tspan>
-        <tspan
-           id="tspan10872"
-           y="643.724"
-           x="552.65802">Scalability</tspan>
-        <tspan
-           id="tspan10874"
-           y="671.94598"
-           x="552.65802">(manycore)</tspan>
-      </text>
-      <g
-         id="g10876">
-        <line
-           id="line10878"
-           y2="519.65399"
-           x2="1417.5601"
-           y1="519.87402"
-           x1="401.49799"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-        <polygon
-           id="polygon10880"
-           points="1415.05,514.655 1425.06,519.652 1415.06,524.655 1417.56,519.654 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon10882"
-           points="1415.05,514.655 1425.06,519.652 1415.06,524.655 1417.56,519.654 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g10884">
-        <ellipse
-           id="ellipse10886"
-           ry="63.864498"
-           rx="65.527702"
-           cy="401.172"
-           cx="471.98199"
-           style="fill:#e6e6fa" />
-        <ellipse
-           id="ellipse10888"
-           ry="63.864498"
-           rx="65.527702"
-           cy="401.172"
-           cx="471.98199"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10890"
-         y="391.84201"
-         x="431.06201"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan10892"
-           y="391.84201"
-           x="431.06201">Corey</tspan>
-        <tspan
-           id="tspan10894"
-           y="420.064"
-           x="431.06201">OSDI '08</tspan>
-      </text>
-      <g
-         id="g10896">
-        <ellipse
-           id="ellipse10898"
-           ry="63.864498"
-           rx="65.527702"
-           cy="288.69199"
-           cx="1008.66"
-           style="fill:#1e90ff" />
-        <ellipse
-           id="ellipse10900"
-           ry="63.864498"
-           rx="65.527702"
-           cy="288.69199"
-           cx="1008.66"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10902"
-         y="273.862"
-         x="963.38397"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan10904"
-           y="273.862"
-           x="963.38397">Memory</tspan>
-        <tspan
-           id="tspan10906"
-           y="296.14301"
-           x="963.38397">Partitioning</tspan>
-        <tspan
-           id="tspan10908"
-           y="318.42499"
-           x="963.38397">Scheme</tspan>
-      </text>
-      <g
-         id="g10910">
-        <ellipse
-           id="ellipse10912"
-           ry="63.864498"
-           rx="65.527702"
-           cy="353.29401"
-           cx="671.75403"
-           style="fill:#e5e5e5" />
-        <ellipse
-           id="ellipse10914"
-           ry="63.864498"
-           rx="65.527702"
-           cy="353.29401"
-           cx="671.75403"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10916"
-         y="339.06"
-         x="637.78003"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan10918"
-           y="339.06"
-           x="637.78003">Spark</tspan>
-        <tspan
-           id="tspan10920"
-           y="361.341"
-           x="637.78003">Design</tspan>
-        <tspan
-           id="tspan10922"
-           y="383.62299"
-           x="637.78003">Problem?</tspan>
-      </text>
-      <g
-         id="g10924">
-        <path
-           id="path10926"
-           d="m 371.952,474.252 c 57.238,0 -23.625,-73.08 23.877,-73.08"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-           inkscape:connector-curvature="0" />
-        <polygon
-           id="polygon10928"
-           points="393.329,396.172 403.329,401.172 393.329,406.172 395.829,401.172 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon10930"
-           points="393.329,396.172 403.329,401.172 393.329,406.172 395.829,401.172 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g10932">
-        <path
-           id="path10934"
-           d="m 371.952,576.766 c 61.04,62.696 77.107,59.38 141.477,59.38"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-           inkscape:connector-curvature="0" />
-        <polygon
-           id="polygon10936"
-           points="510.929,631.146 520.929,636.146 510.929,641.146 513.429,636.146 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon10938"
-           points="510.929,631.146 520.929,636.146 510.929,641.146 513.429,636.146 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g10940">
-        <ellipse
-           id="ellipse10942"
-           ry="63.864498"
-           rx="65.527702"
-           cy="259.22198"
-           cx="838.08002"
-           style="fill:#e5e5e5" />
-        <ellipse
-           id="ellipse10944"
-           ry="63.864498"
-           rx="65.527702"
-           cy="259.22198"
-           cx="838.08002"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10946"
-         y="247.96201"
-         x="807.67401"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan10948"
-           y="247.96201"
-           x="807.67401">Lock?</tspan>
-        <tspan
-           id="tspan10950"
-           y="270.24301"
-           x="807.67401">NUMA?</tspan>
-        <tspan
-           id="tspan10952"
-           y="292.52499"
-           x="807.67401">??????</tspan>
-      </text>
-      <g
-         id="g10954">
-        <path
-           id="path10956"
-           d="m 904.61,259.222 c 58.624,0 -21.108,29.47 27.78,29.47"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-           inkscape:connector-curvature="0" />
-        <polygon
-           id="polygon10958"
-           points="929.89,283.692 939.89,288.692 929.89,293.692 932.39,288.692 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon10960"
-           points="929.89,283.692 939.89,288.692 929.89,293.692 932.39,288.692 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g10962">
-        <ellipse
-           id="ellipse10964"
-           ry="63.864498"
-           rx="65.527702"
-           cy="285.68799"
-           cx="1217.54"
-           style="fill:#ffa500" />
-        <ellipse
-           id="ellipse10966"
-           ry="63.864498"
-           rx="65.527702"
-           cy="285.68799"
-           cx="1217.54"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text10968"
-         y="266.60599"
-         x="1178.1"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan10970"
-           y="266.60599"
-           x="1178.1">Lock</tspan>
-        <tspan
-           id="tspan10972"
-           y="288.88699"
-           x="1178.1">Contention</tspan>
-        <tspan
-           id="tspan10974"
-           y="311.16901"
-           x="1178.1">Partition?</tspan>
-      </text>
-      <text
-         id="text10976"
-         y="403.28799"
-         x="1083.84"
-         style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="24.8356">
-        <tspan
-           id="tspan10978"
-           y="403.28799"
-           x="1083.84">create new operating system</tspan>
-      </text>
-      <text
-         id="text10980"
-         y="598.97198"
-         x="1085.55"
-         style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="24.8356">
-        <tspan
-           id="tspan10982"
-           y="598.97198"
-           x="1085.55">optimize existing operating system</tspan>
-      </text>
-      <text
-         id="text10984"
-         y="479.944"
-         x="1347.4"
-         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="12.8">
-        <tspan
-           id="tspan10986"
-           y="479.944"
-           x="1347.4" />
-      </text>
-      <text
-         id="text10988"
-         y="511.82199"
-         x="1370.61"
-         style="font-style:normal;font-weight:normal;font-size:24.8355999px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="24.8356">
-        <tspan
-           id="tspan10990"
-           y="511.82199"
-           x="1370.61">Time</tspan>
-      </text>
-      <g
-         id="g10992">
-        <line
-           id="line10994"
-           y2="385.16"
-           x2="1064.67"
-           y1="456.62799"
-           x1="1065.02"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-        <polygon
-           id="polygon10996"
-           points="1059.69,387.684 1064.64,377.66 1069.69,387.636 1064.67,385.16 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon10998"
-           points="1059.69,387.684 1064.64,377.66 1069.69,387.636 1064.67,385.16 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <g
-         id="g11000">
-        <line
-           id="line11002"
-           y2="609.43597"
-           x2="1066.63"
-           y1="542.672"
-           x1="1066.63"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-        <polygon
-           id="polygon11004"
-           points="1071.63,606.936 1066.63,616.936 1061.63,606.936 1066.63,609.436 "
-           style="fill:#000000" />
-        <polygon
-           id="polygon11006"
-           points="1071.63,606.936 1066.63,616.936 1061.63,606.936 1066.63,609.436 "
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text11008"
-         y="516.76599"
-         x="547.742"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan11010"
-           y="516.76599"
-           x="547.742">2010</tspan>
-      </text>
-      <g
-         id="g11012">
-        <ellipse
-           id="ellipse11014"
-           ry="63.864498"
-           rx="65.527702"
-           cy="692.72998"
-           cx="863.65399"
-           style="fill:#e5e5e5" />
-        <ellipse
-           id="ellipse11016"
-           ry="63.864498"
-           rx="65.527702"
-           cy="692.72998"
-           cx="863.65399"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text11018"
-         y="686.97803"
-         x="815.03003"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan11020"
-           y="686.97803"
-           x="815.03003">Bonsai VM</tspan>
-      </text>
-      <g
-         id="g11022">
-        <ellipse
-           id="ellipse11024"
-           ry="63.864498"
-           rx="65.527702"
-           cy="422.23999"
-           cx="906.38202"
-           style="fill:#1e90ff" />
-        <ellipse
-           id="ellipse11026"
-           ry="63.864498"
-           rx="65.527702"
-           cy="422.23999"
-           cx="906.38202"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text11028"
-         y="416.664"
-         x="864.966"
-         style="font-style:normal;font-weight:700;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
-         font-size="17.8252">
-        <tspan
-           id="tspan11030"
-           y="416.664"
-           x="864.966">RadixVM</tspan>
-      </text>
-      <g
-         id="g11032">
-        <ellipse
-           id="ellipse11034"
-           ry="63.864498"
-           rx="65.527702"
-           cy="753.25403"
-           cx="1198.28"
-           style="fill:#11d2ea" />
-        <ellipse
-           id="ellipse11036"
-           ry="63.864498"
-           rx="65.527702"
-           cy="753.25403"
-           cx="1198.28"
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
-      </g>
-      <text
-         id="text11038"
-         y="738.026"
-         x="1151.9"
-         style="font-style:normal;font-weight:normal;font-size:17.82519913px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="17.8252">
-        <tspan
-           id="tspan11040"
-           y="738.026"
-           x="1151.9">FS</tspan>
-        <tspan
-           id="tspan11042"
-           y="760.30701"
-           x="1151.9">Scalability</tspan>
-        <tspan
-           id="tspan11044"
-           y="782.58899"
-           x="1151.9">Usenix ATC</tspan>
-      </text>
-      <text
-         id="text11046"
-         y="513.96997"
-         x="739.76001"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan11048"
-           y="513.96997"
-           x="739.76001">2012</tspan>
-      </text>
-      <text
-         id="text11050"
-         y="513.008"
-         x="918.94"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan11052"
-           y="513.008"
-           x="918.94">2014</tspan>
-      </text>
-      <text
-         id="text11054"
-         y="512.96198"
-         x="1088.03"
-         style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
-         font-size="22.5778">
-        <tspan
-           id="tspan11056"
-           y="512.96198"
-           x="1088.03">2016</tspan>
-      </text>
+       id="g16455"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#e6e6fa"
+         cx="1025.79"
+         cy="800.16199"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16457" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1025.79"
+         cy="800.16199"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16459" />
     </g>
+    <g
+       id="g16461"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#159393"
+         cx="763.68799"
+         cy="685.69"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16463" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="763.68799"
+         cy="685.69"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16465" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       x="28.694349"
+       y="583.63715"
+       id="text16467"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="28.694349"
+         y="583.63715"
+         id="tspan16469">Operating</tspan>
+      <tspan
+         x="28.694349"
+         y="615.82318"
+         id="tspan16471">System</tspan>
+      <tspan
+         x="28.694349"
+         y="648.01086"
+         id="tspan16473">Scalability</tspan>
+    </text>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="413.91693"
+       y="750.09619"
+       id="text16475"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="413.91693"
+         y="750.09619"
+         id="tspan16477">Linux</tspan>
+      <tspan
+         x="413.91693"
+         y="782.28223"
+         id="tspan16479">Scalalability</tspan>
+      <tspan
+         x="413.91693"
+         y="814.46991"
+         id="tspan16481">OSDI'10</tspan>
+    </text>
+    <line
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176"
+       x1="203.77202"
+       y1="588.97339"
+       x2="1409.8623"
+       y2="590.11542"
+       id="line16483" />
+    <g
+       id="g16485"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#e6e6fa"
+         cx="934.34601"
+         cy="580.578"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16487" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="934.34601"
+         cy="580.578"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16489" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="300.21301"
+       y="448.59134"
+       id="text16491"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="300.21301"
+         y="448.59134"
+         id="tspan16493">Corey</tspan>
+      <tspan
+         x="300.21301"
+         y="480.7775"
+         id="tspan16495-3">OSDI'08</tspan>
+    </text>
+    <g
+       id="g16497"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#1e90ff"
+         cx="1232"
+         cy="789.79199"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16499" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1232"
+         cy="789.79199"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16501" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="714.71387"
+       y="752.05786"
+       id="text16503"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="714.71387"
+         y="752.05786"
+         id="tspan16505">BosaiVM</tspan>
+      <tspan
+         x="714.71387"
+         y="784.24402"
+         id="tspan16507">ASPLOS'12</tspan>
+    </text>
+    <g
+       id="g16509"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#e5e5e5"
+         cx="1153.15"
+         cy="506.194"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16511-6" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1153.15"
+         cy="506.194"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16513" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="606.01105"
+       y="331.80478"
+       id="text16515"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="606.01105"
+         y="331.80478"
+         id="tspan16517">Barrelfish</tspan>
+      <tspan
+         x="606.01105"
+         y="363.99094"
+         id="tspan16519">SOSP'09</tspan>
+    </text>
+    <g
+       id="g16521"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         id="path16523" />
+      <polygon
+         style="fill:#000000"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         id="polygon16525" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         id="polygon16527" />
+    </g>
+    <g
+       id="g16529"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         id="path16531" />
+      <polygon
+         style="fill:#000000"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         id="polygon16533" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         id="polygon16535" />
+    </g>
+    <g
+       id="g16537"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         id="path16539" />
+      <polygon
+         style="fill:#000000"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         id="polygon16541" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         id="polygon16543" />
+    </g>
+    <g
+       id="g16545-7"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#ffa500"
+         cx="1488.26"
+         cy="747.896"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16547" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1488.26"
+         cy="747.896"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16549-5" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1093.3175"
+       y="668.03094"
+       id="text16551"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1093.3175"
+         y="668.03094"
+         id="tspan16553">Manycore</tspan>
+      <tspan
+         x="1093.3175"
+         y="700.21704"
+         id="tspan16555-3">Filesystem</tspan>
+      <tspan
+         x="1093.3175"
+         y="732.40472"
+         id="tspan16557">ATC'16</tspan>
+    </text>
+    <g
+       id="g16563"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 1092.13,800.164 c 65.64,0 7.89,-10.372 63.8,-10.372"
+         id="path16565" />
+      <polygon
+         style="fill:#000000"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         id="polygon16567-5" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         id="polygon16569" />
+    </g>
+    <g
+       id="g16571"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#1e90ff"
+         cx="1360.27"
+         cy="591.76599"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16573" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1360.27"
+         cy="591.76599"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16575" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="900.00708"
+       y="466.00113"
+       id="text16577"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="900.00708"
+         y="466.00113"
+         id="tspan16579">RadixVM</tspan>
+      <tspan
+         x="900.00708"
+         y="498.18729"
+         id="tspan16581">Eurosys'13</tspan>
+    </text>
+    <g
+       id="g16583"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 1298.5,789.792 c 34.14,0 -38.87,-198.026 -14.47,-198.026"
+         id="path16585" />
+      <polygon
+         style="fill:#000000"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         id="polygon16587" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         id="polygon16589" />
+    </g>
+    <g
+       id="g16591"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#11d2ea"
+         cx="1398.99"
+         cy="887.14001"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16593" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1398.99"
+         cy="887.14001"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16595" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="959.6239"
+       y="879.66119"
+       id="text16597"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="959.6239"
+         y="879.66119"
+         id="tspan16599">OpLog</tspan>
+      <tspan
+         x="959.6239"
+         y="911.84735"
+         id="tspan16601">MIT Ph.D.,</tspan>
+      <tspan
+         x="959.6239"
+         y="944.03503"
+         id="tspan16603">thesis '14</tspan>
+    </text>
+    <g
+       id="g16605"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 1092.32,800.164 c 153.25,0 -93.527,278.496 238.17,119.757"
+         id="path16607" />
+      <polygon
+         style="fill:#000000"
+         points="1330.4,925.51 1330.49,919.921 1326.08,916.49 1337.26,916.683 "
+         id="polygon16609" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1330.4,925.51 1330.49,919.921 1326.08,916.49 1337.26,916.683 "
+         id="polygon16611" />
+    </g>
+    <g
+       id="g16613"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 1092.29,800.164 c 196.27,0 -321.194,-184.257 321.01,-66.063"
+         id="path16615" />
+      <polygon
+         style="fill:#000000"
+         points="1409.94,738.566 1413.3,734.101 1411.75,728.731 1420.68,735.459 "
+         id="polygon16617" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1409.94,738.566 1413.3,734.101 1411.75,728.731 1420.68,735.459 "
+         id="polygon16619" />
+    </g>
+    <g
+       id="g16621"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#ffa500"
+         cx="1471.5699"
+         cy="449.46201"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16623" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1471.5699"
+         cy="449.46201"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16625" />
+    </g>
+    <g
+       id="g16627"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 1219.69,506.194 c 103.6,0 81.74,-56.732 175.61,-56.732"
+         id="path16629" />
+      <polygon
+         style="fill:#000000"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         id="polygon16631-6" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         id="polygon16633" />
+    </g>
+    <g
+       id="g16635"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#ffa500"
+         cx="1482.46"
+         cy="462.862"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16637" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1482.46"
+         cy="462.862"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16639" />
+    </g>
+    <g
+       id="g16641-2"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#ffa500"
+         cx="1499.01"
+         cy="479.09"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16643" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1499.01"
+         cy="479.09"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse16645" />
+    </g>
+    <text
+       font-size="22.5778"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1157.6436"
+       y="312.39862"
+       id="text16647"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1157.6436"
+         y="312.39862"
+         id="tspan16649">...</tspan>
+    </text>
+    <text
+       font-size="22.5778"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1107.0265"
+       y="582.52771"
+       id="text16651"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1107.0265"
+         y="582.52771"
+         id="tspan16653">2016</tspan>
+    </text>
+    <text
+       font-size="16.9333"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1261.8683"
+       y="534.57135"
+       id="text16655"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1261.8683"
+         y="534.57135"
+         id="tspan16657">New</tspan>
+      <tspan
+         x="1261.8683"
+         y="565.14825"
+         id="tspan16659">OS</tspan>
+    </text>
+    <text
+       font-size="16.9333"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1259.2104"
+       y="624.40826"
+       id="text16661"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1259.2104"
+         y="624.40826"
+         id="tspan16663">Optimizing</tspan>
+      <tspan
+         x="1259.2104"
+         y="654.98517"
+         id="tspan16665">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_7"
+     id="g19606"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text19608"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan19610"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19612">
+      <ellipse
+         id="ellipse19614"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19616"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19618">
+      <ellipse
+         id="ellipse19620"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse19622"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19624"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan19626"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan19628"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan19630"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19632"
+       y="750.09619"
+       x="413.91693"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19634"
+         y="750.09619"
+         x="413.91693">Linux</tspan>
+      <tspan
+         id="tspan19636"
+         y="782.28223"
+         x="413.91693">Scalalability</tspan>
+      <tspan
+         id="tspan19638"
+         y="814.46991"
+         x="413.91693">OSDI'10</tspan>
+    </text>
+    <line
+       id="line19640"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19642">
+      <ellipse
+         id="ellipse19644"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19646"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19648"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19650"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan19652"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19654">
+      <ellipse
+         id="ellipse19656"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19658"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19660"
+       y="752.05786"
+       x="714.71387"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19662"
+         y="752.05786"
+         x="714.71387">BosaiVM</tspan>
+      <tspan
+         id="tspan19664"
+         y="784.24402"
+         x="714.71387">ASPLOS'12</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19666">
+      <ellipse
+         id="ellipse19668"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:#e5e5e5" />
+      <ellipse
+         id="ellipse19670"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19672"
+       y="331.80478"
+       x="606.01105"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19674"
+         y="331.80478"
+         x="606.01105">Barrelfish</tspan>
+      <tspan
+         id="tspan19676"
+         y="363.99094"
+         x="606.01105">SOSP'09</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19678">
+      <path
+         id="path19680"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19682"
+         points="855.583,575.578 865.583,580.578 855.583,585.578 858.083,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19684"
+         points="855.583,575.578 865.583,580.578 855.583,585.578 858.083,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19686">
+      <path
+         id="path19688"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19690"
+         points="947.047,795.164 957.047,800.164 947.047,805.164 949.547,800.164 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19692"
+         points="947.047,795.164 957.047,800.164 947.047,805.164 949.547,800.164 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19694">
+      <path
+         id="path19696"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19698"
+         points="1074.39,501.194 1084.39,506.194 1074.39,511.194 1076.89,506.194 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19700"
+         points="1074.39,501.194 1084.39,506.194 1074.39,511.194 1076.89,506.194 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19702">
+      <ellipse
+         id="ellipse19704"
+         ry="63.864498"
+         rx="65.527702"
+         cy="747.896"
+         cx="1488.26"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19706"
+         ry="63.864498"
+         rx="65.527702"
+         cy="747.896"
+         cx="1488.26"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19708"
+       y="668.03094"
+       x="1093.3175"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19710"
+         y="668.03094"
+         x="1093.3175">Manycore</tspan>
+      <tspan
+         id="tspan19712"
+         y="700.21704"
+         x="1093.3175">Filesystem</tspan>
+      <tspan
+         id="tspan19714"
+         y="732.40472"
+         x="1093.3175">ATC'16</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19716">
+      <path
+         id="path19718"
+         d="m 1092.13,800.164 c 65.64,0 7.89,-10.372 63.8,-10.372"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19720"
+         points="1153.43,784.792 1163.43,789.792 1153.43,794.792 1155.93,789.792 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19722"
+         points="1153.43,784.792 1163.43,789.792 1153.43,794.792 1155.93,789.792 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19724">
+      <ellipse
+         id="ellipse19726"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19728"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19730"
+       y="466.00113"
+       x="900.00708"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19732"
+         y="466.00113"
+         x="900.00708">RadixVM</tspan>
+      <tspan
+         id="tspan19734"
+         y="498.18729"
+         x="900.00708">Eurosys'13</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19736">
+      <path
+         id="path19738"
+         d="m 1298.5,789.792 c 34.14,0 -38.87,-198.026 -14.47,-198.026"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19740"
+         points="1281.53,586.766 1291.53,591.766 1281.53,596.766 1284.03,591.766 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19742"
+         points="1281.53,586.766 1291.53,591.766 1281.53,596.766 1284.03,591.766 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19744">
+      <ellipse
+         id="ellipse19746"
+         ry="63.864498"
+         rx="65.527702"
+         cy="887.14001"
+         cx="1398.99"
+         style="fill:#11d2ea" />
+      <ellipse
+         id="ellipse19748"
+         ry="63.864498"
+         rx="65.527702"
+         cy="887.14001"
+         cx="1398.99"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19750"
+       y="879.66119"
+       x="959.6239"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19752"
+         y="879.66119"
+         x="959.6239">OpLog</tspan>
+      <tspan
+         id="tspan19754"
+         y="911.84735"
+         x="959.6239">MIT Ph.D.,</tspan>
+      <tspan
+         id="tspan19756"
+         y="944.03503"
+         x="959.6239">thesis '14</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19758">
+      <path
+         id="path19760"
+         d="m 1092.32,800.164 c 153.25,0 -93.527,278.496 238.17,119.757"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19762"
+         points="1326.08,916.49 1337.26,916.683 1330.4,925.51 1330.49,919.921 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19764"
+         points="1326.08,916.49 1337.26,916.683 1330.4,925.51 1330.49,919.921 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19766">
+      <path
+         id="path19768"
+         d="m 1092.29,800.164 c 196.27,0 -321.194,-184.257 321.01,-66.063"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19770"
+         points="1411.75,728.731 1420.68,735.459 1409.94,738.566 1413.3,734.101 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19772"
+         points="1411.75,728.731 1420.68,735.459 1409.94,738.566 1413.3,734.101 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19774">
+      <ellipse
+         id="ellipse19776"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19778"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19780">
+      <path
+         id="path19782"
+         d="m 1219.69,506.194 c 103.6,0 81.74,-56.732 175.61,-56.732"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19784"
+         points="1392.8,444.462 1402.8,449.462 1392.8,454.462 1395.3,449.462 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19786"
+         points="1392.8,444.462 1402.8,449.462 1392.8,454.462 1395.3,449.462 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19788">
+      <ellipse
+         id="ellipse19790"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19792"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19794">
+      <ellipse
+         id="ellipse19796"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19798"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19800"
+       y="312.39862"
+       x="1157.6436"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19802"
+         y="312.39862"
+         x="1157.6436">...</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19804"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19806"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19808"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19810"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan19812"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19814"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19816"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan19818"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_6"
+     id="g19357"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text19359"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan19361"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19363">
+      <ellipse
+         id="ellipse19365"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19367"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19369">
+      <ellipse
+         id="ellipse19371"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse19373"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19375"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan19377"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan19379"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan19381"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19383"
+       y="750.09619"
+       x="413.91693"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19385"
+         y="750.09619"
+         x="413.91693">Linux</tspan>
+      <tspan
+         id="tspan19387"
+         y="782.28223"
+         x="413.91693">Scalalability</tspan>
+      <tspan
+         id="tspan19389"
+         y="814.46991"
+         x="413.91693">OSDI'10</tspan>
+    </text>
+    <line
+       id="line19391"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19393">
+      <ellipse
+         id="ellipse19395"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19397"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19399"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19401"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan19403"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19405">
+      <ellipse
+         id="ellipse19407"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19409"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19411"
+       y="752.05786"
+       x="714.71387"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19413"
+         y="752.05786"
+         x="714.71387">BosaiVM</tspan>
+      <tspan
+         id="tspan19415"
+         y="784.24402"
+         x="714.71387">ASPLOS'12</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19417">
+      <ellipse
+         id="ellipse19419"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:#e5e5e5" />
+      <ellipse
+         id="ellipse19421"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19423"
+       y="331.80478"
+       x="606.01105"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19425"
+         y="331.80478"
+         x="606.01105">Barrelfish</tspan>
+      <tspan
+         id="tspan19427"
+         y="363.99094"
+         x="606.01105">SOSP'09</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19429">
+      <path
+         id="path19431"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19433"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19435"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19437">
+      <path
+         id="path19439"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19441"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19443"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19445">
+      <path
+         id="path19447"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19449"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19451"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19453">
+      <ellipse
+         id="ellipse19455"
+         ry="63.864498"
+         rx="65.527702"
+         cy="747.896"
+         cx="1488.26"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19457"
+         ry="63.864498"
+         rx="65.527702"
+         cy="747.896"
+         cx="1488.26"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19459"
+       y="668.03094"
+       x="1093.3175"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19461"
+         y="668.03094"
+         x="1093.3175">Manycore</tspan>
+      <tspan
+         id="tspan19463"
+         y="700.21704"
+         x="1093.3175">Filesystem</tspan>
+      <tspan
+         id="tspan19465"
+         y="732.40472"
+         x="1093.3175">ATC'16</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19467">
+      <path
+         id="path19469"
+         d="m 1092.13,800.164 c 65.64,0 7.89,-10.372 63.8,-10.372"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19471"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19473"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19475">
+      <ellipse
+         id="ellipse19477"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19479"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19481"
+       y="466.00113"
+       x="900.00708"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19483"
+         y="466.00113"
+         x="900.00708">RadixVM</tspan>
+      <tspan
+         id="tspan19485"
+         y="498.18729"
+         x="900.00708">Eurosys'13</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19487">
+      <path
+         id="path19489"
+         d="m 1298.5,789.792 c 34.14,0 -38.87,-198.026 -14.47,-198.026"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19491"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19493"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19517">
+      <path
+         id="path19519"
+         d="m 1092.29,800.164 c 196.27,0 -321.194,-184.257 321.01,-66.063"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19521"
+         points="1409.94,738.566 1413.3,734.101 1411.75,728.731 1420.68,735.459 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19523"
+         points="1409.94,738.566 1413.3,734.101 1411.75,728.731 1420.68,735.459 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19525">
+      <ellipse
+         id="ellipse19527"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19529"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19531">
+      <path
+         id="path19533"
+         d="m 1219.69,506.194 c 103.6,0 81.74,-56.732 175.61,-56.732"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19535"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19537"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19539">
+      <ellipse
+         id="ellipse19541"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19543"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19545">
+      <ellipse
+         id="ellipse19547"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19549"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19551"
+       y="312.39862"
+       x="1157.6436"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19553"
+         y="312.39862"
+         x="1157.6436">...</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19555"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19557"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19559"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19561"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan19563"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19565"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19567"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan19569"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_5"
+     id="g19070"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text19072"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan19074"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19076">
+      <ellipse
+         id="ellipse19078"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19080"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19082">
+      <ellipse
+         id="ellipse19084"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse19086"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19088"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan19090"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan19092"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan19094"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19096"
+       y="750.09619"
+       x="413.91693"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19098"
+         y="750.09619"
+         x="413.91693">Linux</tspan>
+      <tspan
+         id="tspan19100"
+         y="782.28223"
+         x="413.91693">Scalalability</tspan>
+      <tspan
+         id="tspan19102"
+         y="814.46991"
+         x="413.91693">OSDI'10</tspan>
+    </text>
+    <line
+       id="line19104"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19106">
+      <ellipse
+         id="ellipse19108"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse19110"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19112"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19114"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan19116"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19118">
+      <ellipse
+         id="ellipse19120"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19122"
+         ry="63.864498"
+         rx="65.527702"
+         cy="789.79199"
+         cx="1232"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19124"
+       y="752.05786"
+       x="714.71387"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19126"
+         y="752.05786"
+         x="714.71387">BosaiVM</tspan>
+      <tspan
+         id="tspan19128"
+         y="784.24402"
+         x="714.71387">ASPLOS'12</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19130">
+      <ellipse
+         id="ellipse19132"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:#e5e5e5" />
+      <ellipse
+         id="ellipse19135"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19137"
+       y="331.80478"
+       x="606.01105"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19139"
+         y="331.80478"
+         x="606.01105">Barrelfish</tspan>
+      <tspan
+         id="tspan19141"
+         y="363.99094"
+         x="606.01105">SOSP'09</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19143">
+      <path
+         id="path19145"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19147"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19149"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19151">
+      <path
+         id="path19153"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19155"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19157"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19159">
+      <path
+         id="path19161"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19163"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19165"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19182">
+      <path
+         id="path19184"
+         d="m 1092.13,800.164 c 65.64,0 7.89,-10.372 63.8,-10.372"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19186"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19188"
+         points="1153.43,794.792 1155.93,789.792 1153.43,784.792 1163.43,789.792 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19190">
+      <ellipse
+         id="ellipse19192"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:#1e90ff" />
+      <ellipse
+         id="ellipse19194"
+         ry="63.864498"
+         rx="65.527702"
+         cy="591.76599"
+         cx="1360.27"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19196"
+       y="466.00113"
+       x="900.00708"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan19198"
+         y="466.00113"
+         x="900.00708">RadixVM</tspan>
+      <tspan
+         id="tspan19200"
+         y="498.18729"
+         x="900.00708">Eurosys'13</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19202">
+      <path
+         id="path19204"
+         d="m 1298.5,789.792 c 34.14,0 -38.87,-198.026 -14.47,-198.026"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19206"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19208"
+         points="1281.53,596.766 1284.03,591.766 1281.53,586.766 1291.53,591.766 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19241">
+      <ellipse
+         id="ellipse19243"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19245"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19247">
+      <path
+         id="path19249"
+         d="m 1219.69,506.194 c 103.6,0 81.74,-56.732 175.61,-56.732"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon19251"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon19253"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19255">
+      <ellipse
+         id="ellipse19257"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19259"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g19261">
+      <ellipse
+         id="ellipse19263"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse19265"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19267"
+       y="312.39862"
+       x="1157.6436"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19269"
+         y="312.39862"
+         x="1157.6436">...</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19271"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan19273"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19275"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19277"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan19279"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text19281"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan19283"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan19285"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_4"
+     id="g18565"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text18567"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan18569"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18571">
+      <ellipse
+         id="ellipse18574"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse18576"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18578">
+      <ellipse
+         id="ellipse18580"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse18582"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18584"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan18586"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan18588"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan18590"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18592"
+       y="750.09619"
+       x="413.91693"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18594"
+         y="750.09619"
+         x="413.91693">Linux</tspan>
+      <tspan
+         id="tspan18596"
+         y="782.28223"
+         x="413.91693">Scalalability</tspan>
+      <tspan
+         id="tspan18598"
+         y="814.46991"
+         x="413.91693">OSDI'10</tspan>
+    </text>
+    <line
+       id="line18600"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18602">
+      <ellipse
+         id="ellipse18604"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse18606"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18608"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18610"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan18612"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18626">
+      <ellipse
+         id="ellipse18628"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:#e5e5e5" />
+      <ellipse
+         id="ellipse18630"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18632"
+       y="331.80478"
+       x="606.01105"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18634"
+         y="331.80478"
+         x="606.01105">Barrelfish</tspan>
+      <tspan
+         id="tspan18636"
+         y="363.99094"
+         x="606.01105">SOSP'09</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18638">
+      <path
+         id="path18640"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18642"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18644"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18646">
+      <path
+         id="path18648"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18650"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18652"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18654">
+      <path
+         id="path18656"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18658"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18660"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18737">
+      <ellipse
+         id="ellipse18739"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse18741"
+         ry="63.864498"
+         rx="65.527702"
+         cy="449.46201"
+         cx="1471.5699"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18743">
+      <path
+         id="path18745"
+         d="m 1219.69,506.194 c 103.6,0 81.74,-56.732 175.61,-56.732"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18747"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18749"
+         points="1392.8,454.462 1395.3,449.462 1392.8,444.462 1402.8,449.462 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18751">
+      <ellipse
+         id="ellipse18753"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse18755"
+         ry="63.864498"
+         rx="65.527702"
+         cy="462.862"
+         cx="1482.46"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18757">
+      <ellipse
+         id="ellipse18759"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:#ffa500" />
+      <ellipse
+         id="ellipse18761"
+         ry="63.864498"
+         rx="65.527702"
+         cy="479.09"
+         cx="1499.01"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18763"
+       y="312.39862"
+       x="1157.6436"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan18765"
+         y="312.39862"
+         x="1157.6436">...</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18767"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan18769"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18771"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan18773"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan18775"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18777"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan18779"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan18781"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_3"
+     id="g17979"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text17981"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan17983"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g17985">
+      <ellipse
+         id="ellipse17987"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse17989"
+         ry="63.864498"
+         rx="65.527702"
+         cy="800.16199"
+         cx="1025.79"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g17991">
+      <ellipse
+         id="ellipse17993"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse17995"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text17997"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan17999"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan18001"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan18003"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18005"
+       y="750.09619"
+       x="413.91693"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18007"
+         y="750.09619"
+         x="413.91693">Linux</tspan>
+      <tspan
+         id="tspan18009"
+         y="782.28223"
+         x="413.91693">Scalalability</tspan>
+      <tspan
+         id="tspan18011"
+         y="814.46991"
+         x="413.91693">OSDI'10</tspan>
+    </text>
+    <line
+       id="line18013"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18015">
+      <ellipse
+         id="ellipse18017"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse18019"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18021"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18023"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan18025"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18039">
+      <ellipse
+         id="ellipse18041"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:#e5e5e5" />
+      <ellipse
+         id="ellipse18043"
+         ry="63.864498"
+         rx="65.527702"
+         cy="506.194"
+         cx="1153.15"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18045"
+       y="331.80478"
+       x="606.01105"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan18047"
+         y="331.80478"
+         x="606.01105">Barrelfish</tspan>
+      <tspan
+         id="tspan18049"
+         y="363.99094"
+         x="606.01105">SOSP'09</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18051">
+      <path
+         id="path18053"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18055"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18057"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18059">
+      <path
+         id="path18061"
+         d="m 830.199,685.69 c 74.108,0 54.978,114.474 119.348,114.474"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18063"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18065"
+         points="947.047,805.164 949.547,800.164 947.047,795.164 957.047,800.164 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g18067">
+      <path
+         id="path18069"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon18071"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon18073"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18182"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan18184"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18186"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan18188"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan18190"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text18192"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan18194"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan18196"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g18430"
+     inkscape:label="history_2"
+     style="display:inline">
+    <text
+       font-size="12.8"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1288.3368"
+       y="746.66675"
+       id="text18432"
+       transform="scale(0.98529943,1.0149199)">
+      <tspan
+         x="1288.3368"
+         y="746.66675"
+         id="tspan18434" />
+    </text>
+    <g
+       id="g18442"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#159393"
+         cx="763.68799"
+         cy="685.69"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18444" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="763.68799"
+         cy="685.69"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18446" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       x="28.694349"
+       y="583.63715"
+       id="text18448"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="28.694349"
+         y="583.63715"
+         id="tspan18450">Operating</tspan>
+      <tspan
+         x="28.694349"
+         y="615.82318"
+         id="tspan18452">System</tspan>
+      <tspan
+         x="28.694349"
+         y="648.01086"
+         id="tspan18454">Scalability</tspan>
+    </text>
+    <line
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176"
+       x1="203.77202"
+       y1="588.97339"
+       x2="1409.8623"
+       y2="590.11542"
+       id="line18464" />
+    <g
+       id="g18466"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#e6e6fa"
+         cx="934.34601"
+         cy="580.578"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18468" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="934.34601"
+         cy="580.578"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18470" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="300.21301"
+       y="448.59134"
+       id="text18472"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="300.21301"
+         y="448.59134"
+         id="tspan18474">Corey</tspan>
+      <tspan
+         x="300.21301"
+         y="480.7775"
+         id="tspan18476">OSDI'08</tspan>
+    </text>
+    <g
+       id="g18478"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <ellipse
+         style="fill:#e5e5e5"
+         cx="1153.15"
+         cy="506.194"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18480" />
+      <ellipse
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         cx="1153.15"
+         cy="506.194"
+         rx="65.527702"
+         ry="63.864498"
+         id="ellipse18482" />
+    </g>
+    <text
+       font-size="17.8252"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="606.01105"
+       y="331.80478"
+       id="text18484"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="606.01105"
+         y="331.80478"
+         id="tspan18486">Barrelfish</tspan>
+      <tspan
+         x="606.01105"
+         y="363.99094"
+         id="tspan18488">SOSP'09</tspan>
+    </text>
+    <g
+       id="g18490"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         id="path18492" />
+      <polygon
+         style="fill:#000000"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         id="polygon18494" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         id="polygon18496" />
+    </g>
+    <g
+       id="g18506"
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         d="m 999.874,580.578 c 57.636,0 29.116,-74.384 77.016,-74.384"
+         id="path18508" />
+      <polygon
+         style="fill:#000000"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         id="polygon18510" />
+      <polygon
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         points="1074.39,511.194 1076.89,506.194 1074.39,501.194 1084.39,506.194 "
+         id="polygon18512" />
+    </g>
+    <text
+       font-size="22.5778"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1107.0265"
+       y="582.52771"
+       id="text18514"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1107.0265"
+         y="582.52771"
+         id="tspan18516">2016</tspan>
+    </text>
+    <text
+       font-size="16.9333"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1261.8683"
+       y="534.57135"
+       id="text18518"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1261.8683"
+         y="534.57135"
+         id="tspan18520">New</tspan>
+      <tspan
+         x="1261.8683"
+         y="565.14825"
+         id="tspan18522">OS</tspan>
+    </text>
+    <text
+       font-size="16.9333"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       x="1259.2104"
+       y="624.40826"
+       id="text18524"
+       transform="scale(0.99415269,1.0058817)">
+      <tspan
+         x="1259.2104"
+         y="624.40826"
+         id="tspan18526">Optimizing</tspan>
+      <tspan
+         x="1259.2104"
+         y="654.98517"
+         id="tspan18528">OS</tspan>
+    </text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="history_1"
+     id="g16888"
+     inkscape:groupmode="layer">
+    <text
+       transform="scale(0.98529943,1.0149199)"
+       id="text16890"
+       y="746.66675"
+       x="1288.3368"
+       style="font-style:normal;font-weight:normal;font-size:10.83441067px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="12.8">
+      <tspan
+         id="tspan16892"
+         y="746.66675"
+         x="1288.3368" />
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g16900">
+      <ellipse
+         id="ellipse16902"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:#159393" />
+      <ellipse
+         id="ellipse16904"
+         ry="63.864498"
+         rx="65.527702"
+         cy="685.69"
+         cx="763.68799"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text16906"
+       y="583.63715"
+       x="28.694349"
+       style="font-style:normal;font-weight:700;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+       font-size="17.8252">
+      <tspan
+         id="tspan16908"
+         y="583.63715"
+         x="28.694349">Operating</tspan>
+      <tspan
+         id="tspan16910"
+         y="615.82318"
+         x="28.694349">System</tspan>
+      <tspan
+         id="tspan16912"
+         y="648.01086"
+         x="28.694349">Scalability</tspan>
+    </text>
+    <line
+       id="line16922"
+       y2="590.11542"
+       x2="1409.8623"
+       y1="588.97339"
+       x1="203.77202"
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.88911176" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g16924">
+      <ellipse
+         id="ellipse16926"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:#e6e6fa" />
+      <ellipse
+         id="ellipse16928"
+         ry="63.864498"
+         rx="65.527702"
+         cy="580.578"
+         cx="934.34601"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text16930"
+       y="448.59134"
+       x="300.21301"
+       style="font-style:normal;font-weight:normal;font-size:25.74949646px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="17.8252">
+      <tspan
+         id="tspan16932"
+         y="448.59134"
+         x="300.21301">Corey</tspan>
+      <tspan
+         id="tspan16934"
+         y="480.7775"
+         x="300.21301">OSDI'08</tspan>
+    </text>
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g16936" />
+    <g
+       transform="matrix(1.4361091,0,0,1.4530523,-993.739,-389.09939)"
+       id="g16960">
+      <path
+         id="path16962"
+         d="m 810.024,640.532 c 57.238,0 0.557,-59.954 48.059,-59.954"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         inkscape:connector-curvature="0" />
+      <polygon
+         id="polygon16964"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:#000000" />
+      <polygon
+         id="polygon16966"
+         points="855.583,585.578 858.083,580.578 855.583,575.578 865.583,580.578 "
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text17090"
+       y="582.52771"
+       x="1107.0265"
+       style="font-style:normal;font-weight:normal;font-size:32.61489487px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="22.5778">
+      <tspan
+         id="tspan17092"
+         y="582.52771"
+         x="1107.0265">2016</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text17094"
+       y="534.57135"
+       x="1261.8683"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan17096"
+         y="534.57135"
+         x="1261.8683">New</tspan>
+      <tspan
+         id="tspan17098"
+         y="565.14825"
+         x="1261.8683">OS</tspan>
+    </text>
+    <text
+       transform="scale(0.99415269,1.0058817)"
+       id="text17100"
+       y="624.40826"
+       x="1259.2104"
+       style="font-style:normal;font-weight:normal;font-size:24.46109772px;font-family:sans-serif;text-anchor:start;fill:#000000"
+       font-size="16.9333">
+      <tspan
+         id="tspan17102"
+         y="624.40826"
+         x="1259.2104">Optimizing</tspan>
+      <tspan
+         id="tspan17104"
+         y="654.98517"
+         x="1259.2104">OS</tspan>
+    </text>
   </g>
   <g
      style="display:inline"
@@ -8383,11 +10883,11 @@
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-dasharray:4" />
       <polygon
          id="polygon16064"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          style="fill:#000000" />
       <polygon
          id="polygon16066"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
     </g>
     <text
@@ -9762,11 +12262,11 @@
          id="line27738" />
       <polygon
          style="fill:#000000"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon27740" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon27742" />
     </g>
     <text
@@ -11624,11 +14124,11 @@
          id="line18475" />
       <polygon
          style="fill:#000000"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon18477" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon18479" />
     </g>
     <text
@@ -13603,11 +16103,11 @@
          id="line16563" />
       <polygon
          style="fill:#000000"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon16565" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon16567" />
     </g>
     <text
@@ -16961,11 +19461,11 @@
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-dasharray:4" />
       <polygon
          id="polygon10782"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          style="fill:#000000" />
       <polygon
          id="polygon10784"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
     </g>
     <text
@@ -20640,11 +23140,11 @@
          id="line20830" />
       <polygon
          style="fill:#000000"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon20832" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon20834" />
     </g>
     <text
@@ -25767,11 +28267,11 @@
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-dasharray:4" />
       <polygon
          id="polygon23845"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          style="fill:#000000" />
       <polygon
          id="polygon23847"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
     </g>
     <text
@@ -31223,11 +33723,11 @@
          id="line26624" />
       <polygon
          style="fill:#000000"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon26626" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-         points="271.916,300.48 268.894,294.491 271.9,295.98 274.894,294.469 "
+         points="268.894,294.491 271.9,295.98 274.894,294.469 271.916,300.48 "
          id="polygon26628" />
     </g>
     <text
@@ -37974,11 +40474,11 @@
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-dasharray:4" />
       <polygon
          id="polygon29296"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          style="fill:#000000" />
       <polygon
          id="polygon29298"
-         points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+         points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
     </g>
     <text
@@ -44085,11 +46585,11 @@
          id="path15157" />
       <polygon
          style="fill:#000000"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,552.378 937.414,557.378 927.414,562.378 929.914,557.378 "
          id="polygon15159" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,552.378 937.414,557.378 927.414,562.378 929.914,557.378 "
          id="polygon15161" />
     </g>
     <g
@@ -44102,11 +46602,11 @@
          id="path15165" />
       <polygon
          style="fill:#000000"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,552.378 938.103,557.378 928.103,562.378 930.603,557.378 "
          id="polygon15167" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,552.378 938.103,557.378 928.103,562.378 930.603,557.378 "
          id="polygon15169" />
     </g>
     <g
@@ -44119,11 +46619,11 @@
          id="path15173" />
       <polygon
          style="fill:#000000"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="931.642,572.557 942.822,572.655 936.035,581.54 936.084,575.95 "
          id="polygon15175" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="931.642,572.557 942.822,572.655 936.035,581.54 936.084,575.95 "
          id="polygon15177" />
     </g>
     <g
@@ -44136,11 +46636,11 @@
          id="path15181" />
       <polygon
          style="fill:#000000"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,552.378 937.431,557.378 927.431,562.378 929.931,557.378 "
          id="polygon15183" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,552.378 937.431,557.378 927.431,562.378 929.931,557.378 "
          id="polygon15185" />
     </g>
     <g
@@ -44153,11 +46653,11 @@
          id="path15189-6" />
       <polygon
          style="fill:#000000"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,552.378 937.43,557.378 927.43,562.378 929.93,557.378 "
          id="polygon15191" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,552.378 937.43,557.378 927.43,562.378 929.93,557.378 "
          id="polygon15193" />
     </g>
     <g
@@ -44170,11 +46670,11 @@
          id="path15197-7" />
       <polygon
          style="fill:#000000"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,552.378 937.919,557.378 927.919,562.378 930.419,557.378 "
          id="polygon15199" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,552.378 937.919,557.378 927.919,562.378 930.419,557.378 "
          id="polygon15201" />
     </g>
     <g
@@ -44187,11 +46687,11 @@
          id="path15205-5" />
       <polygon
          style="fill:#000000"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,552.378 937.748,557.378 927.748,562.378 930.248,557.378 "
          id="polygon15207" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,552.378 937.748,557.378 927.748,562.378 930.248,557.378 "
          id="polygon15209" />
     </g>
     <g
@@ -44204,11 +46704,11 @@
          id="path15213-3" />
       <polygon
          style="fill:#000000"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,552.378 937.456,557.378 927.456,562.378 929.956,557.378 "
          id="polygon15215" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,552.378 937.456,557.378 927.456,562.378 929.956,557.378 "
          id="polygon15217" />
     </g>
     <g
@@ -44745,11 +47245,11 @@
          id="path15397" />
       <polygon
          style="fill:#000000"
-         points="937.629,556.352 927.629,561.352 930.129,556.352 927.629,551.352 "
+         points="927.629,551.352 937.629,556.352 927.629,561.352 930.129,556.352 "
          id="polygon15399" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.629,556.352 927.629,561.352 930.129,556.352 927.629,551.352 "
+         points="927.629,551.352 937.629,556.352 927.629,561.352 930.129,556.352 "
          id="polygon15401" />
     </g>
     <g
@@ -44762,11 +47262,11 @@
          id="path15405" />
       <polygon
          style="fill:#000000"
-         points="937.61,556.352 927.61,561.352 930.11,556.352 927.61,551.352 "
+         points="927.61,551.352 937.61,556.352 927.61,561.352 930.11,556.352 "
          id="polygon15407" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.61,556.352 927.61,561.352 930.11,556.352 927.61,551.352 "
+         points="927.61,551.352 937.61,556.352 927.61,561.352 930.11,556.352 "
          id="polygon15409" />
     </g>
     <g
@@ -44779,11 +47279,11 @@
          id="path15413" />
       <polygon
          style="fill:#000000"
-         points="943.036,571.622 936.249,580.507 936.298,574.917 931.856,571.524 "
+         points="931.856,571.524 943.036,571.622 936.249,580.507 936.298,574.917 "
          id="polygon15415" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="943.036,571.622 936.249,580.507 936.298,574.917 931.856,571.524 "
+         points="931.856,571.524 943.036,571.622 936.249,580.507 936.298,574.917 "
          id="polygon15417" />
     </g>
     <g
@@ -44796,11 +47296,11 @@
          id="path15421" />
       <polygon
          style="fill:#000000"
-         points="937.629,556.352 927.629,561.352 930.129,556.352 927.629,551.352 "
+         points="927.629,551.352 937.629,556.352 927.629,561.352 930.129,556.352 "
          id="polygon15423" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.629,556.352 927.629,561.352 930.129,556.352 927.629,551.352 "
+         points="927.629,551.352 937.629,556.352 927.629,561.352 930.129,556.352 "
          id="polygon15425" />
     </g>
     <g
@@ -44813,11 +47313,11 @@
          id="path15429" />
       <polygon
          style="fill:#000000"
-         points="937.613,556.352 927.613,561.352 930.113,556.352 927.613,551.352 "
+         points="927.613,551.352 937.613,556.352 927.613,561.352 930.113,556.352 "
          id="polygon15431" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.613,556.352 927.613,561.352 930.113,556.352 927.613,551.352 "
+         points="927.613,551.352 937.613,556.352 927.613,561.352 930.113,556.352 "
          id="polygon15433" />
     </g>
     <g
@@ -44830,11 +47330,11 @@
          id="path15437" />
       <polygon
          style="fill:#000000"
-         points="937.626,556.352 927.626,561.352 930.126,556.352 927.626,551.352 "
+         points="927.626,551.352 937.626,556.352 927.626,561.352 930.126,556.352 "
          id="polygon15439" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.626,556.352 927.626,561.352 930.126,556.352 927.626,551.352 "
+         points="927.626,551.352 937.626,556.352 927.626,561.352 930.126,556.352 "
          id="polygon15441" />
     </g>
     <g
@@ -44847,11 +47347,11 @@
          id="path15445" />
       <polygon
          style="fill:#000000"
-         points="937.628,556.352 927.628,561.352 930.128,556.352 927.628,551.352 "
+         points="927.628,551.352 937.628,556.352 927.628,561.352 930.128,556.352 "
          id="polygon15447" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.628,556.352 927.628,561.352 930.128,556.352 927.628,551.352 "
+         points="927.628,551.352 937.628,556.352 927.628,561.352 930.128,556.352 "
          id="polygon15449" />
     </g>
     <g
@@ -44864,11 +47364,11 @@
          id="path15453" />
       <polygon
          style="fill:#000000"
-         points="937.646,556.352 927.646,561.352 930.146,556.352 927.646,551.352 "
+         points="927.646,551.352 937.646,556.352 927.646,561.352 930.146,556.352 "
          id="polygon15455" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.646,556.352 927.646,561.352 930.146,556.352 927.646,551.352 "
+         points="927.646,551.352 937.646,556.352 927.646,561.352 930.146,556.352 "
          id="polygon15457" />
     </g>
     <g
@@ -45189,11 +47689,11 @@
          id="path15559" />
       <polygon
          style="fill:#000000"
-         points="937.836,556.328 927.836,561.328 930.336,556.328 927.836,551.328 "
+         points="927.836,551.328 937.836,556.328 927.836,561.328 930.336,556.328 "
          id="polygon15561" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.836,556.328 927.836,561.328 930.336,556.328 927.836,551.328 "
+         points="927.836,551.328 937.836,556.328 927.836,561.328 930.336,556.328 "
          id="polygon15563" />
     </g>
     <g
@@ -45206,11 +47706,11 @@
          id="path15567" />
       <polygon
          style="fill:#000000"
-         points="937.811,556.328 927.811,561.328 930.311,556.328 927.811,551.328 "
+         points="927.811,551.328 937.811,556.328 927.811,561.328 930.311,556.328 "
          id="polygon15569" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.811,556.328 927.811,561.328 930.311,556.328 927.811,551.328 "
+         points="927.811,551.328 937.811,556.328 927.811,561.328 930.311,556.328 "
          id="polygon15571" />
     </g>
     <g
@@ -45223,11 +47723,11 @@
          id="path15575" />
       <polygon
          style="fill:#000000"
-         points="943.226,571.603 936.44,580.488 936.489,574.898 932.046,571.505 "
+         points="932.046,571.505 943.226,571.603 936.44,580.488 936.489,574.898 "
          id="polygon15577" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="943.226,571.603 936.44,580.488 936.489,574.898 932.046,571.505 "
+         points="932.046,571.505 943.226,571.603 936.44,580.488 936.489,574.898 "
          id="polygon15579" />
     </g>
     <g
@@ -45240,11 +47740,11 @@
          id="path15583" />
       <polygon
          style="fill:#000000"
-         points="937.828,556.328 927.828,561.328 930.328,556.328 927.828,551.328 "
+         points="927.828,551.328 937.828,556.328 927.828,561.328 930.328,556.328 "
          id="polygon15585" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.828,556.328 927.828,561.328 930.328,556.328 927.828,551.328 "
+         points="927.828,551.328 937.828,556.328 927.828,561.328 930.328,556.328 "
          id="polygon15587" />
     </g>
     <g
@@ -45257,11 +47757,11 @@
          id="path15591" />
       <polygon
          style="fill:#000000"
-         points="937.813,556.328 927.813,561.328 930.313,556.328 927.813,551.328 "
+         points="927.813,551.328 937.813,556.328 927.813,561.328 930.313,556.328 "
          id="polygon15593" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.813,556.328 927.813,561.328 930.313,556.328 927.813,551.328 "
+         points="927.813,551.328 937.813,556.328 927.813,561.328 930.313,556.328 "
          id="polygon15595" />
     </g>
     <g
@@ -45274,11 +47774,11 @@
          id="path15599" />
       <polygon
          style="fill:#000000"
-         points="937.812,556.328 927.812,561.328 930.312,556.328 927.812,551.328 "
+         points="927.812,551.328 937.812,556.328 927.812,561.328 930.312,556.328 "
          id="polygon15601" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.812,556.328 927.812,561.328 930.312,556.328 927.812,551.328 "
+         points="927.812,551.328 937.812,556.328 927.812,561.328 930.312,556.328 "
          id="polygon15603" />
     </g>
     <g
@@ -45291,11 +47791,11 @@
          id="path15607" />
       <polygon
          style="fill:#000000"
-         points="937.821,556.328 927.821,561.328 930.321,556.328 927.821,551.328 "
+         points="927.821,551.328 937.821,556.328 927.821,561.328 930.321,556.328 "
          id="polygon15609" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.821,556.328 927.821,561.328 930.321,556.328 927.821,551.328 "
+         points="927.821,551.328 937.821,556.328 927.821,561.328 930.321,556.328 "
          id="polygon15611" />
     </g>
     <g
@@ -45308,12 +47808,75 @@
          id="path15615" />
       <polygon
          style="fill:#000000"
-         points="937.836,556.328 927.836,561.328 930.336,556.328 927.836,551.328 "
+         points="927.836,551.328 937.836,556.328 927.836,561.328 930.336,556.328 "
          id="polygon15617" />
       <polygon
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="937.836,556.328 927.836,561.328 930.336,556.328 927.836,551.328 "
+         points="927.836,551.328 937.836,556.328 927.836,561.328 930.336,556.328 "
          id="polygon15619" />
+    </g>
+    <g
+       id="g20115"
+       transform="matrix(0.22165911,0,0,0.20754037,973.03338,470.31599)">
+      <circle
+         id="circle20067"
+         r="236.966"
+         cy="236.966"
+         cx="236.966"
+         style="fill:#e3aa24" />
+      <path
+         id="path20069"
+         d="m 186.141,168.802 c 18.63,-48.445 15.042,-121.667 15.042,-121.667 0,0 49.541,20.759 83.744,77.761 32.149,53.578 1.777,133.398 1.777,133.398 23.685,-23.693 32.464,-47.382 33.268,-75.827 26.608,42.473 47.165,91.146 47.165,140.398 0,60.938 -55.412,110.285 -123.837,110.318 -68.396,-0.037 -123.837,-49.38 -123.837,-110.318 0,-59.31 44.71,-96.934 66.678,-154.063 z"
+         style="fill:#e17a2d"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g20071"
+         style="opacity:0.8">
+        <path
+           id="path20073"
+           d="m 210.455,272.583 c 10.222,-29.384 8.258,-73.791 8.258,-73.791 0,0 98.12,74.674 91.131,167.227 -2.791,36.856 -30.424,66.888 -68.01,66.91 -37.556,-0.022 -68.003,-29.949 -68.003,-66.91 0.004,-35.97 24.557,-58.787 36.624,-93.436 z"
+           style="fill:#f4e028"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g20075"
+         style="opacity:0.8">
+        <path
+           id="path20077"
+           d="m 222.017,330.072 c 6.481,-18.619 5.231,-46.753 5.231,-46.753 0,0 62.169,47.318 57.743,105.963 -1.77,23.349 -19.278,42.372 -43.09,42.39 -23.794,-0.019 -43.09,-18.978 -43.09,-42.39 0.004,-22.799 15.569,-37.257 23.206,-59.21 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g20079" />
+      <g
+         id="g20081" />
+      <g
+         id="g20083" />
+      <g
+         id="g20085" />
+      <g
+         id="g20087" />
+      <g
+         id="g20089" />
+      <g
+         id="g20091" />
+      <g
+         id="g20093" />
+      <g
+         id="g20095" />
+      <g
+         id="g20097" />
+      <g
+         id="g20099" />
+      <g
+         id="g20101" />
+      <g
+         id="g20103" />
+      <g
+         id="g20105" />
+      <g
+         id="g20107" />
     </g>
   </g>
   <g
@@ -46268,11 +48831,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16620"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16622"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46285,11 +48848,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16629"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16631"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46302,11 +48865,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16637"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
          style="fill:#000000" />
       <polygon
          id="polygon16639"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46319,11 +48882,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16645"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16647"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46336,11 +48899,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16653"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16655"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46353,11 +48916,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16661"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16663"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46370,11 +48933,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16669"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16671"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -46387,11 +48950,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon16678"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon16680"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48785,11 +51348,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18862"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18864"
-         points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+         points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48802,11 +51365,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18870"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18872"
-         points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+         points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48819,11 +51382,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18878"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
          style="fill:#000000" />
       <polygon
          id="polygon18880"
-         points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+         points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48836,11 +51399,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18886"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18888"
-         points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+         points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48853,11 +51416,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18894"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18896"
-         points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+         points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48870,11 +51433,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18902"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18904"
-         points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+         points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48887,11 +51450,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18910"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18912"
-         points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+         points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -48904,11 +51467,11 @@
          inkscape:connector-curvature="0" />
       <polygon
          id="polygon18918"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
          style="fill:#000000" />
       <polygon
          id="polygon18920"
-         points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+         points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
     </g>
     <g
@@ -49960,11 +52523,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16373"
-           points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+           points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16375"
-           points="937.414,557.378 927.414,562.378 929.914,557.378 927.414,552.378 "
+           points="927.414,562.378 929.914,557.378 927.414,552.378 937.414,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -49976,11 +52539,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16381"
-           points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+           points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16383"
-           points="938.103,557.378 928.103,562.378 930.603,557.378 928.103,552.378 "
+           points="928.103,562.378 930.603,557.378 928.103,552.378 938.103,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -49992,11 +52555,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16389"
-           points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+           points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
            style="fill:#000000" />
         <polygon
            id="polygon16391"
-           points="942.822,572.655 936.035,581.54 936.084,575.95 931.642,572.557 "
+           points="936.035,581.54 936.084,575.95 931.642,572.557 942.822,572.655 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -50008,11 +52571,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16397"
-           points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+           points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16399"
-           points="937.431,557.378 927.431,562.378 929.931,557.378 927.431,552.378 "
+           points="927.431,562.378 929.931,557.378 927.431,552.378 937.431,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -50024,11 +52587,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16405"
-           points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+           points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16407"
-           points="937.43,557.378 927.43,562.378 929.93,557.378 927.43,552.378 "
+           points="927.43,562.378 929.93,557.378 927.43,552.378 937.43,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -50040,11 +52603,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16413"
-           points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+           points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16415"
-           points="937.919,557.378 927.919,562.378 930.419,557.378 927.919,552.378 "
+           points="927.919,562.378 930.419,557.378 927.919,552.378 937.919,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -50056,11 +52619,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16421"
-           points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+           points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16423"
-           points="937.748,557.378 927.748,562.378 930.248,557.378 927.748,552.378 "
+           points="927.748,562.378 930.248,557.378 927.748,552.378 937.748,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -50072,11 +52635,11 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon16429"
-           points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+           points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
            style="fill:#000000" />
         <polygon
            id="polygon16431"
-           points="937.456,557.378 927.456,562.378 929.956,557.378 927.456,552.378 "
+           points="927.456,562.378 929.956,557.378 927.456,552.378 937.456,557.378 "
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
       </g>
       <g
@@ -51656,11 +54219,11 @@
            id="line20887" />
         <polygon
            style="fill:#000000"
-           points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+           points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
            id="polygon20889" />
         <polygon
            style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1"
-           points="271.9,295.98 274.894,294.469 271.916,300.48 268.894,294.491 "
+           points="274.894,294.469 271.916,300.48 268.894,294.491 271.9,295.98 "
            id="polygon20891" />
       </g>
       <text

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.26)  20 NOV 2016 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.26)  21 NOV 2016 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1627,15 +1627,15 @@ File: c70nanumgt.fd 2013/02/16 v0.2 Nanum Gothic font definitions
 File: fig/history_old_60s.pdf Graphic file (type pdf)
 
 <use fig/history_old_60s.pdf>
-Package pdftex.def Info: fig/history_old_60s.pdf used on input line 81.
+Package pdftex.def Info: fig/history_old_60s.pdf used on input line 79.
 (pdftex.def)             Requested size: 341.43567pt x 256.07677pt.
 
-Overfull \hbox (34.1458pt too wide) in paragraph at lines 81--81
+Overfull \hbox (34.1458pt too wide) in paragraph at lines 79--79
  [] 
  []
 
 
-Overfull \vbox (63.7205pt too high) detected at line 81
+Overfull \vbox (63.7205pt too high) detected at line 79
  []
 
 [6
@@ -1645,15 +1645,15 @@ Overfull \vbox (63.7205pt too high) detected at line 81
 File: fig/history_old_80s.pdf Graphic file (type pdf)
 
 <use fig/history_old_80s.pdf>
-Package pdftex.def Info: fig/history_old_80s.pdf used on input line 90.
+Package pdftex.def Info: fig/history_old_80s.pdf used on input line 86.
 (pdftex.def)             Requested size: 341.43567pt x 256.07677pt.
 
-Overfull \hbox (34.1458pt too wide) in paragraph at lines 90--90
+Overfull \hbox (34.1458pt too wide) in paragraph at lines 86--86
  [] 
  []
 
 
-Overfull \vbox (63.7205pt too high) detected at line 90
+Overfull \vbox (63.7205pt too high) detected at line 86
  []
 
 [7
@@ -1663,15 +1663,15 @@ Overfull \vbox (63.7205pt too high) detected at line 90
 File: fig/history_old.pdf Graphic file (type pdf)
 
 <use fig/history_old.pdf>
-Package pdftex.def Info: fig/history_old.pdf used on input line 98.
+Package pdftex.def Info: fig/history_old.pdf used on input line 93.
 (pdftex.def)             Requested size: 341.43567pt x 256.07677pt.
 
-Overfull \hbox (34.1458pt too wide) in paragraph at lines 98--98
+Overfull \hbox (34.1458pt too wide) in paragraph at lines 93--93
  [] 
  []
 
 
-Overfull \vbox (63.7205pt too high) detected at line 98
+Overfull \vbox (63.7205pt too high) detected at line 93
  []
 
 [8
@@ -1682,10 +1682,10 @@ Overfull \vbox (63.7205pt too high) detected at line 98
 <fig/archcache_1.pdf, id=153, 281.05pt x 264.99pt>
 File: fig/archcache_1.pdf Graphic file (type pdf)
  <use fig/archcache_1.pdf>
-Package pdftex.def Info: fig/archcache_1.pdf used on input line 113.
+Package pdftex.def Info: fig/archcache_1.pdf used on input line 108.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 113
+Overfull \vbox (0.74841pt too high) detected at line 108
  []
 
 [10
@@ -1695,10 +1695,10 @@ Overfull \vbox (0.74841pt too high) detected at line 113
 File: fig/archcache_1_1.pdf Graphic file (type pdf)
 
 <use fig/archcache_1_1.pdf>
-Package pdftex.def Info: fig/archcache_1_1.pdf used on input line 120.
+Package pdftex.def Info: fig/archcache_1_1.pdf used on input line 115.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 120
+Overfull \vbox (0.74841pt too high) detected at line 115
  []
 
 [11
@@ -1708,10 +1708,10 @@ Overfull \vbox (0.74841pt too high) detected at line 120
 File: fig/archcache_1_2.pdf Graphic file (type pdf)
 
 <use fig/archcache_1_2.pdf>
-Package pdftex.def Info: fig/archcache_1_2.pdf used on input line 127.
+Package pdftex.def Info: fig/archcache_1_2.pdf used on input line 122.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 127
+Overfull \vbox (0.74841pt too high) detected at line 122
  []
 
 [12
@@ -1720,10 +1720,10 @@ Overfull \vbox (0.74841pt too high) detected at line 127
 <fig/archcache_2.pdf, id=221, 281.05pt x 264.99pt>
 File: fig/archcache_2.pdf Graphic file (type pdf)
  <use fig/archcache_2.pdf>
-Package pdftex.def Info: fig/archcache_2.pdf used on input line 134.
+Package pdftex.def Info: fig/archcache_2.pdf used on input line 129.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 134
+Overfull \vbox (0.74841pt too high) detected at line 129
  []
 
 [13
@@ -1732,554 +1732,567 @@ Overfull \vbox (0.74841pt too high) detected at line 134
 <fig/archcache_3.pdf, id=242, 281.05pt x 264.99pt>
 File: fig/archcache_3.pdf Graphic file (type pdf)
  <use fig/archcache_3.pdf>
-Package pdftex.def Info: fig/archcache_3.pdf used on input line 140.
+Package pdftex.def Info: fig/archcache_3.pdf used on input line 135.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 140
+Overfull \vbox (0.74841pt too high) detected at line 135
  []
 
 [14
 
  <./fig/archcache_3.pdf>] [15
 
- <.//slides/history.pdf>]
-<graph/aim7_default.pdf, id=282, 361.35pt x 216.81pt>
+ <.//slides/history_1.pdf>] [16
+
+ <.//slides/history_2.pdf>] [17
+
+ <.//slides/history_3.pdf>] [18
+
+ <.//slides/history_4.pdf>]
+[19
+
+ <.//slides/history_5.pdf>] [20
+
+ <.//slides/history_6.pdf>] [21
+
+ <.//slides/history_7.pdf>] <graph/aim7_default.pdf, id=446, 361.35pt x 216.81p
+t>
 File: graph/aim7_default.pdf Graphic file (type pdf)
 
 <use graph/aim7_default.pdf>
-Package pdftex.def Info: graph/aim7_default.pdf used on input line 153.
+Package pdftex.def Info: graph/aim7_default.pdf used on input line 203.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [16
+ [22
 
  <./graph/aim7_default.pdf>]
-<graph/aim7_default_2.pdf, id=302, 361.35pt x 216.81pt>
+<graph/aim7_default_2.pdf, id=467, 361.35pt x 216.81pt>
 File: graph/aim7_default_2.pdf Graphic file (type pdf)
 
 <use graph/aim7_default_2.pdf>
-Package pdftex.def Info: graph/aim7_default_2.pdf used on input line 157.
+Package pdftex.def Info: graph/aim7_default_2.pdf used on input line 207.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [17
+ [23
 
  <./graph/aim7_default_2.pdf>]
-<graph/aim7_default_3.pdf, id=330, 361.35pt x 216.81pt>
+<graph/aim7_default_3.pdf, id=494, 361.35pt x 216.81pt>
 File: graph/aim7_default_3.pdf Graphic file (type pdf)
 
 <use graph/aim7_default_3.pdf>
-Package pdftex.def Info: graph/aim7_default_3.pdf used on input line 161.
+Package pdftex.def Info: graph/aim7_default_3.pdf used on input line 211.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [18
+ [24
 
  <./graph/aim7_default_3.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 169.
+LaTeX Font Info:    Try loading font information for U+msa on input line 219.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 169.
+LaTeX Font Info:    Try loading font information for U+msb on input line 219.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/nanumgt/m/it' in size <8> not available
-(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 16
+(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 21
 9.
 LaTeX Font Info:    Font shape `T1/nanumgt/m/it' in size <6> not available
-(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 16
+(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 21
 9.
 LaTeX Font Info:    Font shape `T1/nanumgt/m/it' in size <5> not available
-(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 16
+(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 21
 9.
- [19
-
-] [20
-
-]
-<graph/aim7_default_4.pdf, id=369, 361.35pt x 216.81pt>
-File: graph/aim7_default_4.pdf Graphic file (type pdf)
-
-<use graph/aim7_default_4.pdf>
-Package pdftex.def Info: graph/aim7_default_4.pdf used on input line 174.
-(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [21
-
- <./graph/aim7_default_4.pdf>]
-<fig/lockstat.pdf, id=403, 361.35pt x 216.81pt>
-File: fig/lockstat.pdf Graphic file (type pdf)
- <use fig/lockstat.pdf>
-Package pdftex.def Info: fig/lockstat.pdf used on input line 179.
-(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [22
-
- <./fig/lockstat.pdf>] <fig/lockstat2.pdf, id=675, 361.35pt x 216.81pt>
-File: fig/lockstat2.pdf Graphic file (type pdf)
-
-<use fig/lockstat2.pdf>
-Package pdftex.def Info: fig/lockstat2.pdf used on input line 183.
-(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [23
-
- <./fig/lockstat2.pdf>] [24
-
- <.//slides/update.pdf>]
-[25
+ [25
 
 ] [26
 
-] [27
+]
+<graph/aim7_default_4.pdf, id=533, 361.35pt x 216.81pt>
+File: graph/aim7_default_4.pdf Graphic file (type pdf)
 
-] <fig/nonblock.pdf, id=1078, 281.05pt x 160.6pt>
-File: fig/nonblock.pdf Graphic file (type pdf)
+<use graph/aim7_default_4.pdf>
+Package pdftex.def Info: graph/aim7_default_4.pdf used on input line 224.
+(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
+ [27
 
-<use fig/nonblock.pdf>
-Package pdftex.def Info: fig/nonblock.pdf used on input line 208.
-(pdftex.def)             Requested size: 281.0493pt x 160.5996pt.
+ <./graph/aim7_default_4.pdf>]
+<fig/lockstat.pdf, id=567, 361.35pt x 216.81pt>
+File: fig/lockstat.pdf Graphic file (type pdf)
+ <use fig/lockstat.pdf>
+Package pdftex.def Info: fig/lockstat.pdf used on input line 229.
+(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
  [28
 
- <./fig/nonblock.pdf>]
-<fig/nonblock_fail.pdf, id=1105, 281.05pt x 160.6pt>
-File: fig/nonblock_fail.pdf Graphic file (type pdf)
+ <./fig/lockstat.pdf>] <fig/lockstat2.pdf, id=839, 361.35pt x 216.81pt>
+File: fig/lockstat2.pdf Graphic file (type pdf)
 
-<use fig/nonblock_fail.pdf>
-Package pdftex.def Info: fig/nonblock_fail.pdf used on input line 214.
-(pdftex.def)             Requested size: 309.15594pt x 176.66052pt.
+<use fig/lockstat2.pdf>
+Package pdftex.def Info: fig/lockstat2.pdf used on input line 233.
+(pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
+ [29
 
-Overfull \hbox (1.86607pt too wide) in paragraph at lines 214--214
- [] 
- []
+ <./fig/lockstat2.pdf>] [30
 
-[29
-
- <./fig/nonblock_fail.pdf>]
-<fig/archcache_cas.pdf, id=1132, 281.05pt x 264.99pt>
-File: fig/archcache_cas.pdf Graphic file (type pdf)
-
-<use fig/archcache_cas.pdf>
-Package pdftex.def Info: fig/archcache_cas.pdf used on input line 220.
-(pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
-
-Overfull \vbox (0.74841pt too high) detected at line 220
- []
-
-[30
-
- <./fig/archcache_cas.pdf>]
-<fig/archcache_cas_1.pdf, id=1152, 281.05pt x 264.99pt>
-File: fig/archcache_cas_1.pdf Graphic file (type pdf)
-
-<use fig/archcache_cas_1.pdf>
-Package pdftex.def Info: fig/archcache_cas_1.pdf used on input line 226.
-(pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
-
-Overfull \vbox (0.74841pt too high) detected at line 226
- []
-
+ <.//slides/update.pdf>]
 [31
 
- <./fig/archcache_cas_1.pdf>] [32
+] [32
 
 ] [33
 
-] [34
+] <fig/nonblock.pdf, id=1242, 281.05pt x 160.6pt>
+File: fig/nonblock.pdf Graphic file (type pdf)
 
- <.//slides/oplog_0.pdf>]
+<use fig/nonblock.pdf>
+Package pdftex.def Info: fig/nonblock.pdf used on input line 258.
+(pdftex.def)             Requested size: 281.0493pt x 160.5996pt.
+ [34
+
+ <./fig/nonblock.pdf>]
+<fig/nonblock_fail.pdf, id=1269, 281.05pt x 160.6pt>
+File: fig/nonblock_fail.pdf Graphic file (type pdf)
+
+<use fig/nonblock_fail.pdf>
+Package pdftex.def Info: fig/nonblock_fail.pdf used on input line 264.
+(pdftex.def)             Requested size: 309.15594pt x 176.66052pt.
+
+Overfull \hbox (1.86607pt too wide) in paragraph at lines 264--264
+ [] 
+ []
+
 [35
 
- <.//slides/oplog_0_1.pdf>] [36
+ <./fig/nonblock_fail.pdf>]
+<fig/archcache_cas.pdf, id=1296, 281.05pt x 264.99pt>
+File: fig/archcache_cas.pdf Graphic file (type pdf)
 
- <.//slides/oplog_1.pdf>] [37
+<use fig/archcache_cas.pdf>
+Package pdftex.def Info: fig/archcache_cas.pdf used on input line 270.
+(pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
- <.//slides/oplog_1_1.pdf>] [38
+Overfull \vbox (0.74841pt too high) detected at line 270
+ []
 
- <.//slides/oplog_2.pdf>] [39
+[36
+
+ <./fig/archcache_cas.pdf>]
+<fig/archcache_cas_1.pdf, id=1317, 281.05pt x 264.99pt>
+File: fig/archcache_cas_1.pdf Graphic file (type pdf)
+
+<use fig/archcache_cas_1.pdf>
+Package pdftex.def Info: fig/archcache_cas_1.pdf used on input line 276.
+(pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
+
+Overfull \vbox (0.74841pt too high) detected at line 276
+ []
+
+[37
+
+ <./fig/archcache_cas_1.pdf>] [38
+
+] [39
+
+] [40
+
+ <.//slides/oplog_0.pdf>]
+[41
+
+ <.//slides/oplog_0_1.pdf>] [42
+
+ <.//slides/oplog_1.pdf>] [43
+
+ <.//slides/oplog_1_1.pdf>] [44
+
+ <.//slides/oplog_2.pdf>] [45
 
  <.//slides/oplog_2_1.pdf>]
-[40
+[46
 
- <.//slides/oplog_3.pdf>] [41
+ <.//slides/oplog_3.pdf>] [47
 
- <.//slides/oplog_max.pdf>] [42
+ <.//slides/oplog_max.pdf>] [48
 
-] [43
+] [49
 
-] [44
+] [50
 
 ]
-[45
+[51
 
-] [46
+] [52
 
-] [47
+] [53
 
 ]
 LaTeX Font Info:    Font shape `T1/nanumgt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 34
+(Font)              Font shape `T1/nanumgt/m/sl' tried instead on input line 39
 1.
- [48
+ [54
 
-] <fig/example_1.pdf, id=1341, 597.50786pt x 398.3386pt>
+] <fig/example_1.pdf, id=1519, 597.50786pt x 398.3386pt>
 File: fig/example_1.pdf Graphic file (type pdf)
 
 <use fig/example_1.pdf>
-Package pdftex.def Info: fig/example_1.pdf used on input line 347.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [49
-
- <./fig/example_1.pdf>]
-<fig/example_2.pdf, id=1352, 597.50786pt x 398.3386pt>
-File: fig/example_2.pdf Graphic file (type pdf)
- <use fig/example_2.pdf>
-Package pdftex.def Info: fig/example_2.pdf used on input line 352.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
-
-[50
-
- <./fig/example_2.pdf>]
-<fig/example_3.pdf, id=1377, 597.50786pt x 398.3386pt>
-File: fig/example_3.pdf Graphic file (type pdf)
- <use fig/example_3.pdf>
-Package pdftex.def Info: fig/example_3.pdf used on input line 357.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
-
-[51
-
- <./fig/example_3.pdf>]
-<fig/update_remove_0.pdf, id=1440, 597.50786pt x 398.3386pt>
-File: fig/update_remove_0.pdf Graphic file (type pdf)
-
-<use fig/update_remove_0.pdf>
-Package pdftex.def Info: fig/update_remove_0.pdf used on input line 362.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [52
-
- <./fig/update_remove_0.pdf>]
-<fig/update_remove_1.pdf, id=1466, 597.50786pt x 398.3386pt>
-File: fig/update_remove_1.pdf Graphic file (type pdf)
-
-<use fig/update_remove_1.pdf>
-Package pdftex.def Info: fig/update_remove_1.pdf used on input line 366.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [53
-
- <./fig/update_remove_1.pdf>]
-<fig/update_remove_2.pdf, id=1491, 597.50786pt x 398.3386pt>
-File: fig/update_remove_2.pdf Graphic file (type pdf)
-
-<use fig/update_remove_2.pdf>
-Package pdftex.def Info: fig/update_remove_2.pdf used on input line 370.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [54
-
- <./fig/update_remove_2.pdf>]
-<fig/update_remove_2-1.pdf, id=1516, 597.50786pt x 398.3386pt>
-File: fig/update_remove_2-1.pdf Graphic file (type pdf)
-
-<use fig/update_remove_2-1.pdf>
-Package pdftex.def Info: fig/update_remove_2-1.pdf used on input line 375.
+Package pdftex.def Info: fig/example_1.pdf used on input line 397.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
  [55
 
- <./fig/update_remove_2-1.pdf>]
-<fig/update_remove_3.pdf, id=1554, 597.50786pt x 398.3386pt>
-File: fig/update_remove_3.pdf Graphic file (type pdf)
-
-<use fig/update_remove_3.pdf>
-Package pdftex.def Info: fig/update_remove_3.pdf used on input line 380.
+ <./fig/example_1.pdf>]
+<fig/example_2.pdf, id=1530, 597.50786pt x 398.3386pt>
+File: fig/example_2.pdf Graphic file (type pdf)
+ <use fig/example_2.pdf>
+Package pdftex.def Info: fig/example_2.pdf used on input line 402.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [56
 
- <./fig/update_remove_3.pdf>]
-<fig/update_remove_4.pdf, id=1579, 597.50786pt x 398.3386pt>
-File: fig/update_remove_4.pdf Graphic file (type pdf)
+[56
 
-<use fig/update_remove_4.pdf>
-Package pdftex.def Info: fig/update_remove_4.pdf used on input line 384.
+ <./fig/example_2.pdf>]
+<fig/example_3.pdf, id=1555, 597.50786pt x 398.3386pt>
+File: fig/example_3.pdf Graphic file (type pdf)
+ <use fig/example_3.pdf>
+Package pdftex.def Info: fig/example_3.pdf used on input line 407.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [57
 
- <./fig/update_remove_4.pdf>]
-<fig/reusing_garbage_1.pdf, id=1604, 597.50786pt x 398.3386pt>
-File: fig/reusing_garbage_1.pdf Graphic file (type pdf)
+[57
 
-<use fig/reusing_garbage_1.pdf>
-Package pdftex.def Info: fig/reusing_garbage_1.pdf used on input line 389.
+ <./fig/example_3.pdf>]
+<fig/update_remove_0.pdf, id=1619, 597.50786pt x 398.3386pt>
+File: fig/update_remove_0.pdf Graphic file (type pdf)
+
+<use fig/update_remove_0.pdf>
+Package pdftex.def Info: fig/update_remove_0.pdf used on input line 412.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
  [58
 
- <./fig/reusing_garbage_1.pdf>]
-<fig/reusing_garbage_2.pdf, id=1629, 597.50786pt x 398.3386pt>
-File: fig/reusing_garbage_2.pdf Graphic file (type pdf)
+ <./fig/update_remove_0.pdf>]
+<fig/update_remove_1.pdf, id=1644, 597.50786pt x 398.3386pt>
+File: fig/update_remove_1.pdf Graphic file (type pdf)
 
-<use fig/reusing_garbage_2.pdf>
-Package pdftex.def Info: fig/reusing_garbage_2.pdf used on input line 393.
+<use fig/update_remove_1.pdf>
+Package pdftex.def Info: fig/update_remove_1.pdf used on input line 416.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
  [59
 
- <./fig/reusing_garbage_2.pdf>] [60
+ <./fig/update_remove_1.pdf>]
+<fig/update_remove_2.pdf, id=1669, 597.50786pt x 398.3386pt>
+File: fig/update_remove_2.pdf Graphic file (type pdf)
+
+<use fig/update_remove_2.pdf>
+Package pdftex.def Info: fig/update_remove_2.pdf used on input line 420.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [60
+
+ <./fig/update_remove_2.pdf>]
+<fig/update_remove_2-1.pdf, id=1694, 597.50786pt x 398.3386pt>
+File: fig/update_remove_2-1.pdf Graphic file (type pdf)
+
+<use fig/update_remove_2-1.pdf>
+Package pdftex.def Info: fig/update_remove_2-1.pdf used on input line 425.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [61
+
+ <./fig/update_remove_2-1.pdf>]
+<fig/update_remove_3.pdf, id=1732, 597.50786pt x 398.3386pt>
+File: fig/update_remove_3.pdf Graphic file (type pdf)
+
+<use fig/update_remove_3.pdf>
+Package pdftex.def Info: fig/update_remove_3.pdf used on input line 430.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [62
+
+ <./fig/update_remove_3.pdf>]
+<fig/update_remove_4.pdf, id=1757, 597.50786pt x 398.3386pt>
+File: fig/update_remove_4.pdf Graphic file (type pdf)
+
+<use fig/update_remove_4.pdf>
+Package pdftex.def Info: fig/update_remove_4.pdf used on input line 434.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [63
+
+ <./fig/update_remove_4.pdf>]
+<fig/reusing_garbage_1.pdf, id=1783, 597.50786pt x 398.3386pt>
+File: fig/reusing_garbage_1.pdf Graphic file (type pdf)
+
+<use fig/reusing_garbage_1.pdf>
+Package pdftex.def Info: fig/reusing_garbage_1.pdf used on input line 439.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [64
+
+ <./fig/reusing_garbage_1.pdf>]
+<fig/reusing_garbage_2.pdf, id=1808, 597.50786pt x 398.3386pt>
+File: fig/reusing_garbage_2.pdf Graphic file (type pdf)
+
+<use fig/reusing_garbage_2.pdf>
+Package pdftex.def Info: fig/reusing_garbage_2.pdf used on input line 443.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+ [65
+
+ <./fig/reusing_garbage_2.pdf>] [66
 
 ]
-<fig/example.pdf, id=1660, 597.50786pt x 398.3386pt>
+<fig/example.pdf, id=1838, 597.50786pt x 398.3386pt>
 File: fig/example.pdf Graphic file (type pdf)
  <use fig/example.pdf>
-Package pdftex.def Info: fig/example.pdf used on input line 417.
+Package pdftex.def Info: fig/example.pdf used on input line 467.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
 
-[61
+[67
 
- <./fig/example.pdf>] [62
+ <./fig/example.pdf>] [68
 
- <.//slides/ldu_1.pdf>] [63
+ <.//slides/ldu_1.pdf>] [69
 
  <.//slides/ldu_2.pdf>]
-[64
+[70
 
- <.//slides/ldu_3.pdf>] [65
+ <.//slides/ldu_3.pdf>] [71
 
- <.//slides/ldu_4.pdf>] [66
+ <.//slides/ldu_4.pdf>] [72
 
- <.//slides/ldu_5.pdf>] [67
+ <.//slides/ldu_5.pdf>] [73
 
- <.//slides/ldu_6.pdf>] [68
+ <.//slides/ldu_6.pdf>] [74
 
- <.//slides/ldu_7.pdf>] [69
+ <.//slides/ldu_7.pdf>] [75
 
- <.//slides/ldu_8.pdf>] [70
+ <.//slides/ldu_8.pdf>] [76
 
- <.//slides/ldu_9.pdf>] [71
+ <.//slides/ldu_9.pdf>] [77
 
- <.//slides/ldu_10.pdf>] [72
+ <.//slides/ldu_10.pdf>] [78
 
-] [73
+] [79
 
-] [74
+] [80
 
 ]
-[75
+[81
 
-] <fig/anon_vma_default_0.pdf, id=4357, 597.50786pt x 398.3386pt>
+] <fig/anon_vma_default_0.pdf, id=4536, 597.50786pt x 398.3386pt>
 File: fig/anon_vma_default_0.pdf Graphic file (type pdf)
 
 <use fig/anon_vma_default_0.pdf>
-Package pdftex.def Info: fig/anon_vma_default_0.pdf used on input line 508.
+Package pdftex.def Info: fig/anon_vma_default_0.pdf used on input line 558.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [76
+ [82
 
  <./fig/anon_vma_default_0.pdf>]
-<fig/anon_vma_default.pdf, id=4378, 597.50786pt x 398.3386pt>
+<fig/anon_vma_default.pdf, id=4556, 597.50786pt x 398.3386pt>
 File: fig/anon_vma_default.pdf Graphic file (type pdf)
 
 <use fig/anon_vma_default.pdf>
-Package pdftex.def Info: fig/anon_vma_default.pdf used on input line 513.
+Package pdftex.def Info: fig/anon_vma_default.pdf used on input line 563.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [77
+ [83
 
  <./fig/anon_vma_default.pdf>]
-<fig/anon_vma_default_1.pdf, id=4396, 597.50786pt x 398.3386pt>
+<fig/anon_vma_default_1.pdf, id=4574, 597.50786pt x 398.3386pt>
 File: fig/anon_vma_default_1.pdf Graphic file (type pdf)
 
 <use fig/anon_vma_default_1.pdf>
-Package pdftex.def Info: fig/anon_vma_default_1.pdf used on input line 518.
+Package pdftex.def Info: fig/anon_vma_default_1.pdf used on input line 568.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [78
+ [84
 
  <./fig/anon_vma_default_1.pdf>]
-<fig/anon_vma.pdf, id=4414, 597.50786pt x 398.3386pt>
+<fig/anon_vma.pdf, id=4592, 597.50786pt x 398.3386pt>
 File: fig/anon_vma.pdf Graphic file (type pdf)
  <use fig/anon_vma.pdf>
-Package pdftex.def Info: fig/anon_vma.pdf used on input line 523.
+Package pdftex.def Info: fig/anon_vma.pdf used on input line 573.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
 
-[79
+[85
 
  <./fig/anon_vma.pdf>]
-<fig/file_rmap_default.pdf, id=4433, 597.50786pt x 398.3386pt>
+<fig/file_rmap_default.pdf, id=4611, 597.50786pt x 398.3386pt>
 File: fig/file_rmap_default.pdf Graphic file (type pdf)
 
 <use fig/file_rmap_default.pdf>
-Package pdftex.def Info: fig/file_rmap_default.pdf used on input line 528.
+Package pdftex.def Info: fig/file_rmap_default.pdf used on input line 578.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [80
+ [86
 
  <./fig/file_rmap_default.pdf>]
-<fig/file_rmap.pdf, id=4451, 597.50786pt x 398.3386pt>
+<fig/file_rmap.pdf, id=4629, 597.50786pt x 398.3386pt>
 File: fig/file_rmap.pdf Graphic file (type pdf)
  <use fig/file_rmap.pdf>
-Package pdftex.def Info: fig/file_rmap.pdf used on input line 533.
-(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
-
-[81
-
- <./fig/file_rmap.pdf>] [82
-
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-]
-<fig/lockfree.pdf, id=4495, 597.50786pt x 398.3386pt>
-File: fig/lockfree.pdf Graphic file (type pdf)
- <use fig/lockfree.pdf>
-Package pdftex.def Info: fig/lockfree.pdf used on input line 549.
+Package pdftex.def Info: fig/file_rmap.pdf used on input line 583.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
 
 [87
 
+ <./fig/file_rmap.pdf>] [88
+
+] [89
+
+] [90
+
+] [91
+
+] [92
+
+]
+<fig/lockfree.pdf, id=4674, 597.50786pt x 398.3386pt>
+File: fig/lockfree.pdf Graphic file (type pdf)
+ <use fig/lockfree.pdf>
+Package pdftex.def Info: fig/lockfree.pdf used on input line 599.
+(pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
+
+[93
+
  <./fig/lockfree.pdf>]
-<fig/lockfree_2.pdf, id=4508, 597.50786pt x 398.3386pt>
+<fig/lockfree_2.pdf, id=4686, 597.50786pt x 398.3386pt>
 File: fig/lockfree_2.pdf Graphic file (type pdf)
 
 <use fig/lockfree_2.pdf>
-Package pdftex.def Info: fig/lockfree_2.pdf used on input line 554.
+Package pdftex.def Info: fig/lockfree_2.pdf used on input line 604.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
- [88
+ [94
 
  <./fig/lockfree_2.pdf>]
-<fig/xeon.pdf, id=4520, 281.05pt x 264.99pt>
+<fig/xeon.pdf, id=4698, 281.05pt x 264.99pt>
 File: fig/xeon.pdf Graphic file (type pdf)
  <use fig/xeon.pdf>
-Package pdftex.def Info: fig/xeon.pdf used on input line 560.
+Package pdftex.def Info: fig/xeon.pdf used on input line 610.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-Overfull \vbox (0.74841pt too high) detected at line 560
+Overfull \vbox (0.74841pt too high) detected at line 610
  []
 
-[89
+[95
 
- <./fig/xeon.pdf>] <graph/aim7.pdf, id=4540, 361.35pt x 216.81pt>
+ <./fig/xeon.pdf>] <graph/aim7.pdf, id=4718, 361.35pt x 216.81pt>
 File: graph/aim7.pdf Graphic file (type pdf)
 
 <use graph/aim7.pdf>
-Package pdftex.def Info: graph/aim7.pdf used on input line 565.
+Package pdftex.def Info: graph/aim7.pdf used on input line 615.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [90
+ [96
 
  <./graph/aim7.pdf>]
-<graph/aim7_1.pdf, id=4561, 361.35pt x 216.81pt>
+<graph/aim7_1.pdf, id=4739, 361.35pt x 216.81pt>
 File: graph/aim7_1.pdf Graphic file (type pdf)
  <use graph/aim7_1.pdf>
-Package pdftex.def Info: graph/aim7_1.pdf used on input line 569.
+Package pdftex.def Info: graph/aim7_1.pdf used on input line 619.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
 
-[91
+[97
 
- <./graph/aim7_1.pdf>] <graph/aim7_2.pdf, id=4583, 361.35pt x 216.81pt>
+ <./graph/aim7_1.pdf>] <graph/aim7_2.pdf, id=4761, 361.35pt x 216.81pt>
 File: graph/aim7_2.pdf Graphic file (type pdf)
 
 <use graph/aim7_2.pdf>
-Package pdftex.def Info: graph/aim7_2.pdf used on input line 573.
+Package pdftex.def Info: graph/aim7_2.pdf used on input line 623.
 (pdftex.def)             Requested size: 289.0804pt x 173.44823pt.
- [92
+ [98
 
  <./graph/aim7_2.pdf>]
-<graph/aim7_cpuutils.pdf, id=4604, 341.9977pt x 211.00327pt>
+<graph/aim7_cpuutils.pdf, id=4782, 341.9977pt x 211.00327pt>
 File: graph/aim7_cpuutils.pdf Graphic file (type pdf)
 
 <use graph/aim7_cpuutils.pdf>
-Package pdftex.def Info: graph/aim7_cpuutils.pdf used on input line 578.
+Package pdftex.def Info: graph/aim7_cpuutils.pdf used on input line 628.
 (pdftex.def)             Requested size: 273.59853pt x 168.80284pt.
- [93
+ [99
 
  <./graph/aim7_cpuutils.pdf>]
-<graph/exim.pdf, id=4620, 349.96745pt x 206.18631pt>
+<graph/exim.pdf, id=4799, 349.96745pt x 206.18631pt>
 File: graph/exim.pdf Graphic file (type pdf)
  <use graph/exim.pdf>
-Package pdftex.def Info: graph/exim.pdf used on input line 582.
+Package pdftex.def Info: graph/exim.pdf used on input line 632.
 (pdftex.def)             Requested size: 279.97432pt x 164.94925pt.
 
-[94
+[100
 
  <./graph/exim.pdf>]
-<graph/exim_cpuutils.pdf, id=4635, 341.9977pt x 211.00327pt>
+<graph/exim_cpuutils.pdf, id=4814, 341.9977pt x 211.00327pt>
 File: graph/exim_cpuutils.pdf Graphic file (type pdf)
 
 <use graph/exim_cpuutils.pdf>
-Package pdftex.def Info: graph/exim_cpuutils.pdf used on input line 587.
+Package pdftex.def Info: graph/exim_cpuutils.pdf used on input line 637.
 (pdftex.def)             Requested size: 273.59853pt x 168.80284pt.
- [95
+ [101
 
  <./graph/exim_cpuutils.pdf>]
-<graph/lmbench.pdf, id=4651, 350.25655pt x 206.18631pt>
+<graph/lmbench.pdf, id=4830, 350.25655pt x 206.18631pt>
 File: graph/lmbench.pdf Graphic file (type pdf)
 
 <use graph/lmbench.pdf>
-Package pdftex.def Info: graph/lmbench.pdf used on input line 592.
+Package pdftex.def Info: graph/lmbench.pdf used on input line 642.
 (pdftex.def)             Requested size: 280.20561pt x 164.94925pt.
- [96
+ [102
 
  <./graph/lmbench.pdf>]
-<graph/lmbench_cpuutils.pdf, id=4667, 341.9977pt x 211.00327pt>
+<graph/lmbench_cpuutils.pdf, id=4845, 341.9977pt x 211.00327pt>
 File: graph/lmbench_cpuutils.pdf Graphic file (type pdf)
 
 <use graph/lmbench_cpuutils.pdf>
-Package pdftex.def Info: graph/lmbench_cpuutils.pdf used on input line 597.
+Package pdftex.def Info: graph/lmbench_cpuutils.pdf used on input line 647.
 (pdftex.def)             Requested size: 273.59853pt x 168.80284pt.
- [97
+ [103
 
  <./graph/lmbench_cpuutils.pdf>]
-<graph/ratio_aim7_core.pdf, id=4684, 352.73177pt x 207.48718pt>
+<graph/ratio_aim7_core.pdf, id=4862, 352.73177pt x 207.48718pt>
 File: graph/ratio_aim7_core.pdf Graphic file (type pdf)
 
 <use graph/ratio_aim7_core.pdf>
-Package pdftex.def Info: graph/ratio_aim7_core.pdf used on input line 603.
+Package pdftex.def Info: graph/ratio_aim7_core.pdf used on input line 653.
 (pdftex.def)             Requested size: 141.0902pt x 82.9934pt.
 
-<graph/ratio_aim7.pdf, id=4685, 352.73177pt x 209.40231pt>
+<graph/ratio_aim7.pdf, id=4863, 352.73177pt x 209.40231pt>
 File: graph/ratio_aim7.pdf Graphic file (type pdf)
 
 <use graph/ratio_aim7.pdf>
-Package pdftex.def Info: graph/ratio_aim7.pdf used on input line 603.
+Package pdftex.def Info: graph/ratio_aim7.pdf used on input line 653.
 (pdftex.def)             Requested size: 141.0902pt x 83.75943pt.
- [98
+ [104
 
  <./graph/ratio_aim7_core.pdf> <./graph/ratio_aim7.pdf>] <graph/ratio_exim_core
-.pdf, id=4703, 352.73177pt x 207.88464pt>
+.pdf, id=4881, 352.73177pt x 207.88464pt>
 File: graph/ratio_exim_core.pdf Graphic file (type pdf)
 
 <use graph/ratio_exim_core.pdf>
-Package pdftex.def Info: graph/ratio_exim_core.pdf used on input line 608.
+Package pdftex.def Info: graph/ratio_exim_core.pdf used on input line 658.
 (pdftex.def)             Requested size: 141.0902pt x 83.15237pt.
 
-<graph/ratio_exim.pdf, id=4704, 352.73177pt x 209.7998pt>
+<graph/ratio_exim.pdf, id=4882, 352.73177pt x 209.7998pt>
 File: graph/ratio_exim.pdf Graphic file (type pdf)
 
 <use graph/ratio_exim.pdf>
-Package pdftex.def Info: graph/ratio_exim.pdf used on input line 608.
+Package pdftex.def Info: graph/ratio_exim.pdf used on input line 658.
 (pdftex.def)             Requested size: 141.0902pt x 83.91843pt.
- [99
+ [105
 
  <./graph/ratio_exim_core.pdf> <./graph/ratio_exim.pdf>] <graph/ratio_lmbench_c
-ore.pdf, id=4722, 352.73177pt x 207.88464pt>
+ore.pdf, id=4900, 352.73177pt x 207.88464pt>
 File: graph/ratio_lmbench_core.pdf Graphic file (type pdf)
 
 <use graph/ratio_lmbench_core.pdf>
-Package pdftex.def Info: graph/ratio_lmbench_core.pdf used on input line 613.
+Package pdftex.def Info: graph/ratio_lmbench_core.pdf used on input line 663.
 (pdftex.def)             Requested size: 141.0902pt x 83.15237pt.
 
-<graph/ratio_lmbench.pdf, id=4723, 352.73177pt x 209.7998pt>
+<graph/ratio_lmbench.pdf, id=4901, 352.73177pt x 209.7998pt>
 File: graph/ratio_lmbench.pdf Graphic file (type pdf)
 
 <use graph/ratio_lmbench.pdf>
-Package pdftex.def Info: graph/ratio_lmbench.pdf used on input line 613.
+Package pdftex.def Info: graph/ratio_lmbench.pdf used on input line 663.
 (pdftex.def)             Requested size: 141.0902pt x 83.91843pt.
- [100
+ [106
 
- <./graph/ratio_lmbench_core.pdf> <./graph/ratio_lmbench.pdf>] [101
+ <./graph/ratio_lmbench_core.pdf> <./graph/ratio_lmbench.pdf>] [107
 
-] [102
+] [108
 
 ]
-<fig/log-based.pdf, id=4751, 597.50786pt x 398.3386pt>
+<fig/log-based.pdf, id=4929, 597.50786pt x 398.3386pt>
 File: fig/log-based.pdf Graphic file (type pdf)
  <use fig/log-based.pdf>
-Package pdftex.def Info: fig/log-based.pdf used on input line 658.
+Package pdftex.def Info: fig/log-based.pdf used on input line 708.
 (pdftex.def)             Requested size: 298.75319pt x 199.16881pt.
 
-[103
+[109
 
- <./fig/log-based.pdf>] [104
+ <./fig/log-based.pdf>] [110
 
 ]
 \tf@nav=\write6
@@ -2291,20 +2304,20 @@ Package pdftex.def Info: fig/log-based.pdf used on input line 658.
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 718.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 718.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 668.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 718.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 718.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 668.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 718.
  ) 
 Here is how much of TeX's memory you used:
- 21310 strings out of 493029
- 378669 string characters out of 6136234
+ 21346 strings out of 493029
+ 379081 string characters out of 6136234
  462148 words of memory out of 5000000
- 23997 multiletter control sequences out of 15000+600000
+ 24015 multiletter control sequences out of 15000+600000
  21277 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,59p,402b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2335,10 +2348,10 @@ ts/type1/public/nanumtype1/nanumgtmd6.pfb></usr/share/texmf/fonts/type1/public/
 tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/nanumtype1/t1nanumgtm.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/nanumtype1/t1nanumgtm.pfb>
-Output written on slides.pdf (104 pages, 3372302 bytes).
+Output written on slides.pdf (110 pages, 3481867 bytes).
 PDF statistics:
- 4931 PDF objects out of 5155 (max. 8388607)
- 3030 compressed objects within 31 object streams
- 209 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5115 PDF objects out of 5155 (max. 8388607)
+ 3159 compressed objects within 32 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 468 words of extra memory for PDF output out of 10000 (max. 10000000)
 

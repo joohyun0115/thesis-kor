@@ -72,8 +72,6 @@ for \\Linux Kernel Scalability}}
 \end{frame}
 
 
-
-
 \begin{frame}{OS Kernel Scalability History}
 \begin{center}
 \includegraphics[scale=0.3]{fig/history_old_60s}
@@ -81,14 +79,11 @@ for \\Linux Kernel Scalability}}
 \end{frame}
 
 
-
-
 \begin{frame}{OS Kernel Scalability History}
 \begin{center}
 \includegraphics[scale=0.3]{fig/history_old_80s}
 \end{center}
 \end{frame}
-
 
 
 \begin{frame}{OS Kernel Scalability History}
@@ -133,7 +128,7 @@ for \\Linux Kernel Scalability}}
 \end{center}
 \end{frame}
 
-\begin{frame}{Cache-line fetches}
+\begin{frame}{Cache-Coherence System}
 \begin{center}
 \includegraphics[scale=0.8]{fig/archcache_3}
 \end{center}
@@ -141,11 +136,66 @@ for \\Linux Kernel Scalability}}
 
 
 \begin{frame}{OS Kernel Scalability History}
-\pgfdeclareimage[width=\paperwidth]{history}{.//slides/history}
+\pgfdeclareimage[width=\paperwidth]{history_1}{.//slides/history_1}
 \begin{textblock}{1}(0,0)
-\pgfuseimage<+->{history}
+\pgfuseimage<+->{history_1}
 \end{textblock}
 \end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_2}{.//slides/history_2}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_2}
+\end{textblock}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_3}{.//slides/history_3}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_3}
+\end{textblock}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_4}{.//slides/history_4}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_4}
+\end{textblock}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_5}{.//slides/history_5}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_5}
+\end{textblock}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_6}{.//slides/history_6}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_6}
+\end{textblock}
+\end{frame}
+
+
+
+\begin{frame}{OS Kernel Scalability History}
+\pgfdeclareimage[width=\paperwidth]{history_7}{.//slides/history_7}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{history_7}
+\end{textblock}
+\end{frame}
+
 
 
 \begin{frame}{Performance Scalability}
@@ -194,7 +244,7 @@ for \\Linux Kernel Scalability}}
     \begin{itemize}[<+-| alert@+>]
     \item Non-blocking Data Structure.
     \begin{itemize}
-        \item Harris, Faser Skip List.
+        \item Harris, Fraser.
     \end{itemize}
     \item Log-based Algorithms. 
     \end{itemize}
@@ -284,7 +334,7 @@ for \\Linux Kernel Scalability}}
 
 
 
-\begin{frame}{Approach: Log-based Concurrent Update}
+\begin{frame}{Log-based Algorithms: OpLog}
 \pgfdeclareimage[width=\paperwidth]{oplog}{.//slides/oplog_3}
 \begin{textblock}{1}(0,0)
 \pgfuseimage<+->{oplog}
@@ -313,7 +363,7 @@ for \\Linux Kernel Scalability}}
     \begin{itemize}[<+-| alert@+>]
 	\item Removing time-stamp counters.
 	\item Applying the LDU to two reverse mapping(anonymous, file).
-	\item improved throughput and execution time from 1.5x through 2.7x
+	\item Improved throughput and execution time from 1.5x through 2.7x
 	on 120 core.
 	\end{itemize}
 \end{frame}
@@ -503,32 +553,32 @@ eventually execute after the insert operation''}, OpLog.
     \end{itemize}
 \end{frame}
 
-\begin{frame}{anonymous reverse mapping}
+\begin{frame}{Anonymous reverse mapping}
 \includegraphics[scale=0.5]{fig/anon_vma_default_0}
 \end{frame}
 
 
-\begin{frame}{anonymous reverse mapping}
+\begin{frame}{Anonymous reverse mapping}
 \includegraphics[scale=0.5]{fig/anon_vma_default}
 \end{frame}
 
 
-\begin{frame}{anonymous reverse mapping}
+\begin{frame}{Anonymous reverse mapping}
 \includegraphics[scale=0.5]{fig/anon_vma_default_1}
 \end{frame}
 
 
-\begin{frame}{anonymous reverse mapping}
+\begin{frame}{Anonymous reverse mapping}
 \includegraphics[scale=0.5]{fig/anon_vma}
 \end{frame}
 
 
-\begin{frame}{file mapping}
+\begin{frame}{File mapping}
 \includegraphics[scale=0.5]{fig/file_rmap_default}
 \end{frame}
 
 
-\begin{frame}{file mapping}
+\begin{frame}{File mapping}
 \includegraphics[scale=0.5]{fig/file_rmap}
 \end{frame}
 
