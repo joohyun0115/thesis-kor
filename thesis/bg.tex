@@ -1,22 +1,6 @@
 
-
-\newpage
-\section{논문 구성} \label{sec:intro}
-본 논문의 구성은 다음과 같다.
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Mapping
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-~\ref{sec:bg}장에서는 리눅스 확장서의 문제점에 대해서 기술한다. 
-~\ref{sec:ldu}에서는 LDU 설계에 대한 내용과 LDU의 예에 대해서 설명하며 
-~\ref{sec:linux}장에서는 LDU를 리눅스 커널에 어떻게 적용하였는지를 설명한다.
-~\ref{sec:evaluation}장에서는 본 논문에서 제안한 방법에 대한 실험 결과에 대해서 설명한다. 
-~\ref{sec:related}장에서는 관련 연구와 배경지식에 대해서 설명한다.
-마지막으로 ~\ref{sec:concl}장에서는 본 논문의 결론과 향후 연구에 대해서 기술한다. 
-
-\newpage
-\section{논문에서 해결하고자 하는 구체적인 문제}\label{sec:bg}
+%\newpage
+%\section{논문에서 해결하고자 하는 구체적인 문제}\label{sec:bg}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 % Paragraph : Linux Scalability : Fork intensive workload 문제점 설명 
@@ -112,6 +96,16 @@ AIM7 벤치마크의 경우 상당히 많은 부분이 익명 VMA에서 쓰기 �
 (\code{anon\_vma->rwsem}) 수많은 fork에 의해 프로세스를 생성하면서 발생하는 락 경합 문제이다.
 이러한 역 페이지 매핑(revsers page mapping)은 리눅스가 fork(), exit(), and mmap() 시스템
 콜(system call)을 사용할 때 페이지(page) 정보를 업데이트한다.
+
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/anon_vma_rmap}
+    \caption{anonymous 역 매핑의 문제}
+  \label{fig:anon_vma_rmap}
+\end{figure}
+
+
 %The reverse page mapping records page information when using fork(), exit() and
 %mmap() system call to find all page table entries.
 %To understand further bottlenecks, we intentionally removed the kernel codes
@@ -126,6 +120,15 @@ AIM7 벤치마크의 경우 상당히 많은 부분이 익명 VMA에서 쓰기 �
 읽기와 관련 있는 페이지 스왑(page swap)이 안되도록 하고, 120코어를 대상으로 다시 락 경합을 분석하여 보았다.
 이때 부터 그동안 상대적으로 가려졌던 파일 역 매핑에서 많은 락 경합이 발생되었다.
 본 연구의 분석 결과 둘 중 하나가 아니라 두 가지 락 모두 fork의 성능 확장성 문제를 일으킨다.
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/file_rmap_default}
+    \caption{파일 역 매핑의 문제}
+  \label{fig:file_rmap_default}
+\end{figure}
+
+
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 % Paragraph : 리눅스 reverse page map의 write serialization 문제점
@@ -147,6 +150,23 @@ AIM7 벤치마크의 경우 상당히 많은 부분이 익명 VMA에서 쓰기 �
 경합 문제는 S.Boyd-Wickizer~\cite{SilasBoydWickizerPth} OpLog 논문을 통해
  fork의 확장성 문제의 중요한 원인으로 제시한 부분이다.
 즉 두 가지 모두 개선해야지 fork의 성능 확장성이 향상 된다. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/anon_vma_func}
+    \caption{120코어에서의 lock\_stat 결과 분석}
+  \label{fig:anon_vma_func}
+\end{figure}
+
+
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/update}
+    \caption{업데이트 직렬화의 문제}
+  \label{fig:update}
+\end{figure}
+
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -216,6 +236,17 @@ AIM7 벤치마크의 경우 상당히 많은 부분이 익명 VMA에서 쓰기 �
 이러한 로그 기반 방법은 마치 CoW(Copy on Write)와 유사하다.
 즉, 읽기 전에 저장된 쌓여있는 로그가 수행됨으로 읽기가 간혈적으로 수행되는 자료구조에 적합한 방법이다.
 
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/oplog_log}
+    \caption{로그 기반 방법 중 로그의 내용}
+  \label{fig:oplog_log}
+\end{figure}
+
+
+
 업데이트 비율이 많은 자료구조를 위한 로그 기반 방법은 총 4가지의 장점을 가진다. 
 첫째로, 업데이트가 수행하는 시점 즉 로그를 저장하는 순간에는 락이 필요가 없다. 
 따라서 업데이트를 동시적으로 수행할 수 있을 뿐만 아니라, 락 자체가 가지고 있는 캐시 메모리 오버헤드를 
@@ -245,7 +276,20 @@ LDU도 로그 기반 방법을 따른다. 그러므로 앞에서 설명한 로�
 %For example, if cores counts are 1000 and per-core logs counts are 10, 
 %because each log searches all core's log, 
 
-동기화된 타임스탬프 카운터 기반의 퍼코어 로그를 활용한 동시적 업데이트방법은 결국 타임스탬프 병합 작업을 일으킨다.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/oplog_max}
+    \caption{동기화된 타임스탬프 카운터 머징에 따른 오버헤드}
+  \label{fig:oplog_log}
+\end{figure}
+
+
+동기화된 타임스탬프 카운터 기반의 퍼코어 로그를 활용한 동시적 업데이트방법은 결국
+ 타임스탬프 병합 작업을 일으킨다.
 특히 코어 수가 늘어 날 경우, 퍼코어 로그를 자료 구조에 적용하는 과정에서 추가적인 
 순차적인 프로세싱이 요구된다.
 이것은 확장성과 성능을 저해한다. 
+
+
+
+

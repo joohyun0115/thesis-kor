@@ -4,26 +4,16 @@
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Background
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Achieving performance scalability has been a most important factor in 
-%highly parallel systems with many cores (e.g., over 100 cores).
-성능에 대한 확장성(Scalability)은 100코어 또는 1000코어 이상으로 구성된 
-매니코어(Many-core) 시스템에서 가장 중요한 요소이다. 
-%The performance scalability of a whole system is naturally limited by 
-%scalability of underlying operating system kernel; Linux kernel has been 
-%widely considered in ordinary systems.
-전체 시스템의 성능 확장성은 일반적으로 운영체제의 커널(Kernel) 때문에 제한을 받는다.
-이러한 운영체제 커널 중 가장 많이 사용되는 것은 리눅스(Linux) 커널이다. 
-그 이유는 리눅스 커널은 멀티코어에 최적화가 되어 있기 때문이다.
-%Previous research revealed that Linux kernel has significant problems limiting
-%performance scalability in many core
-% systems~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF} and
-% the major sources of the problems are update lock contention in a few kernel data structures~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
+최근 코어 수가 증가함에 따라, 멀티코어에서 매니코어로 변화되고 있다. 
+매니코어 시스템에서 성능에 대한 확장성(Scalability)은 가장 중요한 요소이다. 
+이러한 매니코어 시스템의 확장성 중에, 운영체제의 커널(Kernel) 때문에 전체 시스템의 성능이 제한을 받는다.
+그리고, 운영체제 커널 중 가장 많이 사용되는 것은 리눅스(Linux) 커널이다. 
+그 이유는 리눅스 커널은 멀티코어에 최적화가 가장 잘된 운영체제 중에 하나이기 때문이다.
 하지만 이렇게 멀티코어에 최적화된 리눅스 커널도 매니코어 시스템에서는 여전히 
 성능에 대한 확장성에 문제가
 있다~\cite{SilasBoydWickizer2010LinuxScales48}~\cite{Changwoo2016UMSF}.
 확장성 문제 중 가장 큰 문제는 커널의 자료구조 중 업데이트 락(Lock) 경쟁에 대한
 문제 때문이다~\cite{mckenney2011parallel}~\cite{Matveev2015RLU}.
-
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -174,3 +164,20 @@ LDU는 하드웨어 동기화 기법을 이용하여 LDU는 로그를 업데이�
  성능 확장성 문제를 해결하였다.
 Fork 관련 벤치마크 성능은 워크로드 특성에 따라 1.6x부터 2.2x까지 향상된다.
 \end{itemize}
+
+
+\newpage
+\section{논문 구성} \label{sec:intro}
+본 논문의 구성은 다음과 같다.
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%Mapping
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+~\ref{sec:bg}장에서는 리눅스 확장서의 문제점에 대해서 기술한다. 
+~\ref{sec:ldu}에서는 LDU 설계에 대한 내용과 LDU의 예에 대해서 설명하며 
+~\ref{sec:linux}장에서는 LDU를 리눅스 커널에 어떻게 적용하였는지를 설명한다.
+~\ref{sec:evaluation}장에서는 본 논문에서 제안한 방법에 대한 실험 결과에 대해서 설명한다. 
+~\ref{sec:related}장에서는 관련 연구와 배경지식에 대해서 설명한다.
+마지막으로 ~\ref{sec:concl}장에서는 본 논문의 결론과 향후 연구에 대해서 기술한다. 
+

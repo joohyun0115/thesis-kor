@@ -11,57 +11,22 @@
 \end{figure}
 
 
-\begin{figure}[tb]
-  \begin{center}
-    \includegraphics[scale=0.8]{graph/aim7.eps}
-  \end{center}
-  \caption{AIM7-multiuser 확장성.}
-  \label{fig:aim7}
+ 
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig/lockfree}
+    \caption{lockfree 리스트로 변경하기 전 자료구조}
+  \label{fig:lockfree}
 \end{figure}
-
-
-\begin{figure*}[tb]
+ 
+ 
+ \begin{figure}[h]
     \centering
-    \begin{subfigure}[b]{1\textwidth}
-  \begin{center}
-        \includegraphics[scale=0.8]{graph/aim7_cpuutils.eps}
-  \end{center}
-    \end{subfigure}%
-    \centering
-    \caption{120코어에서 AIM7 CPU 사용량.}
-    \label{fig:utilization_aim7}
-    
-\end{figure*}
-
-
-\begin{figure*}[tb]
-    \centering
-    \begin{subfigure}[b]{1\textwidth}
-  \begin{center}
-        \includegraphics[scale=0.8]{graph/exim_cpuutils.eps}
-  \end{center}
-    \end{subfigure}
-    \centering
-    \caption{120코어에서 EXIM CPU 사용량. }
-    \label{fig:utilization_exim}
-    
-\end{figure*}
-
-
-
-\begin{figure*}[tb]
-    \centering
-    \begin{subfigure}[b]{1\textwidth}
-  \begin{center}
-        \includegraphics[scale=0.8]{graph/lmbench_cpuutils.eps}
-  \end{center}
-    \end{subfigure}
-        \centering
-    \caption{120코어에서 Lmbench CPU 사용량.}
-    \label{fig:utilization_lmbench}
-    
-\end{figure*}
-
+    \includegraphics[width=0.8\textwidth]{fig/lockfree_2}
+    \caption{lockfree 리스트로 변경 후 자료구조}
+  \label{fig:lockfree_2}
+\end{figure}
+ 
 
 
 \subsection{실험 환경}
@@ -166,7 +131,63 @@ Exim은 실제 사용되고 있는 응용프로그램이다. 하지만 이것 �
 안타깝게도, LDU와 OpLog를 몇몇의 구현 관련 이슈(우리는 OpLog의 자세한 구현을 얻지 못하였다.)로
  인해 바로 비교하지 못하였다.
 
+ 
+
 \subsection{AIM7}
+
+
+ 
+\begin{figure}[tb]
+  \begin{center}
+    \includegraphics[scale=0.8]{graph/aim7.eps}
+  \end{center}
+  \caption{AIM7-multiuser 확장성.}
+  \label{fig:aim7}
+\end{figure}
+
+
+\begin{figure*}[tb]
+    \centering
+    \begin{subfigure}[b]{1\textwidth}
+  \begin{center}
+        \includegraphics[scale=0.8]{graph/aim7_cpuutils.eps}
+  \end{center}
+    \end{subfigure}%
+    \centering
+    \caption{120코어에서 AIM7 CPU 사용량.}
+    \label{fig:utilization_aim7}
+    
+\end{figure*}
+
+
+\begin{figure*}[tb]
+    \centering
+    \begin{subfigure}[b]{1\textwidth}
+  \begin{center}
+        \includegraphics[scale=0.8]{graph/exim_cpuutils.eps}
+  \end{center}
+    \end{subfigure}
+    \centering
+    \caption{120코어에서 EXIM CPU 사용량. }
+    \label{fig:utilization_exim}
+    
+\end{figure*}
+
+
+
+\begin{figure*}[tb]
+    \centering
+    \begin{subfigure}[b]{1\textwidth}
+  \begin{center}
+        \includegraphics[scale=0.8]{graph/lmbench_cpuutils.eps}
+  \end{center}
+    \end{subfigure}
+        \centering
+    \caption{120코어에서 Lmbench CPU 사용량.}
+    \label{fig:utilization_lmbench}
+    
+\end{figure*}
+
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 1: AIM7 실험 결과

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="70mm"
+   viewBox="0 0 744.09449 248.0315"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="anon_vma_func.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="378.55166"
+     inkscape:cy="90.711983"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9901"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-804.33071)">
+    <g
+       id="g9901"
+       transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         id="text9489"
+         y="482.82999"
+         x="685.43799"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9491"
+           y="482.82999"
+           x="685.43799" />
+      </text>
+      <text
+         id="text9891"
+         y="605.57397"
+         x="760.104"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9893"
+           y="605.57397"
+           x="760.104" />
+      </text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:23.90449142px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="864.8233"
+         y="452.92526"
+         id="text4529"
+         sodipodi:linespacing="125%"
+         transform="scale(0.93435724,1.0702545)"><tspan
+           sodipodi:role="line"
+           id="tspan4531"
+           x="864.8233"
+           y="452.92526"></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:27.12461662px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="673.30835"
+         y="451.8353"
+         id="text4533"
+         sodipodi:linespacing="125%"
+         transform="scale(0.8765697,1.1408106)"><tspan
+           sodipodi:role="line"
+           id="tspan4535"
+           x="673.30835"
+           y="451.8353"
+           style="font-size:8.47644234px">                      &amp;anon_vma-&gt;rwsem-W:      26070201       26990065           0.06     2004649.76 636301175165.4    </tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="462.43085"
+           id="tspan4537"
+           style="font-size:8.47644234px">                      &amp;anon_vma-&gt;rwsem-R:        358821         569702           0.16     1995132.80 79666356549.93    </tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="473.0264"
+           id="tspan4539"
+           style="font-size:8.47644234px">                      ------------------</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="483.62195"
+           id="tspan4541"
+           style="font-weight:bold;font-size:8.47644234px">                     &amp;anon_vma-&gt;rwsem        8549431          [&lt;ffffffff811be9c6&gt;] unlink_anon_vmas+0x96/0x1d0</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="494.2175"
+           id="tspan4543"
+           style="font-weight:bold;font-size:8.47644234px">                     &amp;anon_vma-&gt;rwsem        6022485          [&lt;ffffffff811bedae&gt;] anon_vma_fork+0xde/0x130</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="504.81305"
+           id="tspan4545"
+           style="font-weight:bold;font-size:8.47644234px">                     &amp;anon_vma-&gt;rwsem        9424646          [&lt;ffffffff811beb93&gt;] anon_vma_clone+0x93/0x1d0</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="515.40857"
+           id="tspan4547"
+           style="font-size:8.47644234px">                       &amp;anon_vma-&gt;rwsem        2989201          [&lt;ffffffff811be4da&gt;] __put_anon_vma+0x2a/0xa0</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="526.00415"
+           id="tspan4549"
+           style="font-size:8.47644234px">                      ------------------</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="536.59967"
+           id="tspan4551"
+           style="font-size:8.47644234px">                        &amp;anon_vma-&gt;rwsem        7487361          [&lt;ffffffff811be9c6&gt;] unlink_anon_vmas+0x96/0x1d0</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="547.19525"
+           id="tspan4553"
+           style="font-size:8.47644234px">                        &amp;anon_vma-&gt;rwsem       12649795          [&lt;ffffffff811beb93&gt;] anon_vma_clone+0x93/0x1d0</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="557.79077"
+           id="tspan4555"
+           style="font-size:8.47644234px">                        &amp;anon_vma-&gt;rwsem        1988738          [&lt;ffffffff811bedae&gt;] anon_vma_fork+0xde/0x130</tspan><tspan
+           sodipodi:role="line"
+           x="673.30835"
+           y="568.38635"
+           id="tspan4557"
+           style="font-size:8.47644234px">                        &amp;anon_vma-&gt;rwsem           1235          [&lt;ffffffff811b7a27&gt;] vma_adjust+0x147/0x7b0</tspan></text>
+    </g>
+  </g>
+</svg>

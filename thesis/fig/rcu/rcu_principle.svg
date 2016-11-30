@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="110mm"
+   viewBox="0 0 531.49606 389.76377"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="rcu_principle.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="174.88865"
+     inkscape:cy="288.95419"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9901"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-662.59843)">
+    <g
+       id="g9901"
+       transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         id="text9489"
+         y="482.82999"
+         x="685.43799"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9491"
+           y="482.82999"
+           x="685.43799" />
+      </text>
+      <text
+         id="text9891"
+         y="605.57397"
+         x="760.104"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9893"
+           y="605.57397"
+           x="760.104" />
+      </text>
+      <g
+         id="g6313"
+         transform="matrix(0.27326995,0,0,0.25015775,498.10623,268.94225)">
+        <g
+           id="g5607">
+          <g
+             id="g5609">
+            <rect
+               id="rect5611"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="677"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5613"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="677"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5615"
+             y="599.80798"
+             x="708.51398"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5617"
+               y="599.80798"
+               x="708.51398">A</tspan>
+          </text>
+        </g>
+        <g
+           id="g5619">
+          <g
+             id="g5621">
+            <rect
+               id="rect5623"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="815.534"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5625"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="815.534"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5627"
+             y="603.698"
+             x="844.45398"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5629"
+               y="603.698"
+               x="844.45398">B</tspan>
+          </text>
+        </g>
+        <g
+           id="g5631">
+          <g
+             id="g5633">
+            <rect
+               id="rect5635"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="954.07001"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5637"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="954.07001"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5639"
+             y="604.34601"
+             x="982.34003"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5641"
+               y="604.34601"
+               x="982.34003">C</tspan>
+          </text>
+        </g>
+        <g
+           id="g5643">
+          <g
+             id="g5645">
+            <rect
+               id="rect5647"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="1092.6"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5649"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="1092.6"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5651"
+             y="601.20203"
+             x="1119.58"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5653"
+               y="601.20203"
+               x="1119.58">D</tspan>
+          </text>
+        </g>
+        <g
+           id="g5655">
+          <g
+             id="g5657">
+            <rect
+               id="rect5659"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="1231.14"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5661"
+               height="58.053398"
+               width="77.292"
+               y="563"
+               x="1231.14"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5663"
+             y="605.19"
+             x="1260.71"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5665"
+               y="605.19"
+               x="1260.71">E</tspan>
+          </text>
+        </g>
+        <g
+           id="g5667">
+          <g
+             id="g5669">
+            <rect
+               id="rect5671"
+               height="36.311501"
+               width="90.130203"
+               y="630.56"
+               x="671.20398"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5673"
+               height="36.311501"
+               width="90.130203"
+               y="630.56"
+               x="671.20398"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5675"
+             y="654.93402"
+             x="685.80402"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5677"
+               y="654.93402"
+               x="685.80402">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5679">
+          <g
+             id="g5681">
+            <rect
+               id="rect5683"
+               height="36.311501"
+               width="90.130203"
+               y="632.57001"
+               x="810.87402"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5685"
+               height="36.311501"
+               width="90.130203"
+               y="632.57001"
+               x="810.87402"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5687"
+             y="656.94397"
+             x="825.474"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5689"
+               y="656.94397"
+               x="825.474">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5691">
+          <g
+             id="g5693">
+            <rect
+               id="rect5695"
+               height="36.311501"
+               width="90.130203"
+               y="637.17401"
+               x="1084.12"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5697"
+               height="36.311501"
+               width="90.130203"
+               y="637.17401"
+               x="1084.12"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5699"
+             y="661.54797"
+             x="1098.72"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5701"
+               y="661.54797"
+               x="1098.72">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5703">
+          <line
+             id="line5705"
+             y2="592.79901"
+             x2="804.81097"
+             y1="593.534"
+             x1="757.83398"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5707"
+             points="804.811,592.799 802.233,587.839 812.31,592.682 802.389,597.838 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5709"
+             points="804.811,592.799 802.233,587.839 812.31,592.682 802.389,597.838 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5711">
+          <line
+             id="line5713"
+             y2="592.02698"
+             x2="943.33197"
+             y1="592.02698"
+             x1="893.828"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5715"
+             points="943.332,592.027 940.832,587.027 950.832,592.027 940.832,597.027 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5717"
+             points="943.332,592.027 940.832,587.027 950.832,592.027 940.832,597.027 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5719">
+          <line
+             id="line5721"
+             y2="592.02698"
+             x2="1081.87"
+             y1="592.02698"
+             x1="1032.36"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5723"
+             points="1081.87,592.027 1079.37,587.027 1089.37,592.027 1079.37,597.027 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5725"
+             points="1081.87,592.027 1079.37,587.027 1089.37,592.027 1079.37,597.027 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5727">
+          <line
+             id="line5729"
+             y2="592.02698"
+             x2="1220.4"
+             y1="592.02698"
+             x1="1170.9"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5731"
+             points="1220.4,592.027 1217.9,587.027 1227.9,592.027 1217.9,597.027 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5733"
+             points="1220.4,592.027 1217.9,587.027 1227.9,592.027 1217.9,597.027 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5735">
+          <g
+             id="g5737">
+            <rect
+               id="rect5739"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="680.10602"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5741"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="680.10602"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5743"
+             y="888.46997"
+             x="711.61798"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5745"
+               y="888.46997"
+               x="711.61798">A</tspan>
+          </text>
+        </g>
+        <g
+           id="g5747">
+          <g
+             id="g5749">
+            <rect
+               id="rect5751"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="818.64001"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5753"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="818.64001"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5755"
+             y="892.35999"
+             x="847.56"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5757"
+               y="892.35999"
+               x="847.56">B</tspan>
+          </text>
+        </g>
+        <g
+           id="g5759">
+          <g
+             id="g5761">
+            <rect
+               id="rect5763"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="957.17401"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5765"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="957.17401"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5767"
+             y="893.008"
+             x="985.44598"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5769"
+               y="893.008"
+               x="985.44598">C</tspan>
+          </text>
+        </g>
+        <g
+           id="g5771">
+          <g
+             id="g5773">
+            <rect
+               id="rect5775"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="1095.71"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5777"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="1095.71"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5779"
+             y="889.86401"
+             x="1122.6801"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5781"
+               y="889.86401"
+               x="1122.6801">D</tspan>
+          </text>
+        </g>
+        <g
+           id="g5783">
+          <g
+             id="g5785">
+            <rect
+               id="rect5787"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="1234.24"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5789"
+               height="58.053398"
+               width="77.292"
+               y="851.66199"
+               x="1234.24"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5791"
+             y="893.85199"
+             x="1263.8101"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5793"
+               y="893.85199"
+               x="1263.8101">E</tspan>
+          </text>
+        </g>
+        <g
+           id="g5795">
+          <g
+             id="g5797">
+            <rect
+               id="rect5799"
+               height="36.311501"
+               width="90.130203"
+               y="919.22198"
+               x="674.31"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5801"
+               height="36.311501"
+               width="90.130203"
+               y="919.22198"
+               x="674.31"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5803"
+             y="943.59601"
+             x="688.90997"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5805"
+               y="943.59601"
+               x="688.90997">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5807">
+          <g
+             id="g5809">
+            <rect
+               id="rect5811"
+               height="36.311501"
+               width="90.130203"
+               y="921.23199"
+               x="813.97998"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5813"
+               height="36.311501"
+               width="90.130203"
+               y="921.23199"
+               x="813.97998"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5815"
+             y="945.60602"
+             x="828.58002"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5817"
+               y="945.60602"
+               x="828.58002">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5819">
+          <g
+             id="g5821">
+            <rect
+               id="rect5823"
+               height="36.311501"
+               width="90.130203"
+               y="927.47198"
+               x="1087.22"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5825"
+               height="36.311501"
+               width="90.130203"
+               y="927.47198"
+               x="1087.22"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5827"
+             y="951.84601"
+             x="1101.8199"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5829"
+               y="951.84601"
+               x="1101.8199">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5831">
+          <line
+             id="line5833"
+             y2="880.94299"
+             x2="808.90698"
+             y1="882.198"
+             x1="760.93799"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5835"
+             points="808.907,880.943 806.277,876.01 816.405,880.746 806.539,886.006 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5837"
+             points="808.907,880.943 806.277,876.01 816.405,880.746 806.539,886.006 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5839">
+          <line
+             id="line5841"
+             y2="880.68799"
+             x2="947.43799"
+             y1="880.68799"
+             x1="895.93201"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5843"
+             points="947.438,880.688 944.938,875.688 954.938,880.688 944.938,885.688 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5845"
+             points="947.438,880.688 944.938,875.688 954.938,880.688 944.938,885.688 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5847">
+          <line
+             id="line5849"
+             y2="880.68799"
+             x2="1085.97"
+             y1="880.68799"
+             x1="1034.47"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5851"
+             points="1085.97,880.688 1083.47,875.688 1093.47,880.688 1083.47,885.688 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5853"
+             points="1085.97,880.688 1083.47,875.688 1093.47,880.688 1083.47,885.688 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5855">
+          <line
+             id="line5857"
+             y2="880.68799"
+             x2="1224.51"
+             y1="880.68799"
+             x1="1173"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon5859"
+             points="1224.51,880.688 1222.01,875.688 1232.01,880.688 1222.01,885.688 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5861"
+             points="1224.51,880.688 1222.01,875.688 1232.01,880.688 1222.01,885.688 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5863">
+          <ellipse
+             id="ellipse5865"
+             ry="20.249901"
+             rx="22.749901"
+             cy="611.84998"
+             cx="604.04797"
+             style="fill:#ffffff" />
+          <ellipse
+             id="ellipse5867"
+             ry="20.249901"
+             rx="22.749901"
+             cy="611.84998"
+             cx="604.04797"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text5869"
+           y="618.84998"
+           x="597.04797"
+           style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="22.5778">
+          <tspan
+             id="tspan5871"
+             y="618.84998"
+             x="597.04797">1</tspan>
+        </text>
+        <path
+           id="path5873"
+           d="m 586.298,705.85 c 92.875,23.75 92.875,-23.75 185.749,0 92.875,23.75 92.875,-23.75 185.75,0 92.873,23.75 92.873,-23.75 185.753,0 92.87,23.75 92.87,-23.75 185.75,0"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5875">
+          <ellipse
+             id="ellipse5877"
+             ry="20.249901"
+             rx="22.749901"
+             cy="886.01202"
+             cx="608.15399"
+             style="fill:#ffffff" />
+          <ellipse
+             id="ellipse5879"
+             ry="20.249901"
+             rx="22.749901"
+             cy="886.01202"
+             cx="608.15399"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text5881"
+           y="893.01202"
+           x="601.15399"
+           style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="22.5778">
+          <tspan
+             id="tspan5883"
+             y="893.01202"
+             x="601.15399">2</tspan>
+        </text>
+        <path
+           id="path5885"
+           d="m 577.308,994.286 c 92.875,23.754 92.875,-23.75 185.749,0 92.875,23.754 92.875,-23.75 185.75,0 92.873,23.754 92.873,-23.75 185.753,0 92.87,23.754 92.87,-23.75 185.75,0"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5887">
+          <rect
+             id="rect5889"
+             height="36.311501"
+             width="90.130203"
+             y="725.98401"
+             x="1088.3"
+             style="fill:#fcc869" />
+          <rect
+             id="rect5891"
+             height="36.311501"
+             width="90.130203"
+             y="725.98401"
+             x="1088.3"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text5893"
+           y="750.35797"
+           x="1105.73"
+           style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="16.9333">
+          <tspan
+             id="tspan5895"
+             y="750.35797"
+             x="1105.73">Writer</tspan>
+        </text>
+        <text
+           id="text5897"
+           y="744.14001"
+           x="1133.36"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan5899"
+             y="744.14001"
+             x="1133.36" />
+        </text>
+        <text
+           id="text5901"
+           y="744.14001"
+           x="1133.36"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan5903"
+             y="744.14001"
+             x="1133.36" />
+        </text>
+        <g
+           id="g5905">
+          <rect
+             id="rect5907"
+             height="58.053398"
+             width="77.292"
+             y="775.84601"
+             x="1094.84"
+             style="fill:#ff00b4" />
+          <rect
+             id="rect5909"
+             height="58.053398"
+             width="77.292"
+             y="775.84601"
+             x="1094.84"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text5911"
+           y="814.04602"
+           x="1121.8101"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+           font-size="28.2222">
+          <tspan
+             id="tspan5913"
+             y="814.04602"
+             x="1121.8101">N</tspan>
+        </text>
+        <g
+           id="g5915">
+          <path
+             id="path5917"
+             d="m 1173.13,804.872 c 46.28,0 13.83,75.816 50.38,75.816"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon5919"
+             points="1223.51,880.688 1221.01,875.688 1231.01,880.688 1221.01,885.688 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon5921"
+             points="1223.51,880.688 1221.01,875.688 1231.01,880.688 1221.01,885.688 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g5923">
+          <g
+             id="g5925">
+            <rect
+               id="rect5927"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="681.56403"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5929"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="681.56403"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5931"
+             y="1176.36"
+             x="713.07599"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5933"
+               y="1176.36"
+               x="713.07599">A</tspan>
+          </text>
+        </g>
+        <g
+           id="g5935">
+          <g
+             id="g5937">
+            <rect
+               id="rect5939"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="820.09802"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5941"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="820.09802"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5943"
+             y="1180.25"
+             x="849.01801"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5945"
+               y="1180.25"
+               x="849.01801">B</tspan>
+          </text>
+        </g>
+        <g
+           id="g5947">
+          <g
+             id="g5949">
+            <rect
+               id="rect5951"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="958.63202"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5953"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="958.63202"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5955"
+             y="1180.9"
+             x="986.90399"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5957"
+               y="1180.9"
+               x="986.90399">C</tspan>
+          </text>
+        </g>
+        <g
+           id="g5959">
+          <g
+             id="g5961">
+            <rect
+               id="rect5963"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="1097.17"
+               style="fill:#ff0000" />
+            <rect
+               id="rect5965"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="1097.17"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5967"
+             y="1177.76"
+             x="1124.14"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+             font-size="28.2222">
+            <tspan
+               id="tspan5969"
+               y="1177.76"
+               x="1124.14">D</tspan>
+          </text>
+        </g>
+        <g
+           id="g5971">
+          <g
+             id="g5973">
+            <rect
+               id="rect5975"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="1235.7"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect5977"
+               height="58.053398"
+               width="77.292"
+               y="1139.55"
+               x="1235.7"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5979"
+             y="1181.74"
+             x="1265.27"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan5981"
+               y="1181.74"
+               x="1265.27">E</tspan>
+          </text>
+        </g>
+        <g
+           id="g5983">
+          <g
+             id="g5985">
+            <rect
+               id="rect5987"
+               height="36.311501"
+               width="90.130203"
+               y="1207.11"
+               x="675.76801"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect5989"
+               height="36.311501"
+               width="90.130203"
+               y="1207.11"
+               x="675.76801"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text5991"
+             y="1231.49"
+             x="690.36798"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan5993"
+               y="1231.49"
+               x="690.36798">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g5995">
+          <g
+             id="g5997">
+            <rect
+               id="rect5999"
+               height="36.311501"
+               width="90.130203"
+               y="1209.12"
+               x="815.43799"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect6001"
+               height="36.311501"
+               width="90.130203"
+               y="1209.12"
+               x="815.43799"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6003"
+             y="1233.5"
+             x="830.03802"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan6005"
+               y="1233.5"
+               x="830.03802">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g6007">
+          <g
+             id="g6009">
+            <rect
+               id="rect6011"
+               height="36.311501"
+               width="90.130203"
+               y="1215.36"
+               x="1088.6801"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect6013"
+               height="36.311501"
+               width="90.130203"
+               y="1215.36"
+               x="1088.6801"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6015"
+             y="1239.74"
+             x="1103.28"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan6017"
+               y="1239.74"
+               x="1103.28">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g6019">
+          <line
+             id="line6021"
+             y2="1168.84"
+             x2="810.36499"
+             y1="1170.09"
+             x1="762.396"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6023"
+             points="810.365,1168.84 807.735,1163.9 817.863,1168.64 807.997,1173.9 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6025"
+             points="810.365,1168.84 807.735,1163.9 817.863,1168.64 807.997,1173.9 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6027">
+          <line
+             id="line6029"
+             y2="1168.58"
+             x2="948.896"
+             y1="1168.58"
+             x1="897.39001"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6031"
+             points="948.896,1168.58 946.396,1163.58 956.396,1168.58 946.396,1173.58 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6033"
+             points="948.896,1168.58 946.396,1163.58 956.396,1168.58 946.396,1173.58 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6035">
+          <line
+             id="line6037"
+             y2="1168.58"
+             x2="1225.97"
+             y1="1168.58"
+             x1="1174.46"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6039"
+             points="1225.97,1168.58 1223.47,1163.58 1233.47,1168.58 1223.47,1173.58 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6041"
+             points="1225.97,1168.58 1223.47,1163.58 1233.47,1168.58 1223.47,1173.58 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6043">
+          <ellipse
+             id="ellipse6045"
+             ry="20.249901"
+             rx="22.749901"
+             cy="1173.91"
+             cx="609.612"
+             style="fill:#ffffff" />
+          <ellipse
+             id="ellipse6047"
+             ry="20.249901"
+             rx="22.749901"
+             cy="1173.91"
+             cx="609.612"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6049"
+           y="1180.9"
+           x="602.612"
+           style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="22.5778">
+          <tspan
+             id="tspan6051"
+             y="1180.9"
+             x="602.612">3</tspan>
+        </text>
+        <path
+           id="path6053"
+           d="m 587.766,1282.18 c 92.875,23.75 92.875,-23.75 185.749,0 92.875,23.75 92.875,-23.75 185.75,0 92.875,23.75 92.875,-23.75 185.745,0 92.88,23.75 92.88,-23.75 185.75,0"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g6055">
+          <rect
+             id="rect6057"
+             height="36.311501"
+             width="90.130203"
+             y="1013.88"
+             x="1089.75"
+             style="fill:#fcc869" />
+          <rect
+             id="rect6059"
+             height="36.311501"
+             width="90.130203"
+             y="1013.88"
+             x="1089.75"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6061"
+           y="1038.25"
+           x="1107.1801"
+           style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="16.9333">
+          <tspan
+             id="tspan6063"
+             y="1038.25"
+             x="1107.1801">Writer</tspan>
+        </text>
+        <text
+           id="text6065"
+           y="1032.03"
+           x="1134.8199"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan6067"
+             y="1032.03"
+             x="1134.8199" />
+        </text>
+        <text
+           id="text6069"
+           y="1032.03"
+           x="1134.8199"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan6071"
+             y="1032.03"
+             x="1134.8199" />
+        </text>
+        <g
+           id="g6073">
+          <rect
+             id="rect6075"
+             height="58.053398"
+             width="77.292"
+             y="1063.74"
+             x="1096.3"
+             style="fill:#c1dfdf" />
+          <rect
+             id="rect6077"
+             height="58.053398"
+             width="77.292"
+             y="1063.74"
+             x="1096.3"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6079"
+           y="1101.9399"
+           x="1123.27"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="28.2222">
+          <tspan
+             id="tspan6081"
+             y="1101.9399"
+             x="1123.27">N</tspan>
+        </text>
+        <g
+           id="g6083">
+          <path
+             id="path6085"
+             d="m 1174.59,1092.76 c 46.28,0 13.83,75.82 50.38,75.82"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon6087"
+             points="1224.97,1168.58 1222.47,1163.58 1232.47,1168.58 1222.47,1173.58 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6089"
+             points="1224.97,1168.58 1222.47,1163.58 1232.47,1168.58 1222.47,1173.58 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6091">
+          <path
+             id="path6093"
+             d="m 1036.93,1168.58 c 32.87,0 26.49,-75.82 49.63,-75.82"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon6095"
+             points="1086.56,1092.76 1084.06,1087.76 1094.06,1092.76 1084.06,1097.76 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6097"
+             points="1086.56,1092.76 1084.06,1087.76 1094.06,1092.76 1084.06,1097.76 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6099">
+          <g
+             id="g6101">
+            <rect
+               id="rect6103"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="679.17999"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect6105"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="679.17999"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6107"
+             y="1465.17"
+             x="710.69202"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan6109"
+               y="1465.17"
+               x="710.69202">A</tspan>
+          </text>
+        </g>
+        <g
+           id="g6111">
+          <g
+             id="g6113">
+            <rect
+               id="rect6115"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="817.71399"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect6117"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="817.71399"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6119"
+             y="1469.0601"
+             x="846.63397"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan6121"
+               y="1469.0601"
+               x="846.63397">B</tspan>
+          </text>
+        </g>
+        <g
+           id="g6123">
+          <g
+             id="g6125">
+            <rect
+               id="rect6127"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="956.24799"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect6129"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="956.24799"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6131"
+             y="1469.71"
+             x="984.52002"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan6133"
+               y="1469.71"
+               x="984.52002">C</tspan>
+          </text>
+        </g>
+        <g
+           id="g6135">
+          <g
+             id="g6137">
+            <rect
+               id="rect6139"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="1094.78"
+               style="fill:#207373" />
+            <rect
+               id="rect6141"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="1094.78"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6143"
+             y="1466.5699"
+             x="1121.76"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+             font-size="28.2222">
+            <tspan
+               id="tspan6145"
+               y="1466.5699"
+               x="1121.76">D</tspan>
+          </text>
+        </g>
+        <g
+           id="g6147">
+          <g
+             id="g6149">
+            <rect
+               id="rect6151"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="1233.3199"
+               style="fill:#c1dfdf" />
+            <rect
+               id="rect6153"
+               height="58.053398"
+               width="77.292"
+               y="1428.36"
+               x="1233.3199"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6155"
+             y="1470.55"
+             x="1262.89"
+             style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="28.2222">
+            <tspan
+               id="tspan6157"
+               y="1470.55"
+               x="1262.89">E</tspan>
+          </text>
+        </g>
+        <g
+           id="g6159">
+          <g
+             id="g6161">
+            <rect
+               id="rect6163"
+               height="36.311501"
+               width="90.130203"
+               y="1495.92"
+               x="673.38397"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect6165"
+               height="36.311501"
+               width="90.130203"
+               y="1495.92"
+               x="673.38397"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6167"
+             y="1520.3"
+             x="687.98401"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan6169"
+               y="1520.3"
+               x="687.98401">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g6171">
+          <g
+             id="g6173">
+            <rect
+               id="rect6175"
+               height="36.311501"
+               width="90.130203"
+               y="1497.9301"
+               x="813.052"
+               style="fill:#ed9f9f" />
+            <rect
+               id="rect6177"
+               height="36.311501"
+               width="90.130203"
+               y="1497.9301"
+               x="813.052"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <text
+             id="text6179"
+             y="1522.3101"
+             x="827.65399"
+             style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+             font-size="16.9333">
+            <tspan
+               id="tspan6181"
+               y="1522.3101"
+               x="827.65399">Reader</tspan>
+          </text>
+        </g>
+        <g
+           id="g6183">
+          <line
+             id="line6185"
+             y2="1457.64"
+             x2="807.98102"
+             y1="1458.9"
+             x1="760.01202"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6187"
+             points="807.981,1457.64 805.351,1452.71 815.479,1457.45 805.613,1462.71 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6189"
+             points="807.981,1457.64 805.351,1452.71 815.479,1457.45 805.613,1462.71 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6191">
+          <line
+             id="line6193"
+             y2="1457.39"
+             x2="946.51202"
+             y1="1457.39"
+             x1="895.00598"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6195"
+             points="946.512,1457.39 944.012,1452.39 954.012,1457.39 944.012,1462.39 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6197"
+             points="946.512,1457.39 944.012,1452.39 954.012,1457.39 944.012,1462.39 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6199">
+          <line
+             id="line6201"
+             y2="1457.39"
+             x2="1223.58"
+             y1="1457.39"
+             x1="1172.08"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6203"
+             points="1223.58,1457.39 1221.08,1452.39 1231.08,1457.39 1221.08,1462.39 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6205"
+             points="1223.58,1457.39 1221.08,1452.39 1231.08,1457.39 1221.08,1462.39 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6207">
+          <ellipse
+             id="ellipse6209"
+             ry="20.249901"
+             rx="22.749901"
+             cy="1462.71"
+             cx="607.22803"
+             style="fill:#ffffff" />
+          <ellipse
+             id="ellipse6211"
+             ry="20.249901"
+             rx="22.749901"
+             cy="1462.71"
+             cx="607.22803"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6213"
+           y="1469.71"
+           x="600.22803"
+           style="font-style:normal;font-weight:normal;font-size:22.57780075px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="22.5778">
+          <tspan
+             id="tspan6215"
+             y="1469.71"
+             x="600.22803">4</tspan>
+        </text>
+        <path
+           id="path6217"
+           d="m 585.382,1570.99 c 92.875,23.75 92.875,-23.75 185.749,0 92.875,23.75 92.875,-23.75 185.75,0 92.879,23.75 92.879,-23.75 185.749,0 92.88,23.75 92.88,-23.75 185.75,0"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g6219">
+          <rect
+             id="rect6221"
+             height="36.311501"
+             width="90.130203"
+             y="1302.6899"
+             x="1087.37"
+             style="fill:#fcc869" />
+          <rect
+             id="rect6223"
+             height="36.311501"
+             width="90.130203"
+             y="1302.6899"
+             x="1087.37"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6225"
+           y="1327.0601"
+           x="1104.8"
+           style="font-style:normal;font-weight:normal;font-size:16.93330002px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="16.9333">
+          <tspan
+             id="tspan6227"
+             y="1327.0601"
+             x="1104.8">Writer</tspan>
+        </text>
+        <text
+           id="text6229"
+           y="1320.84"
+           x="1132.4399"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan6231"
+             y="1320.84"
+             x="1132.4399" />
+        </text>
+        <text
+           id="text6233"
+           y="1320.84"
+           x="1132.4399"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan6235"
+             y="1320.84"
+             x="1132.4399" />
+        </text>
+        <g
+           id="g6237">
+          <rect
+             id="rect6239"
+             height="58.053398"
+             width="77.292"
+             y="1352.55"
+             x="1093.91"
+             style="fill:#c1dfdf" />
+          <rect
+             id="rect6241"
+             height="58.053398"
+             width="77.292"
+             y="1352.55"
+             x="1093.91"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6243"
+           y="1390.75"
+           x="1120.89"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="28.2222">
+          <tspan
+             id="tspan6245"
+             y="1390.75"
+             x="1120.89">N</tspan>
+        </text>
+        <g
+           id="g6247">
+          <path
+             id="path6249"
+             d="m 1172.2,1381.57 c 46.28,0 13.84,75.82 50.38,75.82"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon6251"
+             points="1222.58,1457.39 1220.08,1452.39 1230.08,1457.39 1220.08,1462.39 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6253"
+             points="1222.58,1457.39 1220.08,1452.39 1230.08,1457.39 1220.08,1462.39 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g6255">
+          <path
+             id="path6257"
+             d="m 1034.54,1457.39 c 32.88,0 26.5,-75.82 49.63,-75.82"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon6259"
+             points="1084.17,1381.57 1081.67,1376.57 1091.67,1381.57 1081.67,1386.57 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6261"
+             points="1084.17,1381.57 1081.67,1376.57 1091.67,1381.57 1081.67,1386.57 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6263"
+           y="1516.21"
+           x="1108.72"
+           style="font-style:normal;font-weight:normal;font-size:25.39999962px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="25.4">
+          <tspan
+             id="tspan6265"
+             y="1516.21"
+             x="1108.72">free</tspan>
+        </text>
+        <g
+           id="g6267">
+          <polyline
+             id="polyline6269"
+             points="1312.99,1168.58 1333.99,1168.58 1333.99,1457.39 1321.36,1457.39 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6271"
+             points="1321.36,1457.39 1323.86,1462.39 1313.86,1457.39 1323.86,1452.39 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6273"
+             points="1321.36,1457.39 1323.86,1462.39 1313.86,1457.39 1323.86,1452.39 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6275"
+           y="1335.98"
+           x="1238.45"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#0000ff"
+           font-size="28.2222">
+          <tspan
+             id="tspan6277"
+             y="1335.98"
+             x="1238.45">synchronize_rcu</tspan>
+        </text>
+        <g
+           id="g6279">
+          <polyline
+             id="polyline6281"
+             points="1366.84,865.276 1387.84,865.276 1387.84,1154.09 1375.2,1154.09 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6283"
+             points="1375.2,1154.09 1377.7,1159.09 1367.7,1154.09 1377.7,1149.09 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6285"
+             points="1375.2,1154.09 1377.7,1159.09 1367.7,1154.09 1377.7,1149.09 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6287"
+           y="1042.1899"
+           x="1240.12"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#0000ff"
+           font-size="28.2222">
+          <tspan
+             id="tspan6289"
+             y="1042.1899"
+             x="1240.12">rcu_assign_pointer</tspan>
+        </text>
+        <g
+           id="g6291">
+          <polyline
+             id="polyline6293"
+             points="1367.32,560.78 1388.32,560.78 1388.32,849.59 1375.68,849.59 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon6295"
+             points="1375.68,849.59 1378.18,854.59 1368.18,849.59 1378.18,844.59 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon6297"
+             points="1375.68,849.59 1378.18,854.59 1368.18,849.59 1378.18,844.59 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text6299"
+           y="727.23199"
+           x="1245.25"
+           style="font-style:normal;font-weight:normal;font-size:28.22220039px;font-family:sans-serif;text-anchor:start;fill:#0000ff"
+           font-size="28.2222">
+          <tspan
+             id="tspan6301"
+             y="727.23199"
+             x="1245.25">Allocate</tspan>
+          <tspan
+             id="tspan6303"
+             y="762.51001"
+             x="1245.25">&amp; Copy</tspan>
+          <tspan
+             id="tspan6305"
+             y="797.78802"
+             x="1245.25">&amp; Update</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
