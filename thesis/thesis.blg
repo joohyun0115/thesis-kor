@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: plain.bst
+Database file #1: ref.bib
+Repeated entry---line 53 of file ref.bib
+ : @inproceedings{vonBehren2003WEB
+ :                                ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in AIM7Benchmark
+Warning--to sort, need author or key in MOSBENCH
+Warning--to sort, need author or key in Exim
+Warning--to sort, need author or key in LOCKSTAT
+Warning--to sort, need author or key in LTP
+Warning--empty author in AIM7Benchmark
+Warning--empty booktitle in AIM7Benchmark
+Warning--empty year in AIM7Benchmark
+Warning--empty author in LTP
+Warning--empty booktitle in LTP
+Warning--empty year in LTP
+Warning--empty author in LOCKSTAT
+Warning--empty booktitle in LOCKSTAT
+Warning--empty year in LOCKSTAT
+Warning--empty author in MOSBENCH
+Warning--empty booktitle in MOSBENCH
+Warning--empty author in Exim
+Warning--empty booktitle in Exim
+Warning--empty booktitle in Accetta86mach
+Warning--empty booktitle in Bueso2014MCS
+Warning--empty booktitle in Bueso2015STP
+Warning--can't use both volume and number fields in Bueso2015STP
+Warning--empty booktitle in CorbetLWNANON
+Warning--empty booktitle in Hendler2010FC
+Warning--empty booktitle in PaulDetailLWN
+Warning--empty booktitle in mckenney2011parallel
+Warning--empty booktitle in Saltzer1966TCM
+You've used 60 entries,
+            2118 wiz_defined-function locations,
+            898 strings with 16534 characters,
+and the built_in function-call counts, 24876 in all, are:
+= -- 2449
+> -- 1005
+< -- 43
++ -- 404
+- -- 340
+* -- 1563
+:= -- 3649
+add.period$ -- 184
+call.type$ -- 60
+change.case$ -- 348
+chr.to.int$ -- 0
+cite$ -- 87
+duplicate$ -- 1151
+empty$ -- 2134
+format.name$ -- 340
+if$ -- 5580
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 61
+newline$ -- 303
+num.names$ -- 110
+pop$ -- 467
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 943
+stack$ -- 0
+substring$ -- 1579
+swap$ -- 441
+text.length$ -- 43
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 238
+warning$ -- 27
+while$ -- 240
+width$ -- 62
+write$ -- 675
+(There was 1 error message)

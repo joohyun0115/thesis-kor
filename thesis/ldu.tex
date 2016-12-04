@@ -32,7 +32,7 @@ LDU는 리눅스 커널의 높은 업데이트 비율을 가진 자료구조의 
 제거함과 동시에 캐시 커뮤니케이션 오버헤드를 최소화하였다.
 이번 장에서는 LDU의 알고리즘적인 디자인 측면에 관해서 설명한다. 
 
-\subsection{접근법(Approach)}
+\subsection{접근법}
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -264,13 +264,13 @@ and single consumer)에 활용될 수 있는 자료구조를 이용하였다.
 
 
 \subsection{실행 예}
-\begin{figure*}[h]
+\begin{figure}[h!]
   \begin{center}
      \includegraphics[width=1.0\textwidth,height=0.4\textheight]{fig/basic_gldu}
   \end{center}
   \caption{7개의 업데이트 명령과 1개의 리드 명령에 대한 LDU 예.}
   \label{fig:basic}
-\end{figure*}
+\end{figure}
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 1: Flowchart 구조 설명 
@@ -377,22 +377,22 @@ LDU는 큐에서 트리로 각각의 명령어를 옮긴다. 이 때 옮길 오�
 T5시점이 되면, 트리는 \inv{0}{B}, \inv{0}{C} 그리고 \inv{0}{D}를 가지게 되어, 
 최종적으로 리더는 결국 일관성있는 같은 데이터를 읽게 된다. 
 
-\begin{figure*}[h]
+\begin{figure}[h!]
 \begin{center}
 \inputminted[linenos,fontsize=\footnotesize, tabsize=4]{c}{src/ldu_logical_a.c}
 \end{center}
 \caption{LDU의 동시적 삽입에 대한 알고리즘.}
 \label{fig:gldulogicalupdate}
-\end{figure*}
+\end{figure}
 
 
-\begin{figure*}[h]
+\begin{figure}[h!]
 \begin{center}
 \inputminted[linenos,fontsize=\footnotesize, tabsize=4]{c}{src/ldu_logical_b.c}
 \end{center}
 \caption{LDU의 동시적 삽제에 대한 알고리즘.}
 \label{fig:gldulogicalupdate}
-\end{figure*}
+\end{figure}
 
 
 \subsection{알고리즘}
@@ -400,9 +400,8 @@ T5시점이 되면, 트리는 \inv{0}{B}, \inv{0}{C} 그리고 \inv{0}{D}를 가
 %This section shows skeleton of an algorithm.
 %We exclude the log's queue and the \LDU's detailed data structures for
 %exposition simplicity.
-이번 장은 알고리즘의 중요한 부분에 대해서 보여준다.
-우리는 LDU의 로깅하는 큐에 대한 알고리즘과 자세한 자료구조에 대해서는 간략한 설명을 위해 
-배제하였다. 
+이번 장은 알고리즘의 중요한 부분에 대해서 설명한다. 
+알고리즘은 로그를 삽입하는 부분과 로그를 적용하는 부분에 대해서만 설명한다.
 
 \subsubsection{로그 삽입}
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -411,14 +410,14 @@ T5시점이 되면, 트리는 \inv{0}{B}, \inv{0}{C} 그리고 \inv{0}{D}를 가
 %Figure \ref{fig:gldulogicalupdate} shows concurrent update functions.
 그림 \ref{fig:gldulogicalupdate}은 동시적 업데이트를 수행하는 함수에 대해 보여준다.
 %The concurrent update functions are divided into three phase.
-이러한 동시적 업데이트 함수는 3가지 단계로 구분된다.
+동시적 업데이트 함수는 3가지 단계로 구분된다.
 %The first phase checks this object to see whether or not the
 %object is a cancelable object(Line 4, 20).
-첫째 단계는 체크단계이며, 이 오브젝트가 취소 가능한 오브젝트인지 확인을 한다(Line 4, 20). 
+첫째 단계는 체크 단계이며, 입력으로 받은 오브젝트가 취소 가능한 오브젝트인지 확인을 한다(Line 4, 20). 
 %When this code is executed, the \code{synchronize} function can
 %be invoked by a reader or a periodic timer, so phase 1 needs the atomic
 % operation.
-이코드가 수행되면, \code{synchronize} 함수는 리더 또는 주기적인 함수에 의해 호출된다.
+이 코드가 수행되면, 동시에 \code{synchronize} 함수는 리더 또는 주기적인 함수에 의해 호출된다.
 따라서 첫 번째 단계에서는 원자적 명령어가 필요하다.
 %If the corresponding mark field is true, then its mark field is changed to
 % false.

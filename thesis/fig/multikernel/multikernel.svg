@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="100mm"
+   viewBox="0 0 744.09449 354.33071"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="multikernel.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="0.56140388"
+     inkscape:cy="-198.27918"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9901"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-698.0315)">
+    <g
+       id="g9901"
+       transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         id="text9489"
+         y="482.82999"
+         x="685.43799"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9491"
+           y="482.82999"
+           x="685.43799" />
+      </text>
+      <text
+         id="text9891"
+         y="605.57397"
+         x="760.104"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9893"
+           y="605.57397"
+           x="760.104" />
+      </text>
+      <g
+         id="g4503"
+         transform="matrix(0.46945129,0,0,0.59831176,339.43567,88.091867)">
+        <line
+           id="line4293"
+           y2="662.09802"
+           x2="1514.11"
+           y1="661.138"
+           x1="700.51202"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:4" />
+        <line
+           id="line4295"
+           y2="767.09601"
+           x2="1515.95"
+           y1="769.888"
+           x1="702.91199"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:4" />
+        <g
+           id="g4297">
+          <rect
+             id="rect4299"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="751.43597"
+             style="fill:#ffff00" />
+          <rect
+             id="rect4301"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="751.43597"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4303">
+          <rect
+             id="rect4305"
+             height="51.664001"
+             width="209.80499"
+             y="588.34198"
+             x="920.138"
+             style="fill:#ffff00" />
+          <rect
+             id="rect4307"
+             height="51.664001"
+             width="209.80499"
+             y="588.34198"
+             x="920.138"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4309">
+          <rect
+             id="rect4311"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="1183.5"
+             style="fill:#ffff00" />
+          <rect
+             id="rect4313"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="1183.5"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4315">
+          <rect
+             id="rect4317"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="1348.38"
+             style="fill:#ffff00" />
+          <rect
+             id="rect4319"
+             height="51.664001"
+             width="131.85899"
+             y="588.34198"
+             x="1348.38"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4321">
+          <rect
+             id="rect4323"
+             height="51.664001"
+             width="131.85899"
+             y="681.16602"
+             x="1348.38"
+             style="fill:#cfa4a4" />
+          <rect
+             id="rect4325"
+             height="51.664001"
+             width="131.85899"
+             y="681.16602"
+             x="1348.38"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4327">
+          <rect
+             id="rect4329"
+             height="51.664001"
+             width="131.85899"
+             y="780.81"
+             x="1348.38"
+             style="fill:#82bef9" />
+          <rect
+             id="rect4331"
+             height="51.664001"
+             width="131.85899"
+             y="780.81"
+             x="1348.38"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4333">
+          <rect
+             id="rect4335"
+             height="51.664001"
+             width="131.85899"
+             y="867.47803"
+             x="1348.38"
+             style="fill:#c1dfdf" />
+          <rect
+             id="rect4337"
+             height="51.664001"
+             width="131.85899"
+             y="867.47803"
+             x="1348.38"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4339"
+           y="613.42603"
+           x="632.76001"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4341"
+             y="613.42603"
+             x="632.76001">User space,</tspan>
+          <tspan
+             id="tspan4343"
+             y="635.00201"
+             x="632.76001">Application</tspan>
+        </text>
+        <text
+           id="text4345"
+           y="713.40198"
+           x="637.96002"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4347"
+             y="713.40198"
+             x="637.96002">User space,</tspan>
+          <tspan
+             id="tspan4349"
+             y="734.97803"
+             x="637.96002">OS function</tspan>
+        </text>
+        <text
+           id="text4351"
+           y="819.87598"
+           x="634.32202"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4353"
+             y="819.87598"
+             x="634.32202">Kernel space</tspan>
+        </text>
+        <text
+           id="text4355"
+           y="899.35199"
+           x="644.35797"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4357"
+             y="899.35199"
+             x="644.35797">Hardwar</tspan>
+        </text>
+        <text
+           id="text4359"
+           y="617.22803"
+           x="774.65399"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4361"
+             y="617.22803"
+             x="774.65399">Application</tspan>
+        </text>
+        <text
+           id="text4363"
+           y="617.22803"
+           x="978.06403"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4365"
+             y="617.22803"
+             x="978.06403">Application</tspan>
+        </text>
+        <text
+           id="text4367"
+           y="617.22803"
+           x="1204.85"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4369"
+             y="617.22803"
+             x="1204.85">Application</tspan>
+        </text>
+        <text
+           id="text4371"
+           y="617.59998"
+           x="1367.34"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4373"
+             y="617.59998"
+             x="1367.34">Application</tspan>
+        </text>
+        <g
+           id="g4375">
+          <rect
+             id="rect4377"
+             height="51.664001"
+             width="131.85899"
+             y="686.81201"
+             x="922.08002"
+             style="fill:#cfa4a4" />
+          <rect
+             id="rect4379"
+             height="51.664001"
+             width="131.85899"
+             y="686.81201"
+             x="922.08002"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4381">
+          <rect
+             id="rect4383"
+             height="51.664001"
+             width="131.85899"
+             y="786.45801"
+             x="922.08002"
+             style="fill:#82bef9" />
+          <rect
+             id="rect4385"
+             height="51.664001"
+             width="131.85899"
+             y="786.45801"
+             x="922.08002"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4387">
+          <rect
+             id="rect4389"
+             height="51.664001"
+             width="131.85899"
+             y="873.12598"
+             x="922.08002"
+             style="fill:#c1dfdf" />
+          <rect
+             id="rect4391"
+             height="51.664001"
+             width="131.85899"
+             y="873.12598"
+             x="922.08002"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4393">
+          <rect
+             id="rect4395"
+             height="51.664001"
+             width="131.85899"
+             y="687.28802"
+             x="753.78003"
+             style="fill:#cfa4a4" />
+          <rect
+             id="rect4397"
+             height="51.664001"
+             width="131.85899"
+             y="687.28802"
+             x="753.78003"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4399">
+          <rect
+             id="rect4401"
+             height="51.664001"
+             width="131.85899"
+             y="786.93201"
+             x="753.78003"
+             style="fill:#82bef9" />
+          <rect
+             id="rect4403"
+             height="51.664001"
+             width="131.85899"
+             y="786.93201"
+             x="753.78003"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4405">
+          <rect
+             id="rect4407"
+             height="51.664001"
+             width="131.85899"
+             y="873.59998"
+             x="753.78003"
+             style="fill:#c1dfdf" />
+          <rect
+             id="rect4409"
+             height="51.664001"
+             width="131.85899"
+             y="873.59998"
+             x="753.78003"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4411">
+          <polygon
+             id="polygon4413"
+             points="1223.28,700.247 1207.33,684.292 1207.33,692.269 1175.42,692.269 1175.42,684.292 1159.46,700.247 1175.42,716.201 1175.42,708.224 1207.33,708.224 1207.33,716.201 "
+             style="fill:#00ff00" />
+          <polygon
+             id="polygon4415"
+             points="1223.28,700.247 1207.33,684.292 1207.33,692.269 1175.42,692.269 1175.42,684.292 1159.46,700.247 1175.42,716.201 1175.42,708.224 1207.33,708.224 1207.33,716.201 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon4417"
+             points="1223.28,700.247 1207.33,684.292 1207.33,692.269 1175.42,692.269 1175.42,684.292 1159.46,700.247 1175.42,716.201 1175.42,708.224 1207.33,708.224 1207.33,716.201 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4419">
+          <polygon
+             id="polygon4421"
+             points="1223.28,806.137 1207.33,790.182 1207.33,798.159 1175.42,798.159 1175.42,790.182 1159.46,806.137 1175.42,822.091 1175.42,814.114 1207.33,814.114 1207.33,822.091 "
+             style="fill:#00ff00" />
+          <polygon
+             id="polygon4423"
+             points="1223.28,806.137 1207.33,790.182 1207.33,798.159 1175.42,798.159 1175.42,790.182 1159.46,806.137 1175.42,822.091 1175.42,814.114 1207.33,814.114 1207.33,822.091 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon4425"
+             points="1223.28,806.137 1207.33,790.182 1207.33,798.159 1175.42,798.159 1175.42,790.182 1159.46,806.137 1175.42,822.091 1175.42,814.114 1207.33,814.114 1207.33,822.091 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4427">
+          <polygon
+             id="polygon4429"
+             points="1223.28,887.269 1207.33,871.314 1207.33,879.291 1175.42,879.291 1175.42,871.314 1159.46,887.269 1175.42,903.223 1175.42,895.246 1207.33,895.246 1207.33,903.223 "
+             style="fill:#00ff00" />
+          <polygon
+             id="polygon4431"
+             points="1223.28,887.269 1207.33,871.314 1207.33,879.291 1175.42,879.291 1175.42,871.314 1159.46,887.269 1175.42,903.223 1175.42,895.246 1207.33,895.246 1207.33,903.223 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon4433"
+             points="1223.28,887.269 1207.33,871.314 1207.33,879.291 1175.42,879.291 1175.42,871.314 1159.46,887.269 1175.42,903.223 1175.42,895.246 1207.33,895.246 1207.33,903.223 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4435"
+           y="718.164"
+           x="786.698"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4437"
+             y="718.164"
+             x="786.698">Monitor</tspan>
+        </text>
+        <text
+           id="text4439"
+           y="717.224"
+           x="952.85797"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4441"
+             y="717.224"
+             x="952.85797">Monitor</tspan>
+        </text>
+        <text
+           id="text4443"
+           y="711.698"
+           x="1386.33"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4445"
+             y="711.698"
+             x="1386.33">Monitor</tspan>
+        </text>
+        <text
+           id="text4447"
+           y="810.758"
+           x="792.84198"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4449"
+             y="810.758"
+             x="792.84198">CPU</tspan>
+          <tspan
+             id="tspan4451"
+             y="832.33398"
+             x="792.84198">driver</tspan>
+        </text>
+        <text
+           id="text4453"
+           y="807.98401"
+           x="961.75403"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4455"
+             y="807.98401"
+             x="961.75403">CPU</tspan>
+          <tspan
+             id="tspan4457"
+             y="829.56"
+             x="961.75403">driver</tspan>
+        </text>
+        <text
+           id="text4459"
+           y="803.37598"
+           x="1391.55"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4461"
+             y="803.37598"
+             x="1391.55">CPU</tspan>
+          <tspan
+             id="tspan4463"
+             y="824.95203"
+             x="1391.55">driver</tspan>
+        </text>
+        <text
+           id="text4465"
+           y="893.724"
+           x="771.01801"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4467"
+             y="893.724"
+             x="771.01801">CPU / MMU</tspan>
+          <tspan
+             id="tspan4469"
+             y="915.29999"
+             x="771.01801">APIC</tspan>
+        </text>
+        <text
+           id="text4471"
+           y="894.15802"
+           x="939.01202"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4473"
+             y="894.15802"
+             x="939.01202">CPU / MMU</tspan>
+          <tspan
+             id="tspan4475"
+             y="915.73401"
+             x="939.01202">APIC</tspan>
+        </text>
+        <text
+           id="text4477"
+           y="890.46802"
+           x="1371.5601"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4479"
+             y="890.46802"
+             x="1371.5601">CPU / MMU</tspan>
+          <tspan
+             id="tspan4481"
+             y="912.04401"
+             x="1371.5601">APIC</tspan>
+        </text>
+        <text
+           id="text4483"
+           y="736.45801"
+           x="1125.4399"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4485"
+             y="736.45801"
+             x="1125.4399">User-space</tspan>
+          <tspan
+             id="tspan4487"
+             y="758.034"
+             x="1125.4399">Remote Procedure Calls</tspan>
+        </text>
+        <text
+           id="text4489"
+           y="841.43201"
+           x="1101.3199"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4491"
+             y="841.43201"
+             x="1101.3199">Inter-processor interrupts</tspan>
+        </text>
+        <text
+           id="text4493"
+           y="923.47998"
+           x="1091.88"
+           style="font-style:normal;font-weight:normal;font-size:17.26070023px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="17.2607">
+          <tspan
+             id="tspan4495"
+             y="923.47998"
+             x="1091.88">Cache-coherence, Interrupts</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

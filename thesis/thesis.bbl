@@ -8,6 +8,10 @@
 {Linux test project}.
 \newblock \url{https://github.com/linux-test-project/ltp}.
 
+\bibitem{LOCKSTAT}
+{LOCK STATISTICS}.
+\newblock \url{https://www.kernel.org/doc/Documentation/locking/lockstat.txt}.
+
 \bibitem{MOSBENCH}
 {MOSBENCH}.
 \newblock 2010.

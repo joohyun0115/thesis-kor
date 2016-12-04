@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="100mm"
+   viewBox="0 0 744.09449 354.33071"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fusedos.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="96.347594"
+     inkscape:cy="128.62816"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9901"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1577"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-698.0315)">
+    <g
+       id="g9901"
+       transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         id="text9489"
+         y="482.82999"
+         x="685.43799"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9491"
+           y="482.82999"
+           x="685.43799" />
+      </text>
+      <text
+         id="text9891"
+         y="605.57397"
+         x="760.104"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+         font-size="12.8">
+        <tspan
+           id="tspan9893"
+           y="605.57397"
+           x="760.104" />
+      </text>
+      <g
+         id="g4487"
+         transform="matrix(0.56183301,0,0,0.74458725,246.56489,-172.74449)">
+        <g
+           id="g4293">
+          <rect
+             id="rect4295"
+             height="30.656099"
+             width="308.02802"
+             y="907.61603"
+             x="1081.4301"
+             style="fill:#ffffff" />
+          <rect
+             id="rect4297"
+             height="30.656099"
+             width="308.02802"
+             y="907.61603"
+             x="1081.4301"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4299"
+           y="943.46002"
+           x="688.216"
+           style="font-style:italic;font-weight:700;font-size:11.7968998px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="11.7969">
+          <tspan
+             id="tspan4301"
+             y="943.46002"
+             x="688.216">Software</tspan>
+        </text>
+        <text
+           id="text4303"
+           y="927.08398"
+           x="1170.74"
+           style="font-style:italic;font-weight:700;font-size:11.7968998px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="11.7969">
+          <tspan
+             id="tspan4305"
+             y="927.08398"
+             x="1170.74">No supervisor mode</tspan>
+        </text>
+        <text
+           id="text4307"
+           y="979.59802"
+           x="691.74799"
+           style="font-style:italic;font-weight:700;font-size:11.7968998px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="11.7969">
+          <tspan
+             id="tspan4309"
+             y="979.59802"
+             x="691.74799">Hardware</tspan>
+        </text>
+        <line
+           id="line4311"
+           y2="957.56201"
+           x2="1418.3"
+           y1="957.63397"
+           x1="697.91998"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:4" />
+        <g
+           id="g4313">
+          <rect
+             id="rect4315"
+             height="53.1903"
+             width="98.645302"
+             y="835.76202"
+             x="759.62402"
+             style="fill:#ffffff" />
+          <rect
+             id="rect4317"
+             height="53.1903"
+             width="98.645302"
+             y="835.76202"
+             x="759.62402"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4319"
+           y="860.43201"
+           x="768.328"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4321"
+             y="860.43201"
+             x="768.328">Linux</tspan>
+          <tspan
+             id="tspan4323"
+             y="876.43201"
+             x="768.328">Application A</tspan>
+        </text>
+        <g
+           id="g4325">
+          <rect
+             id="rect4327"
+             height="53.1903"
+             width="94.113503"
+             y="835.76202"
+             x="867.42603"
+             style="fill:#1e90ff" />
+          <rect
+             id="rect4329"
+             height="53.1903"
+             width="94.113503"
+             y="835.76202"
+             x="867.42603"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4331">
+          <rect
+             id="rect4333"
+             height="30.9"
+             width="80.550003"
+             y="847.27002"
+             x="877.59802"
+             style="fill:#1e90ff" />
+          <text
+             id="text4335"
+             y="859.16998"
+             x="877.59802"
+             style="font-style:normal;font-weight:700;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+             font-size="12.8">
+            <tspan
+               id="tspan4337"
+               y="859.16998"
+               x="877.59802">Compute</tspan>
+            <tspan
+               id="tspan4339"
+               y="875.16998"
+               x="877.59802">Library(CL)</tspan>
+          </text>
+        </g>
+        <g
+           id="g4341">
+          <g
+             id="g4343">
+            <rect
+               id="rect4345"
+               height="53.1903"
+               width="94.113503"
+               y="835.76202"
+               x="972.70599"
+               style="fill:#fcc869" />
+            <rect
+               id="rect4347"
+               height="53.1903"
+               width="94.113503"
+               y="835.76202"
+               x="972.70599"
+               style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          </g>
+          <g
+             id="g4349">
+            <rect
+               id="rect4351"
+               height="30.9"
+               width="70.900002"
+               y="847.27002"
+               x="986.87799"
+               style="fill:#fcc869" />
+            <text
+               id="text4353"
+               y="859.16998"
+               x="986.87799"
+               style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+               font-size="12.8">
+              <tspan
+                 id="tspan4355"
+                 y="859.16998"
+                 x="986.87799">Compute</tspan>
+              <tspan
+                 id="tspan4357"
+                 y="875.16998"
+                 x="986.87799">Library(CL)</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           id="g4359">
+          <rect
+             id="rect4361"
+             height="58.3545"
+             width="308.86899"
+             y="979.09198"
+             x="759.62402"
+             style="fill:#ffffff" />
+          <rect
+             id="rect4363"
+             height="58.3545"
+             width="308.86899"
+             y="979.09198"
+             x="759.62402"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4365"
+           y="1007.97"
+           x="791.03198"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4367"
+             y="1007.97"
+             x="791.03198">Single-Thread-Optimized Cores(STOCs)</tspan>
+        </text>
+        <g
+           id="g4369">
+          <rect
+             id="rect4371"
+             height="30.656099"
+             width="308.02802"
+             y="910.15997"
+             x="759.62402"
+             style="fill:#ffffff" />
+          <rect
+             id="rect4373"
+             height="30.656099"
+             width="308.02802"
+             y="910.15997"
+             x="759.62402"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4375"
+           y="929.36401"
+           x="884.37201"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4377"
+             y="929.36401"
+             x="884.37201">Linux</tspan>
+        </text>
+        <g
+           id="g4379">
+          <rect
+             id="rect4381"
+             height="53.1903"
+             width="188.957"
+             y="834.90002"
+             x="1080.9301"
+             style="fill:#fcc869" />
+          <rect
+             id="rect4383"
+             height="53.1903"
+             width="188.957"
+             y="834.90002"
+             x="1080.9301"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4385"
+           y="858.30798"
+           x="1095.1"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4387"
+             y="858.30798"
+             x="1095.1">Compute</tspan>
+          <tspan
+             id="tspan4389"
+             y="874.30798"
+             x="1095.1">Library(CL)</tspan>
+        </text>
+        <g
+           id="g4391">
+          <rect
+             id="rect4393"
+             height="53.1903"
+             width="98.645302"
+             y="833.638"
+             x="1287.03"
+             style="fill:#1e90ff" />
+          <rect
+             id="rect4395"
+             height="53.1903"
+             width="98.645302"
+             y="833.638"
+             x="1287.03"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4397"
+           y="858.30798"
+           x="1289.24"
+           style="font-style:normal;font-weight:700;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+           font-size="12.8">
+          <tspan
+             id="tspan4399"
+             y="858.30798"
+             x="1289.24">Linux</tspan>
+          <tspan
+             id="tspan4401"
+             y="874.30798"
+             x="1289.24">Application B</tspan>
+        </text>
+        <g
+           id="g4403">
+          <rect
+             id="rect4405"
+             height="58.795898"
+             width="90.068199"
+             y="979.91199"
+             x="1084.38"
+             style="fill:#fcc869" />
+          <rect
+             id="rect4407"
+             height="58.795898"
+             width="90.068199"
+             y="979.91199"
+             x="1084.38"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4409"
+           y="996.172"
+           x="1095.1801"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4411"
+             y="996.172"
+             x="1095.1801">Power</tspan>
+          <tspan
+             id="tspan4413"
+             y="1012.17"
+             x="1095.1801">Efficient</tspan>
+          <tspan
+             id="tspan4415"
+             y="1028.17"
+             x="1095.1801">Cores(PECs)</tspan>
+        </text>
+        <g
+           id="g4417">
+          <rect
+             id="rect4419"
+             height="58.795898"
+             width="90.068199"
+             y="980.73199"
+             x="1192.1801"
+             style="fill:#fcc869" />
+          <rect
+             id="rect4421"
+             height="58.795898"
+             width="90.068199"
+             y="980.73199"
+             x="1192.1801"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4423"
+           y="996.992"
+           x="1202.99"
+           style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="12.8">
+          <tspan
+             id="tspan4425"
+             y="996.992"
+             x="1202.99">Power</tspan>
+          <tspan
+             id="tspan4427"
+             y="1012.99"
+             x="1202.99">Efficient</tspan>
+          <tspan
+             id="tspan4429"
+             y="1028.99"
+             x="1202.99">Cores(PECs)</tspan>
+        </text>
+        <g
+           id="g4431">
+          <rect
+             id="rect4433"
+             height="58.795898"
+             width="90.068199"
+             y="981.552"
+             x="1300.8199"
+             style="fill:#1e90ff" />
+          <rect
+             id="rect4435"
+             height="58.795898"
+             width="90.068199"
+             y="981.552"
+             x="1300.8199"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4437"
+           y="1000.31"
+           x="1303.63"
+           style="font-style:normal;font-weight:700;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#ffffff"
+           font-size="12.8">
+          <tspan
+             id="tspan4439"
+             y="1000.31"
+             x="1303.63">Power</tspan>
+          <tspan
+             id="tspan4441"
+             y="1016.31"
+             x="1303.63">Efficient</tspan>
+          <tspan
+             id="tspan4443"
+             y="1032.3101"
+             x="1303.63">Cores(PECs)</tspan>
+        </text>
+        <g
+           id="g4445">
+          <path
+             id="path4447"
+             d="m 907.715,899.54 c -0.637,3.499 -5.487,117.11 2.985,158.48 8.47,41.38 362.34,23.12 426.95,18.33 64.61,-4.78 27.33,-23.62 26.18,-26.14"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:4"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon4449"
+             points="909.058,892.161 912.187,902.895 907.715,899.54 902.348,901.104 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon4451"
+             points="909.058,892.161 912.187,902.895 907.715,899.54 902.348,901.104 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon4453"
+             points="1360.7,1043.39 1369.41,1050.4 1363.83,1050.21 1360.32,1054.56 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon4455"
+             points="1360.7,1043.39 1369.41,1050.4 1363.83,1050.21 1360.32,1054.56 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4457">
+          <path
+             id="path4459"
+             d="m 1013,899.493 c -0.63,3.5 -36.094,127.327 -29.894,155.747 6.198,28.41 166.014,14.41 230.624,9.63 64.61,-4.79 28.69,-13.97 27.53,-16.49"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:20, 8, 4, 8"
+             inkscape:connector-curvature="0" />
+          <polygon
+             id="polygon4461"
+             points="1014.35,892.115 1017.48,902.848 1013,899.493 1007.64,901.058 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon4463"
+             points="1014.35,892.115 1017.48,902.848 1013,899.493 1007.64,901.058 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+          <polygon
+             id="polygon4465"
+             points="1238.14,1041.56 1246.85,1048.57 1241.26,1048.38 1237.76,1052.74 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon4467"
+             points="1238.14,1041.56 1246.85,1048.57 1241.26,1048.38 1237.76,1052.74 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <g
+           id="g4469">
+          <line
+             id="line4471"
+             y2="1049.17"
+             x2="1120.7"
+             y1="1070.37"
+             x1="1116.0699"
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-dasharray:20, 8, 4, 8" />
+          <polygon
+             id="polygon4473"
+             points="1122.3,1041.85 1125.05,1052.68 1120.7,1049.17 1115.28,1050.55 "
+             style="fill:#000000" />
+          <polygon
+             id="polygon4475"
+             points="1122.3,1041.85 1125.05,1052.68 1120.7,1049.17 1115.28,1050.55 "
+             style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+        </g>
+        <text
+           id="text4477"
+           y="1103.5601"
+           x="972.94397"
+           style="font-style:italic;font-weight:700;font-size:11.7968998px;font-family:sans-serif;text-anchor:start;fill:#000000"
+           font-size="11.7969">
+          <tspan
+             id="tspan4479"
+             y="1103.5601"
+             x="972.94397">Power Efficient Cores management interface</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 90년대 공유 메모리 시스템\relax }}{7}{figure.caption.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces CPU 발전 동향.\relax }}{8}{figure.caption.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 공유 메모리 시스템\relax }}{9}{figure.caption.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 공유 메모리 시스템\relax }}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces corey 운영체제 address space 공유 방법\relax }}{12}{figure.caption.6}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Barrelfish 구조\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces FusedOS 구조\relax }}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces linux scalability 분석 연구\relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Address space 문제와 BosaiVM을 이용한 해결\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces RadixVM의 해결 방법\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Flat combining 방법\relax }}{30}{figure.caption.21}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces OpLog의 업데이트 방법\relax }}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces RCU 예제\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces RCU의 delayed free의 시점\relax }}{35}{figure.caption.26}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{36}{figure.caption.27}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Non-locking synchronization\relax }}{39}{figure.caption.32}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces 간단한 Non-blocking 스택 알고리즘.\relax }}{40}{figure.caption.33}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Harris 삭제\relax }}{43}{figure.caption.35}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces AIM7-multiuser 성능 확장성\relax }}{45}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 120코어에서 락 때문에 기다리는 시간\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces anonymous 역 매핑의 문제\relax }}{47}{figure.caption.38}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 파일 역 매핑의 문제\relax }}{48}{figure.caption.39}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 120코어에서의 lock\_stat 결과 분석\relax }}{49}{figure.caption.40}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 업데이트 직렬화의 문제\relax }}{50}{figure.caption.41}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 동기화된 타임스탬프 카운터 머징에 따른 오버헤드\relax }}{50}{figure.caption.42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 7개의 업데이트 명령과 1개의 리드 명령에 대한 LDU 예.\relax }}{55}{figure.caption.43}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces LDU의 동시적 삽입에 대한 알고리즘.\relax }}{57}{figure.caption.44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{58}{figure.caption.45}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 로그를 적용하는 알고리즘.\relax }}{59}{figure.caption.48}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 리눅스 익명 역 매핑에 LDU를 적용한 그림.\relax }}{61}{figure.caption.49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 리눅스 파일 역 매핑에 LDU를 적용한 그림.\relax }}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LDU의 전역 큐.\relax }}{63}{figure.caption.51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces LDU의 퍼코어 큐.\relax }}{65}{figure.caption.52}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 실험 환경.\relax }}{66}{figure.caption.53}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces lockfree 리스트로 변경하기 전 자료구조\relax }}{67}{figure.caption.54}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces lockfree 리스트로 변경 후 자료구조\relax }}{68}{figure.caption.55}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces AIM7-multiuser 확장성.\relax }}{69}{figure.caption.56}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 120코어에서 AIM7 CPU 사용량.\relax }}{70}{figure.caption.57}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 120코어에서 EXIM CPU 사용량. \relax }}{71}{figure.caption.58}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 120코어에서 Lmbench CPU 사용량.\relax }}{72}{figure.caption.59}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Exim 확장성.\relax }}{73}{figure.caption.60}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.\relax }}{74}{figure.caption.61}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 업데이트 비율에 따른 AIM7 성능.\relax }}{74}{figure.caption.62}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 업데이트 비율에 따른 AIM7 확장성.\relax }}{75}{figure.caption.63}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 업데이트 비율에 따른 Exim 성능.\relax }}{75}{figure.caption.64}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 업데이트 비율에 따른 Exim 확장성.\relax }}{76}{figure.caption.65}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Lmbench performance depending on update ratios.\relax }}{76}{figure.caption.66}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 업데이트 비율에 따른 Lmbench 성능.\relax }}{76}{figure.caption.66}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces 업데이트 비율에 따른 Lmbench 확장성.\relax }}{77}{figure.caption.67}
+\addvspace {10\p@ }
