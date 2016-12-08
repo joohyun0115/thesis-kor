@@ -17,21 +17,21 @@
 
 %The Linux reverse page mapping(rmap), a kernel memory management mechanism,
 % consists of anonymous rmap and file rmap, are a update-heavy data structure.
-리눅스 역 매핑(rmap)은 커널 메모리 관리 메커니즘(mechanism) 중 하나이다.
+리눅스 역 매핑(rmap)은 커널 메모리 관리 메커니즘(mechanism) 중 하나 이다.
 이것은 익명 역 매핑과 파일 역 매핑으로 구성되며 이것은 업데이트 비율이 높은 자료구조이다.
 %These two rmaps maintain virtual address(VMAs) to translate physical
 %addresses to virtual address~\cite{Dave2004OLSRMAP}, and the rmaps are a shared
 % global resource between processes.
-이러한 두가지 rmap은 리눅스의 가상 주소(VMAs)를 관리하고, 이것은 물지 주소(physical address)를 
-가상 주소로 변환하는 일을 하며, rmap은 프로세스간 공유하는 전역 자원(global resource)이다.
+이러한 두 가지 rmap은 리눅스의 가상 주소(VMAs)를 관리하고, 이것은 물지 주소(physical address)를 
+가상 주소로 변환하는 일을 하며, rmap은 프로세스 간 공유하는 전역 자원(global resource)이다.
 %These global resource of rmap are managed by using a interval tree.
 이러한 전역 자원인 rmap은 인터벌 트리(interval tree)에 의해 관리된다.
  %To protect these shared tree, Linux kernel uses the reader-writer semaphore,
  %and simultaneous creation of many processes becomes bottlenecks because not
  %only the rmap's update operations can not run in parallel but also update's
 %lock brings about the cache invalidation traffic.
-이러한 공유자원을 보호하기 위해, 리눅스는 읽기-쓰리 세마포어(reader-writer semaphore)를 이용하고, 
-동시적으로 많은 프로세스가 생성되면 이것은 결국 병목현상으로 된다. 
+이러한 공유 자원을 보호하기 위해, 리눅스는 읽기-쓰리 세마포어(reader-writer semaphore)를 이용하고, 
+동시적으로 많은 프로세스가 생성되면 이것은 결국 병목 현상으로 된다. 
 그 이유는 rmap의 업데이트 명령어들이 병렬로 실행되지 못할 뿐만 아니라 락 자체가 캐시
 커뮤니케이션 오버헤드를 가져오기 때문이다.
 
@@ -51,7 +51,7 @@
 그림 \ref{fig:anonvmaramp}은 익명 rmap에 대한 자료구조를 보여준다.
 %When a process spawns, the parent's anonymous vma chain(AVC) are copied
 %to a child, and then a new anonymous vma(\code{struct anon\_vma}) is created.
-프로세스가 자식을 만들때, 부모의 익명 메모리 체인(AVC)는 자식에게 복사한다. 
+프로세스가 자식을 만들 때, 부모의 익명 메모리 체인(AVC)는 자식에게 복사한다. 
 그리고 새로운 익명 가상메모리(\code{struct anon\_vma})는 생성이 된다.
 %, indicating the child's AVCs, 
 %When a process simultaneously spawns, the more complex

@@ -1,6 +1,6 @@
 \contentsline {content}{ 차 례 }{}{Doc-Start}
 \contentsline {content}{ 그림 차례 }{ii}{Doc-Start}
-\contentsline {content}{요약}{v}{Doc-Start}
+\contentsline {content}{요약}{iv}{Doc-Start}
 \contentsline {chapter}{\numberline {제 1\ 장}서론 }{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}개요}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}논문의 기여}{4}{section.1.2}
@@ -10,48 +10,46 @@
 \contentsline {section}{\numberline {2.2}최근 운영체제 병렬화 연구}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}새로운 운영체제 제안}{11}{subsection.2.2.1}
 \contentsline {subsubsection}{Corey}{11}{section*.5}
-\contentsline {subsubsection}{Barrelfish}{13}{section*.7}
-\contentsline {subsubsection}{fOS}{13}{section*.9}
-\contentsline {subsubsection}{Fused OS}{15}{section*.10}
-\contentsline {subsection}{\numberline {2.2.2}기존 운영체제 최적화}{17}{subsection.2.2.2}
-\contentsline {subsubsection}{Linux scalability}{17}{section*.12}
-\contentsline {subsubsection}{BonsaiVM}{18}{section*.14}
-\contentsline {subsubsection}{RadixVM}{20}{section*.16}
-\contentsline {subsubsection}{SC rule}{22}{section*.18}
-\contentsline {section}{\numberline {2.3}확장성 있는 락 연구}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}큐 기반의 락(Queued Lock)}{27}{subsection.2.3.1}
-\contentsline {subsubsection}{MCS}{27}{section*.19}
-\contentsline {subsection}{\numberline {2.3.2}계층적 락}{28}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Delegation techniques}{29}{subsection.2.3.3}
-\contentsline {subsubsection}{Flat Combining}{29}{section*.20}
-\contentsline {subsubsection}{OpLog}{30}{section*.22}
-\contentsline {section}{\numberline {2.4}확장성 있는 자료구조 연구}{33}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}확장성 있는 자료구조를 위한 동기화 기법}{33}{subsection.2.4.1}
-\contentsline {subsubsection}{RCU}{33}{section*.24}
-\contentsline {subsubsection}{RLU}{37}{section*.30}
-\contentsline {subsubsection}{Non-locking synchronization}{38}{section*.31}
-\contentsline {subsection}{\numberline {2.4.2}확장성 있는 자료구조}{42}{subsection.2.4.2}
-\contentsline {subsubsection}{Harris Linked List}{42}{section*.34}
-\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 구체적인 문제 }{45}{chapter.3}
-\contentsline {chapter}{\numberline {제 4\ 장}로그기반 동시적 업데이트 방법 }{51}{chapter.4}
-\contentsline {section}{\numberline {4.1}설계}{51}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}접근법}{51}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}실행 예}{54}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}알고리즘}{56}{subsection.4.1.3}
-\contentsline {subsubsection}{로그 삽입}{56}{section*.46}
-\contentsline {subsubsection}{로그 적용}{58}{section*.47}
-\contentsline {section}{\numberline {4.2}리눅스 커널에 적용}{60}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}익명 역 매핑}{60}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}파일 역 매핑}{61}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}자세한 구현 내용}{63}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}평가}{65}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}실험 환경}{65}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}AIM7}{68}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Exim}{70}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Lmbench}{72}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}업데이트 비율}{73}{subsection.4.3.5}
-\contentsline {chapter}{\numberline {제 5\ 장}결론 및 향후 연구 }{78}{chapter.5}
-\contentsline {section}{\numberline {5.1}결론}{78}{section.5.1}
-\contentsline {section}{\numberline {5.2}향후 연구}{79}{section.5.2}
-\contentsline {chapter}{참 고 문 헌 }{80}{section.5.2}
-\contentsline {content}{Abstract}{89}{section.5.2}
+\contentsline {subsubsection}{Barrelfish}{12}{section*.7}
+\contentsline {subsubsection}{FusedOS}{14}{section*.9}
+\contentsline {subsection}{\numberline {2.2.2}기존 운영체제 최적화}{16}{subsection.2.2.2}
+\contentsline {subsubsection}{Linux scalability}{16}{section*.11}
+\contentsline {subsubsection}{BonsaiVM}{17}{section*.13}
+\contentsline {subsubsection}{RadixVM}{19}{section*.15}
+\contentsline {subsubsection}{SC rule}{21}{section*.17}
+\contentsline {section}{\numberline {2.3}확장성 있는 락 연구}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}큐 기반의 락(Queued Lock)}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}계층적 락}{26}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Delegation techniques}{26}{subsection.2.3.3}
+\contentsline {subsubsection}{Flat Combining}{26}{section*.18}
+\contentsline {subsubsection}{OpLog}{28}{section*.20}
+\contentsline {section}{\numberline {2.4}확장성 있는 자료구조 연구}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}확장성 있는 자료구조를 위한 동기화 기법}{30}{subsection.2.4.1}
+\contentsline {subsubsection}{RCU}{30}{section*.22}
+\contentsline {subsubsection}{RLU}{32}{section*.25}
+\contentsline {subsubsection}{Non-locking synchronization}{33}{section*.26}
+\contentsline {subsection}{\numberline {2.4.2}확장성 있는 자료구조}{36}{subsection.2.4.2}
+\contentsline {subsubsection}{Harris Linked List}{36}{section*.29}
+\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 구체적인 문제 }{38}{chapter.3}
+\contentsline {chapter}{\numberline {제 4\ 장}로그기반 동시적 업데이트 방법 }{44}{chapter.4}
+\contentsline {section}{\numberline {4.1}설계}{44}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}접근법}{44}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}실행 예}{48}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}알고리즘}{51}{subsection.4.1.3}
+\contentsline {subsubsection}{로그 삽입}{51}{section*.41}
+\contentsline {subsubsection}{로그 적용}{52}{section*.42}
+\contentsline {section}{\numberline {4.2}리눅스 커널에 적용}{54}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}익명 역 매핑}{54}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}파일 역 매핑}{56}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}자세한 구현 내용}{57}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}평가}{60}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}실험 환경}{60}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}AIM7}{63}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Exim}{64}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Lmbench}{66}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}업데이트 비율}{69}{subsection.4.3.5}
+\contentsline {chapter}{\numberline {제 5\ 장}결론 및 향후 연구 }{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}결론}{73}{section.5.1}
+\contentsline {section}{\numberline {5.2}향후 연구}{74}{section.5.2}
+\contentsline {chapter}{참 고 문 헌 }{75}{section.5.2}
+\contentsline {content}{Abstract}{84}{section.5.2}

@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="153.5764"
-     inkscape:cy="352.46463"
+     inkscape:zoom="0.7"
+     inkscape:cx="-83.60758"
+     inkscape:cy="149.39122"
      inkscape:document-units="px"
      inkscape:current-layer="g9901"
      showgrid="false"
@@ -56,6 +56,19 @@
     <g
        id="g9901"
        transform="matrix(1.7908843,0,0,1.563484,-1125.9026,25.770136)">
+      <text
+         font-size="15.2287"
+         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#ef0000;fill-opacity:1"
+         x="932.51349"
+         y="318.00391"
+         id="text4346"
+         transform="scale(0.92027264,1.0866345)">
+        <tspan
+           x="932.51349"
+           y="318.00391"
+           id="tspan4348"
+           style="fill:#ef0000;fill-opacity:1">mmap/munmap</tspan>
+      </text>
       <text
          id="text9489"
          y="482.82999"
@@ -316,37 +329,18 @@
            id="rect4377" />
       </g>
       <g
-         id="g4379"
-         transform="matrix(0.47909783,0,0,0.56570652,332.99651,47.38582)"
-         style="opacity:0.4">
-        <rect
-           style="fill:#e5e5e5"
-           x="851.50598"
-           y="556.74799"
-           width="25.226801"
-           height="40.244099"
-           id="rect4381" />
-        <rect
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-           x="851.50598"
-           y="556.74799"
-           width="25.226801"
-           height="40.244099"
-           id="rect4383" />
-      </g>
-      <g
          id="g4385"
          transform="matrix(0.47909783,0,0,0.56570652,332.99651,47.38582)"
-         style="opacity:0.4">
+         style="opacity:0.4;fill:#d38d5f">
         <rect
-           style="fill:#e5e5e5"
+           style="fill:#d38d5f"
            x="851.50598"
            y="681.198"
            width="25.226801"
            height="85.771202"
            id="rect4387" />
         <rect
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           style="fill:#d38d5f;fill-opacity:0;stroke:#000000;stroke-width:2"
            x="851.50598"
            y="681.198"
            width="25.226801"
@@ -361,16 +355,16 @@
       <g
          id="g4393"
          transform="matrix(0.47909783,0,0,0.56570652,332.99651,47.38582)"
-         style="opacity:0.4">
+         style="opacity:0.4;fill:#d38d5f">
         <rect
-           style="fill:#e5e5e5"
+           style="fill:#d38d5f"
            x="762.836"
            y="768.13599"
            width="25.226801"
            height="85.771202"
            id="rect4395" />
         <rect
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           style="fill:#d38d5f;fill-opacity:0;stroke:#000000;stroke-width:2"
            x="762.836"
            y="768.13599"
            width="25.226801"
@@ -551,16 +545,16 @@
       <g
          id="g4457"
          transform="matrix(0.47909783,0,0,0.56570652,332.99651,47.38582)"
-         style="opacity:0.51">
+         style="opacity:0.51;fill:#d38d5f">
         <rect
-           style="fill:#e5e5e5"
+           style="fill:#d38d5f"
            x="1427.3199"
            y="688.89801"
            width="25.226801"
            height="85.771202"
            id="rect4459" />
         <rect
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           style="fill:#d38d5f;fill-opacity:0;stroke:#000000;stroke-width:2"
            x="1427.3199"
            y="688.89801"
            width="25.226801"
@@ -575,16 +569,16 @@
       <g
          id="g4465"
          transform="matrix(0.47909783,0,0,0.56570652,332.99651,47.38582)"
-         style="opacity:0.51">
+         style="opacity:0.51;fill:#d38d5f">
         <rect
-           style="fill:#e5e5e5"
+           style="fill:#d38d5f"
            x="1338.65"
            y="786.44"
            width="25.226801"
            height="75.167"
            id="rect4467" />
         <rect
-           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+           style="fill:#d38d5f;fill-opacity:0;stroke:#000000;stroke-width:2"
            x="1338.65"
            y="786.44"
            width="25.226801"
@@ -947,7 +941,7 @@
       </text>
       <text
          font-size="15.2287"
-         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#ef0000;fill-opacity:1;"
+         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#ef0000;fill-opacity:1"
          x="716.24475"
          y="341.19254"
          id="text4595"
@@ -956,12 +950,12 @@
            x="716.24475"
            y="341.19254"
            id="tspan4597"
-           style="fill:#ef0000;fill-opacity:1;">Parallel page fauls,</tspan>
+           style="fill:#ef0000;fill-opacity:1">Parallel page faults,</tspan>
         <tspan
            x="716.24475"
            y="351.10278"
            id="tspan4599"
-           style="fill:#ef0000;fill-opacity:1;">mmap/munmap delayed</tspan>
+           style="fill:#ef0000;fill-opacity:1">mmap/munmap delayed</tspan>
       </text>
       <text
          font-size="15.2287"
@@ -977,7 +971,7 @@
       </text>
       <text
          font-size="15.2287"
-         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#f40000;fill-opacity:1;"
+         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#f40000;fill-opacity:1"
          x="716.98816"
          y="434.35257"
          id="text4605"
@@ -986,16 +980,16 @@
            x="716.98816"
            y="434.35257"
            id="tspan4607"
-           style="fill:#f40000;fill-opacity:1;">Serial mmap/munmap,</tspan>
+           style="fill:#f40000;fill-opacity:1">Serial mmap/munmap,</tspan>
         <tspan
            x="716.98816"
            y="444.26282"
            id="tspan4609"
-           style="fill:#f40000;fill-opacity:1;">page fauls delayed</tspan>
+           style="fill:#f40000;fill-opacity:1">page faults delayed</tspan>
       </text>
       <text
          font-size="15.2287"
-         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#f30000;fill-opacity:1;"
+         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#f30000;fill-opacity:1"
          x="1015.0841"
          y="408.35049"
          id="text4611"
@@ -1004,12 +998,12 @@
            x="1015.0841"
            y="408.35049"
            id="tspan4613"
-           style="fill:#f30000;fill-opacity:1;">Parallel page fauls,</tspan>
+           style="fill:#f30000;fill-opacity:1">Parallel page faults,</tspan>
         <tspan
            x="1015.0841"
            y="418.26071"
            id="tspan4615"
-           style="fill:#f30000;fill-opacity:1;">mmap/munmap delayed</tspan>
+           style="fill:#f30000;fill-opacity:1">mmap/munmap delayed</tspan>
       </text>
       <text
          font-size="15.2287"
@@ -1026,6 +1020,83 @@
            x="891.08136"
            y="438.36542"
            id="tspan4621">Update</tspan>
+      </text>
+      <text
+         transform="scale(0.92027264,1.0866345)"
+         id="text4303"
+         y="421.42911"
+         x="755.99182"
+         style="font-style:normal;font-weight:normal;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#00000f;fill-opacity:1;"
+         font-size="15.2287">
+        <tspan
+           id="tspan4305"
+           y="421.42911"
+           x="755.99182"
+           style="fill:#00000f;fill-opacity:1;">sleep</tspan>
+      </text>
+      <text
+         font-size="15.2287"
+         style="font-style:normal;font-weight:normal;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#00000f;fill-opacity:1"
+         x="801.06531"
+         y="371.608"
+         id="text4318"
+         transform="scale(0.92027264,1.0866345)">
+        <tspan
+           style="fill:#00000f;fill-opacity:1"
+           x="801.06531"
+           y="371.608"
+           id="tspan4320">sleep</tspan>
+      </text>
+      <g
+         style="opacity:0.4;fill:#d38d5f"
+         transform="matrix(0.43264733,0,0,0.1986605,474.70476,200.12535)"
+         id="g4328">
+        <rect
+           id="rect4330"
+           height="85.771202"
+           width="25.226801"
+           y="681.198"
+           x="851.50598"
+           style="fill:#d38d5f" />
+        <rect
+           id="rect4332"
+           height="85.771202"
+           width="25.226801"
+           y="681.198"
+           x="851.50598"
+           style="fill:#d38d5f;fill-opacity:0;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         style="opacity:0.51000001"
+         transform="matrix(0.41693019,0,0,0.20402289,261.54277,221.6422)"
+         id="g4334">
+        <rect
+           id="rect4336"
+           height="85.771202"
+           width="25.226801"
+           y="560.276"
+           x="1239.37"
+           style="fill:#e5e5e5" />
+        <rect
+           id="rect4338"
+           height="85.771202"
+           width="25.226801"
+           y="560.276"
+           x="1239.37"
+           style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+      </g>
+      <text
+         transform="scale(0.92027264,1.0866345)"
+         id="text4340"
+         y="318.00391"
+         x="862.61609"
+         style="font-style:italic;font-weight:700;font-size:7.92812538px;font-family:sans-serif;text-anchor:start;fill:#ef0000;fill-opacity:1"
+         font-size="15.2287">
+        <tspan
+           style="fill:#ef0000;fill-opacity:1"
+           id="tspan4342"
+           y="318.00391"
+           x="862.61609">page fault</tspan>
       </text>
     </g>
   </g>

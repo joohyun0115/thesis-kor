@@ -18,63 +18,43 @@ fetch-and-add, SWAP 등)을 이용하여 구현된다.
 복잡한 이유는 중간에 캐시 메모리와 일관성을 유지하기 위한 
 캐시 일관성 프로토콜과 매니코어 NUMA 구조에 최적화 되도록 구현해야 하기 때문이다.
 
+
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph : 리눅스 락 구현에 대한 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-이처럼 락의 primitive들은 기본적으로 두 종류로 구현되어 있는데, 
-
-
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
+이처럼 전통적으로 락의 primitive들은 기본적으로 두 종류로 구현되어 있는데, 
+하나는 busy-waiting 방법과 다른 하나는 sleeping 락인 blocking 방법으로 구현된다.
+락을 잡고 있는 시간이 적을 때는 보통 busy-waiting 방법을 사용한다. 
+이 방법은 보통 락이 풀릴 때까지 전역 변수를 CAS연산을 반복적으로 수행하므로 구현된다.
+이것은 blocking 방법의 문제점인 블락킹 오버헤드를 줄일 수 있으나, 수행도중 CPU를 계속 사용함에 따라 문제가 있다.
+다른 방법인 sleeping 락은 락이 걸린동안 다른 스레드들을 동작시킬 수 있는 장점이 있으나, 
+스케줄러의 스레드관리에 의존적이고 스케줄링 정책에 의해 락의 공정성등에 영향을 준다.
 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph : 락과 확장성에 대한 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
-
-
+최근 운영체제는 이러한 두가지 방법을 혼합하여 사용한다. 
+최근 리눅스 커널의 sleeping 락은 fastpath, optimistic spinning 그리고 slowpath로 구현된 3가지의 상태의
+락을 혼합하여 구현한다.
+예를 들어 커널의 \code{rw\_semaphore}(reader-writer semaphore)는 아래와 같이 3가지 상태로 구현된다.
+\begin{itemize}
+\item \textbf{fastpath.} 아무도 락을 안잡고 있을 때, 원자적인 명령어(\code{fetch\_and\_add})를 이용하여
+카운터를 수정하고 락과 함께 반환하는 부분이다.
+\item \textbf{optimistic spinning.} 다른 스레드가 락을 잡고 있어서 기다려야 하는 상황이다.
+하지만 optimistic spinning은 많은 부분이 락을 잡은 후 바로 반환하는 부분이 많아서 이러한 부분은 blocking 오버헤드를
+줄이기 위해 busy-waiting 방법으로 수행한다. 최근에는 모든 코어가 같은 전역 변수를 읽을 경우 많은 
+캐시 일관성 트래픽이 발생하므로, 락을 걸 코어에 등록하고 기다리는 코어에서는 해당 CPU의 로컬 변수만 
+주기적으로 확인하는 큐기반 락(MCS 기반 락)으로 구현한다. 
+\item \textbf{slowpath.} 만약 락을 잡고 있는 시간이 길어지면, 대기 큐에 집어 넣고 sleep을 수행하는 sleeping
+락을 수행한다. 
+\end{itemize}
+이와 같이 이러한 하이브리드한 sleeping 락은 많은 성능 향상을 보인다. 
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph :   cache coherence 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
+%캐시 일관성 때문에 발생하는 락의 오버헤드는 최근 NUMA기반의 시스템에서 큰 영향을 미치는 요소 중 하나이다.
 
 %how does cache coherence work?
  % many schemes, here's a simple one
@@ -131,19 +111,6 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 %Paragraph :   atomic instructions 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
 %Q: why do we need locks if we have cache coherence?
  %  cache coherence ensures that cores read fresh data
   % locks avoid lost updates in read-modify-write cycles
@@ -178,20 +145,6 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 %Paragraph :   ts, ticket lock 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
-
 %test&set spinlock (xv6/jos)
  % waiting cores repeatedly execute e.g. atomic exchange
 %  Q: is that a problem?
@@ -206,22 +159,6 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 %Q: is O(N) handoff time a problem?
  %  yes! we wanted O(1) time
   % O(N) per handoff means all N cores takes O(N^2) time, not O(N)
-
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Paragraph 2:  ts, ticket lock 이야기 2
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
 
 
 %ticket locks (linux):
@@ -251,8 +188,21 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
   %maybe locking cost is tiny compared to other stuff
   
 
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%Paragraph : 락과 확장성 정리
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+이와 같이 확장성을 위해 락과 관련한 병렬 처리에서 고려해야 할 사항 정리하면 
+기본적으로 락으로 보호해야 할 임계 영역(critical region)의 길이을 최대한 짧도록 해야하고, 
+락 자체가 가지고 있는 오버헤드도 또한 고려해야 할 사항이다. 
+또한 락의 세분화(granularity) 정도에 따라 find-grained 락을 사용할지 goarse-grained 락을 사용해야 할지 
+고려해야한다.
+다음으로 읽기-쓰기 비율(read-write ratios)을 고려하여 읽기가 많은 경우에는 reader-writer을 사용하고,
+읽기가 많으며 stale 데이터도 괜찮은 자료구조에서는 RCU 같은 락을 사용해야 한다.  
+또한 약간의 공정성(fairness) 손해보더라도 확장성을 높이는 방법도 고려해야 한다.
+마지막으로 최근 락에 대해서 중요한 요소로 생각하고 있는 캐시 일관성 때문에 발생하는 
+오버헤드를 고려해야 한다. 
 
-이러한 락에 대한 연구는 확장성 있는 락들은 큐 기반의
+이러한 고려사항들을 적용하여 확장성있는 락에 대한 연구는 큐 기반의
 락~\cite{MellorCrummey1991MCS}~\cite{Magnusson1994QLC}, ~\cite{Wang2016BeMyGuest},
 ~\cite{Scott2013SS}
 ~\cite{Bueso2014MCS}~\cite{Bueso2015STP}과 계층적
@@ -262,164 +212,46 @@ techniques)~\cite{Hendler2010FC}~\cite{Fatourou2012RCS}~\cite{Delegation2014}들
 연구되고 있다. 
 
 \subsection{큐 기반의 락(Queued Lock)}
-
-
-\subsubsection{MCS}
-
+%\subsubsection{MCS}
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph :   MCS 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+모든 코어가 바라보는 전역 변수를 사용하기 때문에 발생하는 캐시 일관성 트래픽 문제는 
+락 내부에서도 발생한다. 
+그 동안 락의 구현은 하나의 전역변수를 대상으로 원자적 명령을 이용하여 구현하였다. 
+따라서 자연히 캐시 일관성 트래픽 문제가 발생하였는데, 이것을 해결하는 방법이 큐 기반의 락을 
+이용하는 것이다. 
 
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
+락 때문에 발생하는 캐시 일관성 문제를 해결하기 위한 가장 쉬운 접근하는 방법은 각 
+코어가 모두 다른 캐시-라인의 데이터를 가지고 스핀을 하면 쉽게 해결이 된다.
+즉 각각의 코어가 read-only 스핀을 하고, 반환 하는 스레드가 명시적으로 해당 코어의 캐시-라인 데이터를 
+원자적 명령을 이용하여 락을 반환하는 것이다. 
+이러한 방법의 문제점은 모든 락이 모든 코어의 중복되지 않은 캐시-라인 데이터를 위한 공간을 확보해야 한다는 것이다.
+이것은 현실적으로 메모리 낭비가 심히다.
+이러한 문제를 해결한 것이 CLH 큐 기반 락이다. 
+이러한 큐 기반의 락들의 기본 철학은 모든 코어가 같은 전역 변수를 바라 보며 스핀하지 않고, 
+각자의 로컬 변수를 바라 보며 스핀하도록 하는 것이다. 
+대신 락을 반환하는 스레드가 직접 해당 코어의 변수를 수정하는 일을 하는것이다. 
 
-
-%see paper's Figure 2
- % let's consider Figure 2(c), PFIND -- parallel find
-%  x-axis is # of cores, y-axis is finds completed per second (total throughput)
- % why does it go up?
-%  why does it level off?
-  %why does it go *down*?
-  %what governs how far up it goes -- i.e. the max throughput?
-  %why does it go down so steeply?
-
-%reason for suddenness of collapse
- % serial section takes 7% on one core (Figure 3, last column)
-  %so w/ 14 cores you'd expect just one or two in crit section
-  %so it seems odd that collapse happens so soon
-  %BUT:
-   % once P(two cores waiting for lock) is substantial,
-    %critical section + handoff starts taking longer
-    %so starts to be more than 7%
-    %so more cores end up waiting
-    %so N grows, and thus handoff time, and thus N...
-
-%some perspective
- % acquire(l)
-%  x++
- % release(l)
-  %surely a critical section this short cannot affect overall performance?
-  %takes a few dozen cycles if same core last held the lock (still in M)
-   % everything operates out of the cache, very fast
-  %a hundred cycles if lock is not held and some other core previously held it
-  %10,000 if contended by dozens of cores
-  %many kernel operations only take a few 100 cycles total
-   % so a contended lock may increase cost not by a few percent
-    %but by 100x!
-
-%how to make locks scale well?
- % we want just O(1) msgs during a release
-%  how to cause only one core to read/write lock after a release?
- % how to wake up just one core at a time?
-
-%Idea:
- % what if each core spins on a *different* cache line?
-  %acquire cost?
-   % atomic increment, then read-only spin
-  %release cost?
-   % invalidate next holder's slots[]
-    %only they have to re-load
-    %no other cores involved
-  %so O(1) per release -- victory!
-   % problem: high space cost
-    %N slots per lock
-    %often much more than size of protected object
-    %(this solution is due to Anderson et al.)
-
-%MCS
- % [diagram, code in handout]
-  %goal: as scalable as anderson, but less space used
-  %idea: linked list of waiters per lock
-  %idea: one list element per thread, since a thread can wait on only one lock
-   % so total space is O(locks + threads), not O(locks*threads)
-  %acquire() pushes caller's element at end of list
-   % caller then spins on a variable in its own element
-  %release() wakes up next element, pops its own element
-  %change in API (need to pass qnode to acquire and release to qnode allocation)
-
-%performance of scalable locks?
-%  figure 10 shows ticket, MCS, and optimized backoff
- % # cores on x-axis, total throughput on y-axis
-  %benchmark acquires and releases, critical section dirties four cache lines
-  %Q: why doesn't throughput go up as you add more cores?
-  %ticket is best on two cores -- just one atomic instruction
-  %ticket scales badly: cost goes up with more cores
-  %MCS scales well: cost stays the same with more cores
-
-%Figure 11 shows uncontended cost
- % very fast if no contention!
-  %ticket:
-   % acquire uses a single atomic instruction, so 10x more expensive than
-    % release some what more expensive if so another core had it last
-
-%Do scalable locks make the kernel scale better?
- % No. Scalability is limited by length of critical section
-  %  Scalable locks avoid collapse
-  %To fix scalability, need to redesign kernel subsystem
-   % An example of redesign in next lecture
-
-
+이러한 메모리 낭비가 심한 문제를 해결하기 위해 MCS 락이 개발되었다. 
+각 락에 대한 waiter들을 링크드 리스트로 보관하자는 것이 기본적인 아이디어이고, 
+이것은 하나의 스레드는 반드시 하나의 락만 기다린다는 아이디어를 활용하여 리스트로 기다리는 
+스레드들을 관리하였다. 
+즉 기존 많은 공간(락 * 스레드 수)이 필요할 것을 적은 공간(락 + 스레드 수)로도 구현이 가능하게 되었다.
+큐 기반의 락들도 여러가지가 있으나 본 논문에서는 그 중 최근 리눅스 커널에서 사용하는 
+ 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2: scalable locks의 성능에 대한 이야
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
-
-%Notes on Linux and MCS locks (thanks to Srivatsa)
-
-%The Linux kernel has scalable (or non-collapsing) locks and is using it.  One
-% of the earliest efforts to fix the performance of ticket-based spinlocks dates
-% back to 2013[1], and appears to have used the paper we read today as
-% motivation. (But that particular patchset never actually made it to the
-% mainline kernel). MCS locks found their way into the mutex-lock implementation
-% at around the same time[2].
- 
-%Replacing ticket-spinlocks with scalable locks, however, turned out to be a
-% much harder problem because locking schemes such as MCS would bloat the size of each
-%spin-lock, which was undesirable due to additional constraints on the spin-lock
-%size in the Linux kernel.
-
-%A few years later, the Linux developers came up with â€œqspinlocksâ€ (which
-% use MCS underneath, with special tricks to avoid bloating the size of the spin-lock) to
-%replace ticket-spinlocks, which is now the default spin-lock implementation in
-%the Linux kernel since 2015[3][4].  You may also find this article[5] (written
-%by one of the contributors to the Linux locking subsystem) quite interesting in
-%this context.
-
-%The old and unused ticket-spinlock implementation was deleted from the codebase
-%in 2016[6].
- 
-%[1]. Fixing ticket-spinlocks:
- %     https://lwn.net/Articles/531254/
-  %    https://lwn.net/Articles/530458/
- 
-%[2]. MCS locks used in the mutex-lock implementation:
- %    
-      % http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2bd2c92cf07cc4a
- 
-%[3]. MCS locks and qspinlocks:
- %     https://lwn.net/Articles/590243/
+MCS 락의 성능은 적은 코어 즉 코어 수가 2개 일경우 티켓 락이 더 좋은 성능을 보이지만, 
+코어 수가 많아 질수록 MCS 락은 좋은 성능을 보인다. 
+이처럼 락을 확장성 있는 락을 사용하면, 락 때문에 발생하는 확장성 문제 즉 성능이 갑자기 떨어지는 현상을 
+막을 수 있으나, 근본적으로 확장성 있는 시스템을 구축하려면 반드시 임계 영역의 길이를 줄여야한다.
+리눅스 커널도 역시 처음에는 티켓 락 기반의 스핀락을 사용했으나, 2013년 이후 티켓-스핀락을 MCS-스픽락으로 
+변경하였다. 
+엄밀하게 말하면 리눅스 커널은 MCS의 기본적인 자료구조 사이즈가 크기 때문에, 커널은 MCS 락을 커널 크기에 
+맞도록 수정하여 사용한다. 
+결국 2016년 부터는  리눅스 커널에서 티켓 락 기반의 스핀락은 사라지게 되었다[][].
  
 %[4]. qspinlock (using MCS underneath) as the default spin-lock implementation:
  %    
@@ -435,24 +267,15 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 
 \subsection{계층적 락}
 
-~\cite{Dice2015LCG}
-
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2: 계층적 락
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
+계층적인 락들은 공통적으로 스케일이 큰 NUMA 환경에서 락의 확장성을 높이는 것에 있다. 
+특히 NUMA 환경에서는 원격 소켓의 데이터를 접근하는 것 때문에 성능이 저하되는 문제를,
+소켓 단위로 lock의 migration을 줄여서 향상시키는 방법이다.
+또한 계층적 락에 대한 연구는 여러 소켓을 global lock을 소켓 안에서 관리하는 
+local lock를 두어 약간의 공정성(fairness)를 손해보더라도, 
+NUMA 노드의 지역성을 향상 시켜서 성능을 향상시키는 방법이다.
 
 \subsection{Delegation techniques}
 
@@ -461,19 +284,14 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph :   Flat Combining 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
+Flat combining(FC)~\cite{Hendler2010FC}는 여러 코어에서 락을 각자 락을 호출하면서 명령을 수행하는 것 보다, 
+하나의 코어에서 한 스레드가 해당 명령어들을 모아서 하나의 전역 락을 사용하여 처리하는 것이 보다 
+효율적이고 이러한 특징을 이용한 방법이다.
+그리고 이러한 철학을 하나의 알고리즘화 한 것이 FC 방법이다.
+FC는 두 가지 장점을 가지는데 가장 먼저 FC는 락을 자주 수행하지 않으므로, 락에 의한 
+캐시 일관성 트래픽이 상대적으로 덜 발생한다는 것이다.
+다음으로 하나의 스레드에서 여러 명령어들을 수행함에 따라, 캐시 지역성이 높아져서 
+여러 스레드에서 락을 걸며 수행한 방법보다 높은 성능을 가진다.
 
 \begin{figure}[h!]
     \centering
@@ -494,44 +312,18 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph :   Flat Combining 알고리즘
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
-
-
+그림~\ref{fig:FC}는 FC 알고리즘의 방법에 대해서 설명한다. 
+먼저 자료구조에 대한 명령어(예를 들어 스택같은 경우 push 또는 pop)가 도착하면, 
+처음 받은 스레드는 락을 걸고, 해당 명령어를 수행한다. 
+동시에 다른 코어의 스레드들은 다른 명령어들을 수행하게 되는데, 각 코어의 스레드들은 
+받은 명령어들을 코어의 내부 변수에 요청 정보과 age를 저장을 한다.
+처음 받은 스레드의 명령이 끝나면 이때 부터 각 스레드에 저장된 명령을 순회하면서 combier 스레드가 
+수행하고, 마지막으로 락을 푼다.
 
 \subsubsection{OpLog}
-
-OpLog는 RCU와 반대로 업데이트 비율이 높은 업데이트 헤비(Update heavy)한 자료구조를 위해 만든 
-동기화 기법 중 하나이다.
-
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 %Paragraph 2: OpLog 이야기
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
-
 
 \begin{figure}[h]
     \centering
@@ -541,34 +333,21 @@ Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으�
 \end{figure}
 
 
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Paragraph 2: OpLog의 작전
-%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
+OpLog는 RCU와 반대로 업데이트 비율이 높은 업데이트 헤비(Update heavy)한 자료구조를 위해 만든 
+동기화 기법 중 하나이다.
+업데이트가 많아질 경우, 기존 연구들은 모두 공유 데이터를 접근함에 따라, 이때 발생하는 
+캐시 일관성 트래픽이 굉장히 많이 발생한다는 것이다.
+이러한 문제점을 해결하기 위한 방법 중 하나가 로그 기반으로 처리하는 것인데, OpLog는 이러한 로그 기반 
+방법을 동기화된 타임스탬프 카운터를 이용하여 해결하였다. 
+각 코어에 타임스탬프와 함께 명령어를 로그로 저장을 한 다음, 읽기가 수행되기 전에 
+저장된 로그를 타임스탬프 정보와 함께 처리하는 방법이다.
+그림~\ref{fig:oplog}는 각 코어에 저장된 로그 정보를 보여준다.
+업데이트 명령어가 발생하면, 각 코어는 타임스탬프, 명령어 코드 그리고 명령어를 처리하기 위한 
+정보들을 함께 저장한다.
 
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-%Paragraph 2: OpLog의 문제
+%Paragraph 2: OpLog의 타임 스탬프
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Non-blocking synchronization은 장점은 여러 스레드들이 락 기반으로 자원을 관리함에 따라
- 발생하는 문제를 해결할 수 있다. 
-가장 큰 장점은 스레드 또는 프로세스가 락 때문에 기다리는 시간을 제거할 수 있다.
-이 것은 락을 얻기 위해 기다리는 시간을 최소화 할 뿐만 아니라 무한 루프 때문에 무한정 기다리는 
-데드락 같은 상황까지 제거 할 수 있다. 
-다음으로 모든 락은 락 자체의 오버헤드를 가지고 있는데 이것을 제거할 수 있다. 
-예를 들어 코어 수가 증가 할 수록 락 자체를 얻기 위기해 원자적 명령을 이용한느데 이것은 캐시 일관성 트래픽을 
-발생한다. 
-이와 같이 Non-blocking 방법은 이러한 락 자체가 가지고 있는 문제점인 데드락(deadlock), 라이브락(livelock), 
-우선순위 역전현상(priority inversion)등을 제거 할 수 있다. 
-이러한 Non-blocking synchronization 기법을 사용하는 lock-free 자료 구조들은 성능을 향상 시킬 수 있다. 
-그 이유는 멀티코어 환경에서 공유되는 데이터를 접근하기 위해 직렬화 되는 부분이 매우 짧기 때문이다. 
+ 
+ 
+ 
