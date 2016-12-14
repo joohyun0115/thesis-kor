@@ -3,13 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: ref.bib
-Repeated entry---line 53 of file ref.bib
+Repeated entry---line 103 of file ref.bib
  : @inproceedings{vonBehren2003WEB
  :                                ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in AIM7Benchmark
 Warning--to sort, need author or key in MOSBENCH
 Warning--to sort, need author or key in Exim
+Warning--to sort, need author or key in ticket
 Warning--to sort, need author or key in LOCKSTAT
 Warning--to sort, need author or key in LTP
 Warning--empty author in AIM7Benchmark
@@ -21,58 +22,63 @@ Warning--empty year in LTP
 Warning--empty author in LOCKSTAT
 Warning--empty booktitle in LOCKSTAT
 Warning--empty year in LOCKSTAT
+Warning--empty author in ticket
+Warning--empty booktitle in ticket
+Warning--empty year in ticket
 Warning--empty author in MOSBENCH
 Warning--empty booktitle in MOSBENCH
 Warning--empty author in Exim
 Warning--empty booktitle in Exim
 Warning--empty booktitle in Accetta86mach
+Warning--empty year in Arbel2015PRR
 Warning--empty booktitle in Bueso2014MCS
 Warning--empty booktitle in Bueso2015STP
 Warning--can't use both volume and number fields in Bueso2015STP
 Warning--empty booktitle in CorbetLWNANON
 Warning--empty booktitle in Hendler2010FC
+Warning--empty booktitle in PaulCreatingAPILWN
 Warning--empty booktitle in PaulDetailLWN
 Warning--empty booktitle in mckenney2011parallel
 Warning--empty booktitle in Saltzer1966TCM
-You've used 60 entries,
+You've used 58 entries,
             2118 wiz_defined-function locations,
-            898 strings with 16534 characters,
-and the built_in function-call counts, 24876 in all, are:
-= -- 2449
-> -- 1005
-< -- 43
-+ -- 404
-- -- 340
-* -- 1563
-:= -- 3649
-add.period$ -- 184
-call.type$ -- 60
-change.case$ -- 348
+            870 strings with 15323 characters,
+and the built_in function-call counts, 22566 in all, are:
+= -- 2214
+> -- 860
+< -- 37
++ -- 348
+- -- 286
+* -- 1373
+:= -- 3312
+add.period$ -- 178
+call.type$ -- 58
+change.case$ -- 315
 chr.to.int$ -- 0
-cite$ -- 87
-duplicate$ -- 1151
-empty$ -- 2134
-format.name$ -- 340
-if$ -- 5580
+cite$ -- 91
+duplicate$ -- 1074
+empty$ -- 1998
+format.name$ -- 286
+if$ -- 5069
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 61
-newline$ -- 303
-num.names$ -- 110
-pop$ -- 467
+int.to.str$ -- 58
+missing$ -- 59
+newline$ -- 293
+num.names$ -- 104
+pop$ -- 445
 preamble$ -- 1
-purify$ -- 289
+purify$ -- 258
 quote$ -- 0
-skip$ -- 943
+skip$ -- 858
 stack$ -- 0
-substring$ -- 1579
-swap$ -- 441
-text.length$ -- 43
+substring$ -- 1385
+swap$ -- 389
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 238
-warning$ -- 27
-while$ -- 240
-width$ -- 62
-write$ -- 675
+type$ -- 230
+warning$ -- 33
+while$ -- 215
+width$ -- 60
+write$ -- 642
 (There was 1 error message)
