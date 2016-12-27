@@ -896,9 +896,7 @@
 %   \if@isKorean \parindent\z@ \else \fi % <-- 추가할지 여부 고민중
     \secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{%
-    \ifnum \c@secnumdepth >\m@ne
         \refstepcounter{chapter}%
-        \typeout{\@chapapp\space\thechapter.}%
         \addcontentsline{toc}{chapter}{%
             \if@isKorean
                 \protect\numberline{제 \thechapter\ 장}#1
@@ -906,9 +904,6 @@
                 \protect\numberline{Chapter \thechapter.}#1
             \fi
         }% <-- 목차에 나타나는 형식 - 변경사항
-    \else
-        \addcontentsline{toc}{chapter}{#1}%
-    \fi
     \chaptermark{#1}%
     \addtocontents{lof}{\protect\addvspace{10\p@}}%
     \addtocontents{lot}{\protect\addvspace{10\p@}}%
@@ -921,7 +916,7 @@
 }
 \def\@makechapterhead#1{% <-- 전체 변경
     \vspace*{10\p@}
-    {\centering \parindent\z@ \fontsize{14pt}{14pt}\selectfont \bfseries
+    {\centering \parindent\z@ \fontsize{16pt}{16pt}\selectfont \bfseries
     \ifthenelse{\equal{\@textlang}{korean}}
         {제\hspace{1.4ex}\thechapter\hspace{1.4ex}장\hspace{2ex}}
         {Chapter\hspace{1.4ex}\thechapter.\hspace{1ex}}
@@ -937,30 +932,30 @@
     \fi}
 \def\@makeschapterhead#1{% <-- 전체 변경
     \vspace*{10\p@}
-    {\centering \parindent\z@ \fontsize{14pt}{14pt}\selectfont \bfseries #1\par}
+    {\centering \parindent\z@ \fontsize{16pt}{16pt}\selectfont \bfseries #1\par}
     \vspace*{20\p@}
 }
 
 %%
 %% \tableofcontents 재정의 - report 클래스로부터 복사하여 일부 수정
 %%
+
 \renewcommand\tableofcontents{%
-    \thispagestyle{plain}
-    \if@twocolumn
-        \@restonecoltrue\onecolumn
-    \else
-        \@restonecolfalse
-    \fi
-    \chapter*{\contentsname
-        \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
-    \pagenumbering{roman}                         % roman 페이지번호로 복원
-    \setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
-    \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{\contentsname} % 목차(TOC)에 추가
-    \@starttoc{toc}%
-    \if@restonecol\twocolumn\fi
-    \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
-    \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
+     \if@twocolumn
+         \@restonecoltrue\onecolumn
+     \else
+         \@restonecolfalse
+     \fi
+     \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
+     \chapter*{\contentsname}
+     \pagenumbering{roman}                         % roman 페이지번호로 복원
+     \setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
+     \@starttoc{toc}%
+     \if@restonecol\twocolumn\fi
+     %\pagenumbering{arabic}                        % arabic 페이지번호로 재시작
 }
+ 
+
 
 %%
 %% \listoftables 재정의 - report 클래스로부터 복사하여 일부 수정
@@ -983,27 +978,22 @@
     \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
 }
 
-%%
-%% \listoffigures 재정의 - report 클래스로부터 복사하여 일부 수정
-%%
 \renewcommand\listoffigures{%
-    \thispagestyle{plain}
-    \if@twocolumn
-        \@restonecoltrue\onecolumn
-    \else
-        \@restonecolfalse
-    \fi
-    \chapter*{\listfigurename}%
-    \@mkboth{\MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}%
-    \pagenumbering{roman}                         % roman 페이지번호로 복원
-    \setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
-    \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{\listfigurename}% 목차(TOC)에 추가
-    \label{paperlastromanpagelabel}     % <-- 추가 부분: 마지막 페이지 위치 지정
-    \@starttoc{lof}%
-    \if@restonecol\twocolumn\fi
-    \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
-    \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
+     \if@twocolumn
+         \@restonecoltrue\onecolumn
+     \else
+         \@restonecolfalse
+     \fi
+     \chapter*{\listfigurename}%
+     \@mkboth{\MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}%
+     \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{\listfigurename}% 목차(TOC)에 추가
+     \label{paperlastromanpagelabel}     % <-- 추가 부분: 마지막 페이지 위치 지정
+     \@starttoc{lof}%
+     \if@restonecol\twocolumn\fi
+     \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
+     \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
 }
+ 
 
 %%
 %% 목차에 나오는 형식 - report 클래스로부터 복사하여 일부 수정
@@ -1033,6 +1023,7 @@
     
     
 \if@isKorean % 한글이면 각종 치수를 변경
+    \renewcommand*\l@chapter{\@dottedtocline{1}{0em}{3em}}
     \renewcommand*\l@section{\@dottedtocline{1}{2.7em}{2.3em}}
     \renewcommand*\l@subsection{\@dottedtocline{2}{5.0em}{3.2em}}
     \renewcommand*\l@subsubsection{\@dottedtocline{3}{8.2em}{4.1em}}

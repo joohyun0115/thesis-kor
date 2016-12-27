@@ -1,0 +1,481 @@
+% This file reference from kaist
+
+% -*- TeX:UTF-8 -*-
+%% KAIST Thesis Template for LaTeX
+%%
+%% @version      0.4
+%% @releasedate  Apr 28th, 2007
+%%
+%% @author       Chae, Seugbyung 채승병
+%%               mailto:chess@kaist.ac.kr
+%%
+%% @requirements
+%%    current distribution of TeXLive
+%%      + ko.TeX
+%%
+%% Karnes Kim, converted to ko.TeX version.
+%%    2008/10/21
+%%
+%% Seokwoo Choi, modified according to the 2008 thesis format
+%%    2008/12/29
+%%
+%% Jong Mun Lee, modified according to the 2010 thesis format
+%% 2010/11/25
+%% 본 수정은 대학원학생회와 교무팀의 지원으로 진행되었습니다.
+%%
+%% Jin Hyun Ahn, modified according to the 2016 thesis format
+%% 2016/04/08
+%% 교무팀의 지원을 받아 송익호 교수님 연구실에서 수정하였습니다.
+
+
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesClass{kaist-ucs}%
+       [2008/10/21 v0.4 Standard KAIST Thesis document class, ko.TeX version]
+       
+%% 옵션 설정을 위한 boolean 변수선언
+\newif\if@isDoctor
+\newif\if@isKorean
+\newif\if@isFinal
+\newif\if@PDFdoc\@PDFdocfalse
+\newif\if@dvips\@dvipsfalse
+
+%% 새 옵션 모음 - doctor|master, korean|english, final|draft
+\DeclareOption{doctor} {\@isDoctortrue}
+\DeclareOption{master} {\@isDoctorfalse}
+\DeclareOption{korean} {\@isKoreantrue}
+\DeclareOption{english} {\@isKoreanfalse}
+\DeclareOption{final}  {\@isFinaltrue}
+\DeclareOption{draft}  {\@isFinalfalse}
+\DeclareOption{pdfdoc} {\@PDFdoctrue}
+\DeclareOption{dvips}  {\@dvipstrue}
+
+%% leqno,fleqn,openbib 옵션은 그대로 report 클래스에 전달
+\DeclareOption{leqno}  {\PassOptionsToClass{leqno}  {report}}
+\DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {report}}
+\DeclareOption{openbib}{\PassOptionsToClass{openbib}{report}}
+
+\ExecuteOptions{doctor,korean,final}         % doctor,korean,final이 기본값
+\ProcessOptions
+
+%% 10pt,a4paper,onecolumn,oneside 옵션으로 report 클래스 불러오기
+\LoadClass[11pt,a4paper,onecolumn,oneside]{report}
+
+\usepackage{parskip}
+\setlength{\parskip}{1.0em}
+
+
+
+%%들여쓰기
+\usepackage{indentfirst}
+\setlength\parindent{2.0em}
+
+\RequirePackage{ifthen}       % 추가 패키지 설정
+
+%%%% Hangul-ucs preamble.......
+\RequirePackage[nonfrench]{dhucs}
+%\RequirePackage[default]{dhucs-interword}
+\RequirePackage{ifpdf}
+\ifpdf
+  \def\@drivername{pdftex}
+\else
+  \def\@drivername{dvipdfmx}
+\fi
+\if@dvips
+  \def\@drivername{dvips}
+\fi
+
+%\ifpdf
+%  \input glyphtounicode\pdfgentounicode=1
+%\fi
+
+\RequirePackage[\@drivername]{graphicx,xcolor}
+
+\if@PDFdoc
+  \RequirePackage[unicode,%
+      \@drivername=true,%
+      bookmarks=true,%
+     colorlinks=true,%
+   ]{hyperref}
+\else
+  \RequirePackage[unicode,%
+      \@drivername=true,%
+      bookmarks=false,%
+     colorlinks=false,%
+   ]{hyperref}
+\fi
+
+%% for compatability to HLaTeX
+\let\gt\sffamily
+\DeclareTextFontCommand{\textgt}{\gt}
+%%%% end of Hangul-ucs preamble
+
+\AtBeginDocument{%                           % \begin{document}와 함께 실행
+    \if@isFinal                             % final 옵션이 지정되어 있으면
+    \else \fi }
+\AtEndDocument{}                             % \end{document}와 함께 실행
+
+%% 편집용지 설정
+\usepackage[b5paper]{geometry}
+
+
+%% 줄간격 설정
+%\renewcommand{\baselinestretch}{1.3}
+\linespread{1.3}
+
+%% 본문이 영어로 되어있는지 한글로 되어있는지 설정
+\newcommand{\@korean}{korean}
+\newcommand{\@english}{english}
+\newcommand{\@textlang}{}                    % 텍스트 기본언어 변수선언
+\if@isKorean                                 % korean 옵션이 지정되어 있으면
+    \let\@textlang\@korean                  % 텍스트 기본언어는 한글
+\else                                        % english 옵션이 지정되어 있으면
+    \let\@textlang\@english                 % 텍스트 기본언어는 영문
+\fi
+
+%% pagestyle
+\def\ps@kaist{\let\@mkboth\@gobbletwo
+     \let\@oddhead\@empty
+     \def\@oddfoot{\reset@font\hfil--\ \thepage\ --
+     \hfil}%
+     \let\@evenhead\@empty\let\@evenfoot\@oddfoot
+}
+
+\pagestyle{kaist}
+
+\newcounter{pagemarker}                           % 페이지 번호 임시 저장용
+\newcommand{\@lastPage}{\pageref{paperlastpagelabel}} % 총 페이지 수 계산용
+\newcommand{\@lastRomanPage}{\pageref{paperlastromanpagelabel}} % 총 로마자 페이지 수 계산용
+%%
+%% 문서 정보 변수 정의
+%%
+
+% @command department 
+%
+\newcommand{\@degreeCode}{}          % 학위 영문코드
+\newcommand{\@degreeName}{}          % 학위명
+\newcommand{\@degreeversion}{}       % 학과 표현 종류
+\newcommand{\@parentDeptNameKor}{}      % 학과/전공 첫째줄
+\newcommand{\@childDeptNameKor}{}       % 학과/전공 둘째줄
+\newcommand{\@parentDeptNameEng}{}      % 학과/전공 첫째줄
+\newcommand{\@childDeptNameEng}{}       % 학과/전공 둘째줄
+\newcommand{\@affFullNameKor}{}      % 학과/전공 한글이름
+\newcommand{\@affFullNameEng}{}      % 학과/전공 영문이름
+\newcommand{\@parentAcademNameEng}{} % 학문 영문이름 첫째줄
+\newcommand{\@childAcademNameEng}{} % 학문 영문이름 둘째줄
+\newcommand{\@appFullAcademName}{}
+\newcommand{\@degreeField}{}
+\newcommand{\@degreePrefix}{\ifthenelse{\boolean{@isDoctor}}{D}{M}}
+
+% @command studentid 학번
+\newcommand{\studentid}[1]{\newcommand{\@studentID}{#1}}
+\@onlypreamble{\studentid}
+
+% @command referee 심사위원 (석사과정 3인, 박사과정 5인)
+\newcommand{\referee}[2][1] {%
+    \ifthenelse{\equal{#1}{1}}{\newcommand{\@refereeChief} {#2}} {}%
+    \ifthenelse{\equal{#1}{2}}{\newcommand{\@refereeSecond}{#2}} {}%
+    \ifthenelse{\equal{#1}{3}}{\newcommand{\@refereeThird} {#2}} {}%
+    \ifthenelse{\equal{#1}{4}}{\newcommand{\@refereeFourth}{#2}} {}%
+    \ifthenelse{\equal{#1}{5}}{\newcommand{\@refereeFifth} {#2}} {}%
+}
+\@onlypreamble{\referee}
+
+% @command approvaldate 지도교수논문승인일
+% @param year,month,day 연,월,일 순으로 입력
+\newcommand{\approvaldate}[3] {%
+%    \newcommand{\@approvalYear}{#1}
+%    \newcommand{\@approvalMonth}{#2}
+%    \newcommand{\@approvalDay}{#3}
+    \newcommand{\@approvalMonth}{#1}
+    \newcommand{\@approvalDay}{#2}
+    \newcommand{\@approvalYear}{#3}
+
+}
+\@onlypreamble{\approvaldate}
+
+% @command refereedate 심사위원논문심사일
+% @param year,month,day 연,월,일 순으로 입력
+\newcommand{\refereedate}[3] {%
+    \newcommand{\@refereeYear}{#1}
+    \newcommand{\@refereeMonth}{#2}
+    \newcommand{\@refereeDay}{#3}
+}
+\@onlypreamble{\refereedate}
+
+% @command gradyear 졸업년도
+\newcommand{\gradyear}[1]{\newcommand{\@gradYear}{#1}}
+\@onlypreamble{\gradyear}
+
+%%
+%% 필요한 정보 중에 누락된 것이 없는지 점검 --> 제작중. 아직 불완전. 그대로 놔둠
+%%
+%% 목차 일괄 생성
+%%
+\newcommand{\makecontents}{%        가    % TOC, LOT, LOF 생성
+    \setcounter{pagemarker}{\value{page}}        % 마지막 페이지 번호를 저장
+    \pagenumbering{roman}                        % 로마자 페이지 시작
+    \listoftables
+    \listoffigures}
+
+
+%%
+%% 사사 및 이력서 생성
+%%
+
+\newcommand{\acknowledgment}[1][default]{%     % 사사
+    \newcommand{\@acklang}{#1}
+        \ifthenelse{\equal{\@acklang}{1}}
+        {\chapter*{사 사} \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{chapter}{사 사}}{}                 % 본문과 사사가 둘 다 한글일 때
+        \ifthenelse{\equal{\@acklang}{2}}
+        {\chapter*{영 문 사 사} \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{chapter}{영 문 사 사}}{}         % 본문은 한글인데 사사가 영어일 때
+          \ifthenelse{\equal{\@acklang}{3}}
+        {\chapter*{Acknowledgment} \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{chapter}{Acknowledgments}}{}        % 본문과 사사가 둘 다 영어일 때 
+         \ifthenelse{\equal{\@acklang}{4}}
+        {\chapter*{Acknowledgments in Korean} \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{chapter}{Acknowledgments in Korean}}{}\noindent}         % 본문은 영어인데 사사가 한글일 때 
+        
+        
+
+%%
+%% 헤딩 재설정
+%%
+\renewcommand{\contentsname}{
+    \if@isKorean 차 례        \else Contents        \fi}
+\renewcommand{\listfigurename}{
+    \if@isKorean 그림 차례 \else List of Figures \fi}
+\renewcommand{\listtablename}{
+    \if@isKorean 표 차례    \else List of Tables  \fi}
+\renewcommand{\bibname}{%
+    \if@isKorean 참 고 문 헌 \else Bibliography      \fi}
+\renewcommand{\abstractname}{
+    \if@isKorean 논 문 초 록 \else Abstract      \fi}
+\renewcommand{\figurename}{
+    \if@isKorean 그림 \else figure      \fi}
+\renewcommand{\tablename}{
+    \if@isKorean 표 \else table      \fi}
+%%
+%% \part 재정의 - 아예 쓰지 못하게 막아버림. 이 명령을 호출하면 에러 발생.
+%%
+\renewcommand\part{%
+    \secdef\@part\@spart}
+\def\@part[#1]#2{%
+    \ClassError{kaist}{The use of \protect\part\space is prohibited.
+        \MessageBreak Consider the use of \protect\chapter\space instead}{}
+}
+\def\@spart#1{%
+    \ClassError{kaist}{The use of \protect\part\space is prohibited.
+        \MessageBreak Consider the use of \protect\chapter\space instead}{}
+}
+
+\if@isKorean % 한글이면 각종 치수를 변경
+\renewcommand*\l@section{\@dottedtocline{1}{2.7em}{2.3em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{5.0em}{3.2em}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{8.2em}{4.1em}}
+\renewcommand*\l@paragraph{\@dottedtocline{4}{11.2em}{5em}}
+\renewcommand*\l@subparagraph{\@dottedtocline{5}{13.2em}{6em}}
+\else \fi     % 영문이면 가만히 내버려둠
+
+
+%%
+%% \chapter 재정의 - report 클래스로부터 복사하여 일부 수정
+%%
+\renewcommand\chapter{%
+    \if@openright\cleardoublepage\else\clearpage\fi
+%   \thispagestyle{plain}%
+    \global\@topnum\z@
+    \@afterindentfalse
+%   \if@isKorean \parindent\z@ \else \fi % <-- 추가할지 여부 고민중
+    \secdef\@chapter\@schapter}
+\def\@chapter[#1]#2{%
+    \ifnum \c@secnumdepth >\m@ne
+        \refstepcounter{chapter}%
+        \typeout{\@chapapp\space\thechapter.}%
+        \addcontentsline{toc}{chapter}{%
+            \if@isKorean
+                \protect\numberline{제 \thechapter\ 장}#1
+            \else
+                \protect\numberline{Chapter \thechapter.}#1
+            \fi
+        }% <-- 목차에 나타나는 형식 - 변경사항
+    \else
+        \addcontentsline{toc}{chapter}{#1}%
+    \fi
+    \chaptermark{#1}%
+    \addtocontents{lof}{\protect\addvspace{10\p@}}%
+    \addtocontents{lot}{\protect\addvspace{10\p@}}%
+    \if@twocolumn
+        \@topnewpage[\@makechapterhead{#2}]%
+    \else
+        \@makechapterhead{#2}%
+        \@afterheading%
+    \fi
+}
+\def\@makechapterhead#1{% <-- 전체 변경
+    \vspace*{10\p@}
+    {\centering \parindent\z@ \fontsize{16pt}{16pt}\selectfont \bfseries
+    \ifthenelse{\equal{\@textlang}{korean}}
+        {제\hspace{1.4ex}\thechapter\hspace{1.4ex}장\hspace{2ex}}
+        {Chapter\hspace{1.4ex}\thechapter.\hspace{1ex}}
+    #1\par}
+    \vspace*{20\p@}
+}
+\def\@schapter#1{%
+    \if@twocolumn
+        \@topnewpage[\@makeschapterhead{#1}]%
+    \else
+        \@makeschapterhead{#1}%
+        \@afterheading
+    \fi}
+\def\@makeschapterhead#1{% <-- 전체 변경
+    \vspace*{10\p@}
+    {\centering \parindent\z@ \fontsize{14pt}{14pt}\selectfont \bfseries #1\par}
+    \vspace*{20\p@}
+}
+
+%%
+%% \tableofcontents 재정의 - report 클래스로부터 복사하여 일부 수정
+%%
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+        \@restonecoltrue\onecolumn
+    \else
+        \@restonecolfalse
+    \fi
+    \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
+    \chapter*{\contentsname}
+    \pagenumbering{roman}                         % roman 페이지번호로 복원
+    \setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    %\pagenumbering{arabic}                        % arabic 페이지번호로 재시작
+}
+
+
+%%
+%% \listoftables 재정의 - report 클래스로부터 복사하여 일부 수정
+%%
+\renewcommand\listoftables{%
+    \chapter*{\listtablename}%
+    \@mkboth{\MakeUppercase\listtablename}{\MakeUppercase\listtablename}%
+    \pagenumbering{roman}                         % roman 페이지번호로 복원
+    \setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
+    \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{\listtablename}% 목차(TOC)에 추가
+    \@starttoc{lot}%
+    \if@restonecol\twocolumn\fi
+}
+
+%%
+%% \listoffigures 재정의 - report 클래스로부터 복사하여 일부 수정
+%%
+\renewcommand\listoffigures{%
+    \if@twocolumn
+        \@restonecoltrue\onecolumn
+    \else
+        \@restonecolfalse
+    \fi
+    \chapter*{\listfigurename}%
+    \@mkboth{\MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}%
+    \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{\listfigurename}% 목차(TOC)에 추가
+    \label{paperlastromanpagelabel}     % <-- 추가 부분: 마지막 페이지 위치 지정
+    \@starttoc{lof}%
+    \if@restonecol\twocolumn\fi
+    \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
+    \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
+}
+
+%%
+%% 목차에 나오는 형식 - report 클래스로부터 복사하여 일부 수정
+%%
+
+\newcommand{\l@content}{\large\bf\@dottedtocline{1}{0em}{0em}}
+
+\renewcommand*\l@chapter[2]{%
+    \ifnum \c@tocdepth >\m@ne
+        \addpenalty{-\@highpenalty}%
+        \vskip 1.0em \@plus\p@
+        \if@isKorean                     % <-- 변경 부분
+            \setlength\@tempdima{5.0em} % korean  옵션일 때는 5.0em
+        \else
+            \setlength\@tempdima{6.5em} % english 옵션일 때는 1.5em
+        \fi
+        \begingroup
+            \parindent \z@ \rightskip \@pnumwidth
+            \parfillskip -\@pnumwidth
+            \leavevmode \large \sffamily \bfseries
+            \advance\leftskip\@tempdima
+            \hskip -\leftskip
+            #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+            \penalty\@highpenalty
+        \endgroup
+    \fi}
+    
+    
+\renewcommand*\l@chapter[2]{%
+    \ifnum \c@tocdepth >\m@ne
+        \addpenalty{-\@highpenalty}%
+        \vskip 1.0em \@plus\p@
+        \if@isKorean                     % <-- 변경 부분
+            \setlength\@tempdima{5.0em} % korean  옵션일 때는 5.0em
+        \else
+            \setlength\@tempdima{6.5em} % english 옵션일 때는 1.5em
+        \fi
+    \fi}
+%\if@isKorean % 한글이면 각종 치수를 변경
+    %\renewcommand*\l@section{\@dottedtocline{1}{2.7em}{2.3em}\fontsize{14pt}\selectfont}
+    % \renewcommand*\l@subsection{\@dottedtocline{2}{5.0em}{3.2em}}
+   % \renewcommand*\l@subsubsection{\@dottedtocline{3}{8.2em}{4.1em}}
+   %% \renewcommand*\l@paragraph{\@dottedtocline{4}{11.2em}{5em}}
+   % \renewcommand*\l@subparagraph{\@dottedtocline{5}{13.2em}{6em}}
+%\else \fi     % 영문이면 가만히 내버려둠
+
+%%
+%% thebibliography 환경 재정의 - report 클래스로부터 복사하여 일부 수정
+%%
+\renewenvironment{thebibliography}[1]{%
+    \chapter*{\bibname}%
+    \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+    \if@PDFdoc\phantomsection\fi\addcontentsline{toc}{chapter}{\bibname}%
+    \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+    \sloppy
+    \clubpenalty4000
+    \@clubpenalty \clubpenalty
+    \widowpenalty4000%
+    \sfcode`\.\@m%
+}{  %% \label{paperlastpagelabel}    %  <-- 추가 부분: 마지막 페이지 위치 지정
+    \def\@noitemerr{\@latex@warning{Empty `thebibliography' environment}}%
+    \endlist
+}
+
+%%
+%% 한국식 날짜 표기 -> 영문식 날짜 표기
+%%
+\newcommand{\@dateUSenglish}[3]{%  % 미국식 날짜 표기
+    \newcommand{\@year}{#1}%
+    \newcommand{\@month}{#2}%
+    \newcommand{\@day}{#3}%
+    \ifcase\@month \or
+        January \or February \or March \or April \or May \or June \or
+        July \or August \or September \or October \or November \or December \fi
+    \@day, \@year
+}
+\newcommand{\@dateBRenglish}[3]{%  % 영국식 날짜 표기
+    \newcommand{\@year}{#1}%
+    \newcommand{\@month}{#2}%
+    \newcommand{\@day}{#3}%
+    \@day\ifcase\@day \or
+        st\or nd\or rd\or th\or th\or th\or th\or th\or th\or th\or
+        st\or nd\or rd\or th\or th\or th\or th\or th\or th\or th\or
+        st\or nd\or rd\or th\or th\or th\or th\or th\or th\or th\or th\fi
+    \space\ifcase\@month \or
+        January\or February\or March\or April\or May\or June\or
+        July\or August\or September\or October\or November\or December\fi,
+    \@year
+}
+
+

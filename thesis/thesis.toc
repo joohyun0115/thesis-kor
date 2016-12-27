@@ -1,6 +1,5 @@
-\contentsline {content}{ 차 례 }{}{Doc-Start}
-\contentsline {content}{ 그림 차례 }{ii}{Doc-Start}
-\contentsline {content}{요약}{iv}{Doc-Start}
+\contentsline {content}{ 그림 차례 }{iii}{Doc-Start}
+\contentsline {content}{요약}{v}{Doc-Start}
 \contentsline {chapter}{\numberline {제 1\ 장}서론 }{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}개요}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}논문의 기여}{5}{section.1.2}
@@ -10,8 +9,8 @@
 \contentsline {section}{\numberline {2.2}최근 운영체제 병렬화 연구}{13}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}새로운 운영체제 제안}{13}{subsection.2.2.1}
 \contentsline {subsubsection}{Corey}{13}{section*.5}
-\contentsline {subsubsection}{Barrelfish}{14}{section*.7}
-\contentsline {subsubsection}{FusedOS}{16}{section*.9}
+\contentsline {subsubsection}{Barrelfish}{15}{section*.7}
+\contentsline {subsubsection}{FusedOS}{17}{section*.9}
 \contentsline {subsection}{\numberline {2.2.2}기존 운영체제 최적화}{18}{subsection.2.2.2}
 \contentsline {subsubsection}{Linux Scalability}{18}{section*.11}
 \contentsline {subsubsection}{BonsaiVM}{20}{section*.13}
@@ -52,4 +51,4 @@
 \contentsline {section}{\numberline {5.1}결론}{75}{section.5.1}
 \contentsline {section}{\numberline {5.2}향후 연구}{77}{section.5.2}
 \contentsline {chapter}{참 고 문 헌 }{78}{section.5.2}
-\contentsline {content}{Abstract}{86}{section.5.2}
+\contentsline {content}{Abstract}{87}{section.5.2}

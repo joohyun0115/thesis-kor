@@ -4,11 +4,11 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces CPU 발전 동향.\relax }}{10}{figure.caption.2}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 공유 메모리 시스템\relax }}{11}{figure.caption.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces 공유 메모리 시스템\relax }}{11}{figure.caption.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces corey 운영체제 address space 공유 방법\relax }}{15}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces corey 운영체제 address space 공유 방법\relax }}{14}{figure.caption.6}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Barrelfish 구조\relax }}{16}{figure.caption.8}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces FusedOS 구조\relax }}{17}{figure.caption.10}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces linux scalability 분석 연구\relax }}{19}{figure.caption.12}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Address space 문제와 BosaiVM을 이용한 해결\relax }}{20}{figure.caption.14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Address space 문제와 BosaiVM을 이용한 해결\relax }}{21}{figure.caption.14}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces RadixVM의 해결 방법\relax }}{22}{figure.caption.16}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Flat combining 방법\relax }}{30}{figure.caption.19}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces OpLog의 업데이트 방법\relax }}{31}{figure.caption.21}

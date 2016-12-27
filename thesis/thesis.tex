@@ -82,6 +82,8 @@
 \usepackage{minted}
 \usepackage{pdfpages}
 
+
+
 % 본문 시작
 \begin{document}
 
@@ -107,7 +109,7 @@
 \newif\ifkor
 \kortrue 
 
-\includepdf[pages=1-2]{thesis_title.pdf}
+%\includepdf[pages=1-2]{thesis_title.pdf}
 
 % 목차 (Table of Contents) 생성
 \tableofcontents
@@ -122,6 +124,50 @@
 \label{paperlastromanpagelabel}     % <-- 추가 부분: 마지막 페이지 위치 지정
 
 \hfill \break
+
+
+\noindent
+\Large{\textbf{국문 요약}}
+\newline
+\\
+\noindent
+\Large{\textbf{경량 로그 기반 지연 업데이트 기법을 활용한 리눅스 커널 확장성 향상}}
+
+\normalsize{
+\hfill \break
+\begin{center}
+\raggedleft{국민대학교 일반대학원 컴퓨터공학과}\\
+\end{center}
+
+\begin{center}
+\raggedleft{경주현}\\
+\end{center}
+\hfill \break
+
+
+In highly parallel computing systems with many-cores, a few critical factors
+cause performance bottlenecks severely limiting scalability.
+The kernel data structures with high update rate naturally cause performance
+bottlenecks due to very frequent locking of the data structures.
+There have been research on log-based synchronizations with time-stamps that
+have achieved significant level of performance and scalability improvements.
+However, sequential merging operations of the logs with time-stamps pose another
+sources of scalability degradation.
+
+To overcome the scalability degradation problem, we introduce a lightweight
+log-based deferred update method, combining the log-based concepts in the
+distributed systems and the minimal hardware-based synchronization in the
+shared memory systems.
+The main contributions of the proposed method are:(1) we propose a lightweight
+log-based deferred update method, which can eliminate synchronized time-stamp
+counters that limits the performance scalability;and (2) we implemented the
+ proposed method in the Linux 4.5-rc6 kernel for two representative data
+ structures (anonymous reverse mapping and file mapping) and evaluated the
+performance improvement due to our proposed novel light weight update method.
+Our evaluation study showed that application of our method could
+achieve from 1.5x through 2.7x performance improvements in 120 core
+systems.}
+
 
 \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
 \pagenumbering{arabic}                        % arabic 페이지번호로 재시작
@@ -142,7 +188,7 @@
 
 %\begin{thebibliography}{1}
 %\bibliographystyle{IEEEtran}
-\bibliographystyle{plain}
+\bibliographystyle{alpha}
 %\bibliography{ref}
 \bibliography{ref}
 %\end{thebibliography}

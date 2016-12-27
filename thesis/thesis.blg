@@ -1,9 +1,14 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-The style file: plain.bst
+The style file: alpha.bst
 Database file #1: ref.bib
-Repeated entry---line 103 of file ref.bib
+I was expecting a `,' or a `}'---line 14 of file ref.bib
+ :  
+ :  year = {2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 105 of file ref.bib
  : @inproceedings{vonBehren2003WEB
  :                                ,
 I'm skipping whatever remains of this entry
@@ -13,72 +18,71 @@ Warning--to sort, need author or key in Exim
 Warning--to sort, need author or key in ticket
 Warning--to sort, need author or key in LOCKSTAT
 Warning--to sort, need author or key in LTP
+Warning--empty booktitle in Accetta86mach
 Warning--empty author in AIM7Benchmark
 Warning--empty booktitle in AIM7Benchmark
 Warning--empty year in AIM7Benchmark
-Warning--empty author in LTP
-Warning--empty booktitle in LTP
-Warning--empty year in LTP
-Warning--empty author in LOCKSTAT
-Warning--empty booktitle in LOCKSTAT
-Warning--empty year in LOCKSTAT
-Warning--empty author in ticket
-Warning--empty booktitle in ticket
-Warning--empty year in ticket
-Warning--empty author in MOSBENCH
-Warning--empty booktitle in MOSBENCH
-Warning--empty author in Exim
-Warning--empty booktitle in Exim
-Warning--empty booktitle in Accetta86mach
-Warning--empty year in Arbel2015PRR
 Warning--empty booktitle in Bueso2014MCS
 Warning--empty booktitle in Bueso2015STP
 Warning--can't use both volume and number fields in Bueso2015STP
 Warning--empty booktitle in CorbetLWNANON
+Warning--empty author in Exim
+Warning--empty booktitle in Exim
 Warning--empty booktitle in Hendler2010FC
+Warning--empty author in LOCKSTAT
+Warning--empty booktitle in LOCKSTAT
+Warning--empty year in LOCKSTAT
+Warning--empty author in LTP
+Warning--empty booktitle in LTP
+Warning--empty year in LTP
+Warning--empty booktitle in mckenney2011parallel
 Warning--empty booktitle in PaulCreatingAPILWN
 Warning--empty booktitle in PaulDetailLWN
-Warning--empty booktitle in mckenney2011parallel
+Warning--empty author in MOSBENCH
+Warning--empty booktitle in MOSBENCH
 Warning--empty booktitle in Saltzer1966TCM
+Warning--empty author in ticket
+Warning--empty booktitle in ticket
+Warning--empty year in ticket
 You've used 58 entries,
-            2118 wiz_defined-function locations,
-            870 strings with 15323 characters,
-and the built_in function-call counts, 22566 in all, are:
-= -- 2214
-> -- 860
-< -- 37
-+ -- 348
-- -- 286
-* -- 1373
-:= -- 3312
+            2543 wiz_defined-function locations,
+            931 strings with 15737 characters,
+and the built_in function-call counts, 26955 in all, are:
+= -- 2689
+> -- 1116
+< -- 54
++ -- 386
+- -- 385
+* -- 1766
+:= -- 3997
 add.period$ -- 178
 call.type$ -- 58
-change.case$ -- 315
-chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 1074
-empty$ -- 1998
-format.name$ -- 286
-if$ -- 5069
-int.to.chr$ -- 0
-int.to.str$ -- 58
+change.case$ -- 373
+chr.to.int$ -- 57
+cite$ -- 96
+duplicate$ -- 1265
+empty$ -- 2178
+format.name$ -- 446
+if$ -- 5864
+int.to.chr$ -- 2
+int.to.str$ -- 0
 missing$ -- 59
-newline$ -- 293
-num.names$ -- 104
-pop$ -- 445
+newline$ -- 294
+num.names$ -- 156
+pop$ -- 467
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 432
 quote$ -- 0
-skip$ -- 858
+skip$ -- 1106
 stack$ -- 0
-substring$ -- 1385
+substring$ -- 1503
 swap$ -- 389
-text.length$ -- 37
-text.prefix$ -- 0
+text.length$ -- 54
+text.prefix$ -- 16
 top$ -- 0
-type$ -- 230
-warning$ -- 33
-while$ -- 215
-width$ -- 60
-write$ -- 642
-(There was 1 error message)
+type$ -- 460
+warning$ -- 32
+while$ -- 250
+width$ -- 66
+write$ -- 760
+(There were 2 error messages)
