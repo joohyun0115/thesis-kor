@@ -75,13 +75,13 @@
 \newlabel{shared_memory}{{2.1}{9}{90년대 공유 메모리 시스템\relax }{figure.caption.1}{}}
 \newlabel{shared_memory@cref}{{[figure][1][2]2.1}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces CPU 발전 동향.\relax }}{10}{figure.caption.2}}
-\newlabel{fig:aim7}{{2.2}{10}{CPU 발전 동향.\relax }{figure.caption.2}{}}
-\newlabel{fig:aim7@cref}{{[figure][2][2]2.2}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 공유 메모리 시스템\relax }}{11}{figure.caption.3}}
-\newlabel{shared_memory}{{2.3}{11}{공유 메모리 시스템\relax }{figure.caption.3}{}}
+\newlabel{fig:cpumany}{{2.2}{10}{CPU 발전 동향.\relax }{figure.caption.2}{}}
+\newlabel{fig:cpumany@cref}{{[figure][2][2]2.2}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 캐시 라인의 공유 때문에 발생하는 문제\relax }}{11}{figure.caption.3}}
+\newlabel{shared_memory}{{2.3}{11}{캐시 라인의 공유 때문에 발생하는 문제\relax }{figure.caption.3}{}}
 \newlabel{shared_memory@cref}{{[figure][3][2]2.3}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 공유 메모리 시스템\relax }}{11}{figure.caption.4}}
-\newlabel{shared_memory2}{{2.4}{11}{공유 메모리 시스템\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 퍼코어 파티션을 통해 해결\relax }}{11}{figure.caption.4}}
+\newlabel{shared_memory2}{{2.4}{11}{퍼코어 파티션을 통해 해결\relax }{figure.caption.4}{}}
 \newlabel{shared_memory2@cref}{{[figure][4][2]2.4}{11}}
 \citation{Boyd-WickizerCorey}
 \citation{Engler1995EOS}
@@ -135,8 +135,8 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}계층적 락}{29}{subsection.2.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Delegation techniques}{29}{subsection.2.3.3}}
 \@writefile{toc}{\contentsline {subsubsection}{Flat Combining}{29}{section*.18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces Flat combining 방법\relax }}{30}{figure.caption.19}}
-\newlabel{fig:FC}{{2.11}{30}{Flat combining 방법\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces Flat Combining 방법\relax }}{30}{figure.caption.19}}
+\newlabel{fig:FC}{{2.11}{30}{Flat Combining 방법\relax }{figure.caption.19}{}}
 \newlabel{fig:FC@cref}{{[figure][11][2]2.11}{30}}
 \@writefile{toc}{\contentsline {subsubsection}{OpLog}{31}{section*.20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces OpLog의 업데이트 방법\relax }}{31}{figure.caption.21}}
@@ -159,14 +159,14 @@
 \newlabel{fig:rcuprinciple}{{2.13}{34}{RCU 예제\relax }{figure.caption.23}{}}
 \newlabel{fig:rcuprinciple@cref}{{[figure][13][2]2.13}{34}}
 \citation{Arbel2015PRR}
-\citation{Matveev2015RLU}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.14}{\ignorespaces RCU의 delayed free의 시점\relax }}{35}{figure.caption.24}}
 \newlabel{fig:rcu_grace}{{2.14}{35}{RCU의 delayed free의 시점\relax }{figure.caption.24}{}}
 \newlabel{fig:rcu_grace@cref}{{[figure][14][2]2.14}{35}}
+\citation{Matveev2015RLU}
 \@writefile{toc}{\contentsline {subsubsection}{RLU}{36}{section*.25}}
-\@writefile{toc}{\contentsline {subsubsection}{Non-locking 동기화}{36}{section*.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces Non-locking 동기화 기법의 분류\relax }}{37}{figure.caption.27}}
-\newlabel{fig:NBS}{{2.15}{37}{Non-locking 동기화 기법의 분류\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsubsection}{논블락킹(Non-blocking) 동기화}{36}{section*.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces Non-blocking 동기화 기법의 분류\relax }}{37}{figure.caption.27}}
+\newlabel{fig:NBS}{{2.15}{37}{Non-blocking 동기화 기법의 분류\relax }{figure.caption.27}{}}
 \newlabel{fig:NBS@cref}{{[figure][15][2]2.15}{37}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces 간단한 Non-blocking 스택 알고리즘.\relax }}{38}{figure.caption.28}}
 \newlabel{fig:nonblockingstack}{{2.16}{38}{간단한 Non-blocking 스택 알고리즘.\relax }{figure.caption.28}{}}
@@ -181,131 +181,131 @@
 \citation{Boyd-WickizerCorey}
 \citation{Bueso2015STP}
 \citation{Bueso2014MCS}
-\@writefile{toc}{\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 구체적인 문제 }{41}{chapter.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 구체적인 문제 }{42}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sec:problem}{{3}{41}{논문에서 해결하고자 하는 구체적인 문제}{chapter.3}{}}
-\newlabel{sec:problem@cref}{{[chapter][3][]3}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces AIM7-multiuser 성능 확장성\relax }}{41}{figure.caption.31}}
-\newlabel{fig:aim7_default}{{3.1}{41}{AIM7-multiuser 성능 확장성\relax }{figure.caption.31}{}}
-\newlabel{fig:aim7_default@cref}{{[figure][1][3]3.1}{41}}
+\newlabel{sec:problem}{{3}{42}{논문에서 해결하고자 하는 구체적인 문제}{chapter.3}{}}
+\newlabel{sec:problem@cref}{{[chapter][3][]3}{42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces AIM7-multiuser 성능 확장성\relax }}{42}{figure.caption.31}}
+\newlabel{fig:aim7_default}{{3.1}{42}{AIM7-multiuser 성능 확장성\relax }{figure.caption.31}{}}
+\newlabel{fig:aim7_default@cref}{{[figure][1][3]3.1}{42}}
 \citation{LOCKSTAT}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 120코어에서 락 때문에 기다리는 시간\relax }}{42}{figure.caption.32}}
-\newlabel{fig:aim7_default}{{3.2}{42}{120코어에서 락 때문에 기다리는 시간\relax }{figure.caption.32}{}}
-\newlabel{fig:aim7_default@cref}{{[figure][2][3]3.2}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 익명 역 매핑의 문제\relax }}{43}{figure.caption.33}}
-\newlabel{fig:anon_vma_rmap}{{3.3}{43}{익명 역 매핑의 문제\relax }{figure.caption.33}{}}
-\newlabel{fig:anon_vma_rmap@cref}{{[figure][3][3]3.3}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 120코어에서 락 때문에 기다리는 시간\relax }}{43}{figure.caption.32}}
+\newlabel{fig:aim7_default}{{3.2}{43}{120코어에서 락 때문에 기다리는 시간\relax }{figure.caption.32}{}}
+\newlabel{fig:aim7_default@cref}{{[figure][2][3]3.2}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 익명 역 매핑의 문제\relax }}{44}{figure.caption.33}}
+\newlabel{fig:anon_vma_rmap}{{3.3}{44}{익명 역 매핑의 문제\relax }{figure.caption.33}{}}
+\newlabel{fig:anon_vma_rmap@cref}{{[figure][3][3]3.3}{44}}
 \citation{Andi2011adding}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 파일 역 매핑의 문제\relax }}{44}{figure.caption.34}}
-\newlabel{fig:file_rmap_default}{{3.4}{44}{파일 역 매핑의 문제\relax }{figure.caption.34}{}}
-\newlabel{fig:file_rmap_default@cref}{{[figure][4][3]3.4}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 120코어에서의 lock\_stat 결과 분석\relax }}{44}{figure.caption.35}}
-\newlabel{fig:anon_vma_func}{{3.5}{44}{120코어에서의 lock\_stat 결과 분석\relax }{figure.caption.35}{}}
-\newlabel{fig:anon_vma_func@cref}{{[figure][5][3]3.5}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 파일 역 매핑의 문제\relax }}{45}{figure.caption.34}}
+\newlabel{fig:file_rmap_default}{{3.4}{45}{파일 역 매핑의 문제\relax }{figure.caption.34}{}}
+\newlabel{fig:file_rmap_default@cref}{{[figure][4][3]3.4}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 120코어에서의 lock\_stat 결과 분석\relax }}{45}{figure.caption.35}}
+\newlabel{fig:anon_vma_func}{{3.5}{45}{120코어에서의 lock\_stat 결과 분석\relax }{figure.caption.35}{}}
+\newlabel{fig:anon_vma_func@cref}{{[figure][5][3]3.5}{45}}
 \citation{SilasBoydWickizerPth}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 업데이트 직렬화의 문제\relax }}{45}{figure.caption.36}}
-\newlabel{fig:update}{{3.6}{45}{업데이트 직렬화의 문제\relax }{figure.caption.36}{}}
-\newlabel{fig:update@cref}{{[figure][6][3]3.6}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 업데이트 직렬화의 문제\relax }}{46}{figure.caption.36}}
+\newlabel{fig:update}{{3.6}{46}{업데이트 직렬화의 문제\relax }{figure.caption.36}{}}
+\newlabel{fig:update@cref}{{[figure][6][3]3.6}{46}}
 \citation{PaulCreatingAPILWN}
-\@writefile{toc}{\contentsline {chapter}{\numberline {제 4\ 장}로그기반 동시적 업데이트 방법 }{47}{chapter.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {제 4\ 장}로그기반 동시적 업데이트 방법 }{48}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}설계}{47}{section.4.1}}
-\newlabel{sec:ldu}{{4.1}{47}{설계}{section.4.1}{}}
-\newlabel{sec:ldu@cref}{{[section][1][4]4.1}{47}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}설계}{48}{section.4.1}}
+\newlabel{sec:ldu}{{4.1}{48}{설계}{section.4.1}{}}
+\newlabel{sec:ldu@cref}{{[section][1][4]4.1}{48}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}접근법}{48}{subsection.4.1.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 7개의 업데이트 명령과 1개의 리드 명령에 대한 LDU 예.\relax }}{52}{figure.caption.37}}
-\newlabel{fig:basic}{{4.1}{52}{7개의 업데이트 명령과 1개의 리드 명령에 대한 LDU 예.\relax }{figure.caption.37}{}}
-\newlabel{fig:basic@cref}{{[figure][1][4]4.1}{52}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}실행 예}{52}{subsection.4.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces LDU의 동시적 삽입에 대한 알고리즘.\relax }}{54}{figure.caption.38}}
-\newlabel{fig:gldulogicalupdate}{{4.2}{54}{LDU의 동시적 삽입에 대한 알고리즘.\relax }{figure.caption.38}{}}
-\newlabel{fig:gldulogicalupdate@cref}{{[figure][2][4]4.2}{54}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{54}{figure.caption.39}}
-\newlabel{fig:gldulogicalupdate}{{4.3}{54}{LDU의 동시적 삽제에 대한 알고리즘.\relax }{figure.caption.39}{}}
-\newlabel{fig:gldulogicalupdate@cref}{{[figure][3][4]4.3}{54}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}알고리즘}{55}{subsection.4.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{로그 삽입}{55}{section*.40}}
-\@writefile{toc}{\contentsline {subsubsection}{로그 적용}{55}{section*.41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 로그를 적용하는 알고리즘.\relax }}{56}{figure.caption.42}}
-\newlabel{fig:glduphysicalupdate}{{4.4}{56}{로그를 적용하는 알고리즘.\relax }{figure.caption.42}{}}
-\newlabel{fig:glduphysicalupdate@cref}{{[figure][4][4]4.4}{56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 7개의 업데이트 연산과 1개의 리드 연산에 대한 LDU 예.\relax }}{53}{figure.caption.37}}
+\newlabel{fig:basic}{{4.1}{53}{7개의 업데이트 연산과 1개의 리드 연산에 대한 LDU 예.\relax }{figure.caption.37}{}}
+\newlabel{fig:basic@cref}{{[figure][1][4]4.1}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces LDU의 동시적 삽입에 대한 알고리즘.\relax }}{55}{figure.caption.38}}
+\newlabel{fig:gldulogicalupdatei}{{4.2}{55}{LDU의 동시적 삽입에 대한 알고리즘.\relax }{figure.caption.38}{}}
+\newlabel{fig:gldulogicalupdatei@cref}{{[figure][2][4]4.2}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{55}{figure.caption.39}}
+\newlabel{fig:gldulogicalupdater}{{4.3}{55}{LDU의 동시적 삽제에 대한 알고리즘.\relax }{figure.caption.39}{}}
+\newlabel{fig:gldulogicalupdater@cref}{{[figure][3][4]4.3}{55}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}알고리즘}{56}{subsection.4.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{로그 삽입}{56}{section*.40}}
+\@writefile{toc}{\contentsline {subsubsection}{로그 적용}{56}{section*.41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 로그를 적용하는 알고리즘.\relax }}{57}{figure.caption.42}}
+\newlabel{fig:glduphysicalupdate}{{4.4}{57}{로그를 적용하는 알고리즘.\relax }{figure.caption.42}{}}
+\newlabel{fig:glduphysicalupdate@cref}{{[figure][4][4]4.4}{57}}
 \citation{CorbetLWNANON}
 \citation{Andi2011adding}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}리눅스 커널에 적용}{57}{section.4.2}}
-\newlabel{sec:linux}{{4.2}{57}{리눅스 커널에 적용}{section.4.2}{}}
-\newlabel{sec:linux@cref}{{[section][2][4]4.2}{57}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}익명 역 매핑}{57}{subsection.4.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 리눅스 익명 역 매핑에 LDU를 적용한 그림.\relax }}{58}{figure.caption.43}}
-\newlabel{fig:anonvmaramp}{{4.5}{58}{리눅스 익명 역 매핑에 LDU를 적용한 그림.\relax }{figure.caption.43}{}}
-\newlabel{fig:anonvmaramp@cref}{{[figure][5][4]4.5}{58}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 리눅스 파일 역 매핑에 LDU를 적용한 그림.\relax }}{59}{figure.caption.44}}
-\newlabel{fig:fileramp}{{4.6}{59}{리눅스 파일 역 매핑에 LDU를 적용한 그림.\relax }{figure.caption.44}{}}
-\newlabel{fig:fileramp@cref}{{[figure][6][4]4.6}{59}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}파일 역 매핑}{59}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}자세한 구현 내용}{60}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}리눅스 커널에 적용}{58}{section.4.2}}
+\newlabel{sec:linux}{{4.2}{58}{리눅스 커널에 적용}{section.4.2}{}}
+\newlabel{sec:linux@cref}{{[section][2][4]4.2}{58}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}익명 역 매핑}{58}{subsection.4.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 익명 역 매핑에 LDU를 적용한 그림.\relax }}{59}{figure.caption.43}}
+\newlabel{fig:anonvmaramp}{{4.5}{59}{익명 역 매핑에 LDU를 적용한 그림.\relax }{figure.caption.43}{}}
+\newlabel{fig:anonvmaramp@cref}{{[figure][5][4]4.5}{59}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 파일 역 매핑에 LDU를 적용한 그림.\relax }}{60}{figure.caption.44}}
+\newlabel{fig:fileramp}{{4.6}{60}{파일 역 매핑에 LDU를 적용한 그림.\relax }{figure.caption.44}{}}
+\newlabel{fig:fileramp@cref}{{[figure][6][4]4.6}{60}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}파일 역 매핑}{60}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}자세한 구현 내용}{61}{subsection.4.2.3}}
 \citation{LTP}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces LDU의 퍼코어 큐.\relax }}{62}{figure.caption.45}}
-\newlabel{fig:glduphysicalupdate}{{4.7}{62}{LDU의 퍼코어 큐.\relax }{figure.caption.45}{}}
-\newlabel{fig:glduphysicalupdate@cref}{{[figure][7][4]4.7}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces LDU의 퍼코어 큐.\relax }}{63}{figure.caption.45}}
+\newlabel{fig:glduphysicalupdate}{{4.7}{63}{LDU의 퍼코어 큐.\relax }{figure.caption.45}{}}
+\newlabel{fig:glduphysicalupdate@cref}{{[figure][7][4]4.7}{63}}
 \citation{Harris2001Lockfree}
 \citation{Gramoli2015Synchrobench}
 \citation{David2015ASYNCHRONIZED}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}평가}{63}{section.4.3}}
-\newlabel{sec:evaluation}{{4.3}{63}{평가}{section.4.3}{}}
-\newlabel{sec:evaluation@cref}{{[section][3][4]4.3}{63}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 실험 환경.\relax }}{63}{figure.caption.46}}
-\newlabel{fig:xeon}{{4.8}{63}{실험 환경.\relax }{figure.caption.46}{}}
-\newlabel{fig:xeon@cref}{{[figure][8][4]4.8}{63}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}실험 환경}{63}{subsection.4.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces lockfree 리스트로 변경하기 전 자료구조\relax }}{64}{figure.caption.47}}
-\newlabel{fig:lockfree}{{4.9}{64}{lockfree 리스트로 변경하기 전 자료구조\relax }{figure.caption.47}{}}
-\newlabel{fig:lockfree@cref}{{[figure][9][4]4.9}{64}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces lockfree 리스트로 변경 후 자료구조\relax }}{65}{figure.caption.48}}
-\newlabel{fig:lockfree_2}{{4.10}{65}{lockfree 리스트로 변경 후 자료구조\relax }{figure.caption.48}{}}
-\newlabel{fig:lockfree_2@cref}{{[figure][10][4]4.10}{65}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}AIM7}{65}{subsection.4.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces AIM7-multiuser 확장성.\relax }}{66}{figure.caption.49}}
-\newlabel{fig:aim7}{{4.11}{66}{AIM7-multiuser 확장성.\relax }{figure.caption.49}{}}
-\newlabel{fig:aim7@cref}{{[figure][11][4]4.11}{66}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}평가}{64}{section.4.3}}
+\newlabel{sec:evaluation}{{4.3}{64}{평가}{section.4.3}{}}
+\newlabel{sec:evaluation@cref}{{[section][3][4]4.3}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 실험 환경.\relax }}{64}{figure.caption.46}}
+\newlabel{fig:xeon}{{4.8}{64}{실험 환경.\relax }{figure.caption.46}{}}
+\newlabel{fig:xeon@cref}{{[figure][8][4]4.8}{64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}실험 환경}{64}{subsection.4.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces lockfree 리스트로 변경하기 전 자료구조\relax }}{65}{figure.caption.47}}
+\newlabel{fig:lockfree}{{4.9}{65}{lockfree 리스트로 변경하기 전 자료구조\relax }{figure.caption.47}{}}
+\newlabel{fig:lockfree@cref}{{[figure][9][4]4.9}{65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces lockfree 리스트로 변경 후 자료구조\relax }}{66}{figure.caption.48}}
+\newlabel{fig:lockfree_2}{{4.10}{66}{lockfree 리스트로 변경 후 자료구조\relax }{figure.caption.48}{}}
+\newlabel{fig:lockfree_2@cref}{{[figure][10][4]4.10}{66}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces AIM7-multiuser 확장성.\relax }}{67}{figure.caption.49}}
+\newlabel{fig:aim7}{{4.11}{67}{AIM7-multiuser 확장성.\relax }{figure.caption.49}{}}
+\newlabel{fig:aim7@cref}{{[figure][11][4]4.11}{67}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}AIM7}{67}{subsection.4.3.2}}
 \citation{SilasBoydWickizer2010LinuxScales48}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces 120코어에서 AIM7 CPU 사용량.\relax }}{67}{figure.caption.50}}
-\newlabel{fig:utilization_aim7}{{4.12}{67}{120코어에서 AIM7 CPU 사용량.\relax }{figure.caption.50}{}}
-\newlabel{fig:utilization_aim7@cref}{{[figure][12][4]4.12}{67}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Exim}{67}{subsection.4.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces 120코어에서 EXIM CPU 사용량. \relax }}{68}{figure.caption.51}}
-\newlabel{fig:utilization_exim}{{4.13}{68}{120코어에서 EXIM CPU 사용량. \relax }{figure.caption.51}{}}
-\newlabel{fig:utilization_exim@cref}{{[figure][13][4]4.13}{68}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces 120코어에서 Lmbench CPU 사용량.\relax }}{69}{figure.caption.52}}
-\newlabel{fig:utilization_lmbench}{{4.14}{69}{120코어에서 Lmbench CPU 사용량.\relax }{figure.caption.52}{}}
-\newlabel{fig:utilization_lmbench@cref}{{[figure][14][4]4.14}{69}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Lmbench}{69}{subsection.4.3.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Exim 확장성.\relax }}{70}{figure.caption.53}}
-\newlabel{fig:exim}{{4.15}{70}{Exim 확장성.\relax }{figure.caption.53}{}}
-\newlabel{fig:exim@cref}{{[figure][15][4]4.15}{70}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.\relax }}{71}{figure.caption.54}}
-\newlabel{fig:MicroBench}{{4.16}{71}{Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.\relax }{figure.caption.54}{}}
-\newlabel{fig:MicroBench@cref}{{[figure][16][4]4.16}{71}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}업데이트 비율}{71}{subsection.4.3.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces 업데이트 비율에 따른 AIM7 확장성.\relax }}{72}{figure.caption.55}}
-\newlabel{fig:UpdateRate_aim7_2}{{4.17}{72}{업데이트 비율에 따른 AIM7 확장성.\relax }{figure.caption.55}{}}
-\newlabel{fig:UpdateRate_aim7_2@cref}{{[figure][17][4]4.17}{72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces 업데이트 비율에 따른 Exim 확장성.\relax }}{73}{figure.caption.56}}
-\newlabel{fig:UpdateRate_exim_2}{{4.18}{73}{업데이트 비율에 따른 Exim 확장성.\relax }{figure.caption.56}{}}
-\newlabel{fig:UpdateRate_exim_2@cref}{{[figure][18][4]4.18}{73}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces 업데이트 비율에 따른 Lmbench 확장성.\relax }}{74}{figure.caption.57}}
-\newlabel{fig:UpdateRate_lmbench_2}{{4.19}{74}{업데이트 비율에 따른 Lmbench 확장성.\relax }{figure.caption.57}{}}
-\newlabel{fig:UpdateRate_lmbench_2@cref}{{[figure][19][4]4.19}{74}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {제 5\ 장}결론 및 향후 연구 }{75}{chapter.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces 120코어에서 AIM7 CPU 사용량.\relax }}{68}{figure.caption.50}}
+\newlabel{fig:utilization_aim7}{{4.12}{68}{120코어에서 AIM7 CPU 사용량.\relax }{figure.caption.50}{}}
+\newlabel{fig:utilization_aim7@cref}{{[figure][12][4]4.12}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces 120코어에서 EXIM CPU 사용량. \relax }}{69}{figure.caption.51}}
+\newlabel{fig:utilization_exim}{{4.13}{69}{120코어에서 EXIM CPU 사용량. \relax }{figure.caption.51}{}}
+\newlabel{fig:utilization_exim@cref}{{[figure][13][4]4.13}{69}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Exim}{69}{subsection.4.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces 120코어에서 Lmbench CPU 사용량.\relax }}{70}{figure.caption.52}}
+\newlabel{fig:utilization_lmbench}{{4.14}{70}{120코어에서 Lmbench CPU 사용량.\relax }{figure.caption.52}{}}
+\newlabel{fig:utilization_lmbench@cref}{{[figure][14][4]4.14}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Exim 확장성.\relax }}{71}{figure.caption.53}}
+\newlabel{fig:exim}{{4.15}{71}{Exim 확장성.\relax }{figure.caption.53}{}}
+\newlabel{fig:exim@cref}{{[figure][15][4]4.15}{71}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Lmbench}{71}{subsection.4.3.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.\relax }}{72}{figure.caption.54}}
+\newlabel{fig:MicroBench}{{4.16}{72}{Lmbench의 프로세스 관리 벤치마크에 대한 실행시간.\relax }{figure.caption.54}{}}
+\newlabel{fig:MicroBench@cref}{{[figure][16][4]4.16}{72}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}업데이트 비율}{73}{subsection.4.3.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces 업데이트 비율에 따른 AIM7 확장성.\relax }}{73}{figure.caption.55}}
+\newlabel{fig:UpdateRate_aim7_2}{{4.17}{73}{업데이트 비율에 따른 AIM7 확장성.\relax }{figure.caption.55}{}}
+\newlabel{fig:UpdateRate_aim7_2@cref}{{[figure][17][4]4.17}{73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces 업데이트 비율에 따른 Exim 확장성.\relax }}{74}{figure.caption.56}}
+\newlabel{fig:UpdateRate_exim_2}{{4.18}{74}{업데이트 비율에 따른 Exim 확장성.\relax }{figure.caption.56}{}}
+\newlabel{fig:UpdateRate_exim_2@cref}{{[figure][18][4]4.18}{74}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces 업데이트 비율에 따른 Lmbench 확장성.\relax }}{75}{figure.caption.57}}
+\newlabel{fig:UpdateRate_lmbench_2}{{4.19}{75}{업데이트 비율에 따른 Lmbench 확장성.\relax }{figure.caption.57}{}}
+\newlabel{fig:UpdateRate_lmbench_2@cref}{{[figure][19][4]4.19}{75}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {제 5\ 장}결론 및 향후 연구 }{76}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sec:concl}{{5}{75}{결론 및 향후 연구}{chapter.5}{}}
-\newlabel{sec:concl@cref}{{[chapter][5][]5}{75}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}결론}{75}{section.5.1}}
+\newlabel{sec:concl}{{5}{76}{결론 및 향후 연구}{chapter.5}{}}
+\newlabel{sec:concl@cref}{{[chapter][5][]5}{76}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}결론}{76}{section.5.1}}
 \bibstyle{alpha}
 \bibdata{ref}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}향후 연구}{77}{section.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}향후 연구}{78}{section.5.2}}
 \bibcite{Arbel2014ConcurrentRCU}{AA14}
 \bibcite{Accetta86mach}{ABB{$^{+}$}86}
 \bibcite{AIM7Benchmark}{AIM}
@@ -313,7 +313,7 @@
 \bibcite{Arbel2015PRR}{AM15}
 \bibcite{Amdahl1967VSP}{Amd67}
 \bibcite{Baumann2009Barrelfish}{BBD{$^{+}$}09}
-\@writefile{toc}{\contentsline {chapter}{참 고 문 헌 }{78}{section.5.2}}
+\@writefile{toc}{\contentsline {chapter}{참 고 문 헌 }{79}{section.5.2}}
 \bibcite{Bugnion1997DRC}{BDR97}
 \bibcite{Bloch1959EDS}{Blo59}
 \bibcite{Bueso2014MCS}{BN14}
@@ -365,10 +365,10 @@
 \bibcite{ticket}{tic}
 \bibcite{vonBehren2003WEB}{vBCB03}
 \bibcite{Wang2016BeMyGuest}{WCK16}
-\@writefile{toc}{\contentsline {content}{Abstract}{87}{section.5.2}}
-\newlabel{LastPage}{{}{88}{}{page.88}{}}
-\xdef\lastpage@lastpage{88}
-\xdef\lastpage@lastpageHy{88}
+\@writefile{toc}{\contentsline {content}{Abstract}{88}{section.5.2}}
+\newlabel{LastPage}{{}{89}{}{page.89}{}}
+\xdef\lastpage@lastpage{89}
+\xdef\lastpage@lastpageHy{89}
 \gdef\minted@oldcachelist{,
   default.pygstyle,
   default-pyg-prefix.pygstyle,

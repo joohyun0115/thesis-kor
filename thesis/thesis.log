@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.26)  27 DEC 2016 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.26)  31 DEC 2016 11:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1587,22 +1587,10 @@ LaTeX Warning: Label `fig:aim7_default' multiply defined.
 LaTeX Warning: Label `fig:aim7_default@cref' multiply defined.
 
 
-LaTeX Warning: Label `fig:gldulogicalupdate' multiply defined.
-
-
-LaTeX Warning: Label `fig:gldulogicalupdate@cref' multiply defined.
-
-
 LaTeX Warning: Label `fig:glduphysicalupdate' multiply defined.
 
 
 LaTeX Warning: Label `fig:glduphysicalupdate@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:aim7' multiply defined.
-
-
-LaTeX Warning: Label `fig:aim7@cref' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -1872,70 +1860,78 @@ Overfull \hbox (2.38968pt too wide) in paragraph at lines 157--170
 [5] [6] (./intro.tex [1
 
 ]
-Overfull \hbox (10.60533pt too wide) in paragraph at lines 55--68
-[]\OT1/ptm/m/n/10.95 S. Boyd-Wickizer \OT1/ptm/m/it/10.95 et al.\LUC/nanummj/m/
-n/10.95/b2 î \LUC/nanummj/m/n/10.95/b3 Ÿ\LUC/nanummj/m/n/10.95/ae 0\LUC/nanummj
-/m/n/10.95/d6 T\LUC/nanummj/m/n/10.95/b4 ^^\ \LUC/nanummj/m/n/10.95/d0 ¿\LUC/na
-nummj/m/n/10.95/c7 Ñ\LUC/nanummj/m/n/10.95/c2 §\LUC/nanummj/m/n/10.95/d0 Ï\LUC/
-nanummj/m/n/10.95/d5 ^^D \LUC/nanummj/m/n/10.95/ce t\LUC/nanummj/m/n/10.95/c6 ¥
-\LUC/nanummj/m/n/10.95/d1 0\OT1/ptm/m/n/10.95 (Syn-chro-nized Times-
- []
+LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
 
-[2] [3] [4]
+(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 5
+4.
+ [2] [3] [4]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 125.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5])
-[6] (./related.tex
-Overfull \hbox (3.93832pt too wide) in paragraph at lines 14--24
+) [5]) [6]
+(./related.tex
+Overfull \hbox (3.93832pt too wide) in paragraph at lines 14--23
 \LUC/nanummj/m/n/10.95/b8 ,\LUC/nanummj/m/n/10.95/d6 T\LUC/nanummj/m/n/10.95/b9
- | \LUC/nanummj/m/n/10.95/ac ‡\LUC/nanummj/m/n/10.95/b8 $\LUC/nanummj/m/n/10.95
-/d5 X\LUC/nanummj/m/n/10.95/c5 Ï \LUC/nanummj/m/n/10.95/b9 Ã\LUC/nanummj/m/n/10
-.95/b4 ‰\LUC/nanummj/m/n/10.95/c5 »\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10.9
-5 (\LUC/nanummj/m/n/10.95/c6 ^^H\LUC/nanummj/m/n/10.95/b9 | \LUC/nanummj/m/n/10
-.95/b4 ‰\LUC/nanummj/m/n/10.95/c5 ¥\OT1/ptm/m/n/10.95 , \LUC/nanummj/m/n/10.95/
-bc Ñ\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.95/c6 ∞\LUC/nanummj/m/n/10.9
-5/c2 §\OT1/ptm/m/n/10.95 (Bur-roughs)\LUC/nanummj/m/n/10.95/c7 X \OT1/ptm/m/n/1
-0.95 B5000 [[]]).
+ | \LUC/nanummj/m/n/10.95/c7 ^^D\LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.
+95/c5 Ï \LUC/nanummj/m/n/10.95/b9 Ã\LUC/nanummj/m/n/10.95/b4 ‰\LUC/nanummj/m/n/
+10.95/c5 ¥\LUC/nanummj/m/n/10.95/c8 L\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10
+.95 (\LUC/nanummj/m/n/10.95/c6 ^^H\LUC/nanummj/m/n/10.95/b9 | \LUC/nanummj/m/n/
+10.95/b4 ‰\LUC/nanummj/m/n/10.95/c5 ¥\OT1/ptm/m/n/10.95 , \LUC/nanummj/m/n/10.9
+5/bc Ñ\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.95/c6 ∞\LUC/nanummj/m/n/10
+.95/c2 §\OT1/ptm/m/n/10.95 (Bur-roughs)\LUC/nanummj/m/n/10.95/c7 X \OT1/ptm/m/n
+/10.95 B5000 [[]]).
  []
 
 [7
 
-] <fig/shared_memory.pdf, id=343, 597.50786pt x 227.62204pt>
+]
+Overfull \hbox (20.76782pt too wide) in paragraph at lines 32--43
+\LUC/nanummj/m/n/10.95/ad l\LUC/nanummj/m/n/10.95/ac ^^@ \LUC/nanummj/m/n/10.95
+/c7 t\LUC/nanummj/m/n/10.95/b8 Ë\LUC/nanummj/m/n/10.95/c5 ¥\LUC/nanummj/m/n/10.
+95/c8 L\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10.95 . \LUC/nanummj/m/n/10.95/c
+7 t\LUC/nanummj/m/n/10.95/bc §\LUC/nanummj/m/n/10.95/d2 ∏\OT1/ptm/m/n/10.95 (ev
+ents)\LUC/nanummj/m/n/10.95/c6 @ \LUC/nanummj/m/n/10.95/c2 §\LUC/nanummj/m/n/10
+.95/b8 ^^H\LUC/nanummj/m/n/10.95/b4 ‹\OT1/ptm/m/n/10.95 (threads)\LUC/nanummj/m
+/n/10.95/c5 – \LUC/nanummj/m/n/10.95/b3 ^^@\LUC/nanummj/m/n/10.95/d5 \ \LUC/nan
+ummj/m/n/10.95/b1 |\LUC/nanummj/m/n/10.95/c7 ¡ \OT1/ptm/m/n/10.95 [[]] [[]]
+ []
+
+<fig/shared_memory.pdf, id=344, 597.50786pt x 227.62204pt>
 File: fig/shared_memory.pdf Graphic file (type pdf)
 
 <use fig/shared_memory.pdf>
-Package pdftex.def Info: fig/shared_memory.pdf used on input line 49.
+Package pdftex.def Info: fig/shared_memory.pdf used on input line 46.
 (pdftex.def)             Requested size: 280.43019pt x 106.82954pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] <fig/cpu.pdf, id=359, 1138.11012pt x 853.58266pt>
+[8] <fig/cpu.pdf, id=360, 1138.11012pt x 853.58266pt>
 File: fig/cpu.pdf Graphic file (type pdf)
  <use fig/cpu.pdf>
-Package pdftex.def Info: fig/cpu.pdf used on input line 67.
+Package pdftex.def Info: fig/cpu.pdf used on input line 64.
 (pdftex.def)             Requested size: 341.43567pt x 256.07677pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/archcache.pdf, id=361, 281.05pt x 264.99pt>
+<fig/archcache.pdf, id=362, 281.05pt x 264.99pt>
 File: fig/archcache.pdf Graphic file (type pdf)
  <use fig/archcache.pdf>
-Package pdftex.def Info: fig/archcache.pdf used on input line 80.
+Package pdftex.def Info: fig/archcache.pdf used on input line 77.
 (pdftex.def)             Requested size: 210.32397pt x 198.30531pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9 <./fig/shared_memory.pdf>]
-<fig/archcache_percore.pdf, id=379, 281.05pt x 264.99pt>
+<fig/archcache_percore.pdf, id=380, 281.05pt x 264.99pt>
 File: fig/archcache_percore.pdf Graphic file (type pdf)
 
 <use fig/archcache_percore.pdf>
-Package pdftex.def Info: fig/archcache_percore.pdf used on input line 97.
+Package pdftex.def Info: fig/archcache_percore.pdf used on input line 94.
 (pdftex.def)             Requested size: 210.32397pt x 198.30531pt.
 
 
@@ -1951,140 +1947,126 @@ pdfTeX warning: pdflatex (file ./fig/archcache_percore.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >] (./related_os.tex [12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 
-Overfull \hbox (4.04933pt too wide) in paragraph at lines 23--35
+Overfull \hbox (4.04933pt too wide) in paragraph at lines 22--36
 []\OT1/ptm/m/n/10.95 Corey [[]]\LUC/nanummj/m/n/10.95/b2 î \OT1/ptm/m/n/10.95 M
 IT\LUC/nanummj/m/n/10.95/c7 X \OT1/ptm/m/n/10.95 PDOS(Parallel and Dis-tributed
  Op-er-at-ing Sys-
  []
 
-<fig/corey/corey.pdf, id=434, 569.05513pt x 426.79132pt>
+<fig/corey/corey.pdf, id=435, 569.05513pt x 426.79132pt>
 File: fig/corey/corey.pdf Graphic file (type pdf)
 
 <use fig/corey/corey.pdf>
-Package pdftex.def Info: fig/corey/corey.pdf used on input line 39.
+Package pdftex.def Info: fig/corey/corey.pdf used on input line 40.
 (pdftex.def)             Requested size: 350.5364pt x 262.90817pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13] [14 <./fig/corey/corey.pdf>] [15]
-<fig/multikernel/multikernel.pdf, id=478, 597.50786pt x 284.52756pt>
+<fig/multikernel/multikernel.pdf, id=479, 597.50786pt x 284.52756pt>
 File: fig/multikernel/multikernel.pdf Graphic file (type pdf)
 
 <use fig/multikernel/multikernel.pdf>
-Package pdftex.def Info: fig/multikernel/multikernel.pdf used on input line 98.
+Package pdftex.def Info: fig/multikernel/multikernel.pdf used on input line 99.
 
 (pdftex.def)             Requested size: 350.5364pt x 166.92334pt.
  [16 <./fig/multikernel/multikernel.pdf>]
-<fig/fusedos/fusedos.pdf, id=492, 597.50786pt x 284.52756pt>
+<fig/fusedos/fusedos.pdf, id=493, 597.50786pt x 284.52756pt>
 File: fig/fusedos/fusedos.pdf Graphic file (type pdf)
 
 <use fig/fusedos/fusedos.pdf>
-Package pdftex.def Info: fig/fusedos/fusedos.pdf used on input line 131.
+Package pdftex.def Info: fig/fusedos/fusedos.pdf used on input line 132.
 (pdftex.def)             Requested size: 350.5364pt x 166.92334pt.
  [17 <./fig/fusedos/fusedos.pdf>]
-<fig/linux/linux.pdf, id=540, 597.50786pt x 284.52756pt>
+<fig/linux/linux.pdf, id=541, 597.50786pt x 284.52756pt>
 File: fig/linux/linux.pdf Graphic file (type pdf)
 
 <use fig/linux/linux.pdf>
-Package pdftex.def Info: fig/linux/linux.pdf used on input line 167.
+Package pdftex.def Info: fig/linux/linux.pdf used on input line 168.
 (pdftex.def)             Requested size: 350.5364pt x 166.92334pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18]
-Overfull \hbox (10.64088pt too wide) in paragraph at lines 181--191
-\LUC/nanummj/m/n/10.95/b8 	\LUC/nanummj/m/n/10.95/d1 0\LUC/nanummj/m/n/10.95/b9
- ¨ \LUC/nanummj/m/n/10.95/c5 ‘\LUC/nanummj/m/n/10.95/d2 ∏\LUC/nanummj/m/n/10.95
-/b9 ¨ \LUC/nanummj/m/n/10.95/c6 $\LUC/nanummj/m/n/10.95/be ^^L\LUC/nanummj/m/n/
-10.95/c8 ^^]\LUC/nanummj/m/n/10.95/d2 ∏\OT1/ptm/m/n/10.95 (\OT1/pxtt/m/n/10.95 
-dentrys\OT1/ptm/m/n/10.95 ), \LUC/nanummj/m/n/10.95/b9 »\LUC/nanummj/m/n/10.95/
-c6 ¥\LUC/nanummj/m/n/10.95/d2 ∏\LUC/nanummj/m/n/10.95/b4 ^^\ \LUC/nanummj/m/n/1
-0.95/d3 ^^L\LUC/nanummj/m/n/10.95/c7 | \LUC/nanummj/m/n/10.95/c2 ‹§\LUC/nanummj
-/m/n/10.95/d1 \ \LUC/nanummj/m/n/10.95/c6 $\LUC/nanummj/m/n/10.95/be ^^L\LUC/na
-nummj/m/n/10.95/c8 ^^]\LUC/nanummj/m/n/10.95/d2 ∏\OT1/ptm/m/n/10.95 (\OT1/pxtt/
-m/n/10.95 vfsmounts\OT1/ptm/m/n/10.95 )
- []
-
-[19 <./fig/linux/linux.pdf>]
-<fig/bosaivm/bosaivm.pdf, id=568, 597.50786pt x 426.79132pt>
+[18] [19 <./fig/linux/linux.pdf>]
+<fig/bosaivm/bosaivm.pdf, id=569, 597.50786pt x 426.79132pt>
 File: fig/bosaivm/bosaivm.pdf Graphic file (type pdf)
 
 <use fig/bosaivm/bosaivm.pdf>
-Package pdftex.def Info: fig/bosaivm/bosaivm.pdf used on input line 207.
+Package pdftex.def Info: fig/bosaivm/bosaivm.pdf used on input line 209.
 (pdftex.def)             Requested size: 350.5364pt x 250.38501pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20] [21 <./fig/bosaivm/bosaivm.pdf>]
-<fig/radix/radix.pdf, id=785, 258.92007pt x 144.78026pt>
+<fig/radix/radix.pdf, id=786, 258.92007pt x 144.78026pt>
 File: fig/radix/radix.pdf Graphic file (type pdf)
 
 <use fig/radix/radix.pdf>
-Package pdftex.def Info: fig/radix/radix.pdf used on input line 256.
+Package pdftex.def Info: fig/radix/radix.pdf used on input line 259.
 (pdftex.def)             Requested size: 350.5364pt x 196.01927pt.
  [22 <./fig/radix/radix.pdf>] [23])
 (./related_lock.tex [24] [25]
-Overfull \hbox (20.3428pt too wide) in paragraph at lines 37--41
-\LUC/nanummj/m/n/10.95/ac ^^@\LUC/nanummj/m/n/10.95/c9 ¿\LUC/nanummj/m/n/10.95/
-c7 X \LUC/nanummj/m/n/10.95/b7 }\LUC/nanummj/m/n/10.95/c7 D \LUC/nanummj/m/n/10
-.95/d6 <\LUC/nanummj/m/n/10.95/d5 iX\LUC/nanummj/m/n/10.95/c5 Ï \LUC/nanummj/m/
-n/10.95/ad l\LUC/nanummj/m/n/10.95/d6 ^^D\LUC/nanummj/m/n/10.95/d5 \\LUC/nanumm
-j/m/n/10.95/b2 ‰ \OT1/ptm/m/n/10.95 [[]]. \LUC/nanummj/m/n/10.95/c6 ^^H\LUC/nan
-ummj/m/n/10.95/b9 | \LUC/nanummj/m/n/10.95/b4 ‰\LUC/nanummj/m/n/10.95/c5 ¥ \LUC
-/nanummj/m/n/10.95/ce ‰\LUC/nanummj/m/n/10.95/b1 ^^P\LUC/nanummj/m/n/10.95/c7 X
- \OT1/pxtt/m/n/10.95 rw[]semaphore\OT1/ptm/m/n/10.95 (reader-
+Overfull \hbox (9.94032pt too wide) in paragraph at lines 38--42
+\LUC/nanummj/m/n/10.95/c9 ¿\LUC/nanummj/m/n/10.95/c7 X \LUC/nanummj/m/n/10.95/b
+7 }\LUC/nanummj/m/n/10.95/c7 D \LUC/nanummj/m/n/10.95/d6 <\LUC/nanummj/m/n/10.9
+5/d5 iX\LUC/nanummj/m/n/10.95/c5 Ï \LUC/nanummj/m/n/10.95/ad l\LUC/nanummj/m/n/
+10.95/d6 ^^D\LUC/nanummj/m/n/10.95/b4 ^^\\LUC/nanummj/m/n/10.95/b2 ‰ \OT1/ptm/m
+/n/10.95 [[]]. \LUC/nanummj/m/n/10.95/c6 ^^H\LUC/nanummj/m/n/10.95/b9 | \LUC/na
+nummj/m/n/10.95/b4 ‰\LUC/nanummj/m/n/10.95/c5 ¥ \LUC/nanummj/m/n/10.95/ce ‰\LUC
+/nanummj/m/n/10.95/b1 ^^P\LUC/nanummj/m/n/10.95/c7 X \OT1/pxtt/m/n/10.95 rw[]se
+maphore\OT1/ptm/m/n/10.95 (reader-
  []
 
-
-Overfull \hbox (2.08876pt too wide) in paragraph at lines 42--44
-[]\OT1/ptm/b/n/10.95 fastpath. \LUC/nanummj/m/n/10.95/c5 D\LUC/nanummj/m/n/10.9
-5/bb 4\LUC/nanummj/m/n/10.95/b3 ƒ \LUC/nanummj/m/n/10.95/b7 }\LUC/nanummj/m/n/1
-0.95/c7 D \LUC/nanummj/m/n/10.95/c5 H\LUC/nanummj/m/n/10.95/c7 °\LUC/nanummj/m/
-n/10.95/ac ‡ \LUC/nanummj/m/n/10.95/c7 àD \LUC/nanummj/m/n/10.95/b5 L\OT1/ptm/m
-/n/10.95 , \LUC/nanummj/m/n/10.95/c6 –\LUC/nanummj/m/n/10.95/c7 ê\LUC/nanummj/m
-/n/10.95/c8 ^^A\LUC/nanummj/m/n/10.95/c7 x \LUC/nanummj/m/n/10.95/ba Ö\LUC/nanu
-mmj/m/n/10.95/b8 9\LUC/nanummj/m/n/10.95/c5 ¥\OT1/ptm/m/n/10.95 (\OT1/pxtt/m/n/
-10.95 fetch[]and[]add\OT1/ptm/m/n/10.95 )
- []
-
-[26] [27] [28] [29] <fig/FC/FC.pdf, id=888, 597.50786pt x 512.1496pt>
+[26] [27] [28] [29] <fig/FC/FC.pdf, id=890, 597.50786pt x 512.1496pt>
 File: fig/FC/FC.pdf Graphic file (type pdf)
 
 <use fig/FC/FC.pdf>
-Package pdftex.def Info: fig/FC/FC.pdf used on input line 166.
+Package pdftex.def Info: fig/FC/FC.pdf used on input line 169.
 (pdftex.def)             Requested size: 350.5364pt x 300.46202pt.
  [30 <./fig/FC/FC.pdf>]
-<fig/oplog_log.pdf, id=908, 1138.11012pt x 853.58266pt>
+<fig/oplog_log.pdf, id=910, 1138.11012pt x 853.58266pt>
 File: fig/oplog_log.pdf Graphic file (type pdf)
 
 <use fig/oplog_log.pdf>
-Package pdftex.def Info: fig/oplog_log.pdf used on input line 189.
+Package pdftex.def Info: fig/oplog_log.pdf used on input line 192.
 (pdftex.def)             Requested size: 280.43019pt x 210.32133pt.
  [31 <./fig/oplog_log.pdf>]) (./related_struct.tex
-[32] <fig/rcu/rcu_principle.pdf, id=943, 426.79132pt x 312.98033pt>
+[32]
+Overfull \hbox (38.6292pt too wide) in paragraph at lines 7--13
+\OT1/ptm/m/n/10.95 [[]]\LUC/nanummj/m/n/10.95/c7 D \LUC/nanummj/m/n/10.95/c5 \
+LUC/nanummj/m/n/10.95/ad l\LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.95/ac 
+p\LUC/nanummj/m/n/10.95/b0 ò \LUC/nanummj/m/n/10.95/ad ¯ \LUC/nanummj/m/n/10.95
+/ae 0\LUC/nanummj/m/n/10.95/bc ï\LUC/nanummj/m/n/10.95/c7 D \LUC/nanummj/m/n/10
+.95/c0 »\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.95/c6 ¥ \LUC/nanummj/m/n
+/10.95/c7 ê\LUC/nanummj/m/n/10.95/b8 Ã\LUC/nanummj/m/n/10.95/ad l\LUC/nanummj/m
+/n/10.95/c8 p\LUC/nanummj/m/n/10.95/c5 – \LUC/nanummj/m/n/10.95/c8 ^^A\LUC/nanu
+mmj/m/n/10.95/c6 © \OT1/ptm/m/n/10.95 [[]] [[]] [[]]
+ []
+
+<fig/rcu/rcu_principle.pdf, id=944, 426.79132pt x 312.98033pt>
 File: fig/rcu/rcu_principle.pdf Graphic file (type pdf)
 
 <use fig/rcu/rcu_principle.pdf>
-Package pdftex.def Info: fig/rcu/rcu_principle.pdf used on input line 29.
+Package pdftex.def Info: fig/rcu/rcu_principle.pdf used on input line 30.
 (pdftex.def)             Requested size: 350.5364pt x 257.061pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [33] [34 <./fig/rcu/rcu_principle.pdf>]
-<fig/rcu/rcu_grace.pdf, id=970, 597.50786pt x 284.52756pt>
+<fig/rcu/rcu_grace.pdf, id=971, 597.50786pt x 284.52756pt>
 File: fig/rcu/rcu_grace.pdf Graphic file (type pdf)
 
 <use fig/rcu/rcu_grace.pdf>
-Package pdftex.def Info: fig/rcu/rcu_grace.pdf used on input line 67.
+Package pdftex.def Info: fig/rcu/rcu_grace.pdf used on input line 68.
 (pdftex.def)             Requested size: 350.5364pt x 166.92334pt.
 
-Overfull \hbox (7.10406pt too wide) in paragraph at lines 75--84
+Overfull \hbox (7.10406pt too wide) in paragraph at lines 76--85
 []\LUC/nanummj/m/n/10.95/ad ¯\LUC/nanummj/m/n/10.95/b9 º []\OT1/ptm/m/n/10.95 2
 .14[]\LUC/nanummj/m/n/10.95/b2 î \OT1/ptm/m/n/10.95 RCU\LUC/nanummj/m/n/10.95/c
 7 X \OT1/pxtt/m/n/10.95 delayed free\LUC/nanummj/m/n/10.95/c7 X \LUC/nanummj/m/
@@ -2095,25 +2077,11 @@ mj/m/n/10.95/b9 º\LUC/nanummj/m/n/10.95/c5 –\LUC/nanummj/m/n/10.95/c1 ^^\ \OT1/
 pxtt/m/n/10.95 Removal
  []
 
-
-Overfull \hbox (16.35852pt too wide) in paragraph at lines 90--100
-\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.95/ad ¯\LUC/nanummj/m/n/10.95/b7
- ®\LUC/nanummj/m/n/10.95/c5 – \LUC/nanummj/m/n/10.95/bb 8\LUC/nanummj/m/n/10.95
-/c8 ^^\\LUC/nanummj/m/n/10.95/b9 | \LUC/nanummj/m/n/10.95/ac ^^@\LUC/nanummj/m/
-n/10.95/c9 ƒ\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10.95 . \LUC/nanummj/m/n/10
-.95/c7 t\LUC/nanummj/m/n/10.95/b7 Ï\LUC/nanummj/m/n/10.95/d5 \ \LUC/nanummj/m/n
-/10.95/bb 8\LUC/nanummj/m/n/10.95/c8 ^^\\LUC/nanummj/m/n/10.95/b9 | \LUC/nanumm
-j/m/n/10.95/d5 t\LUC/nanummj/m/n/10.95/ac ∞\LUC/nanummj/m/n/10.95/d5 X\LUC/nanu
-mmj/m/n/10.95/ae 0 \LUC/nanummj/m/n/10.95/c7 ^^D\LUC/nanummj/m/n/10.95/d5 t \LU
-C/nanummj/m/n/10.95/b9 Ã\LUC/nanummj/m/n/10.95/b4 ‡ \LUC/nanummj/m/n/10.95/ac É
-\LUC/nanummj/m/n/10.95/c7 t \OT1/ptm/m/n/10.95 RLU [[]]
- []
-
 [35 <./fig/rcu/rcu_grace.pdf>] [36]
-<fig/NBS/NBS.pdf, id=999, 597.50786pt x 284.52756pt>
+<fig/NBS/NBS.pdf, id=1000, 597.50786pt x 284.52756pt>
 File: fig/NBS/NBS.pdf Graphic file (type pdf)
  <use fig/NBS/NBS.pdf>
-Package pdftex.def Info: fig/NBS/NBS.pdf used on input line 121.
+Package pdftex.def Info: fig/NBS/NBS.pdf used on input line 123.
 (pdftex.def)             Requested size: 350.5364pt x 166.92334pt.
 
 (./_minted-thesis/0B2F5B57E8B2EBC8DCF897BC92A9D08E4B6D901F5AA1C65A61A1AE42A95B3
@@ -2124,39 +2092,26 @@ LaTeX Font Info:    Font shape `OT1/pxtt/bx/n' in size <9> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37 <./fig/NBS/NBS.pdf>]
-Overfull \hbox (26.04012pt too wide) in paragraph at lines 165--176
-\LUC/nanummj/m/n/10.95/c7 <\LUC/nanummj/m/n/10.95/b0 ò \LUC/nanummj/m/n/10.95/b
-1 x\LUC/nanummj/m/n/10.95/b4 ‹\LUC/nanummj/m/n/10.95/c7 X \LUC/nanummj/m/n/10.9
-5/ba T®\LUC/nanummj/m/n/10.95/b9 ¨ \LUC/nanummj/m/n/10.95/c8 ¸\LUC/nanummj/m/n/
-10.95/c1 å\LUC/nanummj/m/n/10.95/ac ^^@ \LUC/nanummj/m/n/10.95/bc ^^T\LUC/nanum
-mj/m/n/10.95/b0 ^^T \LUC/nanummj/m/n/10.95/c2 ^^X \LUC/nanummj/m/n/10.95/c7 à\L
-UC/nanummj/m/n/10.95/b2 ‰î \LUC/nanummj/m/n/10.95/ac É\LUC/nanummj/m/n/10.95/c7
- t\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10.95 . \LUC/nanummj/m/n/10.95/c6 ^^H
-\LUC/nanummj/m/n/10.95/b9 | \LUC/nanummj/m/n/10.95/b4 ‰\LUC/nanummj/m/n/10.95/c
-5 ¥ \LUC/nanummj/m/n/10.95/c2 §\LUC/nanummj/m/n/10.95/d0 ›\LUC/nanummj/m/n/10.9
-5/c5 – \OT1/pxtt/m/n/10.95 top->A->B->C
- []
-
-[38] <fig/harris/harris.pdf, id=1029, 569.05513pt x 512.1496pt>
+[37 <./fig/NBS/NBS.pdf>] [38]
+<fig/harris/harris.pdf, id=1030, 569.05513pt x 512.1496pt>
 File: fig/harris/harris.pdf Graphic file (type pdf)
 
 <use fig/harris/harris.pdf>
-Package pdftex.def Info: fig/harris/harris.pdf used on input line 191.
+Package pdftex.def Info: fig/harris/harris.pdf used on input line 194.
 (pdftex.def)             Requested size: 350.5364pt x 315.4898pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39])) [40 <./fig/harris/harris.pdf>] (./bg.tex
-<graph/aim7_default.pdf, id=1060, 361.35pt x 216.81pt>
+[39] [40 <./fig/harris/harris.pdf>])) [41] (./bg.tex
+<graph/aim7_default.pdf, id=1065, 361.35pt x 216.81pt>
 File: graph/aim7_default.pdf Graphic file (type pdf)
 
 <use graph/aim7_default.pdf>
 Package pdftex.def Info: graph/aim7_default.pdf used on input line 7.
 (pdftex.def)             Requested size: 280.43019pt x 168.25758pt.
 
-<graph/lockstat.pdf, id=1061, 361.35pt x 216.81pt>
+<graph/lockstat.pdf, id=1066, 361.35pt x 216.81pt>
 File: graph/lockstat.pdf Graphic file (type pdf)
  <use graph/lockstat.pdf>
 Package pdftex.def Info: graph/lockstat.pdf used on input line 14.
@@ -2165,10 +2120,24 @@ Package pdftex.def Info: graph/lockstat.pdf used on input line 14.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41
+[42
 
  <./graph/aim7_default.pdf>]
-<fig/anon_vma_rmap.pdf, id=1088, 597.50786pt x 398.3386pt>
+Overfull \hbox (42.5506pt too wide) in paragraph at lines 34--46
+[]\LUC/nanummj/m/n/10.95/c6 ∞\LUC/nanummj/m/n/10.95/b9 ¨\LUC/nanummj/m/n/10.95/
+b2 î \LUC/nanummj/m/n/10.95/c1 1\LUC/nanummj/m/n/10.95/b2 • \LUC/nanummj/m/n/10
+.95/d6 U\LUC/nanummj/m/n/10.95/c7 •\LUC/nanummj/m/n/10.95/c1 1\LUC/nanummj/m/n/
+10.95/c7 X \LUC/nanummj/m/n/10.95/ad ¸\LUC/nanummj/m/n/10.95/bc ¯\LUC/nanummj/m
+/n/10.95/c8 ^^A\LUC/nanummj/m/n/10.95/c7 x \LUC/nanummj/m/n/10.95/bb 8\LUC/nanu
+mmj/m/n/10.95/c8 ^^\\LUC/nanummj/m/n/10.95/b9 | \LUC/nanummj/m/n/10.95/bd Ñ\LUC
+/nanummj/m/n/10.95/c1 ^^]\LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.95/ae 0
+ \LUC/nanummj/m/n/10.95/c7 ^^D\LUC/nanummj/m/n/10.95/d5 t\OT1/ptm/m/n/10.95 , \
+LUC/nanummj/m/n/10.95/b9 ¨\LUC/nanummj/m/n/10.95/b2 ^^E\LUC/nanummj/m/n/10.95/c
+2 §\LUC/nanummj/m/n/10.95/c7 X \OT1/pxtt/m/n/10.95 lock[]stat \OT1/ptm/m/n/10.9
+5 [[]]
+ []
+
+<fig/anon_vma_rmap.pdf, id=1093, 597.50786pt x 398.3386pt>
 File: fig/anon_vma_rmap.pdf Graphic file (type pdf)
 
 <use fig/anon_vma_rmap.pdf>
@@ -2178,7 +2147,7 @@ Package pdftex.def Info: fig/anon_vma_rmap.pdf used on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42 <./graph/lockstat.pdf>]
+[43 <./graph/lockstat.pdf>]
 Overfull \hbox (2.44221pt too wide) in paragraph at lines 60--71
 \OT1/pxtt/m/n/10.95 anon[]vma\LUC/nanummj/m/n/10.95/ac ^^@ ^^@\LUC/nanummj/m/n/
 10.95/c9 ¿\LUC/nanummj/m/n/10.95/ac ‡ \LUC/nanummj/m/n/10.95/c7 à\LUC/nanummj/m
@@ -2192,22 +2161,34 @@ b4 ^^\\LUC/nanummj/m/n/10.95/b2 ‰\OT1/ptm/m/n/10.95 . \LUC/nanummj/m/n/10.95/b5
 struct
  []
 
-[43 <./fig/anon_vma_rmap.pdf>]
-<fig/file_rmap_default.pdf, id=1477, 597.50786pt x 398.3386pt>
+<fig/file_rmap_default.pdf, id=1464, 597.50786pt x 398.3386pt>
 File: fig/file_rmap_default.pdf Graphic file (type pdf)
 
 <use fig/file_rmap_default.pdf>
 Package pdftex.def Info: fig/file_rmap_default.pdf used on input line 74.
 (pdftex.def)             Requested size: 280.43019pt x 186.95172pt.
+ [44 <./fig/anon_vma_rmap.pdf>]
+Overfull \hbox (9.1772pt too wide) in paragraph at lines 82--87
+[]\LUC/nanummj/m/n/10.95/c7 u\LUC/nanummj/m/n/10.95/ba Ö \LUC/nanummj/m/n/10.95
+/c5 Ì \LUC/nanummj/m/n/10.95/d3 ò\LUC/nanummj/m/n/10.95/c7 t\LUC/nanummj/m/n/10
+.95/c9 ¿ \LUC/nanummj/m/n/10.95/b9 ‰\LUC/nanummj/m/n/10.95/d5 Q\LUC/nanummj/m/n
+/10.95/c7 @ \LUC/nanummj/m/n/10.95/b9 ¨\LUC/nanummj/m/n/10.95/b2 ^^E\LUC/nanumm
+j/m/n/10.95/c2 § \LUC/nanummj/m/n/10.95/ce ‰\LUC/nanummj/m/n/10.95/bb §\LUC/nan
+ummj/m/n/10.95/b2 »\LUC/nanummj/m/n/10.95/d2 \LUC/nanummj/m/n/10.95/c5 –\LUC/n
+anummj/m/n/10.95/c1 ^^\ \LUC/nanummj/m/n/10.95/c7 ò \LUC/nanummj/m/n/10.95/c5 L
+\LUC/nanummj/m/n/10.95/b8 $\LUC/nanummj/m/n/10.95/c9 ƒ \LUC/nanummj/m/n/10.95/b
+7 } \LUC/nanummj/m/n/10.95/ac Ω\LUC/nanummj/m/n/10.95/d5 i \LUC/nanummj/m/n/10.
+95/bb 8\LUC/nanummj/m/n/10.95/c8 ^^\ \OT1/ptm/m/n/10.95 [[]]
+ []
 
-<fig/anon_vma_func.pdf, id=1479, 597.50786pt x 199.1693pt>
+<fig/anon_vma_func.pdf, id=1484, 597.50786pt x 199.1693pt>
 File: fig/anon_vma_func.pdf Graphic file (type pdf)
 
 <use fig/anon_vma_func.pdf>
 Package pdftex.def Info: fig/anon_vma_func.pdf used on input line 90.
 (pdftex.def)             Requested size: 280.43019pt x 93.47585pt.
 
-<fig/update.pdf, id=1480, 1138.11012pt x 853.58266pt>
+<fig/update.pdf, id=1485, 1138.11012pt x 853.58266pt>
 File: fig/update.pdf Graphic file (type pdf)
  <use fig/update.pdf>
 Package pdftex.def Info: fig/update.pdf used on input line 97.
@@ -2216,15 +2197,15 @@ Package pdftex.def Info: fig/update.pdf used on input line 97.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./fig/file_rmap_default.pdf> <./fig/anon_vma_func.pdf
+[45 <./fig/file_rmap_default.pdf> <./fig/anon_vma_func.pdf
 
 pdfTeX warning: pdflatex (file ./fig/anon_vma_func.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] [45 <./fig/update.pdf>]) [46] (./ldu.tex [47
+>] [46 <./fig/update.pdf>]) [47] (./ldu.tex [48
 
 ]
 \hist@save@inv@2@B=\box75
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -2234,25 +2215,25 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 \hist@save@inv@2@A=\box78
 \hist@save@inv@3@A=\box79
 \hist@save@inv@1@C=\box80
- [48] [49] [50]
-<fig/basic_gldu.pdf, id=1570, 1365.1pt x 666.78082pt>
+ [49] [50] [51]
+<fig/basic_gldu.pdf, id=1575, 1365.1pt x 666.78082pt>
 File: fig/basic_gldu.pdf Graphic file (type pdf)
  <use fig/basic_gldu.pdf>
-Package pdftex.def Info: fig/basic_gldu.pdf used on input line 162.
+Package pdftex.def Info: fig/basic_gldu.pdf used on input line 160.
 (pdftex.def)             Requested size: 350.52255pt x 199.1608pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51]
 \hist@save@inv@2@D=\box81
 \hist@save@inv@3@E=\box82
 \hist@save@inv@1@D=\box83
 \hist@save@inv@1@E=\box84
+[52]
 \hist@save@res@1@D=\box85
 \hist@save@inv@0@A=\box86
 \hist@save@inv@0@B=\box87
- [52 <./fig/basic_gldu.pdf>]
+ [53 <./fig/basic_gldu.pdf>]
 \hist@save@res@2@D=\box88
 \hist@save@res@3@E=\box89
 \hist@save@inv@0@C=\box90
@@ -2272,27 +2253,27 @@ A81.pygtex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53] [54]
+[54] [55]
 (./_minted-thesis/D9B4307CF54481205A1AB664AE15992B37784D17B944CEF1E0F65E1CC8061
 26C.pygtex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55]) (./linux.tex [56] [57]
-<fig/anon_vma.pdf, id=2051, 597.50786pt x 398.3386pt>
+[56]) (./linux.tex [57] [58]
+<fig/anon_vma.pdf, id=2058, 597.50786pt x 398.3386pt>
 File: fig/anon_vma.pdf Graphic file (type pdf)
  <use fig/anon_vma.pdf>
-Package pdftex.def Info: fig/anon_vma.pdf used on input line 43.
+Package pdftex.def Info: fig/anon_vma.pdf used on input line 44.
 (pdftex.def)             Requested size: 350.53902pt x 233.69269pt.
 
-[58 <./fig/anon_vma.pdf>]
-<fig/file_rmap.pdf, id=2069, 597.50786pt x 398.3386pt>
+[59 <./fig/anon_vma.pdf>]
+<fig/file_rmap.pdf, id=2076, 597.50786pt x 398.3386pt>
 File: fig/file_rmap.pdf Graphic file (type pdf)
  <use fig/file_rmap.pdf>
-Package pdftex.def Info: fig/file_rmap.pdf used on input line 67.
+Package pdftex.def Info: fig/file_rmap.pdf used on input line 68.
 (pdftex.def)             Requested size: 350.53902pt x 233.69269pt.
 
-Overfull \hbox (1.2651pt too wide) in paragraph at lines 76--83
+Overfull \hbox (1.2651pt too wide) in paragraph at lines 77--84
 \LUC/nanummj/m/n/10.95/bc ¿\LUC/nanummj/m/n/10.95/ac Ω\LUC/nanummj/m/n/10.95/d5
  X\LUC/nanummj/m/n/10.95/ae 0 \LUC/nanummj/m/n/10.95/c7 ^^D\LUC/nanummj/m/n/10.
 95/d5 t\LUC/nanummj/m/n/10.95/c1 ^^\\OT1/ptm/m/n/10.95 , \LUC/nanummj/m/n/10.95
@@ -2302,23 +2283,23 @@ mj/m/n/10.95/be ^^L\LUC/nanummj/m/n/10.95/c8 ^^]\LUC/nanummj/m/n/10.95/d2 ∏\OT1
 /ptm/m/n/10.95 (\OT1/pxtt/m/n/10.95 struct address[]space\OT1/ptm/m/n/10.95 )
  []
 
-[59 <./fig/file_rmap.pdf>] [60]
+[60 <./fig/file_rmap.pdf>] [61]
 (./_minted-thesis/CED153C29E3E599FE69DD1B9CF8C1F7866A83BDE88F07AA62BE1D9EFE973E
 4C0.pygtex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./eval.tex [61]
+) (./eval.tex [62]
 
-LaTeX Warning: Text page 62 contains only floats.
+LaTeX Warning: Text page 63 contains only floats.
 
-[62] <fig/xeon.pdf, id=2103, 281.05pt x 264.99pt>
+[63] <fig/xeon.pdf, id=2110, 281.05pt x 264.99pt>
 File: fig/xeon.pdf Graphic file (type pdf)
  <use fig/xeon.pdf>
 Package pdftex.def Info: fig/xeon.pdf used on input line 7.
 (pdftex.def)             Requested size: 224.84029pt x 211.99228pt.
 
-<fig/lockfree.pdf, id=2104, 597.50786pt x 398.3386pt>
+<fig/lockfree.pdf, id=2111, 597.50786pt x 398.3386pt>
 File: fig/lockfree.pdf Graphic file (type pdf)
  <use fig/lockfree.pdf>
 Package pdftex.def Info: fig/lockfree.pdf used on input line 15.
@@ -2327,7 +2308,7 @@ Package pdftex.def Info: fig/lockfree.pdf used on input line 15.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fig/lockfree_2.pdf, id=2105, 597.50786pt x 398.3386pt>
+<fig/lockfree_2.pdf, id=2112, 597.50786pt x 398.3386pt>
 File: fig/lockfree_2.pdf Graphic file (type pdf)
 
 <use fig/lockfree_2.pdf>
@@ -2337,21 +2318,7 @@ Package pdftex.def Info: fig/lockfree_2.pdf used on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63 <./fig/xeon.pdf>]
-Overfull \hbox (3.98451pt too wide) in paragraph at lines 60--70
-\LUC/nanummj/m/n/10.95/b7 Ï\LUC/nanummj/m/n/10.95/d5 \ \LUC/nanummj/m/n/10.95/b
-c §\LUC/nanummj/m/n/10.95/ce X\LUC/nanummj/m/n/10.95/b9 »\LUC/nanummj/m/n/10.95
-/d0 l \LUC/nanummj/m/n/10.95/d5 ^^D\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/
-10.95/ad ¯\LUC/nanummj/m/n/10.95/b7 ®\LUC/nanummj/m/n/10.95/b4 ‰\LUC/nanummj/m/
-n/10.95/c7 @ \LUC/nanummj/m/n/10.95/b9 ¨\LUC/nanummj/m/n/10.95/b2 ^^E\LUC/nanum
-mj/m/n/10.95/c2 §\LUC/nanummj/m/n/10.95/c7 X \LUC/nanummj/m/n/10.95/d6 U\LUC/na
-nummj/m/n/10.95/c7 •\LUC/nanummj/m/n/10.95/c1 1 \LUC/nanummj/m/n/10.95/bc §\LUC
-/nanummj/m/n/10.95/ce X\LUC/nanummj/m/n/10.95/b9 »\LUC/nanummj/m/n/10.95/d0 l\L
-UC/nanummj/m/n/10.95/c7 x \OT1/ptm/m/n/10.95 AIM7, \LUC/nanummj/m/n/10.95/ad ¯\
-LUC/nanummj/m/n/10.95/b9 ¨\LUC/nanummj/m/n/10.95/ac ‡ \OT1/ptm/m/n/10.95 MOS-
- []
-
-[64 <./fig/lockfree.pdf>]
+[64 <./fig/xeon.pdf>] [65 <./fig/lockfree.pdf>]
 Package epstopdf Info: Source file: <graph/aim7.eps>
 (epstopdf)                    date: 2016-10-25 11:02:21
 (epstopdf)                    size: 34086 bytes
@@ -2360,18 +2327,18 @@ Package epstopdf Info: Source file: <graph/aim7.eps>
 (epstopdf)                    size: 11510 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/aim7-eps-converted-to
 .pdf graph/aim7.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/aim7-eps-converted-to.pdf, id=2142, 361.35pt x 216.81pt>
+<graph/aim7-eps-converted-to.pdf, id=2150, 361.35pt x 216.81pt>
 File: graph/aim7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/aim7-eps-converted-to.pdf>
-Package pdftex.def Info: graph/aim7-eps-converted-to.pdf used on input line 87.
+Package pdftex.def Info: graph/aim7-eps-converted-to.pdf used on input line 91.
 
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-Overfull \hbox (10.81271pt too wide) in paragraph at lines 87--88
+Overfull \hbox (10.81271pt too wide) in paragraph at lines 91--92
  [] 
  []
 
@@ -2383,14 +2350,14 @@ Package epstopdf Info: Source file: <graph/aim7_cpuutils.eps>
 (epstopdf)                    size: 15048 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/aim7_cpuutils-eps-con
 verted-to.pdf graph/aim7_cpuutils.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<graph/aim7_cpuutils-eps-converted-to.pdf, id=2143, 361.35pt x 216.81pt>
+<graph/aim7_cpuutils-eps-converted-to.pdf, id=2151, 361.35pt x 216.81pt>
 File: graph/aim7_cpuutils-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/aim7_cpuutils-eps-converted-to.pdf>
 Package pdftex.def Info: graph/aim7_cpuutils-eps-converted-to.pdf used on input
- line 97.
+ line 101.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
 Package epstopdf Info: Source file: <graph/exim_cpuutils.eps>
 (epstopdf)                    date: 2016-10-24 08:58:40
@@ -2400,15 +2367,15 @@ Package epstopdf Info: Source file: <graph/exim_cpuutils.eps>
 (epstopdf)                    size: 15048 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/exim_cpuutils-eps-con
 verted-to.pdf graph/exim_cpuutils.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/exim_cpuutils-eps-converted-to.pdf, id=2144, 361.35pt x 216.81pt>
+<graph/exim_cpuutils-eps-converted-to.pdf, id=2152, 361.35pt x 216.81pt>
 File: graph/exim_cpuutils-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/exim_cpuutils-eps-converted-to.pdf>
 Package pdftex.def Info: graph/exim_cpuutils-eps-converted-to.pdf used on input
- line 110.
+ line 114.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
 Package epstopdf Info: Source file: <graph/lmbench_cpuutils.eps>
 (epstopdf)                    date: 2016-10-24 08:58:40
@@ -2419,21 +2386,18 @@ f>
 (epstopdf)                    size: 15053 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/lmbench_cpuutils-eps-
 converted-to.pdf graph/lmbench_cpuutils.eps>
-(epstopdf)             \includegraphics on input line 123.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/lmbench_cpuutils-eps-converted-to.pdf, id=2145, 361.35pt x 216.81pt>
+<graph/lmbench_cpuutils-eps-converted-to.pdf, id=2153, 361.35pt x 216.81pt>
 File: graph/lmbench_cpuutils-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/lmbench_cpuutils-eps-converted-to.pdf>
 Package pdftex.def Info: graph/lmbench_cpuutils-eps-converted-to.pdf used on in
-put line 123.
+put line 127.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
-
-
-LaTeX Warning: Reference `sec:bg' on page 65 undefined on input line 143.
-
-[65 <./fig/lockfree_2.pdf>] [66 <./graph/aim7-eps-converted-to.pdf>]
+ [66 <./fig/lockfree_2.pdf>]
+[67 <./graph/aim7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graph/exim.eps>
 (epstopdf)                    date: 2016-10-25 11:02:21
 (epstopdf)                    size: 33550 bytes
@@ -2442,18 +2406,18 @@ Package epstopdf Info: Source file: <graph/exim.eps>
 (epstopdf)                    size: 11375 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/exim-eps-converted-to
 .pdf graph/exim.eps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/exim-eps-converted-to.pdf, id=2171, 361.35pt x 216.81pt>
+<graph/exim-eps-converted-to.pdf, id=2180, 361.35pt x 216.81pt>
 File: graph/exim-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/exim-eps-converted-to.pdf>
-Package pdftex.def Info: graph/exim-eps-converted-to.pdf used on input line 170
+Package pdftex.def Info: graph/exim-eps-converted-to.pdf used on input line 176
 .
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-Overfull \hbox (10.81271pt too wide) in paragraph at lines 170--171
+Overfull \hbox (10.81271pt too wide) in paragraph at lines 176--177
  [] 
  []
 
@@ -2465,31 +2429,23 @@ Package epstopdf Info: Source file: <graph/lmbench.eps>
 (epstopdf)                    size: 11943 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/lmbench-eps-converted
 -to.pdf graph/lmbench.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
-<graph/lmbench-eps-converted-to.pdf, id=2172, 361.35pt x 216.81pt>
+<graph/lmbench-eps-converted-to.pdf, id=2181, 361.35pt x 216.81pt>
 File: graph/lmbench-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/lmbench-eps-converted-to.pdf>
 Package pdftex.def Info: graph/lmbench-eps-converted-to.pdf used on input line 
-183.
+189.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-Overfull \hbox (10.81271pt too wide) in paragraph at lines 183--184
+Overfull \hbox (10.81271pt too wide) in paragraph at lines 189--190
  [] 
  []
 
-[67 <./graph/aim7_cpuutils-eps-converted-to.pdf>] [68 <./graph/exim_cpuutils-ep
-s-converted-to.pdf>] [69 <./graph/lmbench_cpuutils-eps-converted-to.pdf>]
-Overfull \hbox (4.65823pt too wide) in paragraph at lines 241--253
-\LUC/nanummj/m/n/10.95/c9 ¿ \OT1/ptm/m/n/10.95 RMAP \LUC/nanummj/m/n/10.95/c1 8
-\LUC/nanummj/m/n/10.95/b9 »\LUC/nanummj/m/n/10.95/d3 Ï\LUC/nanummj/m/n/10.95/c5
- ¥\OT1/ptm/m/n/10.95 (\OT1/pxtt/m/n/10.95 anon[]vma->rwsem\OT1/ptm/m/n/10.95 , 
-\OT1/pxtt/m/n/10.95 mapping->i[]mmap[]rwsem\OT1/ptm/m/n/10.95 )(figure []4.14[]
-)
- []
-
-[70 <./graph/exim-eps-converted-to.pdf>] [71 <./graph/lmbench-eps-converted-to.
+[68 <./graph/aim7_cpuutils-eps-converted-to.pdf>] [69 <./graph/exim_cpuutils-ep
+s-converted-to.pdf>] [70 <./graph/lmbench_cpuutils-eps-converted-to.pdf>]
+[71 <./graph/exim-eps-converted-to.pdf>] [72 <./graph/lmbench-eps-converted-to.
 pdf>]
 Package epstopdf Info: Source file: <graph/ratio_aim7_core.eps>
 (epstopdf)                    date: 2016-10-25 11:02:21
@@ -2500,17 +2456,17 @@ Package epstopdf Info: Source file: <graph/ratio_aim7_core.eps>
 (epstopdf)                    size: 15350 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/ratio_aim7_core-eps-c
 onverted-to.pdf graph/ratio_aim7_core.eps>
-(epstopdf)             \includegraphics on input line 277.
+(epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/ratio_aim7_core-eps-converted-to.pdf, id=2247, 361.35pt x 216.81pt>
+<graph/ratio_aim7_core-eps-converted-to.pdf, id=2255, 361.35pt x 216.81pt>
 File: graph/ratio_aim7_core-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/ratio_aim7_core-eps-converted-to.pdf>
 Package pdftex.def Info: graph/ratio_aim7_core-eps-converted-to.pdf used on inp
-ut line 277.
+ut line 283.
 (pdftex.def)             Requested size: 301.13896pt x 180.67499pt.
- [72 <./graph/ratio_aim7_core-eps-converted-to.pdf>]
+ [73 <./graph/ratio_aim7_core-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graph/ratio_exim_core.eps>
 (epstopdf)                    date: 2016-10-25 11:02:21
 (epstopdf)                    size: 39687 bytes
@@ -2520,15 +2476,15 @@ Package epstopdf Info: Source file: <graph/ratio_exim_core.eps>
 (epstopdf)                    size: 14244 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/ratio_exim_core-eps-c
 onverted-to.pdf graph/ratio_exim_core.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 303.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/ratio_exim_core-eps-converted-to.pdf, id=2260, 361.35pt x 216.81pt>
+<graph/ratio_exim_core-eps-converted-to.pdf, id=2269, 361.35pt x 216.81pt>
 File: graph/ratio_exim_core-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/ratio_exim_core-eps-converted-to.pdf>
 Package pdftex.def Info: graph/ratio_exim_core-eps-converted-to.pdf used on inp
-ut line 298.
+ut line 303.
 (pdftex.def)             Requested size: 301.13896pt x 180.67499pt.
 Package epstopdf Info: Source file: <graph/ratio_lmbench_core.eps>
 (epstopdf)                    date: 2016-12-14 11:29:44
@@ -2539,30 +2495,30 @@ pdf>
 (epstopdf)                    size: 14641 bytes
 (epstopdf)             Command: <epstopdf --outfile=graph/ratio_lmbench_core-ep
 s-converted-to.pdf graph/ratio_lmbench_core.eps>
-(epstopdf)             \includegraphics on input line 317.
+(epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
 
-<graph/ratio_lmbench_core-eps-converted-to.pdf, id=2261, 361.35pt x 216.81pt>
+<graph/ratio_lmbench_core-eps-converted-to.pdf, id=2270, 361.35pt x 216.81pt>
 File: graph/ratio_lmbench_core-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graph/ratio_lmbench_core-eps-converted-to.pdf>
 Package pdftex.def Info: graph/ratio_lmbench_core-eps-converted-to.pdf used on 
-input line 317.
+input line 322.
 (pdftex.def)             Requested size: 301.13896pt x 180.67499pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [73 <./graph/ratio_exim_core-eps-converted-to.pdf>] [74 <./graph/ratio_lmbenc
-h_core-eps-converted-to.pdf>] (./concl.tex [75
+[74 <./graph/ratio_exim_core-eps-converted-to.pdf>]) [75 <./graph/ratio_lmbench
+_core-eps-converted-to.pdf>] (./concl.tex [76
 
-] [76]) (./thesis.bbl [77]
+] [77]) (./thesis.bbl [78]
 Underfull \hbox (badness 1158) in paragraph at lines 17--19
 []\OT1/ptm/m/n/10.95 AIM Bench-marks.  []$\OT1/pxtt/m/n/10.95 http : / / source
 forge . net / projects /
  []
 
-[78
+[79
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 62--67
@@ -2580,12 +2536,12 @@ Overfull \hbox (5.90793pt too wide) in paragraph at lines 62--67
 linuxcon-
  []
 
-[79] [80]
+[80] [81]
 Underfull \hbox (badness 4156) in paragraph at lines 128--132
 []\OT1/ptm/m/n/10.95 Milind Chabbi and John Mellor-Crummey.  Contention-
  []
 
-[81] [82]
+[82] [83]
 Underfull \hbox (badness 10000) in paragraph at lines 209--211
 []\OT1/ptm/m/n/10.95 LOCK STATIS-TICS.  []$\OT1/pxtt/m/n/10.95 https : / / www 
 . kernel . org / doc /
@@ -2602,19 +2558,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--238
 []\OT1/ptm/m/n/10.95 Paul McKen-ney.  Cre-at-ing scal-able APIs.  2015.
  []
 
-[83]
+[84]
 Overfull \hbox (29.96548pt too wide) in paragraph at lines 269--272
 []\OT1/ptm/m/n/10.95 MOSBENCH.  2010.  https://pdos.csail.mit.edu/mosbench/mosb
 ench.git. 
  []
 
-[84] [85]
+[85] [86]
 Underfull \hbox (badness 10000) in paragraph at lines 342--345
 \OT1/pxtt/m/n/10.95 cgit / linux / kernel / git / torvalds / linux . git / comm
 it /
  []
 
-) [86]
+) [87]
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
@@ -2635,9 +2591,9 @@ Overfull \hbox (2.38968pt too wide) in paragraph at lines 227--240
  in-tro-duce a lightweight
  []
 
-[87] 
+[88] 
 AED: lastpage setting LastPage
-[88]
+[89]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./thesis.aux)
@@ -2645,19 +2601,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 242.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 32749 strings out of 493029
- 603467 string characters out of 6136234
- 755637 words of memory out of 5000000
- 35237 multiletter control sequences out of 15000+600000
- 68049 words of font info for 201 fonts, out of 8000000 for 9000
+ 32765 strings out of 493029
+ 603813 string characters out of 6136234
+ 753637 words of memory out of 5000000
+ 35250 multiletter control sequences out of 15000+600000
+ 69894 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,76p,931b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2696,55 +2649,57 @@ exlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmb3.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmb4.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjmb5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmb6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjmb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmba.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmbe.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb
-f.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmce.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmcf.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmd0.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmd2.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmd4.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmd6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmd7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/sh
-are/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/txfonts/txbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfon
-ts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (94 pages, 5026552 bytes).
+-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmb2.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmb3.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmb4.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmb5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmb6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmba.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb
+e.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbf.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmca.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmcc.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmcd.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmce.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmcf.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmd0.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmd2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmd4.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmd6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmd7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/te
+xmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/txfonts/txbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txt
+t.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (95 pages, 5110397 bytes).
 PDF statistics:
- 2661 PDF objects out of 2984 (max. 8388607)
- 1860 compressed objects within 19 object streams
- 245 named destinations out of 1000 (max. 500000)
+ 2675 PDF objects out of 2984 (max. 8388607)
+ 1871 compressed objects within 19 object streams
+ 246 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
