@@ -144,29 +144,45 @@
 \end{center}
 \hfill \break
 
+공유 메모리 시스템 구조를 가지는 매니코어 시스템에서 성능 확장성은 매우 중요한 요소 중 하나이다.   
+이러한 성능 확장성 중 운영체제의 성능 확장성은 시스템 전체에 영향을 준다. 
+만약 운영체제가 확장성이 없다면 그 운영체제의 서비스를 이용하는 모든 응용프로그램은 확장성이 없게 된다.
+이처럼 중요한 운영체제의 확장성 문제 중 업데이트 비율이 높은 자료구조를 위한 
+로그 기반 동시적 업데이트 기법들이 그동안 연구되었다. 
+이러한 로그 기반 동시적 업데이트 기법 중 하나는 
+시스템에 전역 타임스탬프 카운터가 있다는 것을 가정하여 타임스탬프와 로그를 함께 저장하여 
+사용한 방법이 있다. 
+이 방법은 업데이트 연산이 많을 경우 굉장히 높은 확장성을 가진다. 
+하지만 NUMA 구조를 가지는 매니코어 시스템에서 보장된 동기화된 
+전역 타임스탬프 카운터는 아직 없는 현실적인 문제점을 가지고 있다.
 
-In highly parallel computing systems with many-cores, a few critical factors
-cause performance bottlenecks severely limiting scalability.
-The kernel data structures with high update rate naturally cause performance
-bottlenecks due to very frequent locking of the data structures.
-There have been research on log-based synchronizations with time-stamps that
-have achieved significant level of performance and scalability improvements.
-However, sequential merging operations of the logs with time-stamps pose another
-sources of scalability degradation.
+본 논문은 하드웨어 적으로 지원하지 않는 동기화된 전역 타임스탬프 카운터 기법의 현실적인 문제점을 
+해결하기 위해, 새로운 동시적 업데이트를 위한 경량 로그 기반 지연 업데이트 방법인 
+LDU(Lightweight log-based Deferred Update)를 개발하였다.
+LDU는 타임스탬프 카운터가 필요한 연산을 하드웨어 동기화 기법을 사용하여 
+로그가 발생하는 순간 제거하고 불필요한 로그를 제거하는 방법이다. 
+이를 통해 동기화된 타임스탬프 카운터를 완벽 제거하였으며, 동시에 동시적 업데이트 방법들의 문제점인
+캐시 일관성 트래픽 문제를 해결하였다.
 
-To overcome the scalability degradation problem, we introduce a lightweight
-log-based deferred update method, combining the log-based concepts in the
-distributed systems and the minimal hardware-based synchronization in the
-shared memory systems.
-The main contributions of the proposed method are:(1) we propose a lightweight
-log-based deferred update method, which can eliminate synchronized time-stamp
-counters that limits the performance scalability;and (2) we implemented the
- proposed method in the Linux 4.5-rc6 kernel for two representative data
- structures (anonymous reverse mapping and file mapping) and evaluated the
-performance improvement due to our proposed novel light weight update method.
-Our evaluation study showed that application of our method could
-achieve from 1.5x through 2.7x performance improvements in 120 core
-systems.}
+본 연구에서는 이러한 LDU를 리눅스 커널 내부 자료구조 중 높은 업데이트 비율 때문에 성능 확장성 
+문제를 야기하는 가상 메모리 시스템에 적용하였고, 이를 통해 확장성을 향상 시켰다.
+리눅스 커널 4.5-rc4에 구현하였으며, 120코어 매니코어 시스템에서 확장성 벤치마크를 대상으로 
+1.5배에서 2.7배까지 성능 향상을 이루었다. 
+
+%To overcome the scalability degradation problem, we introduce a lightweight
+%log-based deferred update method, combining the log-based concepts in the
+%distributed systems and the minimal hardware-based synchronization in the
+%shared memory systems.
+%The main contributions of the proposed method are:(1) we propose a lightweight
+%log-based deferred update method, which can eliminate synchronized time-stamp
+%counters that limits the performance scalability;and (2) we implemented the
+% proposed method in the Linux 4.5-rc6 kernel for two representative data
+% structures (anonymous reverse mapping and file mapping) and evaluated the
+%performance improvement due to our proposed novel light weight update method.
+%Our evaluation study showed that application of our method could
+%achieve from 1.5x through 2.7x performance improvements in 120 core
+%systems.
+}
 
 
 \newpage \setcounter{pagemarker}{\value{page}}% pagemarker에 다시 저장
@@ -176,9 +192,9 @@ systems.}
 \input{intro}
 \chapter{연구 배경 및 관련 연구}\label{sec:related}
 \input{related}
-\chapter{논문에서 해결하고자 하는 구체적인 문제}\label{sec:problem}
+\chapter{논문에서 해결하고자 하는 문제}\label{sec:problem}
 \input{bg}
-\chapter{로그기반 동시적 업데이트 방법}
+\chapter{로그 기반 동시적 업데이트 방법}
 \input{ldu}
 \input{linux}
 \input{eval}
@@ -221,19 +237,19 @@ The kernel data structures with high update rate naturally cause performance
 bottlenecks due to very frequent locking of the data structures.
 There have been research on log-based synchronizations with time-stamps that
 have achieved significant level of performance and scalability improvements.
-However, sequential merging operations of the logs with time-stamps pose another
-sources of scalability degradation.
+However, NUMA-based modern processors have not provided the
+practical global synchronized time-stamp counters.
 
-To overcome the scalability degradation problem, we introduce a lightweight
-log-based deferred update method, combining the log-based concepts in the
-distributed systems and the minimal hardware-based synchronization in the
-shared memory systems.
+To overcome the practical problem of the synchronized time-stamp counters, we
+introduce a lightweight log-based deferred update method, combining the
+log-based concepts in the distributed systems and the minimal hardware-based
+synchronization in the shared memory systems.
 The main contributions of the proposed method are:(1) we propose a lightweight
 log-based deferred update method, which can eliminate synchronized time-stamp
-counters that limits the performance scalability;and (2) we implemented the
- proposed method in the Linux 4.5-rc6 kernel for two representative data
- structures (anonymous reverse mapping and file mapping) and evaluated the
-performance improvement due to our proposed novel light weight update method.
+counters;and (2) we implemented the proposed method in the Linux 4.5-rc6 kernel
+for two representative data structures (anonymous reverse mapping and file
+mapping) and evaluated the performance improvement due to our proposed novel
+light weight update method.
 Our evaluation study showed that application of our method could
 achieve from 1.5x through 2.7x performance improvements in 120 core
 systems.}

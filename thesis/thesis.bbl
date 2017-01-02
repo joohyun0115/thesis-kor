@@ -199,6 +199,13 @@ M.~Frans Kaashoek.
 \newblock {Parallel Computing and the OS}.
 \newblock In {\em SOSP History Day 2015}, SOSP '15, pages 10:1--10:35, 2015.
 
+\bibitem[KL16]{Kyong2016LDU}
+Joohyun Kyong and Sung-Soo Lim.
+\newblock {LDU: A Lightweight Concurrent Update Method with Deferred Processing
+  for Linux Kernel Scalability}.
+\newblock In {\em Proceedings of the IASTED International Conference, Parallel
+  and Distributed Computing and Networks (PDCN 2016)}, 2016.
+
 \bibitem[LNS06]{Luchangco2006HCQ}
 Victor Luchangco, Dan Nussbaum, and Nir Shavit.
 \newblock {A Hierarchical CLH Queue Lock}.

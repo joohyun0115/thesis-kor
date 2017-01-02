@@ -4,14 +4,14 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces CPU 발전 동향.\relax }}{10}{figure.caption.2}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 캐시 라인의 공유 때문에 발생하는 문제\relax }}{11}{figure.caption.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces 퍼코어 파티션을 통해 해결\relax }}{11}{figure.caption.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces corey 운영체제 address space 공유 방법\relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Corey 운영체제 address space 공유 방법\relax }}{14}{figure.caption.6}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Barrelfish 구조\relax }}{16}{figure.caption.8}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces FusedOS 구조\relax }}{17}{figure.caption.10}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces linux scalability 분석 연구\relax }}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Linux scalability 분석 연구\relax }}{19}{figure.caption.12}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Address space 문제와 BosaiVM을 이용한 해결\relax }}{21}{figure.caption.14}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces RadixVM의 해결 방법\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Flat Combining 방법\relax }}{30}{figure.caption.19}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces OpLog의 업데이트 방법\relax }}{31}{figure.caption.21}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Flat Combining 방법\relax }}{31}{figure.caption.19}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces OpLog의 업데이트 방법\relax }}{32}{figure.caption.21}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces RCU 예제\relax }}{34}{figure.caption.23}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces RCU의 delayed free의 시점\relax }}{35}{figure.caption.24}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Non-blocking 동기화 기법의 분류\relax }}{37}{figure.caption.27}
@@ -25,7 +25,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces 120코어에서의 lock\_stat 결과 분석\relax }}{45}{figure.caption.35}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 업데이트 직렬화의 문제\relax }}{46}{figure.caption.36}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 7개의 업데이트 연산과 1개의 리드 연산에 대한 LDU 예.\relax }}{53}{figure.caption.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 7개의 업데이트 연산과 1개의 읽기 연산에 대한 예.\relax }}{53}{figure.caption.37}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces LDU의 동시적 삽입에 대한 알고리즘.\relax }}{55}{figure.caption.38}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces LDU의 동시적 삽제에 대한 알고리즘.\relax }}{55}{figure.caption.39}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 로그를 적용하는 알고리즘.\relax }}{57}{figure.caption.42}
@@ -33,8 +33,8 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces 파일 역 매핑에 LDU를 적용한 그림.\relax }}{60}{figure.caption.44}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces LDU의 퍼코어 큐.\relax }}{63}{figure.caption.45}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces 실험 환경.\relax }}{64}{figure.caption.46}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces lockfree 리스트로 변경하기 전 자료구조\relax }}{65}{figure.caption.47}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces lockfree 리스트로 변경 후 자료구조\relax }}{66}{figure.caption.48}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Harris 리스트로 변경하기 전 자료구조\relax }}{65}{figure.caption.47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Harris 리스트로 변경 후 자료구조\relax }}{66}{figure.caption.48}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces AIM7-multiuser 확장성.\relax }}{67}{figure.caption.49}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces 120코어에서 AIM7 CPU 사용량.\relax }}{68}{figure.caption.50}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces 120코어에서 EXIM CPU 사용량. \relax }}{69}{figure.caption.51}

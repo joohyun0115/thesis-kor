@@ -10,9 +10,7 @@ bool insert_log_per_core_queue(struct obj_root *root, struct ldu_node *log) {
 			entry = SWAP(&p->list->head->first, NULL);
 			...
 			// insert log into queue
-			do {
-				first = head->first; log->->next = first;
-			} while (CAS(&head->first, first, new_first) != first);
+			llist_add(&log->ll_node, &p->list);
 			// flush log as a direct mapped cache
 			object_lock(&lock);
 			synchronize_ldu(entry);
@@ -22,9 +20,7 @@ bool insert_log_per_core_queue(struct obj_root *root, struct ldu_node *log) {
 	}
 	...
 	// insert log into queue;
-	do {
-		first = head->first; log->->next = first;
-	} while (CAS(&head->first, first, new_first) != first);
+	llist_add(&log->ll_node, &p->list);
 
 out:
 	...

@@ -44,45 +44,45 @@ Warning--empty booktitle in Saltzer1966TCM
 Warning--empty author in ticket
 Warning--empty booktitle in ticket
 Warning--empty year in ticket
-You've used 58 entries,
+You've used 59 entries,
             2543 wiz_defined-function locations,
-            931 strings with 15737 characters,
-and the built_in function-call counts, 26955 in all, are:
-= -- 2689
-> -- 1116
+            936 strings with 16001 characters,
+and the built_in function-call counts, 27308 in all, are:
+= -- 2721
+> -- 1135
 < -- 54
-+ -- 386
-- -- 385
-* -- 1766
-:= -- 3997
-add.period$ -- 178
-call.type$ -- 58
-change.case$ -- 373
-chr.to.int$ -- 57
-cite$ -- 96
-duplicate$ -- 1265
-empty$ -- 2178
-format.name$ -- 446
-if$ -- 5864
++ -- 392
+- -- 391
+* -- 1786
+:= -- 4055
+add.period$ -- 181
+call.type$ -- 59
+change.case$ -- 379
+chr.to.int$ -- 58
+cite$ -- 97
+duplicate$ -- 1282
+empty$ -- 2209
+format.name$ -- 453
+if$ -- 5938
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 59
-newline$ -- 294
-num.names$ -- 156
-pop$ -- 467
+missing$ -- 60
+newline$ -- 299
+num.names$ -- 159
+pop$ -- 476
 preamble$ -- 1
-purify$ -- 432
+purify$ -- 439
 quote$ -- 0
-skip$ -- 1106
+skip$ -- 1119
 stack$ -- 0
-substring$ -- 1503
-swap$ -- 389
+substring$ -- 1510
+swap$ -- 391
 text.length$ -- 54
 text.prefix$ -- 16
 top$ -- 0
-type$ -- 460
+type$ -- 468
 warning$ -- 32
-while$ -- 250
-width$ -- 66
-write$ -- 760
+while$ -- 253
+width$ -- 67
+write$ -- 772
 (There were 2 error messages)

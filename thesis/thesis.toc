@@ -19,9 +19,9 @@
 \contentsline {section}{\numberline {2.3}확장성 있는 락 연구}{26}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}큐 기반의 락(Queued Lock)}{28}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}계층적 락}{29}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Delegation techniques}{29}{subsection.2.3.3}
-\contentsline {subsubsection}{Flat Combining}{29}{section*.18}
-\contentsline {subsubsection}{OpLog}{31}{section*.20}
+\contentsline {subsection}{\numberline {2.3.3}Delegation techniques}{30}{subsection.2.3.3}
+\contentsline {subsubsection}{Flat Combining}{30}{section*.18}
+\contentsline {subsubsection}{OpLog}{30}{section*.20}
 \contentsline {section}{\numberline {2.4}확장성 있는 자료구조 연구}{33}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}확장성 있는 자료구조를 위한 동기화 기법}{33}{subsection.2.4.1}
 \contentsline {subsubsection}{RCU}{33}{section*.22}
@@ -29,8 +29,8 @@
 \contentsline {subsubsection}{논블락킹(Non-blocking) 동기화}{36}{section*.26}
 \contentsline {subsection}{\numberline {2.4.2}확장성 있는 자료구조}{39}{subsection.2.4.2}
 \contentsline {subsubsection}{Harris Linked List}{39}{section*.29}
-\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 구체적인 문제 }{42}{chapter.3}
-\contentsline {chapter}{\numberline {제 4\ 장}로그기반 동시적 업데이트 방법 }{48}{chapter.4}
+\contentsline {chapter}{\numberline {제 3\ 장}논문에서 해결하고자 하는 문제 }{42}{chapter.3}
+\contentsline {chapter}{\numberline {제 4\ 장}로그 기반 동시적 업데이트 방법 }{48}{chapter.4}
 \contentsline {section}{\numberline {4.1}설계}{48}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}접근법}{48}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}실행 예}{52}{subsection.4.1.2}
@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {4.2}리눅스 커널에 적용}{58}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}익명 역 매핑}{58}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}파일 역 매핑}{60}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}자세한 구현 내용}{61}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}구현 내용}{61}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}평가}{64}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}실험 환경}{64}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}AIM7}{67}{subsection.4.3.2}

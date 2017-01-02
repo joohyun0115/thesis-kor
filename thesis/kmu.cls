@@ -1023,7 +1023,7 @@
     
     
 \if@isKorean % 한글이면 각종 치수를 변경
-    \renewcommand*\l@chapter{\@dottedtocline{1}{0em}{3em}}
+    \renewcommand*\l@chapter{\@dottedtocline{1}{1em}{3.3em}}
     \renewcommand*\l@section{\@dottedtocline{1}{2.7em}{2.3em}}
     \renewcommand*\l@subsection{\@dottedtocline{2}{5.0em}{3.2em}}
     \renewcommand*\l@subsubsection{\@dottedtocline{3}{8.2em}{4.1em}}
