@@ -31,7 +31,7 @@ for \\Linux Kernel Scalability}}
 {
   School of Computer Science\\
   Kookmin University\\
-  Thesis advisor: Sung-soo Lim
+  Thesis advisor: Sung-Soo Lim
 }
 
 \setbeamercovered{dynamic} 
@@ -55,6 +55,7 @@ for \\Linux Kernel Scalability}}
 \pgfuseimage<+->{cpu_2}
 \end{textblock}
 \end{frame}
+
 
 \begin{frame}{40 Years of Microprocessor Trend Data}
 \pgfdeclareimage[width=\paperwidth]{cpu_3}{.//slides/cpu_3}
@@ -232,6 +233,20 @@ for \\Linux Kernel Scalability}}
 \includegraphics[scale=0.8]{fig/lockstat2}
 \end{frame}
 
+\begin{frame}{Anonymous reverse mapping}
+\includegraphics[scale=0.5]{fig/anon_vma_default_0}
+\end{frame}
+
+
+\begin{frame}{Anonymous reverse mapping}
+\includegraphics[scale=0.5]{fig/anon_vma_default}
+\end{frame}
+
+
+\begin{frame}{Anonymous reverse mapping}
+\includegraphics[scale=0.5]{fig/anon_vma_default_1}
+\end{frame}
+
 
 \begin{frame}{Update Serialization}
 \pgfdeclareimage[width=\paperwidth]{update}{.//slides/update}
@@ -253,13 +268,13 @@ for \\Linux Kernel Scalability}}
 
 \begin{frame}{Non-blocking Data Structure}
 \begin{center}
-\includegraphics[scale=1.0]{fig/nonblock}
+\includegraphics[scale=0.4]{fig/harris_1}
 \end{center}
 \end{frame}
 
 \begin{frame}{Non-blocking Data Structure}
 \begin{center}
-\includegraphics[scale=1.1]{fig/nonblock_fail}
+\includegraphics[scale=0.4]{fig/harris_2}
 \end{center}
 \end{frame}
 
@@ -341,20 +356,37 @@ for \\Linux Kernel Scalability}}
 \end{textblock}
 \end{frame}
 
-
-\begin{frame}{Time-stamp counters}
-\pgfdeclareimage[width=\paperwidth]{oplog_max}{.//slides/oplog_max}
+\begin{frame}{Log-based Algorithms: OpLog}
+\pgfdeclareimage[width=\paperwidth]{oplog}{.//slides/oplog_4}
 \begin{textblock}{1}(0,0)
-\pgfuseimage<+->{oplog_max}
+\pgfuseimage<+->{oplog}
 \end{textblock}
 \end{frame}
+
+
+\begin{frame}{Time-stamp counters}
+\pgfdeclareimage[width=\paperwidth]{clock_1}{.//slides/clock_1}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{clock_1}
+\end{textblock}
+\end{frame}
+
+\begin{frame}{Time-stamp counters}
+\pgfdeclareimage[width=\paperwidth]{clock_2}{.//slides/clock_2}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{clock_2}
+\end{textblock}
+\end{frame}
+
 
 \begin{frame}{Simple Solution?}
 \end{frame}
 
 \begin{frame}{Simple Solution}
     \begin{itemize}[<+-| alert@+>]
-    \item A Lightweight Log-based Deferred Update(LDU).
+    \item A log-based deferred update + 
+    \item Minimal hardware synchronization(Lightweight) = 
+    \item A Lightweight log-based Deferred Update(LDU).
     \end{itemize}
 \end{frame}
 
@@ -384,17 +416,18 @@ for \\Linux Kernel Scalability}}
 
 
 
-\begin{frame}{Why the OpLog needs the time-stamp counter?}
+
+\begin{frame}{Log Example}
+\includegraphics[scale=0.5]{fig/example_1}
+\end{frame}
+
+
+\begin{frame}{Approach}
 \textit{``A process logs an insert operation to the per-core memory, then
 it migrates to another core, and it logs a remove operation, which must
 eventually execute after the insert operation''}, OpLog.
 \end{frame}
 
-
-
-\begin{frame}{Log Example}
-\includegraphics[scale=0.5]{fig/example_1}
-\end{frame}
 
 
 \begin{frame}{Cancelable - Log}
@@ -407,60 +440,70 @@ eventually execute after the insert operation''}, OpLog.
 \end{frame}
 
 
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_0}
+\begin{frame}{Scaling despite non-commutativity - LWN}
+    \begin{itemize}[<+-| alert@+>]
+    \item \textbf{Permit weak ordering.}
+    \end{itemize}
 \end{frame}
 
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_1}
+\begin{frame}{Approach}
+\pgfdeclareimage[width=\paperwidth]{scrule}{.//slides/scrule}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{scrule}
+\end{textblock}
 \end{frame}
 
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_2}
-\end{frame}
-
-
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_2-1}
-\end{frame}
-
-
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_3}
-\end{frame}
-
-\begin{frame}{Update-side removing}
-\includegraphics[scale=0.5]{fig/update_remove_4}
+\begin{frame}{Approach}
+\pgfdeclareimage[width=\paperwidth]{scrule}{.//slides/scrule2}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{scrule}
+\end{textblock}
 \end{frame}
 
 
-\begin{frame}{Reusing garbage }
-\includegraphics[scale=0.5]{fig/reusing_garbage_1}
+\begin{frame}{Approach}
+\pgfdeclareimage[width=\paperwidth]{scrule}{.//slides/scrule3}
+\begin{textblock}{1}(0,0)
+\pgfuseimage<+->{scrule}
+\end{textblock}
 \end{frame}
 
-\begin{frame}{Reusing garbage }
-\includegraphics[scale=0.5]{fig/reusing_garbage_2}
-\end{frame}
 
-\begin{frame}{Additional approach}
-	\begin{itemize}
-	\item Periodically applies the operation logs.
-	\begin{itemize}
-	\item To reduce memory usage and to keep the log from growing without
-	end.
-	\item Similar with the method of previous OpLog’s batching
-	updates and flat combining(FC)’s combiner thread.
-	\end{itemize}
-	\item Use non-blocking queue.
-	\begin{itemize}
-	  \item Regardless of the per-core queue or the global
-	  queue.
-	  \item Multiple producers and single consumer based non-blocking queue
-	  thereby reducing the CAS operations.
-	\end{itemize}
-	\end{itemize}
-\end{frame}
 
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_0}
+%\end{frame}
+
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_1}
+%\end{frame}
+
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_2}
+%\end{frame}
+
+
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_2-1}
+%\end{frame}
+
+
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_3}
+%\end{frame}
+
+%\begin{frame}{Update-side removing}
+%\includegraphics[scale=0.5]{fig/update_remove_4}
+%\end{frame}
+
+
+%\begin{frame}{Reusing garbage }
+%\includegraphics[scale=0.5]{fig/reusing_garbage_1}
+%\end{frame}
+
+%\begin{frame}{Reusing garbage }
+%\includegraphics[scale=0.5]{fig/reusing_garbage_2}
+%\end{frame}
 
 \begin{frame}{Example}
 \includegraphics[scale=0.5]{fig/example}
@@ -542,6 +585,27 @@ eventually execute after the insert operation''}, OpLog.
 \pgfuseimage<+->{ldu_10}
 \end{textblock}
 \end{frame}
+
+
+\begin{frame}{Additional approach}
+    \begin{itemize}
+    \item Periodically applies the operation logs.
+    \begin{itemize}
+    \item To reduce memory usage and to keep the log from growing without
+    end.
+    \item Similar with the method of previous OpLog’s batching
+    updates and flat combining(FC)’s combiner thread.
+    \end{itemize}
+    \item Use non-blocking queue.
+    \begin{itemize}
+      \item Regardless of the per-core queue or the global
+      queue.
+      \item Multiple producers and single consumer based non-blocking queue
+      thereby reducing the CAS operations.
+    \end{itemize}
+    \end{itemize}
+\end{frame}
+
 
 
 \begin{frame}{Applying the Linux kernel}
@@ -648,18 +712,15 @@ eventually execute after the insert operation''}, OpLog.
 
 
 \begin{frame}{Update ratios - AIM7}
-\includegraphics[scale=0.4]{graph/ratio_aim7_core}
-\includegraphics[scale=0.4]{graph/ratio_aim7}
+\includegraphics[scale=0.8]{graph/ratio_aim7_core}
 \end{frame}
 
 \begin{frame}{Update ratios - Exim}
-\includegraphics[scale=0.4]{graph/ratio_exim_core}
-\includegraphics[scale=0.4]{graph/ratio_exim}
+\includegraphics[scale=0.8]{graph/ratio_exim_core}
 \end{frame}
 
 \begin{frame}{Update ratios - Lmbench}
-\includegraphics[scale=0.4]{graph/ratio_lmbench_core}
-\includegraphics[scale=0.4]{graph/ratio_lmbench}
+\includegraphics[scale=0.8]{graph/ratio_lmbench_core}
 \end{frame}
 
 
@@ -703,9 +764,9 @@ eventually execute after the insert operation''}, OpLog.
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Combine RCU readers with log-based updates}
-\includegraphics[scale=0.5]{fig/log-based}
-\end{frame}
+%\begin{frame}{Combine RCU readers with log-based updates}
+%\includegraphics[scale=0.5]{fig/log-based}
+%\end{frame}
 
 
 \begin{frame}{Conclusion}
