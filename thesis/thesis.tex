@@ -1,4 +1,5 @@
 \documentclass[doctor,korean,final]{kmu}
+\special{papersize=182mm,257mm}
 
 \usepackage{times}
 \usepackage{CJKutf8}
@@ -109,7 +110,12 @@
 \newif\ifkor
 \kortrue 
 
-%\includepdf[pages=1-2]{thesis_title.pdf}
+\includepdf[pages=1]{title_1.pdf}
+\includepdf[pages=1-2]{title_2.pdf}
+
+
+\pagenumbering{roman}                         % roman 페이지번호로 복원
+\setcounter{page}{\value{pagemarker}}         % pagemarker에 저장된 값으로
 
 % 목차 (Table of Contents) 생성
 \tableofcontents
@@ -144,7 +150,7 @@
 \end{center}
 \hfill \break
 
-공유 메모리 시스템 구조를 가지는 매니코어 시스템에서 성능 확장성은 매우 중요한 요소 중 하나이다.   
+  공유 메모리 시스템 구조를 가지는 매니코어 시스템에서 성능 확장성은 매우 중요한 요소 중 하나이다.   
 이러한 성능 확장성 중 운영체제의 성능 확장성은 시스템 전체에 영향을 준다. 
 만약 운영체제가 확장성이 없다면 그 운영체제의 서비스를 이용하는 모든 응용프로그램은 확장성이 없게 된다.
 이처럼 중요한 운영체제의 확장성 문제 중 업데이트 비율이 높은 자료구조를 위한 

@@ -49,6 +49,10 @@
 \DeclareOption{pdfdoc} {\@PDFdoctrue}
 \DeclareOption{dvips}  {\@dvipstrue}
 
+\DeclareOption{b5paper}{%
+  \setlength\paperheight {257mm}%
+  \setlength\paperwidth  {182mm}}
+
 %% leqno,fleqn,openbib 옵션은 그대로 report 클래스에 전달
 \DeclareOption{leqno}  {\PassOptionsToClass{leqno}  {report}}
 \DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {report}}
@@ -58,7 +62,7 @@
 \ProcessOptions
 
 %% 10pt,a4paper,onecolumn,oneside 옵션으로 report 클래스 불러오기
-\LoadClass[11pt,a4paper,onecolumn,oneside]{report}
+\LoadClass[11pt,b5paper,onecolumn,oneside]{report}
 
 \usepackage{parskip}
 \setlength{\parskip}{1.0em}
@@ -90,19 +94,14 @@
 
 \RequirePackage[\@drivername]{graphicx,xcolor}
 
-\if@PDFdoc
-  \RequirePackage[unicode,%
-      \@drivername=true,%
-      bookmarks=true,%
-     colorlinks=true,%
-   ]{hyperref}
-\else
-  \RequirePackage[unicode,%
+
+\RequirePackage[unicode,%
       \@drivername=true,%
       bookmarks=false,%
      colorlinks=false,%
+     linkbordercolor={1 1 1},%
    ]{hyperref}
-\fi
+
 
 %% for compatability to HLaTeX
 \let\gt\sffamily
@@ -115,7 +114,8 @@
 \AtEndDocument{}                             % \end{document}와 함께 실행
 
 %% 편집용지 설정
-\usepackage[b5paper]{geometry}
+\usepackage[b5j]{geometry}
+%\usepackage[b5paper]
 
 
 %% 줄간격 설정
@@ -1023,7 +1023,7 @@
     
     
 \if@isKorean % 한글이면 각종 치수를 변경
-    \renewcommand*\l@chapter{\@dottedtocline{1}{1em}{3.3em}}
+    \renewcommand*\l@chapter{\@dottedtocline{1}{0em}{3.3em}}
     \renewcommand*\l@section{\@dottedtocline{1}{2.7em}{2.3em}}
     \renewcommand*\l@subsection{\@dottedtocline{2}{5.0em}{3.2em}}
     \renewcommand*\l@subsubsection{\@dottedtocline{3}{8.2em}{4.1em}}
